@@ -1,0 +1,72 @@
+Here are some things you should consider when writing your thesis. 
+
+When giving labels to sections, bear in mind that section names my repeat in various
+chapters. To counter act this, apply sensible labelling to sections so that they can be
+referenced easily.
+
+For example
+
+\chapter{Introduction}\label{chp:intro}
+
+\section{Secname}\label{intro:sec:secname}
+\subsection{Secname}\label{intro:ssec:secname}
+\subsubsection{Secname}\label{intro:sssec:secname}
+
+When labelling figures, equations and tables
+
+\label{intro:tab:tabname}
+\label{intro:fig:figname}
+\label{intro:eqn:figname}
+
+If you want to reference any of the above you can then use the following
+
+{\chaptername}~\ref{chp:intro}
+{\secname}~\ref{intro:sec:secname}
+{\tablename}~\ref{intro:tab:tabname}
+{\figurename}~\ref{intro:fig:figname}
+{\equationname}~\ref{intro:eqn:eqnname}
+
+"{\chaptername}" etc... is defined at the bottom of thesis.cls and just prints out the
+work "Chapter"
+
+So, if the chapter intro is the first chapter, then
+
+{\chaptername}~\ref{chp:intro} --> "Chapter 1" in your thesis. 
+
+The advantage of writing references to sections, figures, tables etc... with these
+definitions is that you need only edit the thesis.cls file if you decide you want change
+the way references are presented. For example, if you want it to say "Chp 1" instead of
+"Chapter 1" the edit the \newcommand\chaptername{Chapter} to read
+\newcommand\chaptername{Chp}. Now all references in your thesis chapters to {\chaptername}
+will automatically be updated to print Chp to page instead of Chapter.
+
+\newcommand\figurename{Figure} 
+\newcommand\tablename{Table}
+\newcommand\partname{Part}
+\newcommand\chaptername{Chapter}
+\newcommand\secname{Section}
+\newcommand\appendixname{Appendix}
+\newcommand\abstractname{Abstract}
+\newcommand\pagename{p.} 
+\newcommand\pagenames{pp.} 
+\newcommand\figuresname{figures} 
+\newcommand\tablesname{tables}
+\newcommand\partsname{parts}
+\newcommand\chaptersname{chapters}
+\newcommand\secsname{sections}
+\newcommand\equationname{Equation}
+\newcommand\equationsname{equations}
+\newcommand\appendicesname{appendices}
+
+
+*** ADDING LATEX TABLES ***
+
+I don't know about you, but I prefer not to have latex tables slap bang in the middle of
+my chapter files. Instead, I keep tables separated and include them in my chapters like
+so.
+
+\input{./chapters/ngc5253/tables/esorex}
+
+where /chapters/ngc5253/tables/esorex refers to a file called
+/chapters/ngc5253/tables/esorex.tex
+

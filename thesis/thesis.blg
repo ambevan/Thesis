@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99c (Web2C 7.5.4)
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: front/declaration.aux
+A level-1 auxiliary file: front/abstract.aux
+A level-1 auxiliary file: front/acknowledgements.aux
+A level-1 auxiliary file: front/frontquote.aux
+A level-1 auxiliary file: chapters/chapter1/chapter1.aux
+A level-1 auxiliary file: chapters/chapter2/chapter2.aux
+A level-1 auxiliary file: chapters/chapter3/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4/chapter4.aux
+A level-1 auxiliary file: chapters/chapter5/chapter5.aux
+A level-1 auxiliary file: chapters/chapter6/chapter6.aux
+A level-1 auxiliary file: chapters/chapter7/chapter7.aux
+A level-1 auxiliary file: chapters/chapter8/chapter8.aux
+A level-1 auxiliary file: back/appendices/appendA.aux
+A level-1 auxiliary file: back/appendices/appendB.aux
+A level-1 auxiliary file: back/appendices/appendC.aux
+The style file: harthesis.bst
+A level-1 auxiliary file: back/backquote.aux
+I found no \citation commands---while reading file thesis.aux
+Database file #1: thesis.bib
+You're missing a field part---line 782 of file thesis.bib
+ :     month = 
+ :             ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1224 of file thesis.bib
+ :     
+ :     pages = {451-454},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 0 entries,
+            2851 wiz_defined-function locations,
+            644 strings with 5208 characters,
+and the built_in function-call counts, 23 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 8
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 4
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1
+stack$ -- 0
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 3
+(There were 3 error messages)

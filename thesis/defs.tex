@@ -1,0 +1,220 @@
+% Commands to do the journal names for bibtex
+
+\newcommand{\mnras}{MNRAS}
+\newcommand{\apj}{ApJ}
+\newcommand{\apjs}{ApJSS}
+\newcommand{\apjl}{ApJL}
+\newcommand{\aap}{A\&A}
+\newcommand{\aaps}{A\&AS}
+\newcommand{\apss}{Ap\&SS}
+\newcommand{\pasp}{PASP}
+\newcommand{\acta}{Act Ast}
+\newcommand{\aj}{AJ}
+\newcommand{\araa}{Ann. Rev. Astr. Astrophys.}
+\newcommand{\baas}{BAAS}
+\newcommand{\nat}{Nature}
+\newcommand{\gca}{Geochimica et Cosmochimica Acta}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\ndash}{\textendash}
+
+%% Definitions for writing out ions, e.g., CIV [OIII]
+%
+\newcommand\eline[3]{\ensuremath{{\rm #1}\,{\textsc{#2}}{#3}}} 
+\newcommand\fline[3]{\ensuremath{{[\rm #1}\,{\textsc{#2}]}{#3}}} 
+
+
+% Stellar lines
+\newcommand\Caii[1]{\eline{Ca}{ii}{#1}}
+\newcommand\Cii[1]{\eline{C}{ii}{#1}}
+\newcommand\Ciii[1]{\eline{C}{iii}{#1}}
+\newcommand\Civ[1]{\eline{C}{iv}{#1}}
+\newcommand\Ni[1]{\eline{N}{i}{#1}}
+\newcommand\Nii[1]{\eline{N}{ii}{#1}}
+\newcommand\Niii[1]{\eline{N}{iii}{#1}}
+\newcommand\Niv[1]{\eline{N}{iv}{#1}}
+\newcommand\Nv[1]{\eline{N}{v}{#1}}
+\newcommand\Oi[1]{\eline{O}{i}{#1}}
+\newcommand\Oii[1]{\eline{O}{ii}{#1}}
+\newcommand\Oiv[1]{\eline{O}{iv}{#1}}
+\newcommand\Ov[1]{\eline{O}{v}{#1}}
+\newcommand\Ovi[1]{\eline{O}{vi}{#1}}
+\newcommand\Ovii[1]{\eline{O}{vii}{#1}}
+\newcommand\Oviii[1]{\eline{O}{viii}{#1}}
+\newcommand\Silii[1]{\eline{Si}{ii}{#1}}
+\newcommand\Siliii[1]{\eline{Si}{iii}{#1}}
+\newcommand\Siliv[1]{\eline{Si}{iv}{#1}}
+\newcommand\Feiv[1]{\eline{Fe}{iv}{#1}}
+\newcommand\Feix[1]{\eline{Fe}{ix}{#1}}
+\newcommand\Fexvii[1]{\eline{Fe}{xvii}{#1}}
+\newcommand\Siii[1]{\eline{S}{iii}{#1}}
+
+
+% Nebular lines
+\newcommand\Hi[1]{\eline{H}{i}{#1}}
+\newcommand\Hii[1]{\eline{H}{ii}{#1}}
+\newcommand\Hei[1]{\eline{He}{i}{#1}}
+\newcommand\Heii[1]{\eline{He}{ii}{#1}}
+\newcommand\Bra{Br\ensuremath{\alpha}}
+\newcommand\Brg{Br\ensuremath{\gamma}}
+\newcommand{\ha}{H\ensuremath{\alpha}}
+\newcommand{\hb}{H\ensuremath{\beta}}
+\newcommand{\hg}{H\ensuremath{\gamma}}
+\newcommand{\hd}{H\ensuremath{\delta}}
+\newcommand\nebNi[1]{\fline{N}{i}{#1}}
+\newcommand\nebNii[1]{\fline{N}{ii}{#1}}
+\newcommand\nebNiii[1]{\fline{N}{iii}{#1}}
+\newcommand\nebOi[1]{\fline{O}{i}{#1}}
+\newcommand\nebOii[1]{\fline{O}{ii}{#1}}
+\newcommand\nebOiii[1]{\fline{O}{iii}{#1}}
+\newcommand\nebSi[1]{\fline{S}{i}{#1}}
+\newcommand\nebSii[1]{\fline{S}{ii}{#1}}
+\newcommand\nebSiii[1]{\fline{S}{iii}{#1}}
+\newcommand\nebFeii[1]{\fline{Fe}{ii}{#1}}
+\newcommand\nebFeiii[1]{\fline{Fe}{iii}{#1}}
+\newcommand\nebFeiv[1]{\fline{Fe}{iv}{#1}}
+\newcommand\nebAriii[1]{\fline{Ar}{iii}{#1}}
+\newcommand\nebAriv[1]{\fline{Ar}{iv}{#1}}
+\newcommand\nebCliii[1]{\fline{Cl}{iii}{#1}}
+\newcommand\nebCliv[1]{\fline{Cl}{iv}{#1}}
+\newcommand\nebNeiii[1]{\fline{Ne}{iii}{#1}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Definitions for writing variables in the form: X(Y)
+\newcommand\var[2]{\ensuremath{#1({\rm #2})}}
+\newcommand\varit[2]{\ensuremath{#1({#2})}}
+\newcommand\varnp[2]{\ensuremath{#1{\rm #2}}} % no parentheses
+
+% Shorthand forms
+\newcommand\lum[1]{\var{L}{#1}}
+\newcommand\ew[1]{\var{W}{#1}}
+\newcommand\ewnp[1]{\varnp{W}{#1}}
+\newcommand\intflux[1]{\var{I}{#1}} 
+\newcommand\obsflux[1]{\var{F}{#1}} 
+\newcommand\numb[1]{\var{N}{#1}}
+\newcommand\chb{\var{c}{\hb}}
+\newcommand\flam{\var{f}{\lambda}}
+\newcommand\fhb{\var{f}{\hb}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Definitions for writing variables in the form:  X$_{y}^{z}$
+\newcommand\ion[2]{\ensuremath{{\rm #1}^{\rm #2}}\xspace}
+\newcommand\rscript[3]{\ensuremath{{#1}_{\rm #2}^{\rm #3}}}
+\newcommand\lscript[3]{\ensuremath{^{\rm #1}_{\rm #2}{\rm #3}}}
+
+%----- strong line ratio 
+\newcommand\slratio[4]{\ensuremath{{#1}_{#2}{#3}_{#4}}\xspace}
+
+ 
+% shorthand forms
+\newcommand\qvalue[1]{\rscript{Q}{0}{#1}}
+\newcommand\qone[1]{\rscript{Q}{1}{#1}}
+\newcommand\qtwo[1]{\rscript{Q}{2}{#1}}
+\newcommand\sigsfr{\rscript{\Sigma}{\rm SFR}{}}
+\newcommand\etaz{\rscript{\eta}{0}{}}
+\newcommand\etazt{\rscript{\eta}{0}{}(t)}
+\newcommand\lsun{\rscript{L}{\odot}{}}
+\newcommand\msun{\rscript{M}{\odot}{}}
+\newcommand\vsun{\rscript{V}{\odot}{}}
+\newcommand\zsun{\rscript{Z}{\odot}{}}
+\newcommand\Te{\rscript{T}{e}{}}
+\newcommand\Ne{\rscript{n}{e}{}}
+\newcommand\Teff{\rscript{T}{eff}{}}
+\newcommand\Reff{\rscript{R}{eff}{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Definitions for coordinate stuff
+\newcommand{\h}{\ensuremath{^{\rm{h}}}}
+\newcommand{\m}{\ensuremath{^{\rm{m}}}}
+\newcommand{\s}{\ensuremath{^{\rm{s}}}}
+\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}    
+\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}   
+\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}  
+\newcommand{\fh}{\mbox{\ensuremath{.\!\!^{\rm{h}}}}}
+\newcommand{\fm}{\mbox{\ensuremath{.\!\!^{\rm{m}}}}}
+\newcommand{\fs}{\mbox{\ensuremath{.\!\!^{\rm{s}}}}}
+\newcommand{\degr}{\ensuremath{^{\circ}}}
+\newcommand{\arcsec}{\mbox{\ensuremath{^{\prime\prime}}}}
+\newcommand\ra[4]{{#1}\h{#2}\m{#3}\fs{#4}}
+\newcommand\dec[4]{{#1}\h{#2}\m{#3}\fs{#4}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% randoms
+
+\newcommand{\eg}{{\rm e.g.,}}
+\newcommand{\ie}{{\rm i.e.,}}
+\newcommand{\etc}{{\rm etc}}
+\newcommand{\cf}{{\rm cf.}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% multicolumn and multirow
+\newcommand\mr[1]{\multirow{#1}{*}}
+\newcommand\mcc[1]{\multicolumn{#1}{c}}
+\newcommand\mcl[1]{\multicolumn{#1}{l}}
+\newcommand\mcr[1]{\multicolumn{#1}{r}}
+
+\newcommand{\df}{\dotfill}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% sun symbols and units
+\newcommand{\mz}{\ensuremath{\dot{M}-Z}}
+\newcommand\kpc{\ensuremath{\rm kpc}}
+\newcommand\mpc{\ensuremath{\rm Mpc}}
+\newcommand\invmpc{\rscript{\rm Mpc}{}{-1}}
+\newcommand\kms{\rscript{\rm km\,s}{}{-1}}
+\newcommand\cmq{\rscript{\rm cm}{}{-3}}
+\newcommand\ergss{\rscript{\rm ergs\,s}{}{-1}}
+\newcommand\ergsscm{\rscript{\rm ergs\,s}{}{-1}\rscript{\rm cm}{}{-2}}
+\newcommand\ergsscma{\rscript{\rm ergs\,s}{}{-1}\rscript{\rm cm}{}{-2}%
+\rscript{\rm {\AA}}{}{-1}}
+\newcommand\msunyr{\ensuremath{\msun\,{\rm yr^{-1}}}}
+\newcommand\msunyrkpc{\ensuremath{\msunyr\,{\rm kpc^{-2}}}}
+\newcommand\sq[1]{\rscript{#1}{}{2}}
+%\newcommand\ebv[1][]{\ensuremath{{\rm E}(B-V)_{#1}}}
+\newcommand\ebv[1]{\ensuremath{{\rm E}_{\textsc{b-v}}^{#1}}}
+\newcommand\ebvg{\ebv{\rm Gal}}
+\newcommand\ebvt{\ebv{\rm tot}}
+\newcommand\ebvi{\ebv{\rm int}}
+\newcommand\lam[1]{\ensuremath{\lambda\,{#1}}}
+\newcommand\lamlam[1]{\ensuremath{\lambda\,\lambda\,{#1}}}
+\newcommand{\mdot}{\ensuremath{\dot{M}}}
+\newcommand\arith[3]{\ensuremath{#1\,#2\,#3}} 
+\newcommand\ho{\arith{\rscript{H}{0}{}}{=}{75}{\kms\invmpc}}
+
+\newcommand\caseA{Case $A$}
+\newcommand\caseB{Case $B$}
+\newcommand\caseC{Case $C$}
+
+% Citation Aliases
+% Examples
+%  \citetalias{key}   ==>> text
+%  \citepalias{key}   ==>> (text)
+%
+\defcitealias{leitherer99}{Baltimore}
+\defcitealias{snc02}{UCL}
+\defcitealias{meynet94}{Geneva}
+\defcitealias{girardi00}{Padova}
+\defcitealias{pauldrach01}{Pauldrach}
+\defcitealias{hillier98}{Hillier}
+\defcitealias{norris03}{Richard Norris}
+\defcitealias{l.p.martins05}{Lucimara}
+\defcitealias{lejeune97}{Lejeune}
+\defcitealias{schmutz92}{Schmutz}
+
+% Misc
+
+\def\Starburst99{Starburst99}
+\newcommand\ttfsc[1]{\textsc{\ttfamily #1}}
+\def\mag{mag}
+\newcommand\privcomm[2]{({#1,}{~priv. comm. #2})}
+\newcommand\privcommnb[2]{{#1,}{~priv. comm. #2}} % nb = no brackets
+
+
+% Telescope/instrument abbreviations
+
+\def\hst{\textit{HST}}
+\def\spitzer{\textit{Spitzer}}

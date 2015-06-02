@@ -1,0 +1,326 @@
+%% Thesis 1.0
+%% "Main Program"
+%% 5/10/96 Rich Townsend
+
+%% This is the main program which affects the overall
+%% layout of the thesis, and patches all of the
+%% chapters together
+
+%% Set up the document class (hacked report)
+%% One sided
+%\documentclass[11pt, a4paper, oneside, openright, fleqn]{thesis}
+%% Two sided
+\documentclass[11pt, a4paper, twoside, openright, fleqn]{thesis}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Package loading stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Load in srcltx package for xdvi link
+%\usepackage{srcltx}
+% NEEDS TO BE REMOVED BEFORE PRINTING!!!!
+\usepackage[inactive]{srcltx}
+
+\usepackage[dvipsnames]{color}
+
+% Load in UCL logo package
+%\usepackage{uclogo}
+
+% Load in url package
+\usepackage{url}
+
+% Load in the xspace package
+\usepackage{xspace}
+
+% For adding footnotes to tables
+\usepackage{threeparttable}
+
+% For adding colour to tables
+\usepackage{colortbl}
+
+% For adding colour to tables
+\usepackage[table]{xcolor}
+
+% Load in the ifpdf package
+\usepackage{ifpdf}
+
+% Load in the epsf packages
+\usepackage{enumerate}
+
+% Load in subfigure package
+\usepackage{subfigure} 
+
+% Load in the epsf packages
+\usepackage{epsf}
+
+% Load in the epsfig packages
+\usepackage{epsfig}
+
+% Load in the calc package
+\usepackage{calc}
+
+% Load in Landscape package
+\usepackage{lscape}
+
+% Load in Longtable package
+\usepackage{longtable}
+
+% Load in Setspace package
+\usepackage{setspace}
+
+% Load in the Supertabular package
+\usepackage{supertabular}
+
+% Load in the Tabularx package
+\usepackage{tabularx}
+
+% Load in the Multirow package
+\usepackage{multirow}
+
+% Load in Curves package
+\usepackage{curves}
+
+% Load in Epic package
+\usepackage{epic}
+
+% Load in the rotating package
+\usepackage{rotating}
+
+% Load in the FancyHeadings package
+\usepackage{fancyheadings}
+
+% Load in the Afterpage package
+\usepackage{afterpage}
+
+% Load in the ifthen package
+\usepackage{ifthen}
+
+% Load in the harvard bib style package, and configure it
+%\usepackage[abbr]{harvard}
+%\citationstyle{apsr}
+%\renewcommand{\harvardand}{\&}
+%\newcommand{\natexlab}[1]{#1}
+
+% Load in the AmsTeX packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Load in the caption
+\usepackage{caption}
+
+% Load in the hacked caption stuff
+\usepackage{hackcaption}
+
+% Load in PDF hyper link package
+%\usepackage{hyperref}
+
+% % PDF hyperlinks, with coloured links 
+% % (watch for {\it ...} usage - swap to \textit{...})
+% \usepackage[pdftex,bookmarks,colorlinks,breaklinks,backref]{hyperref}
+% \hypersetup{linkcolor=red,citecolor=blue} % coloured links
+% %\hypersetup{linkcolor=black,citecolor=black} % black links, for printed output
+
+% Load in Natbib package
+\usepackage{natbib}
+\newcommand{\harvardand}{\&}
+% Defining the citation style of a given bib style:
+% Use \bibpunct (in the preamble only) with 6 mandatory arguments:
+%    1. opening bracket for citation
+%    2. closing bracket
+%    3. citation separator (for multiple citations in one \cite)
+%    4. the letter n for numerical styles, s for superscripts
+%        else anything for author-year
+%    5. punctuation between authors and date
+%    6. punctuation between years (or numbers) when common authors missing
+% One optional argument is the character coming before post-notes. It
+%   appears in square braces before all other arguments. May be left off.
+% Example (and default) \bibpunct[, ]{(}{)}{;}{a}{,}{,}
+\bibpunct[ ]{(}{)}{;}{a}{}{,}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Page style stuff
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Set up the text width and margins in terms of the binding and outer
+% margin lengths - here assigned the values dictated by UCL regulations
+\newlength{\bindingmargin}
+\newlength{\outermargin}
+\setlength{\bindingmargin}{40mm}
+\setlength{\outermargin}{20mm}
+
+
+% Work out the text width from these margins and the page size
+\setlength{\textwidth}{\paperwidth-\outermargin-\bindingmargin}
+
+
+% Now work out the LaTeX oddside and evenside margins, taking into
+% account the automatic 1in offset which is included.
+\setlength{\oddsidemargin}{\bindingmargin-1in}
+\setlength{\evensidemargin}{\paperwidth-\textwidth-\bindingmargin-1in}
+
+
+% Set up all of the other page style stuff
+\setlength{\textheight}{235mm}
+\setlength{\topmargin}{-0.25in}            
+\setlength{\headheight}{7mm}           
+\setlength{\headsep}{8mm}              
+\setlength{\footnotesep}{1.5ex}
+\setlength{\textfloatsep}{14pt plus 6pt minus 2pt}
+\renewcommand{\baselinestretch}{1.5}
+
+%% F SIDOLI 2009-05-11
+%% Standard empty clear page
+\newcommand{\clearemptydoublepage}{\newpage\thispagestyle{empty}\cleardoublepage}
+%% Redefined empty clear page to include blank page comment
+\newcommand{\clearthesisemptydoublepage}
+{\newpage\thispagestyle{headings}\clearthesisdoublepage}
+
+\pagestyle{headings}
+%% To add my personal footer to each page comment out line above
+%% and uncomment the line below
+%\pagestyle{thesis}
+
+\newcommand{\longpage}{\enlargethispage{\baselineskip}}
+\newcommand{\shortpage}{\enlargethispage{-\baselineskip}}
+\newcommand{\longpagef}{\enlargethispage*{\baselineskip}}
+\newcommand{\shortpagef}{\enlargethispage*{-\baselineskip}}
+\newcommand{\rb}[1]{\raisebox{1.6ex}[0pt]{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Font diddles
+
+% Map in the missing math times fonts (this prevents a warning -
+% it doesn't do anything useful! )
+
+\DeclareFontFamily{OMS}{ptm}{}
+\DeclareFontShape{OMS}{ptm}{m}{n}{ <-> sub * cmsy/m/n }{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Load in the defs
+\typeout{Loading defs....}
+\input{defs}
+
+
+% See if there are any includeonlys
+%\typein[\inclist]{Enter includeonly...}
+%\ifthenelse{\equal{}{\inclist}}{}{\includeonly{\inclist}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document Start
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% If you want to compile one chapter at a time
+% but keep the numbering sorted. Must appear 
+% before '\begin{document}'
+
+% \includeonly{chapters/chapter1/chapter1}
+
+%%%
+
+\begin{document}
+
+%%---------------------------------------------------------
+%% Frontmatter
+%%---------------------------------------------------------
+
+%% Do the title page: Personal info for title page
+\university{University College London}
+\faculty{Faculty of Mathematics and Physical Sciences}
+\department{Department of Physics \& Astronomy}  
+\thesistitle{Supernova dust masses from line profile models: \\ A new diagnostic}
+\thesisauthor{Antonia Bevan}
+\dedication{\it{DEDICATION}} 
+\supervisorone{Mike Barlow}
+\examinerone{MAIN EXAMINERS NAME}
+\supervisortwo{Jeremy Yates}
+\examinertwo{SECOND EXAMINERS NAME}
+
+\maketitle 
+
+%% Declaration - REQUIRES SIGNING
+\include{front/declaration}
+\clearemptydoublepage
+
+%% Abstract
+\include{front/abstract}
+
+%% Acknowledgements
+\include{front/acknowledgements}
+
+%% Front quote
+\include{front/frontquote}
+\clearemptydoublepage
+
+
+%% Contents pages
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+\clearthesisemptydoublepage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+
+\addcontentsline{toc}{chapter}{List of Acronyms}
+
+
+%%List Of Acronyms
+\include{front/acronyms}
+
+%%---------------------------------------------------------
+%% Main Body
+%%---------------------------------------------------------
+
+% Put your chapters in here
+
+
+\include{chapters/chapter1/chapter1}
+\clearthesisemptydoublepage
+\include{chapters/chapter2/chapter2}
+\clearthesisemptydoublepage
+\include{chapters/chapter3/chapter3}
+\clearthesisemptydoublepage
+\include{chapters/chapter4/chapter4}
+\clearthesisemptydoublepage
+\include{chapters/chapter5/chapter5}
+\clearthesisemptydoublepage
+\include{chapters/chapter6/chapter6}
+\clearthesisemptydoublepage
+%\include{chapters/chapter7/chapter7}
+%\clearthesisemptydoublepage
+%\include{chapters/chapter8/chapter8}
+%\clearthesisemptydoublepage
+
+%%---------------------------------------------------------
+%% Back matter
+%%---------------------------------------------------------
+
+%% Appendices
+\include{back/appendices/appendA}
+\clearthesisemptydoublepage
+\include{back/appendices/appendB}
+\clearthesisemptydoublepage
+\include{back/appendices/appendC}
+\clearthesisemptydoublepage
+
+%% Bibliography
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{harthesis} % bib style file *.bst
+\bibliography{thesis} % thesis.bib file containing references 
+\clearemptydoublepage
+
+%% Naff back quote
+
+\include{back/backquote}
+\clearemptydoublepage
+
+%%-----------------------------------------------------------
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

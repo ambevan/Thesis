@@ -1,0 +1,17 @@
+#!/bin/tcsh
+#Build 
+latex $1
+bibtex $1
+latex $1
+latex $1
+
+set postscript = `basename "$1" \.tex`.ps
+
+dvips -o $postscript $1
+
+#if ( -e $postscript ) then
+#        ps2pdf13 -dAutoRotatePages=/None "$postscript"
+#endif
+#/bin/rm "${basefname}.dvi" "${basefname}.log" "${basefname}.aux" "${basefname}.ps"
+
+

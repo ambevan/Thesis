@@ -1,0 +1,171 @@
+% bigbrace.sty : Oct 2, 1994
+%         from: \dobrace by piet@cs.ruu.nl (Piet van Oostrum): see below
+%
+\def\leftbrace#1#2{\@ifnextchar [{\@leftbrace#1#2}{\@leftbrace#1#2[\null]}}
+\def\@leftbrace#1#2[#3]%
+% \newcommand{\dolbrace}[3]% #1=number of rows #2=width #3=text
+ {\multirow{#1}{#2}{%
+  #3$\left\{{\vcenter{\hsize=0pt\vrule height #1\baselineskip width 0pt}}%
+     \right.$}}
+%
+\def\rightbrace#1#2{\@ifnextchar [{\@rightbrace#1#2}{\@rightbrace#1#2[\null]}}
+\def\@rightbrace#1#2[#3]%
+% \newcommand{\dolbrace}[3]% #1=number of rows #2=width #3=text
+ {\multirow{#1}{#2}{%
+   $\left.{\vcenter{\hsize=0pt\vrule height #1\baselineskip width 0pt}}%
+     \right\}$#3}}
+%
+\endinput
+%
+\documentstyle[multirow,bigbrace]{article}
+\begin{document}
+A sample of {\tt bigbrace.sty}:
+\begin{center}
+\begin{tabular}{|l|c|c|l|} \hline
+\leftbrace{3}{1.2cm}[gnats] & foo & bar & \rightbrace{2}{1cm} \\
+                          & foo & bar & \\
+                          & foo & bar & \rightbrace{5}{2cm}[armadillo] \\
+                          & foo & bar & \\
+                          & foo & bar & \\
+\leftbrace{3}{1.2cm}[gnus]  & foo & bar & \\
+                          & foo & bar & \\
+                          & foo & bar & \\ \hline
+\end{tabular}
+\end{center}
+\end{document}
+%
+         ORIGINAL ARTICLES ON NETWORK NEWS
+----------------------------------------------------------------
+From: /ystein Bache <bache@kjemi.unit.no>
+Newsgroups: comp.text.tex
+Subject: Re: [Q] Putting big { in tables
+Date: 28 Sep 1994 08:03:01 GMT
+Organization: The Norwegian Institute of Technology
+In article <369ts5$leu@lace.Colorado.EDU> Jeffrey Lessem,
+lessem@Colorado.EDU writes:
+>I have been wondering how to do this for some time; basically I want
+>to put a large left brace in a table, so that it spans several rows of
+>the table:
+I finaly managed to do this. In fact Piet van Oostrum told me how to do
+it. Get the multirow package and define:
+A right brace:
+\newcommand{\rigthbrace}[2]% #1=number of rows #2=width
+  {\multirow{#1}{#2}{%
+       $\left.{\vcenter{\hsize=0pt\vrule height #1\baselineskip width
+0pt}}%
+     \right\}$}}
+I guess a left turning brace would be (I have not tried it)
+\newcommand{\leftbrace}[2]% #1=number of rows #2=width
+  {\multirow{#1}{#2}{%
+       $\left\{.{\vcenter{\hsize=0pt\vrule height #1\baselineskip width
+0pt}}%
+     \right$}}
+I use the right one as in the following example:
+\begin{tabular}{@{}*{4}{r}@{}c@{}l@{}}\\\hline
+        &    &1547              &1631    &&$\nu$(C=O)\\
+        &    &                  &1327    &&$\nu$($\alpha$-C-O)\\
+        &    &                  &1306    &&Phenyl\\
+        &821 &                  &821     &&Ti oxychloride\\
+        &    &                  &715     &&Phenyl in-phase wag\\
+498     &    &496               &        &&ads. TiCl$_4$\\
+476     &    &                  &        &\rightbrace{4}{0.4cm}
+&\multirow{4}{3cm}{$\nu$(Ti-Cl$_t$)}\\
+461     &    &458               &        &\\
+450     &    &                  &        &\\
+        &    &                  &397     &\\
+408-330 &    &378               &        &&$\nu$(Ti-Cl$_b$)\\\hline
+\end{tabular}
+As you can see, the brace is in a slim column by it self, empty for the
+other rows. The column entry pointed on by the brace is made with the
+\multirow command.  It should be possible to make long [, ], etc. in the
+same manner.
+Regards,
+________________________________________________________________________
+\O ystein Bache                                email:bache@kjemi.unit.no
+Department of Inorganic Chemistry
+The Norwegian Institute of Thechnology
+The University of Trondheim
+N-7034 Trondheim, Norway.
+-----------------------------------------------------------------------
+% original article had one spell-mistake and one bug.
+%
+\newcommand{\rightbrace}[2]% #1=number of rows #2=width
+  {\multirow{#1}{#2}{%
+       $\left.{\vcenter{\hsize=0pt\vrule height #1\baselineskip width 0pt}}%
+     \right\}$}}
+%
+\newcommand{\leftbrace}[2]% #1=number of rows #2=width
+  {\multirow{#1}{#2}{%
+       $\left\{{\vcenter{\hsize=0pt\vrule height #1\baselineskip width 0pt}}%
+     \right.$}}
+%
+\begin{document}
+\begin{center}
+% \begin{tabular}{@{}*{4}{r}@{}c@{}l@{}}\\\hline % original
+\begin{tabular}{rrrrcl} \hline
+% leftbrace added to the original
+        & \leftbrace{5}{1cm} &1547 &1631 &&$\nu$(C=O)\\
+        &    &                  &1327    &&$\nu$($\alpha$-C-O)\\
+% string added to the original
+XYZ     &    &                  &1306    &&Phenyl\\
+        &821 &                  &821     &&Ti oxychloride\\
+        &    &                  &715     &&Phenyl in-phase wag\\
+498     &    &496               &        &&ads. TiCl$_4$\\
+476     &    &                  &        &\rightbrace{4}{0.4cm}
+&\multirow{4}{3cm}{$\nu$(Ti-Cl$_t$)}\\
+461     &    &458               &        &\\
+450     &    &                  &        &\\
+        &    &                  &397     &\\
+408-330 &    &378               &        &&$\nu$(Ti-Cl$_b$)\\\hline
+\end{tabular}
+\end{center}
+\end{document}
+------------------------------------------------------------
+From: piet@cs.ruu.nl (Piet van Oostrum)
+Newsgroups: comp.text.tex
+Subject: Re: [Q] Putting big { in tables
+Message-ID: <Cwu0HC.FFy@cs.ruu.nl>
+Date: 28 Sep 94 08:48:47 GMT
+Organization: Dept of Computer Science, Utrecht University, The Netherlands
+Use multirow.sty (be sure to really get the latest version)
+\newcommand{\dolbrace}[3]% #1=number of rows #2=width #3=text
+  {\multirow{#1}{#2}{%
+       #3$\left\{{\vcenter{\hsize=0pt\vrule height #1\baselineskip width 0pt}}%
+     \right.$}}
+%
+Enter:
+%
+\dobrace{5}{2cm}{gnats} & foo & bar & ...\\
+                        & foo & bar & ...\\
+                        & foo & bar & ...\\
+                        & foo & bar & ...\\
+                        & foo & bar & ...\\
+\dobrace{3}{2cm}{gnus}  & foo & bar & ...\\
+                        & foo & bar & ...\\
+                        & foo & bar & ...\\
+-- 
+Piet* van Oostrum, Dept of Computer Science, Utrecht University,  (*`Pete')
+Padualaan 14, P.O. Box 80.089, 3508 TB Utrecht, The Netherlands.
+Telephone: +31 30 531806 Telefax: +31 30 513791 Internet: piet@cs.ruu.nl 
+PGP public key by finger or WWW http://www.cs.ruu.nl/~piet
+----------------------------------------------------------
+From: lessem@Colorado.EDU (Jeffrey Lessem)
+Newsgroups: comp.text.tex
+Subject: [Summary] Putting big { in tables
+Date: 28 Sep 1994 17:50:29 GMT
+Organization: University of Colorado, Boulder
+Thanks to Piet van Oostrum, Oystein Bache, and Timothy Murphy for
+helping me figure this out.
+Use the multirow package (CTAN: /macros/latex209/contrib/multirow.sty)
+and the macro supplied by Piet van Oostrum:
+\newcommand{\dolbrace}[3]% #1=number of rows #2=width #3=text
+  {\multirow{#1}{#2}{%
+      #3$\left\{{\vcenter{\hsize=0pt\vrule height #1\baselineskip
+width 0pt}}%
+     \right.$}}
+This macro is easy to change for left, right, square, etc. brackets,
+the important parts being `\left\{' `\right.' and `#3'.
+-------------------------------------
+Jeff Lessem (Jeff.Lessem@Colorado.EDU)
+Institute for Behavioral Genetics
+University of Colorado

@@ -1,0 +1,18 @@
+#!/bin/tcsh
+#Build 
+
+pdflatex  "$1"                                                                  
+bibtex "${1:r}"                                                                 
+pdflatex "$1"                                                                   
+pdflatex "$1"    
+
+set thesispdf = `basename "$1" \.tex`.pdf
+set thesis2sidedpdf = `basename "$1" \.tex`_pdf2up.pdf
+
+if ( -e /usr/bin/pdfnup ) then
+    alias pdfnup /usr/bin/pdfnup
+  else
+ echo pdfnup does not exist. Download from http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic/firth/software/pdfjam/
+endif
+pdfnup $thesispdf --outfile $thesis2sidedpdf
+

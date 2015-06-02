@@ -1,0 +1,99 @@
+%% FSIDOLI 2010-02-06
+
+This template thesis directory is for Non-mac users. 
+
+In "latex_tools/" I have provided a set of tools for compiling latex. In here you will find
+the commands runlatex, runpdflatex and detex. 
+
+detex:       Word counting of latex files
+runlatex:    Runs 'latex'
+runpdflatex: Runs 'pdflatex'
+
+Use: runlatex thesis[.tex] -> extension optional
+
+This will run 
+
+latex thesis.tex
+bibtex thesis.tex
+latex thesis.tex
+latex thesis.tex
+
+And will then output some statistics about your thesis file. The file words.tmp is needed
+for part of the stats, namely the word counting bit.
+
+
+The "latex/" director should go in your home space as a ".latex/" directory, i.e.,
+/home/username/.latex. The contents of this can then be added to a latex search path so
+that if you download your own latex packages you can store them here. This way your
+downloaded packages will automatically be picked so you don't have to have multiple copies
+lying in various work directories.
+
+In your .cshrch file add the following to set up the paths, swapping "username" with your
+username.
+
+# LaTeX search path
+# ** IMPORTANT **
+# The trailing colon indicates the standard search
+# path should be appended to the user specified
+# TEXINPUT variable
+# Double trailing slash indicates this directory is
+# to be search recursively
+setenv TEXINPUTS ".:/home/username/.latex//:"
+setenv BSTINPUTS ".:/home/username/.latex//:"
+#setenv BIBINPUTS ".:/home/username/.latex//:"
+ 
+
+Suggested thesis structure (i.e., the one contained in this tarball) looks something like
+this (although ultimately it is up to you!).
+
+thesis
+|-- back
+|   |-- appendices
+|   |   |-- appendA.tex
+|   |   |-- appendB.tex
+|   |   `-- appendC.tex
+|   `-- backquote.tex
+|-- chapters
+|   |-- chapter1
+|   |   |-- chapter1.tex
+|   |   |-- figs
+|   |   `-- tables
+|   |-- chapter2
+|   |   |-- chapter2.tex
+|   |   |-- figs
+|   |   `-- tables
+|   |-- chapter3
+|   |   |-- chapter3.tex
+|   |   |-- figs
+|   |   `-- tables
+|   |-- chapter4
+|   |   |-- chapter4.tex
+|   |   |-- figs
+|   |   `-- tables
+|   |-- chapter5
+|   |   |-- chapter5.tex
+|   |   |-- figs
+|   |   `-- tables
+|   |-- chapter6
+|   |   |-- chapter6.tex
+|   |   |-- figs
+|   |   `-- tables
+|   |-- chapter7
+|   |   |-- chapter7.tex
+|   |   |-- figs
+|   |   `-- tables
+|   `-- chapter8
+|       `-- chapter8.tex
+|-- defs.tex
+|-- front
+|   |-- abstract.tex
+|   |-- acknowledgements.tex
+|   |-- declaration.tex
+|   |-- frontquote.tex
+|   |-- ucllogo.eps
+|   |-- ucllogo.pdf
+|   |-- ucllogo.ps
+|-- thesis.bib
+|-- thesis.cls
+|-- thesis.tex
+`-- words.tmp
