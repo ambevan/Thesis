@@ -6,74 +6,64 @@
 \contentsline {chapter}{\numberline {2}Details of the Monte Carlo Code}{21}
 \contentsline {section}{\numberline {2.1}Monte Carlo Methods}{21}
 \contentsline {section}{\numberline {2.2}Radiative Transfer and the Monte Carlo Method}{22}
-\contentsline {subsection}{\numberline {2.2.1}Dust Species}{24}
-\contentsline {subsection}{\numberline {2.2.2}Grain Sizes}{24}
-\contentsline {subsection}{\numberline {2.2.3}Doublets}{24}
-\contentsline {subsection}{\numberline {2.2.4}Clumping}{24}
-\contentsline {subsection}{\numberline {2.2.5}Electron Scattering}{24}
-\contentsline {subsection}{\numberline {2.2.6}Initialisation and the Grid}{24}
-\contentsline {subsection}{\numberline {2.2.7}Energy Packets}{24}
-\contentsline {subsection}{\numberline {2.2.8}Emission and Propagation}{24}
-\contentsline {subsection}{\numberline {2.2.9}Doppler Shifting and Weighting}{24}
-\contentsline {section}{\numberline {2.3}The Structure of DAMOCLES}{24}
-\contentsline {subsection}{\numberline {2.3.1}Fortran 90 and OpenMP Parallelisation}{24}
-\contentsline {subsection}{\numberline {2.3.2}Modular Architecture}{24}
-\contentsline {subsubsection}{Common}{27}
-\contentsline {subsubsection}{Input}{27}
-\contentsline {subsubsection}{Electron Scattering}{27}
-\contentsline {subsubsection}{Random Routines}{27}
-\contentsline {subsubsection}{Functions}{27}
-\contentsline {subsubsection}{Sizes}{27}
-\contentsline {subsubsection}{Global}{27}
-\contentsline {subsubsection}{Photon}{27}
-\contentsline {subsubsection}{Iterate}{27}
-\contentsline {subsubsection}{Construct Grid}{27}
-\contentsline {subsubsection}{Linear Interpolation}{27}
-\contentsline {subsubsection}{Code}{27}
-\contentsline {subsubsection}{Damocles}{27}
-\contentsline {subsection}{\numberline {2.3.3}Input}{27}
-\contentsline {subsection}{\numberline {2.3.4}Output}{27}
-\contentsline {subsection}{\numberline {2.3.5}Post-Processing and Visualisation}{27}
-\contentsline {section}{\numberline {2.4}Limitations and Further Developments}{27}
-\contentsline {subsection}{\numberline {2.4.1}The grid}{28}
-\contentsline {subsection}{\numberline {2.4.2}Clumping}{29}
-\contentsline {subsection}{\numberline {2.4.3}Multiple grain sizes and opacity calculation}{29}
-\contentsline {subsection}{\numberline {2.4.4}Multiple species}{30}
-\contentsline {subsection}{\numberline {2.4.5}Photon packet propagation and transport}{30}
-\contentsline {subsection}{\numberline {2.4.6}Doppler shifting}{32}
-\contentsline {subsection}{\numberline {2.4.7}Photon packet weighting}{32}
-\contentsline {subsection}{\numberline {2.4.8}Doublets}{33}
-\contentsline {subsection}{\numberline {2.4.9}OpenMP Parallelisation}{33}
-\contentsline {chapter}{\numberline {3}Benchmarking and Sensitivity Analyses}{35}
-\contentsline {section}{\numberline {3.1}Introduction}{36}
-\contentsline {section}{\numberline {3.2}Analytical Results}{36}
-\contentsline {section}{\numberline {3.3}Optically Thin Line Profiles}{36}
-\contentsline {section}{\numberline {3.4}Optically Thick Line Profiles}{36}
-\contentsline {section}{\numberline {3.5}Sensitivity Analyses}{36}
-\contentsline {subsection}{\numberline {3.5.1}Dust Mass}{36}
-\contentsline {subsection}{\numberline {3.5.2}Velocity Profile}{36}
-\contentsline {subsection}{\numberline {3.5.3}Density Profile}{36}
-\contentsline {subsection}{\numberline {3.5.4}Grain Size Distribution}{36}
-\contentsline {subsection}{\numberline {3.5.5}Electron Scattering}{36}
-\contentsline {subsection}{\numberline {3.5.6}Ratio of Inner and Outer Radii}{36}
-\contentsline {subsection}{\numberline {3.5.7}Dust Species}{36}
-\contentsline {section}{\numberline {3.6}Conclusions}{36}
-\contentsline {chapter}{\numberline {4}SN 1987A}{37}
-\contentsline {section}{\numberline {4.1}Introduction}{37}
-\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{38}
-\contentsline {subsection}{\numberline {4.2.1}AAT}{38}
-\contentsline {subsection}{\numberline {4.2.2}CTIO}{38}
-\contentsline {subsection}{\numberline {4.2.3}HST}{38}
-\contentsline {subsection}{\numberline {4.2.4}VLT}{38}
-\contentsline {section}{\numberline {4.3}The Evolution of Optical Line Profiles}{38}
-\contentsline {subsection}{\numberline {4.3.1}H$\alpha $}{38}
-\contentsline {subsection}{\numberline {4.3.2}[OI]$\lambda 6300,6363$ doublet}{38}
-\contentsline {subsection}{\numberline {4.3.3}Other Lines}{38}
-\contentsline {section}{\numberline {4.4}Modelling and Fitting}{38}
-\contentsline {section}{\numberline {4.5}Conclusions}{38}
-\contentsline {chapter}{\numberline {5}SN 2010jl and Other Supernovae}{39}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{41}
-\contentsline {chapter}{\numberline {A}Appendix A}{43}
-\contentsline {chapter}{\numberline {B}Appendix B}{45}
-\contentsline {chapter}{\numberline {C}Appendix C}{47}
-\contentsline {chapter}{Bibliography}{49}
+\contentsline {subsection}{\numberline {2.2.1}Energy Packets}{24}
+\contentsline {subsection}{\numberline {2.2.2}Initialisation and the Grid}{25}
+\contentsline {subsection}{\numberline {2.2.3}Properties of the Dusty Medium}{26}
+\contentsline {subsection}{\numberline {2.2.4}Emission and Propagation}{27}
+\contentsline {subsection}{\numberline {2.2.5}Doppler shifting}{29}
+\contentsline {subsection}{\numberline {2.2.6}Electron Scattering}{31}
+\contentsline {subsection}{\numberline {2.2.7}Doublets}{31}
+\contentsline {subsection}{\numberline {2.2.8}Comparing the Model with Observations}{32}
+\contentsline {section}{\numberline {2.3}The Structure of DAMOCLES}{32}
+\contentsline {subsection}{\numberline {2.3.1}Fortran 90 and OpenMP Parallelisation}{32}
+\contentsline {subsection}{\numberline {2.3.2}Modular Architecture}{32}
+\contentsline {subsubsection}{Common}{35}
+\contentsline {subsubsection}{Input}{35}
+\contentsline {subsubsection}{Electron Scattering}{35}
+\contentsline {subsubsection}{Random Routines}{35}
+\contentsline {subsubsection}{Functions}{35}
+\contentsline {subsubsection}{Sizes}{35}
+\contentsline {subsubsection}{Global}{35}
+\contentsline {subsubsection}{Photon}{35}
+\contentsline {subsubsection}{Iterate}{35}
+\contentsline {subsubsection}{Construct Grid}{35}
+\contentsline {subsubsection}{Linear Interpolation}{35}
+\contentsline {subsubsection}{Code}{35}
+\contentsline {subsubsection}{Damocles}{35}
+\contentsline {subsection}{\numberline {2.3.3}Input}{35}
+\contentsline {subsection}{\numberline {2.3.4}Output}{35}
+\contentsline {subsection}{\numberline {2.3.5}Post-Processing and Visualisation}{35}
+\contentsline {section}{\numberline {2.4}Limitations and Further Developments}{35}
+\contentsline {chapter}{\numberline {3}Benchmarking and Sensitivity Analyses}{37}
+\contentsline {section}{\numberline {3.1}Introduction}{38}
+\contentsline {section}{\numberline {3.2}Analytical Results}{38}
+\contentsline {section}{\numberline {3.3}Optically Thin Line Profiles}{38}
+\contentsline {section}{\numberline {3.4}Optically Thick Line Profiles}{38}
+\contentsline {section}{\numberline {3.5}Sensitivity Analyses}{38}
+\contentsline {subsection}{\numberline {3.5.1}Dust Mass}{38}
+\contentsline {subsection}{\numberline {3.5.2}Velocity Profile}{38}
+\contentsline {subsection}{\numberline {3.5.3}Density Profile}{38}
+\contentsline {subsection}{\numberline {3.5.4}Grain Size Distribution}{38}
+\contentsline {subsection}{\numberline {3.5.5}Electron Scattering}{38}
+\contentsline {subsection}{\numberline {3.5.6}Ratio of Inner and Outer Radii}{38}
+\contentsline {subsection}{\numberline {3.5.7}Dust Species}{38}
+\contentsline {section}{\numberline {3.6}Conclusions}{38}
+\contentsline {chapter}{\numberline {4}SN 1987A}{39}
+\contentsline {section}{\numberline {4.1}Introduction}{39}
+\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{40}
+\contentsline {subsection}{\numberline {4.2.1}AAT}{40}
+\contentsline {subsection}{\numberline {4.2.2}CTIO}{40}
+\contentsline {subsection}{\numberline {4.2.3}HST}{40}
+\contentsline {subsection}{\numberline {4.2.4}VLT}{40}
+\contentsline {section}{\numberline {4.3}The Evolution of Optical Line Profiles}{40}
+\contentsline {subsection}{\numberline {4.3.1}H$\alpha $}{40}
+\contentsline {subsection}{\numberline {4.3.2}[OI]$\lambda 6300,6363$ doublet}{40}
+\contentsline {subsection}{\numberline {4.3.3}Other Lines}{40}
+\contentsline {section}{\numberline {4.4}Modelling and Fitting}{40}
+\contentsline {section}{\numberline {4.5}Conclusions}{40}
+\contentsline {chapter}{\numberline {5}SN 2010jl and Other Supernovae}{41}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{43}
+\contentsline {chapter}{\numberline {A}Appendix A}{45}
+\contentsline {chapter}{\numberline {B}Appendix B}{47}
+\contentsline {chapter}{\numberline {C}Appendix C}{49}
+\contentsline {chapter}{Bibliography}{51}
