@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  10 JUN 2015 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  11 JUN 2015 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,23 +695,34 @@ e 227.
 LaTeX Warning: Reference `fig:Lucy89_87A' on page 31 undefined on input line 22
 7.
 
-[31] [32]
-<chapters/chapter2/code_flowchart.png, id=124, 1059.96pt x 888.31876pt>
-File: chapters/chapter2/code_flowchart.png Graphic file (type png)
+[31] <chapters/chapter2/code_flow.png, id=121, 979.66pt x 818.05624pt>
+File: chapters/chapter2/code_flow.png Graphic file (type png)
 
-<use chapters/chapter2/code_flowchart.png>
-Package pdftex.def Info: chapters/chapter2/code_flowchart.png used on input lin
-e 237.
-(pdftex.def)             Requested size: 392.72444pt x 710.65598pt.
- [33
-
-]
-Overfull \vbox (45.41621pt too high) has occurred while \output is active []
+<use chapters/chapter2/code_flow.png>
+Package pdftex.def Info: chapters/chapter2/code_flow.png used on input line 236
+.
+(pdftex.def)             Requested size: 401.32355pt x 631.68369pt.
 
 
-[34 <./chapters/chapter2/code_flowchart.png>] [35
+LaTeX Warning: Float too large for page by 11.37726pt on input line 239.
 
-]) [36
+[32] [33 <./chapters/chapter2/code_flow.png>]
+<chapters/chapter2/code_modules_flowchart.png, id=130, 849.1725pt x 757.83125pt
+>
+File: chapters/chapter2/code_modules_flowchart.png Graphic file (type png)
+ <use chapters/chapter2/code_modules_flowchart.png>
+Package pdftex.def Info: chapters/chapter2/code_modules_flowchart.png used on i
+nput line 261.
+(pdftex.def)             Requested size: 428.95435pt x 594.88474pt.
+
+Overfull \hbox (2.163pt too wide) in paragraph at lines 261--262
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 13.24916pt on input line 264.
+
+[34] [35 <./chapters/chapter2/code_modules_flowchart.png>] [36] [37]) [38
 
 ]
 :<-
@@ -720,50 +731,35 @@ Overfull \vbox (45.41621pt too high) has occurred while \output is active []
 
 (./chapters/chapter3/chapter3.tex
 Chapter 3.
-[37
+[39
 
 
 
 
 
-]) [38]
+]) [40]
 :<-
 :<+ chapters/chapter4/chapter4.tex
 \openout2 = `chapters/chapter4/chapter4.aux'.
 
 (./chapters/chapter4/chapter4.tex
 Chapter 4.
-) [39
-
-
-
-
-
-] [40]
-:<-
-:<+ chapters/chapter5/chapter5.tex
-\openout2 = `chapters/chapter5/chapter5.aux'.
-
-(./chapters/chapter5/chapter5.tex
-Chapter 5.
 ) [41
 
 
 
 
 
-]
+] [42]
 :<-
-[42
+:<+ chapters/chapter5/chapter5.tex
+\openout2 = `chapters/chapter5/chapter5.aux'.
 
-
-]
-:<+ chapters/chapter6/chapter6.tex
-\openout2 = `chapters/chapter6/chapter6.aux'.
-
-(./chapters/chapter6/chapter6.tex
-Chapter 6.
+(./chapters/chapter5/chapter5.tex
+Chapter 5.
 ) [43
+
+
 
 
 
@@ -773,11 +769,11 @@ Chapter 6.
 
 
 ]
-:<+ back/appendices/appendA.tex
-\openout2 = `back/appendices/appendA.aux'.
+:<+ chapters/chapter6/chapter6.tex
+\openout2 = `chapters/chapter6/chapter6.aux'.
 
-(./back/appendices/appendA.tex
-Appendix A.
+(./chapters/chapter6/chapter6.tex
+Chapter 6.
 ) [45
 
 
@@ -788,11 +784,11 @@ Appendix A.
 
 
 ]
-:<+ back/appendices/appendB.tex
-\openout2 = `back/appendices/appendB.aux'.
+:<+ back/appendices/appendA.tex
+\openout2 = `back/appendices/appendA.aux'.
 
-(./back/appendices/appendB.tex
-Appendix B.
+(./back/appendices/appendA.tex
+Appendix A.
 ) [47
 
 
@@ -803,11 +799,11 @@ Appendix B.
 
 
 ]
-:<+ back/appendices/appendC.tex
-\openout2 = `back/appendices/appendC.aux'.
+:<+ back/appendices/appendB.tex
+\openout2 = `back/appendices/appendB.aux'.
 
-(./back/appendices/appendC.tex
-Appendix C.
+(./back/appendices/appendB.tex
+Appendix B.
 ) [49
 
 
@@ -818,6 +814,21 @@ Appendix C.
 
 
 ]
+:<+ back/appendices/appendC.tex
+\openout2 = `back/appendices/appendC.aux'.
+
+(./back/appendices/appendC.tex
+Appendix C.
+) [51
+
+
+
+]
+:<-
+[52
+
+
+]
 :<+ thesis.bbl
 (./thesis.bbl
 
@@ -825,20 +836,20 @@ Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
 )
 :<-
-[51
+[53
 
-] [52
+] [54
 
 ]
 :<+ back/backquote.tex
 \openout2 = `back/backquote.aux'.
 
-(./back/backquote.tex) [53
+(./back/backquote.tex) [55
 
 
 ]
 :<-
-[54
+[56
 
 
 ]
@@ -857,13 +868,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6260 strings out of 493117
- 87429 string characters out of 6135433
- 173094 words of memory out of 5000000
- 9441 multiletter control sequences out of 15000+600000
+ 6272 strings out of 493117
+ 87747 string characters out of 6135433
+ 173129 words of memory out of 5000000
+ 9452 multiletter control sequences out of 15000+600000
  16374 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,1297b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,1346b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
 8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -883,10 +894,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (54 pages, 301141 bytes).
+Output written on thesis.pdf (56 pages, 352422 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+ 269 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

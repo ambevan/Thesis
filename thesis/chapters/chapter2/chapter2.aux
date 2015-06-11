@@ -18,30 +18,36 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.6}Electron Scattering}{31}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.7}Doublets}{31}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.8}Comparing the Model with Observations}{32}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}The Structure of DAMOCLES}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}The Structure of Damocles}{32}}
 \newlabel{damocles_struct}{{2.3}{32}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Fortran 90 and OpenMP Parallelisation}{32}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Modular Architecture}{32}}
-\@writefile{toc}{\contentsline {subsubsection}{Common}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Input}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Electron Scattering}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Random Routines}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Functions}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Sizes}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Global}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Photon}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Iterate}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Construct Grid}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Linear Interpolation}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Code}{35}}
-\@writefile{toc}{\contentsline {subsubsection}{Damocles}{35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Input}{35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Output}{35}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}Post-Processing and Visualisation}{35}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Limitations and Further Developments}{35}}
-\newlabel{limitations}{{2.4}{35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Computational Architecture and Processes}{32}}
+\@writefile{toc}{\contentsline {subsubsection}{The driver}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces A flowchart representing the sequence of processes that take place in the Damocles code. The modules involved at each stage are given in parentheses.\relax }}{33}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:flowchart}{{2.1}{33}}
+\@writefile{toc}{\contentsline {subsubsection}{The input module}{34}}
+\@writefile{toc}{\contentsline {subsubsection}{The initialisation module}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces A flowchart representing the hierarchy of modules and subroutines in the Damocles code. Ellipses represent modules and rectangles represent subroutines (the red rectangle is a recursive subroutine). Green arrows indicate the dependence on module or subroutine on previous modules or subroutines. Purple arrows indicate the flow of the code.\relax }}{35}}
+\newlabel{fig:flowchart_mods}{{2.2}{35}}
+\@writefile{toc}{\contentsline {subsubsection}{The grain size module}{36}}
+\@writefile{toc}{\contentsline {subsubsection}{The Mie approximation module}{36}}
+\@writefile{toc}{\contentsline {subsubsection}{The grid construction module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The electron scattering module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The random seed module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The packet initialisation module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The vector functions module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The propagate module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The random routine module}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{The model comparison module}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{37}}
+\newlabel{scn:open_mp}{{2.3.2}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Input}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Output}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Post-Processing and Visualisation}{37}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Limitations and Further Developments}{37}}
+\newlabel{limitations}{{2.5}{37}}
 \@setckpt{chapters/chapter2/chapter2}{
-\setcounter{page}{37}
+\setcounter{page}{39}
 \setcounter{equation}{18}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -51,12 +57,12 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{2}
-\setcounter{section}{4}
+\setcounter{section}{5}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{2}
 \setcounter{table}{0}
 \setcounter{subfigure}{0}
 \setcounter{lofdepth}{1}

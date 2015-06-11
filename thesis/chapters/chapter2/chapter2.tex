@@ -14,7 +14,7 @@
 	 
 	 \noindent{The name 'Monte Carlo' describes a class of modelling techniques that employ a stochastic approach to simulating mathematical and physical situations that are otherwise difficult or impossible to solve.  By repeatedly sampling random numbers from a probability distribution, numerical results to non-analytic problems may be obtained.  The approach was first used by researchers at Los Alamos in the late 1940s who adopted the method to model the transport of neutrons.  It is from the code name for this project, 'Monte Carlo', that the methods derive their name.  }
 	 
-	 As the available computing power increased over the following decades, Monte Carlo methods became more and more useful as a means of solving complex problems and are now used widely across numerous fields including mathematics, statistics, engineering, finance, the physical sciences and many others.  The nature of the approach means that they are particularly well-suited to problems with multiple degrees of freedom, and especially when any of these degrees are coupled.  By using random numbers to represent quantities that parametrize a physical problem, a model may be generated that simulates a solution to the problem using a pseudo-random number generator.   It must be the case that the quantities that characterize the problem may be represented by a continuous distribution in the range [0,1] in order that randomly generated numbers may be translated into physical properties.  
+	 As the available computing power increased over the following decades, Monte Carlo methods became more and more useful as a means of solving complex problems and are now used widely across numerous fields including mathematics, statistics, engineering, finance, the physical sciences and many others.  The nature of the approach means that they are particularly well-suited to problems with multiple degrees of freedom, and especially when any of these degrees are coupled.  By using random numbers to represent quantities that parametrise a physical problem, a model may be generated that simulates a solution to the problem using a pseudo-random number generator.   It must be the case that the quantities that characterize the problem may be represented by a continuous distribution in the range [0,1] in order that randomly generated numbers may be translated into physical properties.  
 	 
 	 For each randomly-generated input, the model of interest is applied and an output - a 'possible outcome' - is obtained.  By iterating this process many times with randomly-generated inputs each time, many possible outcomes are generated and a probability distribution may be built up.  The interpretation of the outputted probability distribution is dependent on the manner of utilisation of the Monte Carlo method.  For example, the iterative procedure may be used to determine best-fitting parameters of a model or may be used to find the mean-free path of a photon.  In the former case, the multi-dimensional probability distribution may be analysed to determine the most representative model or models whereas in the latter case the probability distribution is equivalent to an energy distribution.
 	 
@@ -197,33 +197,79 @@ One of the lines in supernovae emission spectra that is frequently seen to be bl
 
 \subsection{Comparing the Model with Observations}
 	
-\section{The Structure of DAMOCLES}
+\section{The Structure of Damocles}
 \label{damocles_struct}
-	\subsection{Fortran 90 and OpenMP Parallelisation}
-	\subsection{Modular Architecture} %%%%%NEED TO RENAME THESE MODULES!!!
-	\clearpage
+	
 	\begin{centering}
-	\fbox{\includegraphics[scale=0.8, trim=200mm 0mm 0mm 0mm]{chapters/chapter2/code_flowchart.png}}
-	\end{centering}
-	\clearpage
+	\begin{figure}
+	\includegraphics[scale=0.8, trim=160mm 5mm 8mm 5mm]{chapters/chapter2/code_flow.png}
+	\caption{A flowchart representing the sequence of processes that take place in the Damocles code.  The modules involved at each stage are given in parentheses.}
+	\label{fig:flowchart}
+	\end{figure}
+	\end{centering}	
+	
+	
+	%TALK ABOUT WHY YOU USED FORTRAN 90
+	\subsection{Computational Architecture and Processes}
 
-		\subsubsection{Common}
-		\subsubsection{Input}
-		\subsubsection{Electron Scattering}
-		\subsubsection{Random Routines}
-		\subsubsection{Functions}
-		\subsubsection{Sizes}
-		\subsubsection{Global}
-		\subsubsection{Photon}
-		\subsubsection{Iterate}
-		\subsubsection{Construct Grid}
-		\subsubsection{Linear Interpolation}
-		\subsubsection{Code}
-		\subsubsection{Damocles}
+
+
+	
+	Damocles was written using a modular structure.  The "parent" driver has numerous "children" in the form of subroutines and modules which are each responsible for a separate task or tasks.  This architecture has a number of advantages.  Firstly, it serves to clarify both the functionality and legibility of the code allowing for easier debugging and maintenance.  It also allows for the implementation of features such as recursive subroutines which are ideally suited to a Monte Carlo methodology.  Finally, it allows for the code to be developed further in the future simply by including additional modules and subroutines.  A brief description of every module and subroutine in the code is presented in the following subsections.  The descriptions are ordered according to the first time they or their contents are called by the driver (see figure \ref{fig:flowchart_mods} for a flowchart of the modular hierarchy).
+	
+
+		\subsubsection{The driver}
+		The \textit{driver} module is at the centre of Damocles.  It is from here that all subroutines are called.  The calls to construct the grid and calculate dust opacities, to emit and propagate packets and to compare the results with observational data are all made from here.  The parallelisation process is also controlled from here (see section \ref{scn:open_mp} for more details on the parallel function of Damocles).  Having called the initialisation routines, the driver is reponsible for dividing the ejecta into shells and calculating how many packets are emitted within each shell.  Each shell is looped over and each packet is looped over within each shell. Emission and propagation routines are called inside this loop.  At the end of each packet's lifetime, either once it has been absorbed or has escaped, the driver adds the weighted packet's energy to the appropriate frequency bin and stores this information before looping back to emit and propagate the next packet.  It is here that a line of sight is applied if so desired.  This is achieved by collecting only packets that have escaped within a cone of angle $\pi/6$.  Once all packets have been processed, the driver writes the relevant information to the output file and calls the model comparison module.  
+	
+		The driver is also the section of code responsible for processing doublets.  The code treats doublets by processing two batches of packets with differing initial frequency through the same grid.  Before they are collected in frequency bins, the flux ratio that is specified by the user is applied to one batch of the packets.  All packets are then collected as per a single line. 
 		
+		Various statistics are also processed and output here including the fraction of packets that are absorbed and the estimated undepleted luminosity of the observed line. 
+		
+			\begin{centering}
+	\begin{figure}
+	\includegraphics[scale=0.8, trim=110mm 0mm 0mm 5mm]{chapters/chapter2/code_modules_flowchart.png}
+	\caption{A flowchart representing the hierarchy of modules and subroutines in the Damocles code.  Ellipses represent modules and rectangles represent subroutines (the red rectangle is a recursive subroutine).  Green arrows indicate the dependence on module or subroutine on previous modules or subroutines.  Purple arrows indicate the flow of the code.}
+	\label{fig:flowchart_mods}
+	\end{figure}
+	\end{centering}
+		
+		\subsubsection{The input module}
+		The \textit{input} module is where the primary input file is read into the code and all global variables are declared and assigned.  A number of logicals are assigned based on values declared in the input file and some simple calculations are performed that determine the inner and outer radii based on the maximum velocity specified and the epoch of consideration.  A number of physical constants that are used throughout the code are also declared here as 'parameters', meaning that their value cannot be changed at any point in the simulation.
+		
+		\subsubsection{The initialisation module}
+		The \textit{initialise} module acts as a driver to run all of the subroutines associated with initialising the program.  A number of dynamically allocatable arrays are declared allowing for a grid of densities to be calculated, a frequency grid to be stored and optical properties to be read in.  Arrays to store the emergent spectrum are also declared.  The calculation of dust opacities, which calls the \textit{grain\_sizes} subroutine and the \textit{BHmie} subroutine, is performed here.  For each species, the wavelength-dependent optical properties, $n$ and $k$, are read in and the Mie approximation applied to every pair of frequencies and grain sizes.  The resulting extinction and scattering efficiencies are summed over all grain sizes for each wavelength, weighted appropriately, to calculate overall wavelength-dependent extinction and scattering opacities.  These data are stored in an array that is accessed as a packet is processed through the grid.   
+		The command to construct the grid is called before some basic statistics about the grid are calculated.  The average optical depth from $R_{in}$ to $R_{out}$ in both the V band and the rest-frame wavelength of the line being modelled are calculated and sent to stdout.  The average number density of grains in each cells is also computed and output.  Finally, the frequency array that will divide the packets into bins is constructed.
+		This module is also where the \textit{gridcell} derived type is declared.  A \textit{gridcell} type was specified as it allowed for easy and clear access to any of a grid cell's properties as a packet is passing through it.  The type consists of a number of arrays of real, integer and logical variables.  The properties recorded for each cell include the physical bounds of the cell in each axis, the mass and number dust densities,  the electron density, an identifying number  and a logical clumped property. 
+		
+		\subsubsection{The grain size module}
+		The \textit{grain\_sizes} module reads in the file that specifies the list of species to be used.  This file is a list of species detailing for each one the name of the file containing the optical data for the species, the relative abundance of that species, the maximum and minimum grain sizes and the exponent of the power law of the grain size distribution.  It also declares a grain size resolution.  These properties are all read in by the \textit{grain\_sizes} module and a relative weight calculated for each grain size for each species.
+		The \textit{species} is declared in this module.  As for the \textit{gridcell} type, using a derived type allowed for the easy storing and accessing of a large number of properties of each species.  Many multi-dimensional arrays and scalars were stored for the \textit{species} type that included properties relating to the grain size distribution, the density of a dust grain, the extinction and scatting opacities and the relative abundance of the species amongst others.  After processing of the optical data for a given species, all calculated quantites were stored in arrays as a component of the \textit{species} type. 
+		
+		\subsubsection{The Mie approximation subroutine}
+		The \textit{BHmie} subroutine is a standard routine that  was obtained from an online library of routines.  It is a modified version of the Bohren and Huffman (1983) %FIX REFERENCE HERE 
+		Mie scattering routine.  It applies a complex algorithm to approximate the extinction and scattering efficiencies of a single size grain at a specified wavelength given its complex refractive index $n+ik$.
+		\subsubsection{The grid construction subroutine}
+		The \textit{construct\_grid} subroutine is called from within the initialisation module.  The purpose of this subroutine is to populate the grid, which is an array of derived type \texit{gridcell} and size $n_{cells}$ where $n_{cells}$ is the number of cells in the grid.   The bounds of the grid are initialised and the radii of all cells from the centre of the grid tot he centre of the cell calculated.  The density of each cell is then calculated according to the smooth distribution and scaled so that the total dust mass is equal to that specified in the input file.  If clumps are used then the total number of clumps is calculated and these are distributed throughout the grid stochastically according to the smooth density profile stipulated.
+		This subroutine also calls the electron scattering subroutine contained within the \textit{electron_scattering} module so that the electron density of a cell may be stored at the same point as the dust density.
+		\subsubsection{The electron scattering module}
+		The \textit{electron\_scattering} subroutine 
+		\subsubsection{The random seed subroutine}
+		\textit{init\_rand\_seed} SR 
+		\subsubsection{The packet initialisation module}
+		\textit{init\_packet}
+		\subsubsection{The vector functions module}
+		\textit{vector\_functions}
+		\subsubsection{The propagate subroutine}
+		\textit{propagate} RSR
+		\subsubsection{The random routine module}
+		\textit{random\_routine}
+		\subsubsection{The model comparison module}
+		\textit{model\_comparison}
+	\subsection{OpenMP Parallelisation}	
+	\label{scn:open_mp}
 	\subsection{Input}
 	\subsection{Output}
-	\subsection{Post-Processing and Visualisation}
+\section{Post-Processing and Visualisation}
 \section{Limitations and Further Developments}
 \label{limitations}
 

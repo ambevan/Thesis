@@ -1,15 +1,23 @@
 import numpy as np
 from datetime import datetime as dt
 import matplotlib.pyplot as mp
+import matplotlib.dates as mdates
 
-dates=np.genfromtxt('thesis_word_dates.dat',dtype=None,unpack=True)
-words=np.genfromtxt('thesis_word_tracker.dat',dtype=None,unpack=True)
+dates=np.genfromtxt('/Users/antoniabevan/Documents/work/yr3/thesis/thesis_word_dates.dat',dtype=None,unpack=True)
+words=np.genfromtxt('/Users/antoniabevan/Documents/work/yr3/thesis/thesis_word_tracker.dat',dtype=None,unpack=True)
 x=[]
 
 for i in range (0,np.size(dates)):
-    a=dt.strptime(dates[i],'%y.%m.%d')
+    a=dt.strptime(dates[i],'%d.%m.%y')
     x.append(a)
 
 y=words
+
+myFmt=mdates.DateFormatter('%d/%B')
+
+f,ax=mp.subplots(1)
+f.autofmt_xdate()
 mp.plot(x,y)
+ax.xaxis.set_major_formatter(myFmt)
 mp.savefig('words.eps',format='eps')
+mp.show()
