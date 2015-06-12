@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  11 JUN 2015 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  12 JUN 2015 19:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,8 +467,11 @@ Package srcltx Info: Expanded filename `defs' to `defs.tex' on input line 203.
 :<-
 (./thesis.aux (./front/declaration.aux) (./front/abstract.aux)
 (./front/acknowledgements.aux) (./front/frontquote.aux) (./front/acronyms.aux)
-(./chapters/chapter1/chapter1.aux) (./chapters/chapter2/chapter2.aux)
-(./chapters/chapter3/chapter3.aux) (./chapters/chapter4/chapter4.aux)
+(./chapters/chapter1/chapter1.aux) (./chapters/chapter2/chapter2.aux
+
+LaTeX Warning: Label `fig:flowchart_mods' multiply defined.
+
+) (./chapters/chapter3/chapter3.aux) (./chapters/chapter4/chapter4.aux)
 (./chapters/chapter5/chapter5.aux) (./chapters/chapter6/chapter6.aux)
 (./back/appendices/appendA.aux) (./back/appendices/appendB.aux)
 (./back/appendices/appendC.aux) (./back/backquote.aux))
@@ -722,7 +725,20 @@ Overfull \hbox (2.163pt too wide) in paragraph at lines 261--262
 
 LaTeX Warning: Float too large for page by 13.24916pt on input line 264.
 
-[34] [35 <./chapters/chapter2/code_modules_flowchart.png>] [36] [37]) [38
+[34] [35 <./chapters/chapter2/code_modules_flowchart.png>] [36] [37] [38]
+<chapters/chapter2/propagate_module.png, id=148, 692.5875pt x 810.02625pt>
+File: chapters/chapter2/propagate_module.png Graphic file (type png)
+
+<use chapters/chapter2/propagate_module.png>
+Package pdftex.def Info: chapters/chapter2/propagate_module.png used on input l
+ine 310.
+(pdftex.def)             Requested size: 452.9411pt x 557.05612pt.
+
+Overfull \hbox (32.94974pt too wide) in paragraph at lines 310--311
+[][] 
+ []
+
+[39] [40 <./chapters/chapter2/propagate_module.png>] [41]) [42
 
 ]
 :<-
@@ -731,65 +747,35 @@ LaTeX Warning: Float too large for page by 13.24916pt on input line 264.
 
 (./chapters/chapter3/chapter3.tex
 Chapter 3.
-[39
+[43
 
 
 
 
 
-]) [40]
+]) [44]
 :<-
 :<+ chapters/chapter4/chapter4.tex
 \openout2 = `chapters/chapter4/chapter4.aux'.
 
 (./chapters/chapter4/chapter4.tex
 Chapter 4.
-) [41
+) [45
 
 
 
 
 
-] [42]
+] [46]
 :<-
 :<+ chapters/chapter5/chapter5.tex
 \openout2 = `chapters/chapter5/chapter5.aux'.
 
 (./chapters/chapter5/chapter5.tex
 Chapter 5.
-) [43
-
-
-
-
-
-]
-:<-
-[44
-
-
-]
-:<+ chapters/chapter6/chapter6.tex
-\openout2 = `chapters/chapter6/chapter6.aux'.
-
-(./chapters/chapter6/chapter6.tex
-Chapter 6.
-) [45
-
-
-
-]
-:<-
-[46
-
-
-]
-:<+ back/appendices/appendA.tex
-\openout2 = `back/appendices/appendA.aux'.
-
-(./back/appendices/appendA.tex
-Appendix A.
 ) [47
+
+
 
 
 
@@ -799,11 +785,11 @@ Appendix A.
 
 
 ]
-:<+ back/appendices/appendB.tex
-\openout2 = `back/appendices/appendB.aux'.
+:<+ chapters/chapter6/chapter6.tex
+\openout2 = `chapters/chapter6/chapter6.aux'.
 
-(./back/appendices/appendB.tex
-Appendix B.
+(./chapters/chapter6/chapter6.tex
+Chapter 6.
 ) [49
 
 
@@ -814,11 +800,11 @@ Appendix B.
 
 
 ]
-:<+ back/appendices/appendC.tex
-\openout2 = `back/appendices/appendC.aux'.
+:<+ back/appendices/appendA.tex
+\openout2 = `back/appendices/appendA.aux'.
 
-(./back/appendices/appendC.tex
-Appendix C.
+(./back/appendices/appendA.tex
+Appendix A.
 ) [51
 
 
@@ -829,6 +815,36 @@ Appendix C.
 
 
 ]
+:<+ back/appendices/appendB.tex
+\openout2 = `back/appendices/appendB.aux'.
+
+(./back/appendices/appendB.tex
+Appendix B.
+) [53
+
+
+
+]
+:<-
+[54
+
+
+]
+:<+ back/appendices/appendC.tex
+\openout2 = `back/appendices/appendC.aux'.
+
+(./back/appendices/appendC.tex
+Appendix C.
+) [55
+
+
+
+]
+:<-
+[56
+
+
+]
 :<+ thesis.bbl
 (./thesis.bbl
 
@@ -836,20 +852,20 @@ Package natbib Warning: Empty `thebibliography' environment on input line 4.
 
 )
 :<-
-[53
+[57
 
-] [54
+] [58
 
 ]
 :<+ back/backquote.tex
 \openout2 = `back/backquote.aux'.
 
-(./back/backquote.tex) [55
+(./back/backquote.tex) [59
 
 
 ]
 :<-
-[56
+[60
 
 
 ]
@@ -866,12 +882,15 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 6272 strings out of 493117
- 87747 string characters out of 6135433
- 173129 words of memory out of 5000000
- 9452 multiletter control sequences out of 15000+600000
+ 6279 strings out of 493117
+ 87964 string characters out of 6135433
+ 174179 words of memory out of 5000000
+ 9458 multiletter control sequences out of 15000+600000
  16374 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1346b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -894,10 +913,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (56 pages, 352422 bytes).
+Output written on thesis.pdf (60 pages, 416078 bytes).
 PDF statistics:
- 269 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+ 283 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

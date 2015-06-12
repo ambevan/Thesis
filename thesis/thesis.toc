@@ -20,50 +20,50 @@
 \contentsline {subsubsection}{The input module}{34}
 \contentsline {subsubsection}{The initialisation module}{34}
 \contentsline {subsubsection}{The grain size module}{36}
-\contentsline {subsubsection}{The Mie approximation module}{36}
-\contentsline {subsubsection}{The grid construction module}{37}
+\contentsline {subsubsection}{The Mie approximation subroutine}{36}
+\contentsline {subsubsection}{The grid construction subroutine}{37}
 \contentsline {subsubsection}{The electron scattering module}{37}
-\contentsline {subsubsection}{The random seed module}{37}
+\contentsline {subsubsection}{The random seed subroutine}{37}
 \contentsline {subsubsection}{The packet initialisation module}{37}
-\contentsline {subsubsection}{The vector functions module}{37}
-\contentsline {subsubsection}{The propagate module}{37}
-\contentsline {subsubsection}{The random routine module}{37}
-\contentsline {subsubsection}{The model comparison module}{37}
-\contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{37}
-\contentsline {subsection}{\numberline {2.3.3}Input}{37}
-\contentsline {subsection}{\numberline {2.3.4}Output}{37}
-\contentsline {section}{\numberline {2.4}Post-Processing and Visualisation}{37}
-\contentsline {section}{\numberline {2.5}Limitations and Further Developments}{37}
-\contentsline {chapter}{\numberline {3}Benchmarking and Sensitivity Analyses}{39}
-\contentsline {section}{\numberline {3.1}Introduction}{40}
-\contentsline {section}{\numberline {3.2}Analytical Results}{40}
-\contentsline {section}{\numberline {3.3}Optically Thin Line Profiles}{40}
-\contentsline {section}{\numberline {3.4}Optically Thick Line Profiles}{40}
-\contentsline {section}{\numberline {3.5}Sensitivity Analyses}{40}
-\contentsline {subsection}{\numberline {3.5.1}Dust Mass}{40}
-\contentsline {subsection}{\numberline {3.5.2}Velocity Profile}{40}
-\contentsline {subsection}{\numberline {3.5.3}Density Profile}{40}
-\contentsline {subsection}{\numberline {3.5.4}Grain Size Distribution}{40}
-\contentsline {subsection}{\numberline {3.5.5}Electron Scattering}{40}
-\contentsline {subsection}{\numberline {3.5.6}Ratio of Inner and Outer Radii}{40}
-\contentsline {subsection}{\numberline {3.5.7}Dust Species}{40}
-\contentsline {section}{\numberline {3.6}Conclusions}{40}
-\contentsline {chapter}{\numberline {4}SN 1987A}{41}
-\contentsline {section}{\numberline {4.1}Introduction}{41}
-\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{42}
-\contentsline {subsection}{\numberline {4.2.1}AAT}{42}
-\contentsline {subsection}{\numberline {4.2.2}CTIO}{42}
-\contentsline {subsection}{\numberline {4.2.3}HST}{42}
-\contentsline {subsection}{\numberline {4.2.4}VLT}{42}
-\contentsline {section}{\numberline {4.3}The Evolution of Optical Line Profiles}{42}
-\contentsline {subsection}{\numberline {4.3.1}H$\alpha $}{42}
-\contentsline {subsection}{\numberline {4.3.2}[OI]$\lambda 6300,6363$ doublet}{42}
-\contentsline {subsection}{\numberline {4.3.3}Other Lines}{42}
-\contentsline {section}{\numberline {4.4}Modelling and Fitting}{42}
-\contentsline {section}{\numberline {4.5}Conclusions}{42}
-\contentsline {chapter}{\numberline {5}SN 2010jl and Other Supernovae}{43}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{45}
-\contentsline {chapter}{\numberline {A}Appendix A}{47}
-\contentsline {chapter}{\numberline {B}Appendix B}{49}
-\contentsline {chapter}{\numberline {C}Appendix C}{51}
-\contentsline {chapter}{Bibliography}{53}
+\contentsline {subsubsection}{The vector functions module}{38}
+\contentsline {subsubsection}{The propagate subroutine}{38}
+\contentsline {subsubsection}{The random routine module}{39}
+\contentsline {subsubsection}{The model comparison module}{39}
+\contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{39}
+\contentsline {subsection}{\numberline {2.3.3}Input}{39}
+\contentsline {subsection}{\numberline {2.3.4}Output}{39}
+\contentsline {section}{\numberline {2.4}Post-Processing and Visualisation}{39}
+\contentsline {section}{\numberline {2.5}Limitations and Further Developments}{39}
+\contentsline {chapter}{\numberline {3}Benchmarking and Sensitivity Analyses}{43}
+\contentsline {section}{\numberline {3.1}Introduction}{44}
+\contentsline {section}{\numberline {3.2}Analytical Results}{44}
+\contentsline {section}{\numberline {3.3}Optically Thin Line Profiles}{44}
+\contentsline {section}{\numberline {3.4}Optically Thick Line Profiles}{44}
+\contentsline {section}{\numberline {3.5}Sensitivity Analyses}{44}
+\contentsline {subsection}{\numberline {3.5.1}Dust Mass}{44}
+\contentsline {subsection}{\numberline {3.5.2}Velocity Profile}{44}
+\contentsline {subsection}{\numberline {3.5.3}Density Profile}{44}
+\contentsline {subsection}{\numberline {3.5.4}Grain Size Distribution}{44}
+\contentsline {subsection}{\numberline {3.5.5}Electron Scattering}{44}
+\contentsline {subsection}{\numberline {3.5.6}Ratio of Inner and Outer Radii}{44}
+\contentsline {subsection}{\numberline {3.5.7}Dust Species}{44}
+\contentsline {section}{\numberline {3.6}Conclusions}{44}
+\contentsline {chapter}{\numberline {4}SN 1987A}{45}
+\contentsline {section}{\numberline {4.1}Introduction}{45}
+\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{46}
+\contentsline {subsection}{\numberline {4.2.1}AAT}{46}
+\contentsline {subsection}{\numberline {4.2.2}CTIO}{46}
+\contentsline {subsection}{\numberline {4.2.3}HST}{46}
+\contentsline {subsection}{\numberline {4.2.4}VLT}{46}
+\contentsline {section}{\numberline {4.3}The Evolution of Optical Line Profiles}{46}
+\contentsline {subsection}{\numberline {4.3.1}H$\alpha $}{46}
+\contentsline {subsection}{\numberline {4.3.2}[OI]$\lambda 6300,6363$ doublet}{46}
+\contentsline {subsection}{\numberline {4.3.3}Other Lines}{46}
+\contentsline {section}{\numberline {4.4}Modelling and Fitting}{46}
+\contentsline {section}{\numberline {4.5}Conclusions}{46}
+\contentsline {chapter}{\numberline {5}SN 2010jl and Other Supernovae}{47}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{49}
+\contentsline {chapter}{\numberline {A}Appendix A}{51}
+\contentsline {chapter}{\numberline {B}Appendix B}{53}
+\contentsline {chapter}{\numberline {C}Appendix C}{55}
+\contentsline {chapter}{Bibliography}{57}
