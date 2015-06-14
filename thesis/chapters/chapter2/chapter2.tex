@@ -282,10 +282,8 @@ One of the lines in supernovae emission spectra that is frequently seen to be bl
 		
 		There are a number of processes that take place in this module in order to propagate a packet through the nebula accurately.  A full pictorial representation of the procedures that are implemented in this module may be found in the flowchart in figure \ref{fig:flowchart_propagate}. For each packet in each cell, the optical depth in that cell is calculated based on the opacity and density at the frequency of the packet.  These are obtained by interpolating between discrete opacities at points in the frequency array.  This is the point at which the Monte Carlo technique is applied in order to determine the distance travelled by the packet.  This displacement is then compared to the distance to the edges of the cell in order to ascertain whether or not the packet escapes the cell.  If it does then the process is repeated until either an event occurs or the packet escapes the nebula.  If an event occurs, a series of random numbers are sampled in order to determine whether or not the packet suffers electron scattering, dust scattering or absorption.  If the packet is absorbed then it is removed from the simulation.  If it is scattered then the velocity vector is calculated.  In the case of electron scattering this involves considering the thermal velocity component as well as the bulk velocity at that radius.  The Lorentz transforms are applied updating the frequency of the packet and a new direction of propagation sampled, and the routine is recalled to start afresh. 
 	
-
-		
 		\subsubsection{The random routine module}
-		\textit{random\_routine}
+		The \textit{random\_routine} module contains a single subroutine which is, like the \textit{BHmie} routine, a standard obtained from an online library.  It allows for a random velocity vector to be sampled from a normal distribution with specified mean and standard deviation.  The standard deviation is calculated 
 		
 		\subsubsection{The model comparison module}
 		\textit{model\_comparison}
