@@ -189,6 +189,11 @@ For each scattering event, the packet must be transformed both into and out of t
 	As will be discussed in detail in chapter three, the effects of scattering on the shapes of line profiles can potentially be quite pronounced and it is therefore important to consider the potential effects of electron scattering as well as those of dust scattering.  A simple treatment of electron scattering calculates electron densities using an estimated average temperature of either 5000K, 10,000K or 20,000K.  An observed luminosity of $H_{\alpha}$ is then used to calculate the optical depth to electrons.  Electron scattering is treated in an identical manner to dust scattering with the overall optical depth $\tau = \tau_{dust}+\tau_{e}$ in each cell.  If, for a given packet, an event ocurrs, it is first calculated whether this is a dust event or an electron scattering event by considering the ratio of the optical depths of each species to the total optical depth.  If the packet is scattered by an electron then this process is identical to dust, but the velocity of the scatterer now has a thermal component that must be considered.  
 	
 	%ES CALCN HERE.
+	
+			\begin{equation}
+		\label{eqn:sigma_maxwell}
+		\sigma_T=\sqrt{\frac{3kT}{m_e}}
+		\end{equation}
 In the majority of cases it seems that the electron densities are not high enough to discernibly effect the overall shape of the profile.  However, there may be a few rare cases (the concept is discussed for SN 2010jl \citep{Fransson2013}) where the electron densities are high enough to become significant in the observed profiles.  Whilst the inclusion of electron scattering in the code is an approximation, it gives a good suggestion of the potential effects of electron scattering.	
 	
 	\subsection{Doublets}
@@ -282,15 +287,33 @@ One of the lines in supernovae emission spectra that is frequently seen to be bl
 		
 		There are a number of processes that take place in this module in order to propagate a packet through the nebula accurately.  A full pictorial representation of the procedures that are implemented in this module may be found in the flowchart in figure \ref{fig:flowchart_propagate}. For each packet in each cell, the optical depth in that cell is calculated based on the opacity and density at the frequency of the packet.  These are obtained by interpolating between discrete opacities at points in the frequency array.  This is the point at which the Monte Carlo technique is applied in order to determine the distance travelled by the packet.  This displacement is then compared to the distance to the edges of the cell in order to ascertain whether or not the packet escapes the cell.  If it does then the process is repeated until either an event occurs or the packet escapes the nebula.  If an event occurs, a series of random numbers are sampled in order to determine whether or not the packet suffers electron scattering, dust scattering or absorption.  If the packet is absorbed then it is removed from the simulation.  If it is scattered then the velocity vector is calculated.  In the case of electron scattering this involves considering the thermal velocity component as well as the bulk velocity at that radius.  The Lorentz transforms are applied updating the frequency of the packet and a new direction of propagation sampled, and the routine is recalled to start afresh. 
 	
-		\subsubsection{The random routine module}
-		The \textit{random\_routine} module contains a single subroutine which is, like the \textit{BHmie} routine, a standard obtained from an online library.  It allows for a random velocity vector to be sampled from a normal distribution with specified mean and standard deviation.  The standard deviation is calculated 
+		\subsubsection{The random routines module}
+		The \textit{random\_routines} module contains a single subroutine which is, like the \textit{BHmie} routine, a standard routine obtained from an online library.  It allows for a random velocity vector to be sampled from a normal distribution with specified mean and standard deviation.  The standard deviation is calculated as per equation \ref{eqn:sigma_maxwell} and passed to the subroutine which samples a random 3-dimensional vector from the normal distribution with the specified standard distribution and zero mean.  This is passed back to the propagate routine where it is added to the bulk velocity in order to determine the overall velocity of the scattering electron.
 		
 		\subsubsection{The model comparison module}
-		\textit{model\_comparison}
+		The \textit{model\_comparison} module is reponsible for post-processing the outputted line profile and comparing the model results with inputted observed data.  The routine interpolates between two model frequency points to obtain a flux value at each frequency point of the observed line profile.  Both profiles are then normalised such that the total flux is unity.  A marginal $\chi^2$ calculation is then performed as 
+		
+		\begin{equation}
+			\chi^2=\sum_i \frac{(f_{obs,i}-s f_{mod,i})^2}{\epsilon_i^2}
+		\end{equation}		
+		
+		\noindent where $f_{obs,i}$ is the observed flux in the $i$\textsuperscript{th} frequency bin, $f_{mod,i}$ is the modelled flux in the $i$\textsuperscript{th} frequency bin, $\epsilon_i$ is the normalised error on the $i$\textsuperscript{th} frequency bin and 
+		
+		\begin{equation}
+s=\frac{\sum_i f_{obs,i} f_{mod,i}}{\sum_i f_{mod,i}^2}
+		\end{equation}		
+	
+	A marginalised $\chi^2$ test is favoured over a traditional $\chi^2$ test since it is only the signature shape of the profile that is of interest and not the absolute flux values themselves.  The marginal $\chi^2$ calculation %!!!WHAT HAPPENS HERE???? WHY MARGINALISED????? SHOULD I CHANGE IT??????!!!!!!!!!!
 	
 	\subsection{OpenMP Parallelisation}	
 	\label{scn:open_mp}
 	
+	Monte Carlo simulations are exceptionally well-suited to parallelisation.  The path of each packet through the nebula is unaffected by the transport of any other packet.  It is therefore possible to run multiple instances of the \textit{propagate} module at once by using several cores.  Since the vast majority of the processing power of the simulation is driven from this module, it is theoretically possible to achieve a nearly linear speed-up; i.e. if the number of cores is doubled, the run time should be approximately halved.  %check for threads, cores or processors? 
+	
+	Damocles was parallelised using OpenMP.  OpenMP is an Application Program Interface (API) that allows for shared-memory parallel programming in Fortran and C/C++.  OpenMP causes the code to be run serially on a single processor until a parallel region is reached.  At this point the single master thread branches into multiple threads, and multiple instances of the same section of code are run on each.  In Damocles, this splitting occurs at the start of the loop which controls the emission and propagation of packets from each shell.  If, for example, $10^7$ packets are emitted and 5 threads are used, then approximately $2 \times 10^6$ packets will be independently processed on each thread.  Practically however, the OpenMP keyword \textit{dynamic} is declared ensuring that, as soon as each thread has finished processing a packet, it immediately moves onto the next one.  If the \textit{static} keyword were specified instead then the number of packets to be processed would be equally divided between the threads at the start of the loop.  In this case, if, by random chance, one thread happened to have significantly more absorbed packets than another, then potentially utilisable processing power would be lost as the core waited for the others to finish.
+	
+	At the start of the parallel region variables accessed within the shared region are specified as shared or private.  Private variables are not seen by other threads and allow the value of a single named variable, for example 'frequency', to have different values on different threads.  Shared variables have the same value regardless of the thread number, for example, 'grid cell density'.  As each packet esacpes, its weighted energy must be added to the final energy array.  It is important that two threads do not attempt to alter the value of this shared array at the same time as data may be lost or corrupted and this section of code is therefore enclosed inside a \textit{critical} region.  This instruction specifies that code is this block is to be executed by only one thread at a time.
+		
 	\subsection{Input}
 	
 	

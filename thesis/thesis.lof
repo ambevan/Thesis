@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces A flowchart representing the sequence of processes that take place in the Damocles code. The modules involved at each stage are given in parentheses.\relax }}{33}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces A flowchart representing the hierarchy of modules and subroutines in the Damocles code. Ellipses represent modules and rectangles represent subroutines (the red rectangle is a recursive subroutine). Green arrows indicate the dependence on module or subroutine on previous modules or subroutines. Purple arrows indicate the flow of the code.\relax }}{35}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces A flowchart representing the hierarchy of modules and subroutines in the Damocles code. Ellipses represent modules and rectangles represent subroutines (the red rectangle is a recursive subroutine). Green arrows indicate the dependence on module or subroutine on previous modules or subroutines. Purple arrows indicate the flow of the code.\relax }}{40}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A flowchart representing the \relax }}{40}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
