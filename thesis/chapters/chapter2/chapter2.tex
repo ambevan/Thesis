@@ -186,8 +186,10 @@ For each scattering event, the packet must be transformed both into and out of t
 	
 
 	\subsection{Electron Scattering}
+	\label{scn:ES}
 	As will be discussed in detail in chapter three, the effects of scattering on the shapes of line profiles can potentially be quite pronounced and it is therefore important to consider the potential effects of electron scattering as well as those of dust scattering.  A simple treatment of electron scattering calculates electron densities using an estimated average temperature of either 5000K, 10,000K or 20,000K.  An observed luminosity of $H_{\alpha}$ is then used to calculate the optical depth to electrons.  Electron scattering is treated in an identical manner to dust scattering with the overall optical depth $\tau = \tau_{dust}+\tau_{e}$ in each cell.  If, for a given packet, an event ocurrs, it is first calculated whether this is a dust event or an electron scattering event by considering the ratio of the optical depths of each species to the total optical depth.  If the packet is scattered by an electron then this process is identical to dust, but the velocity of the scatterer now has a thermal component that must be considered.  
 	
+	%electron scattering as compton and inverse compton effect...
 	%ES CALCN HERE.
 	
 			\begin{equation}
@@ -224,7 +226,7 @@ One of the lines in supernovae emission spectra that is frequently seen to be bl
 	
 
 		\subsubsection{The driver}
-		The \textit{driver} module is at the centre of Damocles.  It is from here that all subroutines are called.  The calls to construct the grid and calculate dust opacities, to emit and propagate packets and to compare the results with observational data are all made from here.  The parallelisation process is also controlled from here (see section \ref{scn:open_mp} for more details on the parallel function of Damocles).  Having called the initialisation routines, the driver is reponsible for dividing the ejecta into shells and calculating how many packets are emitted within each shell.  Each shell is looped over and each packet is looped over within each shell. Emission and propagation routines are called inside this loop.  At the end of each packet's lifetime, either once it has been absorbed or has escaped, the driver adds the weighted packet's energy to the appropriate frequency bin and stores this information before looping back to emit and propagate the next packet.  It is here that a line of sight is applied if so desired.  This is achieved by collecting only packets that have escaped within a cone of angle $\pi/6$.  Once all packets have been processed, the driver writes the relevant information to the output file and calls the model comparison module.  
+		The \textit{driver} module is at the centre of Damocles.  It is from here that all subroutines are called.  The calls to construct the grid and calculate dust opacities, to emit and propagate packets and to compare the results with observational data are all made from here.  The parallelisation process is also controlled from here (see section \ref{scn:open_mp} for more details on the parallel function of Damocles).  Having called the initialisation routines, the driver is reponsible for dividing the ejecta into shells and calculating how many packets are emitted within each shell.  Each shell is looped over and each packet is looped over within each shell. Emission and propagation routines are called inside this loop.  At the end of each packet's lifetime, either once it has been absorbed or has escaped, the driver adds the weighted packet's energy to the appropriate frequency bin and stores this information before looping back to emit and propagate the next packet.  It is here that a line of sight is applied if so desired.  This is achieved by collecting only packets that have escaped within a cone of vertical angle $\pi/6$.  Once all packets have been processed, the driver writes the relevant information to the output file and calls the model comparison module.  
 	
 		The driver is also the section of code responsible for processing doublets.  The code treats doublets by processing two batches of packets with differing initial frequency through the same grid.  Before they are collected in frequency bins, the flux ratio that is specified by the user is applied to one batch of the packets.  All packets are then collected as per a single line. 
 		
@@ -312,10 +314,13 @@ s=\frac{\sum_i f_{obs,i} f_{mod,i}}{\sum_i f_{mod,i}^2}
 	
 	Damocles was parallelised using OpenMP.  OpenMP is an Application Program Interface (API) that allows for shared-memory parallel programming in Fortran and C/C++.  OpenMP causes the code to be run serially on a single processor until a parallel region is reached.  At this point the single master thread branches into multiple threads, and multiple instances of the same section of code are run on each.  In Damocles, this splitting occurs at the start of the loop which controls the emission and propagation of packets from each shell.  If, for example, $10^7$ packets are emitted and 5 threads are used, then approximately $2 \times 10^6$ packets will be independently processed on each thread.  Practically however, the OpenMP keyword \textit{dynamic} is declared ensuring that, as soon as each thread has finished processing a packet, it immediately moves onto the next one.  If the \textit{static} keyword were specified instead then the number of packets to be processed would be equally divided between the threads at the start of the loop.  In this case, if, by random chance, one thread happened to have significantly more absorbed packets than another, then potentially utilisable processing power would be lost as the core waited for the others to finish.
 	
-	At the start of the parallel region variables accessed within the shared region are specified as shared or private.  Private variables are not seen by other threads and allow the value of a single named variable, for example 'frequency', to have different values on different threads.  Shared variables have the same value regardless of the thread number, for example, 'grid cell density'.  As each packet esacpes, its weighted energy must be added to the final energy array.  It is important that two threads do not attempt to alter the value of this shared array at the same time as data may be lost or corrupted and this section of code is therefore enclosed inside a \textit{critical} region.  This instruction specifies that code is this block is to be executed by only one thread at a time.
+	At the start of the parallel region variables accessed within the shared region are specified as shared or private.  Private variables are not seen by other threads and allow the value of a single named variable, for example 'frequency', to have different values on different threads.  Shared variables have the same value regardless of the thread number, for example, 'grid cell density'.  As each packet esacpes, its weighted energy must be added to the final energy array.  It is important that two threads do not attempt to alter the value of this shared array at the same time as data may be lost or corrupted and this section of code is therefore enclosed inside a \textit{critical} region.  This instruction specifies that code is this block is to be executed by only one thread at a time.  Extensive testing was performed to ensure that outcomes were not affected by the implementation of a parallel environment.
+	
+	For further information about the OpenMP API please refer to \textit{https://www.openmp.org}.
 		
 	\subsection{Input}
 	
+There are a significant number of parameters that may be varied in the code.  Many of these are important variable parameters that will be the parameters of interest when modelling.  However, there are also a sizeable number of variables that allow other properties of the model to be controlled.  All parameters can, broadly,  be divided into one of three categories:  properties of the emitted rest-frame line or doublet, properties of the dust and gas in the ejecta and properties of the grid and code architecture.  I list all the variables that are input in the primary input file in table \ref{tbl:input} and will here describe the basic meaning and function of each one.
 	
 	\begin{table}[htdp]
 \caption{The input variables read in from the input file and example values}
@@ -332,20 +337,173 @@ lambda2\_0 & 630.0 &&& gas\_shell & 1\\
 L\_ratio & 3.1&&& v\_max\_gas & 8000\\
 ES & 1 &&& Rrat\_gas & 0.05\\
 ES\_temp & 10000 &&& l\_gas & 1.0\\
-ls & 0 &&& q\_gas & 1.5\\
+LS & 0 &&& q\_gas & 1.5\\
 VelShift & 1 &&& b\_gas & 2.0\\
-mf & 0.5 &&& ncells & 50\\
-ff & 0.1 &&& n\_packets & 1e8\\
+MF & 0.5 &&& ncells & 50\\
+FF & 0.1 &&& n\_packets & 1e8\\
 dayno & 680 &&& n\_bins & 1000\\
 v\_max & 5000 &&& n\_shells & 100\\
 Rrat & 0.2 &&& dustfile & 'species\_file.in'\\
 \hline
 \end{tabular}
 \end{center}
-\label{default}
+\label{tbl:input}
 \end{table}%
-	
-	\subsection{Output}
+
+\subsubsubsection{Properties of the emitted rest-frame line or doublet}
+\subsubsubsection{lambda1\_0 }  
+
+ This is a real number that specifies the initial rest-frame monochromatic wavelength at which packets are emitted in nanometres.  If a doublet is to be modelled then this represents the wavelength of one of the singlets.
+
+\subsubsubsection{L\_tot }
+
+ L\_tot is the total luminosity of the line in units of $10^{40}$ ergs s$^{-1}$.  The initial energy of each packet ($E_0$) is therefore L\_tot divided by the total number of packets used in the simulation. For lines which have accurate observed fluxes, this allows for the flux of the line to be modelled in addition to the shape.  This variable is also used to estimate the undepleted luminosity of the observed line when it is initially emitted from the ejecta.
+
+\subsubsubsection{L\_Halpha}
+
+ Similar to L\_tot, L\_Halpha is the total luminosity of the H${\alpha}$ line.  In the case of H${\alpha}$ modelling, this value should be the same at the value of L\_tot.  This variable is used in the calculation of the electron density and it is not necessary to specify it unless the electron scattering environment is switched on (see section \ref{scn:ES} for further details).  
+
+\subsubsubsection{doublet}
+
+ This is an integer of value 1 or 0 that indicates the use or otherwise of the doublet environment.  If set to 1 it triggers the doublet logical in the code to be initialised to \textit{true}.  The code well then read in the values of {lambda2\_0} and {L\_ratio} in order to initialise packets with two different starting monochromatic wavelengths.  Packets are processed through the nebula as normal before being collated in bins weighted according to both their history and the weight of their parent singlet.
+
+\subsubsubsection{lambda2\_0}
+
+ This is a real number that specifies the initial rest-frame monochromatic wavelength of packets emitted from the second singlet in a doublet environment.  The wavelength is specified in nanometres.
+
+\subsubsubsection{L\_ratio}
+
+ This real number gives the ratio between the respective luminosities of singlets in a doublet environment.  The ratio should be declared as the flux at lambda1\_0 divided by the flux at lambda2\_0.  It is expected that the doublet environment will generally be used to model forbidden lines, especially the [OI]$\lambda$6300,6363\AA\ doublet, where the ratio between the singlets may be theoretically determined.
+
+%---
+\subsubsubsection{properties of the dust and gas in the ejecta}
+\subsubsubsection{ES}
+
+ This keyword is similar to the doublet keyword in that, by setting it equal to 1 or 0, it indicates the use or otherwise of the electron scattering environment.  If it is set to 1 then it initialises the electron scattering logical in the code to \textit{true}.  If the electron scattering environment is switched on then this triggers the calculation of approximate electron densities for every cell in the grid.  This density contributes to the total optical depth of a cell and, as packets are propagated through each cell, they will experience an electron scattering event with probabaility $1-e^{\tau_e}$, where $\tau_e$ is the electron scattering optical depth.
+
+\subsubsubsection{ES\_temp}
+
+ When the electron scattering environment is switched on, it is necessary to calculate the electron density of each cell in the grid.  In order to do this an average gas temperature must be specified to allow for Q-values to be calculated.  Damocles will not accept any value for this input variable; only 5000K, 10000K and 20000K will be accepted.  These are thought to be a representative range of temperatures for the ejecta of supernovae at epochs where electron scattering still has potential to influence the profiles.  These values were selected as they are the values for which Q-values are given in Osterbrock.  %SORT OUT THIS CITATION \cite{}
+
+
+\subsubsubsection{MF}
+
+ If this keyword (short for mass fraction) is set to 0 then a smooth density distribution of both gas and dust will be constructed.   If it is not however, then this will automatically initialise the clumping logical present in the code to \textit{true}.  The value specified should be between 0 and 1 and gives the total fraction of the dust mass that should be located in clumps.  The remaining fraction will be smoothly distributed according to the profiles described in the input file.
+
+\subsubsubsection{FF}
+
+ If the clumping environment is switched on (using the \textbf{MF} keyword) then \textbf{FF} declares the total filling factor of the clumps.  The filling factor is defined as the fraction of the total volume of the ejecta that is occupied by clumps.  For a fixed clump size, this parameter effectively determines the number of clumps to be used.  Once the number of clumps to be used has been determined, the mass fraction then determines the density of the clumps.
+ 
+\subsubsubsection{dayno}
+
+  This keyword represents the epoch being modelled.  In combination with the declared maximum velocity, it is used to consistently calculate an outer radius as 
+
+\begin{equation}
+R_{out}=8.64 \times 10^{-6} \Big( \frac{t}{\mathrm{days}} \Big) \Big( \frac{v_{max}}{\mathrm{kms^{-1}}} \Big)
+\label{eqn:Rout_calcn}
+\end{equation}
+
+\noindent where $R_{out}$ is in units of $10^{15}$cm.
+
+\subsubsubsection{v\_max}
+
+This is the maximum velocity used in the code.  It is assumed to be the velocity at the outer radius of the ejecta and is used to construct a velocity profile of the form
+
+\begin{equation}
+	v = v_{max} \Big( \frac{r}{R_{out}} \Big)^l
+	\label{eqn:vel_law}
+\end{equation}
+
+where $l$ is also declared in the input file and $R_{out}$ is calculated based on the epoch and the maximum velocity.
+
+\subsubsubsection{Rrat}
+
+This number is the ratio between the inner and outer radii.  Once the outer radius has been calculated as per equation \ref{eqn:Rout_calcn}, this ratio is used to calculate the value of the inner radius.
+
+\subsubsubsection{MD\_tot }
+
+This real number specifies the total dust mass to be distributed throughout the grid in solar masses ($M_{\odot}$).
+
+\subsubsubsection{l}
+
+l is the exponent of the radial velocity law in the code as per equation \ref{eqn:vel_law}.
+
+\subsubsubsection{q}
+
+q describes the relationship between the radial dust density distribution and the emissivity distribution.  It is the exponent of the emissivity distribution as a function of density such that $\i(\rho) \propto \rho^q$ where $i(\rho)$ is the emissivity at a given density.  Though this parameter may take any real value, it is frequently fixed to be 2 since the is the relationship between density and emissivity for a recombination line or a forbidden line below %%%CHECK ABOVE????
+the critical density.
+
+\subsubsubsection{b}
+
+This parameter describes the value of the exponent of the dust density distribution in terms of radius such that $\rho \propto r^{-b}$.
+
+\subsubsubsection{gas\_shell}
+
+This flag may be set to 0 or 1 to indicate that dust and gas are coupled or decoupled respectively.  If it is set to 1 then the 'decoupled' logical in the code is set to \textit{true} then the gas follows a distribution that is independent of the distribution followed by the dust.  The following five parameters specify the geometry of the emitting gas.  It is worth noting that in the case where gas and dust are coupled to each other, the gas follows the same distributions as specified for dust by the parameters described above. 
+
+\subsubsubsection{v\_max\_gas}
+
+This is the gas analogue of the v\_max parameter described above.  
+
+\subsubsubsection{Rrat\_gas}
+
+This is the gas analogue of the Rrat parameter described above.  
+
+\subsubsubsection{l\_gas}
+
+This is the gas analogue of the parameter l described above.  
+
+\subsubsubsection{q\_gas}
+
+This is the gas analogue of the parameter q described above.  
+
+\subsubsubsection{b\_gas}
+
+This is the gas analogue of the parameter b described above.  
+
+
+\subsubsubsection{Properties of the grid and code architecture}
+\subsubsubsection{LS}
+
+ Whilst the initial distribution of gas and dust is symmetrical, it is not necessary to consider a single line of sight as all lines of sight will produce the same profile and it is therefore more efficient to collect all packets that escape regardless of their direction of flight.  However, if alternative, axisymmetrical or non-symmetrical geometries are to be used it is important to be able to specify a line of sight.  If this keyword is set to 1 then the 'line of sight logical' will be initialised as \textit{true}.  Only packets that escape within a cone of vertical angle $\pi/6$ will be collected.  Clearly, in practice, the angle would be very much smaller but it is prohibitively expensive to run enough packets through the simulation that enough are collected to achieve a reasonable resolution when a very small vertical angle is adopted.  A representation of this construction is presented in figure \ref{fig:LOS}.
+
+\begin{centering}
+\begin{figure}
+\includegraphics[scale=0.55, trim=-25mm 10mm 29mm 0mm]{chapters/chapter2/LoS_diagram.png}
+\caption{Schematic representing which packets are collected when the line of sight environment is switched on.  Packets that contribute to the emergent line profile are those that escape the nebula within a cone with vertical angle $pi/6$.}
+\end{figure}
+\end{centering}
+
+\subsubsubsection{VelShift}
+
+  This is another environment flag.  As a packet is transported through the nebula it may experience repeated scattering events that shifts its original frequency beyond that expected from the maximum theoretical velocity.  It is discuses in depth in chapter three how this process of 'velocity shifting' may result in a profile that exhibits an extended red wing.  It is useful for the purposes of comparison and investigation to be able to turn off this process of repeated scattering events so that the only frequency shift experienced by a packet is at emission.
+
+
+
+\subsubsubsection{ncells}
+
+The edges of the grid in each direction are given by $\pm R_{out}$ and the number of cells in each axis to divide the grid into by ncells.  The total number of cells in the grid is therefore ncells$^3$.
+
+
+\subsubsubsection{n\_packets}
+
+This variable determines the number of packets to be emitted and processed through the grid.  This parameter is particularly important for achieving a resolution that is high enough to give representative results.  The larger the number of packets used, the less noise is present in the final profile.  The Monte Carlo process introduces noise that can sometimes be construed as a result when it is in fact an artefact.  Using a large number of packets reduces this risk and improves the output of the model.  In general, the more dense an environment, the more packets it is necessary to use.  This is because any packets which are absorbed are removed from the simulation and therefore reduce the desired resolution.  Since the vast majority of the total processing power is used to propagate packets through the grid, an increase in the number of packets results in a significant decrease in runtime. Low albedo, optically thick simulations have a significantly longer runtime than optically think scenarios.  When choosing this parameter, a careful balance must be found between the total runtime and the desired resolution. 
+
+
+\subsubsubsection{n\_bins}
+
+This value gives the total number of divisions in the frequency array and thus determines the overall frequency resolution.  Since the resulting profile is in fact a histogram binned into a frequency array, it is important that these divisions are fine enough to provide a seemingly continuous line profile.  Apparent jumps or discontinuities could be produced if too few bins are used.
+
+\subsubsubsection{n\_shells}
+
+This parameter controls the total number of shells the ejecta is divided into.  If a particularly steep radial profile is adopted for either the velocity profile or the density profile then the user may wish to increase the number of shells used to compensate.  Increase the number of shells and the total number of frequency bins will have an effect on the overall runtime, but this will be insignificant in comparison to altering the number of packets.  However, it must be determined that neither of these parameters are detrimentally affecting the results.
+
+
+\subsubsubsection{dustfile}
+
+Finally, this string gives the name of the input file that itemises the list of species, their relative abundances and size distributions.
+
+\subsection{Output}
 \section{Post-Processing and Visualisation}
 \section{Limitations and Further Developments}
 \label{limitations}

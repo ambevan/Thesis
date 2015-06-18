@@ -31,39 +31,72 @@
 \contentsline {subsubsection}{The model comparison module}{41}
 \contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{42}
 \contentsline {subsection}{\numberline {2.3.3}Input}{43}
-\contentsline {subsection}{\numberline {2.3.4}Output}{43}
-\contentsline {section}{\numberline {2.4}Post-Processing and Visualisation}{43}
-\contentsline {section}{\numberline {2.5}Limitations and Further Developments}{43}
-\contentsline {chapter}{\numberline {3}Benchmarking and Sensitivity Analyses}{45}
-\contentsline {section}{\numberline {3.1}Introduction}{46}
-\contentsline {section}{\numberline {3.2}Analytical Results}{46}
-\contentsline {section}{\numberline {3.3}Optically Thin Line Profiles}{46}
-\contentsline {section}{\numberline {3.4}Optically Thick Line Profiles}{46}
-\contentsline {section}{\numberline {3.5}Sensitivity Analyses}{46}
-\contentsline {subsection}{\numberline {3.5.1}Dust Mass}{46}
-\contentsline {subsection}{\numberline {3.5.2}Velocity Profile}{46}
-\contentsline {subsection}{\numberline {3.5.3}Density Profile}{46}
-\contentsline {subsection}{\numberline {3.5.4}Grain Size Distribution}{46}
-\contentsline {subsection}{\numberline {3.5.5}Electron Scattering}{46}
-\contentsline {subsection}{\numberline {3.5.6}Ratio of Inner and Outer Radii}{46}
-\contentsline {subsection}{\numberline {3.5.7}Dust Species}{46}
-\contentsline {section}{\numberline {3.6}Conclusions}{46}
-\contentsline {chapter}{\numberline {4}SN 1987A}{47}
-\contentsline {section}{\numberline {4.1}Introduction}{47}
-\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{48}
-\contentsline {subsection}{\numberline {4.2.1}AAT}{48}
-\contentsline {subsection}{\numberline {4.2.2}CTIO}{48}
-\contentsline {subsection}{\numberline {4.2.3}HST}{48}
-\contentsline {subsection}{\numberline {4.2.4}VLT}{48}
-\contentsline {section}{\numberline {4.3}The Evolution of Optical Line Profiles}{48}
-\contentsline {subsection}{\numberline {4.3.1}H$\alpha $}{48}
-\contentsline {subsection}{\numberline {4.3.2}[OI]$\lambda 6300,6363$ doublet}{48}
-\contentsline {subsection}{\numberline {4.3.3}Other Lines}{48}
-\contentsline {section}{\numberline {4.4}Modelling and Fitting}{48}
-\contentsline {section}{\numberline {4.5}Conclusions}{48}
-\contentsline {chapter}{\numberline {5}SN 2010jl and Other Supernovae}{49}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{51}
-\contentsline {chapter}{\numberline {A}Appendix A}{53}
-\contentsline {chapter}{\numberline {B}Appendix B}{55}
-\contentsline {chapter}{\numberline {C}Appendix C}{57}
-\contentsline {chapter}{Bibliography}{59}
+\contentsline {subsubsection}{Properties of the emitted rest-frame line or doublet}{43}
+\contentsline {subsubsection}{lambda1\_0 }{43}
+\contentsline {subsubsection}{L\_tot }{44}
+\contentsline {subsubsection}{L\_Halpha}{44}
+\contentsline {subsubsection}{doublet}{44}
+\contentsline {subsubsection}{lambda2\_0}{44}
+\contentsline {subsubsection}{L\_ratio}{44}
+\contentsline {subsubsection}{properties of the dust and gas in the ejecta}{45}
+\contentsline {subsubsection}{ES}{45}
+\contentsline {subsubsection}{ES\_temp}{45}
+\contentsline {subsubsection}{MF}{45}
+\contentsline {subsubsection}{FF}{45}
+\contentsline {subsubsection}{dayno}{46}
+\contentsline {subsubsection}{v\_max}{46}
+\contentsline {subsubsection}{Rrat}{46}
+\contentsline {subsubsection}{MD\_tot }{46}
+\contentsline {subsubsection}{l}{46}
+\contentsline {subsubsection}{q}{47}
+\contentsline {subsubsection}{b}{47}
+\contentsline {subsubsection}{gas\_shell}{47}
+\contentsline {subsubsection}{v\_max\_gas}{47}
+\contentsline {subsubsection}{Rrat\_gas}{47}
+\contentsline {subsubsection}{l\_gas}{47}
+\contentsline {subsubsection}{q\_gas}{47}
+\contentsline {subsubsection}{b\_gas}{48}
+\contentsline {subsubsection}{Properties of the grid and code architecture}{48}
+\contentsline {subsubsection}{LS}{48}
+\contentsline {subsubsection}{VelShift}{48}
+\contentsline {subsubsection}{ncells}{48}
+\contentsline {subsubsection}{n\_packets}{49}
+\contentsline {subsubsection}{n\_bins}{50}
+\contentsline {subsubsection}{n\_shells}{50}
+\contentsline {subsubsection}{dustfile}{50}
+\contentsline {subsection}{\numberline {2.3.4}Output}{50}
+\contentsline {section}{\numberline {2.4}Post-Processing and Visualisation}{50}
+\contentsline {section}{\numberline {2.5}Limitations and Further Developments}{50}
+\contentsline {chapter}{\numberline {3}Benchmarking and Sensitivity Analyses}{53}
+\contentsline {section}{\numberline {3.1}Introduction}{54}
+\contentsline {section}{\numberline {3.2}Analytical Results}{54}
+\contentsline {section}{\numberline {3.3}Optically Thin Line Profiles}{54}
+\contentsline {section}{\numberline {3.4}Optically Thick Line Profiles}{54}
+\contentsline {section}{\numberline {3.5}Sensitivity Analyses}{54}
+\contentsline {subsection}{\numberline {3.5.1}Dust Mass}{54}
+\contentsline {subsection}{\numberline {3.5.2}Velocity Profile}{54}
+\contentsline {subsection}{\numberline {3.5.3}Density Profile}{54}
+\contentsline {subsection}{\numberline {3.5.4}Grain Size Distribution}{54}
+\contentsline {subsection}{\numberline {3.5.5}Electron Scattering}{54}
+\contentsline {subsection}{\numberline {3.5.6}Ratio of Inner and Outer Radii}{54}
+\contentsline {subsection}{\numberline {3.5.7}Dust Species}{54}
+\contentsline {section}{\numberline {3.6}Conclusions}{54}
+\contentsline {chapter}{\numberline {4}SN 1987A}{55}
+\contentsline {section}{\numberline {4.1}Introduction}{55}
+\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{56}
+\contentsline {subsection}{\numberline {4.2.1}AAT}{56}
+\contentsline {subsection}{\numberline {4.2.2}CTIO}{56}
+\contentsline {subsection}{\numberline {4.2.3}HST}{56}
+\contentsline {subsection}{\numberline {4.2.4}VLT}{56}
+\contentsline {section}{\numberline {4.3}The Evolution of Optical Line Profiles}{56}
+\contentsline {subsection}{\numberline {4.3.1}H$\alpha $}{56}
+\contentsline {subsection}{\numberline {4.3.2}[OI]$\lambda 6300,6363$ doublet}{56}
+\contentsline {subsection}{\numberline {4.3.3}Other Lines}{56}
+\contentsline {section}{\numberline {4.4}Modelling and Fitting}{56}
+\contentsline {section}{\numberline {4.5}Conclusions}{56}
+\contentsline {chapter}{\numberline {5}SN 2010jl and Other Supernovae}{57}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{59}
+\contentsline {chapter}{\numberline {A}Appendix A}{61}
+\contentsline {chapter}{\numberline {B}Appendix B}{63}
+\contentsline {chapter}{\numberline {C}Appendix C}{65}
+\contentsline {chapter}{Bibliography}{67}
