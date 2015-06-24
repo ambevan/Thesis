@@ -35,9 +35,17 @@ Radiative transfer methods as applied to supernovae generally treat a wide wavel
 
 The subtleties of the problem we consider here lie in the treatment of an atmosphere expanding as fast as 10\% of the speed of light.  Lorentz transforms must be carefully applied in order that packets experience the appropriate degree of frequency shifting at emission and at each subsequent scattering event.  In this respect, the code is analogous to Monte Carlo radiative transfer models of electron scattering published by \ref{}.  Indeed, similar features are observed in the outputs of both.
 
-Throughout this section, I will describe the principles, assumptions and techniques adopted in the production of the DAMOCLES before I move on to address the mechanics and architecture of the code itself.  DAMOCLES stands for \textbf{D}ust-\textbf{A}ffected \textbf{M}odels \textbf{O}f \textbf{C}haracteristic \textbf{L}ine \textbf{E}mission in \textbf{S}upernovae.
+Throughout this section, I will describe the principles, assumptions and techniques adopted in the production of DAMOCLES (see Figure \ref{fig:flowchart}) before I move on to address the mechanics and architecture of the code itself.  Damocles stands for \textbf{D}ust-\textbf{A}ffected \textbf{M}odels \textbf{O}f \textbf{C}haracteristic \textbf{L}ine \textbf{E}mission in \textbf{S}upernovae.
  
-
+	\begin{centering}
+	\begin{figure}
+	\includegraphics[scale=0.8, trim=160mm 5mm 8mm 5mm]{chapters/chapter2/code_flow.png}
+	\caption{A flowchart representing the sequence of processes that take place in the Damocles code.  The modules involved at each stage are given in parentheses.}
+	\label{fig:flowchart}
+	\end{figure}
+	\end{centering}	
+	
+	
 	\subsection{Energy Packets}
 	
 	The fundamental principle underlying the transport of radiation throughout a dusty nebula is that the radiation be discretised into packets.  Each of these packets is then propagated throughout the nebula and ultimately contributes a fraction of the final energy distribution.  At the start of the simulation, each packet is assumed to consist of $n$ photons of frequency $\nu_0$, the rest frequency of the line to be modelled.  All packets therefore begin life with initial energy
@@ -315,25 +323,34 @@ In the majority of cases it seems that the electron densities are not high enoug
 	
 	\subsection{Doublets}
 
-One of the lines in supernovae emission spectra that is frequently seen to be blue shifted is the forbidden [OI]$\lambda$6300,6363\AA\ doublet (e.g. SN1987A \citep{LucyEtAl89} figure \ref{fig:Lucy89_87A}).  DAMOCLES therefore has the capacity to treat doublets as well as single lines.  When a doublet is specified, both the initial wavelengths and the initial intensity ratio must be declared.  The code will create a wider frequency array than for a single line in order to accommodate both lines.  It will then model each line independently, adding the final fluxes of the lines to produce the desired doublet at the end of the modelling. 
+One of the lines in supernovae emission spectra that is frequently seen to be blue shifted is the forbidden [OI]$\lambda$6300,6363\AA\ doublet.  DAMOCLES therefore has the capacity to treat doublets as well as single lines.  When a doublet is specified, both the initial wavelengths and the initial intensity ratio must be declared.  The code will create a wider frequency array than for a single line in order to accommodate both lines.  It will then model each line independently, adding the final fluxes of the lines to produce the desired doublet at the end of the modelling. 
 
 \subsection{Comparing the Model with Observations}
+
+Damocles includes the capacity to read in observed line profile data for direct comparison with a modelled line profile.  Once all packets have been processed through the nebula and collected into bins, a flux is calculated at each of the wavelength bins in the observed data by interpolating between modelled wavelength bins.  A chi-squared calculation is then performed to compare the model with the data quantitatively, where 
+		
+		\begin{equation}
+		\label{eqn:chi2}
+			\chi^2=\sum_i \frac{(f_{obs,i}- f_{mod,i})^2}{\epsilon_i^2}
+		\end{equation}		
+		
+		\noindent and $f_{obs,i}$ is the observed flux in the $i$\textsuperscript{th} frequency bin, $f_{mod,i}$ is the modelled flux in the $i$\textsuperscript{th} frequency bin, and $\epsilon_i$ is the normalised error on the $i$\textsuperscript{th} frequency bin.   Minimising $\chi^2$ minimises the error between the model and the observed line and therefore provides a quantitative measure of goodness of fit that may be used in addition to or instead of any qualitative assessment.
 	
 \section{The Structure of Damocles}
 \label{damocles_struct}
 	
-	\begin{centering}
-	\begin{figure}
-	\includegraphics[scale=0.8, trim=160mm 5mm 8mm 5mm]{chapters/chapter2/code_flow.png}
-	\caption{A flowchart representing the sequence of processes that take place in the Damocles code.  The modules involved at each stage are given in parentheses.}
-	\label{fig:flowchart}
-	\end{figure}
-	\end{centering}	
+	Damocles is written using Fortran 95.  Since the major modernisation of Fortran 77 in 1990, the language includes a number of more modern elements that make it an ideal choice for this type of numerical computation.  Firstly, a fast, high-level language is required that allows for dynamic memory allocation and deallocation.  Whilst Damocles could have been written in a number of other languages, this is a critical feature that is only available in a few languages.  Very large numbers of packets are required to achieve reasonable resolutions in Monte Carlo codes of this nature and therefore  large arrays of data are required.  The ability to maintain careful control of memory allocation is therefore very important.  
 	
-	Damocles is written using Fortran 95.  Since the major modernisation of Fortran 77 in 1990, the language includes a number of more modern elements that make it an ideal choice for this type of numerical computation.  Firstly, 
+	Fortran 95 also has a number of other features that make it especially suitable for this sort of code.  Derived types group a number of variables of different intrinsic or other derived types.  This allows different properties of a particular item (for example a packet or grid cell) to be grouped together and accessed via that item. Though not a necessary feature, derived types make the code clearer, faster and more legible.  They also make it easier to write and therefore help to minimise the risk of errors.  Similarly, the modular structure that was introduced to Fortran in 1990 allow the programmer to distribute their code over a number of modules and allow variables that are declared within a particular module to be accessible to others.  This eliminates the need for common blocks of code  and allows a large code to be segmented into logical divisions.  Again, this allows for increased speed, clarity and ease of maintenance and development in the future.
+	
+	The obvious alternative programming language to Fortran 95 is C or C++.  Both of these languages have all of the features described above and are exceptionally fast.  From a computation perspective, there is, arguably, little to separate them for this type of coding.  I ultimately decided to write Damocles in Fortran 95 because of its heritage in astrophysics.  A very large number of astrophysical codes have been written using current or previous versions of Fortran and writing the code in Fortran 95 allowed for easy compatibility.
+	
+	Damocles is parallelised using OpenMP (see Section \ref{scn:open_mp}) which restricts its use to shared memory machines.  It has been developed on and currently runs on a MacBook Pro 11.2 quad core with Intel Core i7 2.8GHz processors and 16GB of memory.  A typical, medium resolution simulation takes approximately 10 seconds.
+	
+
 	
 	\subsection{Computational Architecture and Processes}
-	Damocles was written using a modular structure.  The "parent" driver has numerous "children" in the form of subroutines and modules which are each responsible for a separate task or tasks.  This architecture has a number of advantages.  Firstly, it serves to clarify both the functionality and legibility of the code allowing for easier debugging and maintenance.  It also allows for the implementation of features such as recursive subroutines which are ideally suited to a Monte Carlo methodology.  Finally, it allows for the code to be developed further in the future simply by including additional modules and subroutines.  A brief description of every module and subroutine in the code is presented in the following subsections.  The descriptions are ordered according to the first time they or their contents are called by the driver (see figure \ref{fig:flowchart_mods} for a flowchart of the modular hierarchy).
+	Damocles was written using a modular structure.  The "parent" driver has numerous "children" in the form of subroutines and modules which are each responsible for a separate task or tasks.  This architecture has a number of advantages.  Firstly, it serves to clarify both the functionality and legibility of the code allowing for easier debugging and maintenance.  It also allows for the implementation of features such as recursive subroutines which are ideally suited to a Monte Carlo methodology.  Finally, it allows for the code to be developed further in the future simply by including additional modules and subroutines.  A brief description of every module and subroutine in the code is presented in the following subsections.  The descriptions are ordered according to the first time they or their contents are called by the driver (see Figure \ref{fig:flowchart_mods} for a flowchart of the modular hierarchy).
 	
 
 		\subsubsection{The driver}
@@ -398,19 +415,13 @@ One of the lines in supernovae emission spectra that is frequently seen to be bl
             	\end{figure}
             	\end{centering}
 		
-		There are a number of processes that take place in this module in order to propagate a packet through the nebula accurately.  A full pictorial representation of the procedures that are implemented in this module may be found in the flowchart in figure \ref{fig:flowchart_propagate}. For each packet in each cell, the optical depth in that cell is calculated based on the opacity and density at the frequency of the packet.  These are obtained by interpolating between discrete opacities at points in the frequency array.  This is the point at which the Monte Carlo technique is applied in order to determine the distance travelled by the packet.  This displacement is then compared to the distance to the edges of the cell in order to ascertain whether or not the packet escapes the cell.  If it does then the process is repeated until either an event occurs or the packet escapes the nebula.  If an event occurs, a series of random numbers are sampled in order to determine whether or not the packet suffers electron scattering, dust scattering or absorption.  If the packet is absorbed then it is removed from the simulation.  If it is scattered then the velocity vector is calculated.  In the case of electron scattering this involves considering the thermal velocity component as well as the bulk velocity at that radius.  The Lorentz transforms are applied updating the frequency of the packet and a new direction of propagation sampled, and the routine is recalled to start afresh. 
+		There are a number of processes that take place in this module in order to propagate a packet through the nebula accurately.  A full pictorial representation of the procedures that are implemented in this module may be found in the flowchart in Figure \ref{fig:flowchart_propagate}. For each packet in each cell, the optical depth in that cell is calculated based on the opacity and density at the frequency of the packet.  These are obtained by interpolating between discrete opacities at points in the frequency array.  This is the point at which the Monte Carlo technique is applied in order to determine the distance travelled by the packet.  This displacement is then compared to the distance to the edges of the cell in order to ascertain whether or not the packet escapes the cell.  If it does then the process is repeated until either an event occurs or the packet escapes the nebula.  If an event occurs, a series of random numbers are sampled in order to determine whether or not the packet suffers electron scattering, dust scattering or absorption.  If the packet is absorbed then it is removed from the simulation.  If it is scattered then the velocity vector is calculated.  In the case of electron scattering this involves considering the thermal velocity component as well as the bulk velocity at that radius.  The Lorentz transforms are applied updating the frequency of the packet and a new direction of propagation sampled, and the routine is recalled to start afresh. 
 	
 		\subsubsection{The random routines module}
 		The \textit{random\_routines} module contains a single subroutine which is, like the \textit{BHmie} routine, a standard routine obtained from an online library.  It allows for a random velocity vector to be sampled from a normal distribution with specified mean and standard deviation.  The standard deviation is calculated as per equation \ref{eqn:sigma_maxwell} and passed to the subroutine which samples a random 3-dimensional vector from the normal distribution with the specified standard distribution and zero mean.  This is passed back to the propagate routine where it is added to the bulk velocity in order to determine the overall velocity of the scattering electron.
 		
 		\subsubsection{The model comparison module}
-		The \textit{model\_comparison} module is reponsible for post-processing the outputted line profile and comparing the model results with inputted observed data.  The routine interpolates between two model frequency points to obtain a flux value at each frequency point of the observed line profile.  Both profiles are then normalised such that the total flux is unity.  A $\chi^2$ calculation is then performed as 
-		
-		\begin{equation}
-			\chi^2=\sum_i \frac{(f_{obs,i}- f_{mod,i})^2}{\epsilon_i^2}
-		\end{equation}		
-		
-		\noindent where $f_{obs,i}$ is the observed flux in the $i$\textsuperscript{th} frequency bin, $f_{mod,i}$ is the modelled flux in the $i$\textsuperscript{th} frequency bin, and $\epsilon_i$ is the normalised error on the $i$\textsuperscript{th} frequency bin.  The smaller the value of $\chi^2$, the better the fit is.
+		The \textit{model\_comparison} module is reponsible for post-processing the outputted line profile and comparing the model results with inputted observed data.  The routine interpolates between two model frequency points to obtain a flux value at each frequency point of the observed line profile.  Both profiles are then normalised such that the total flux is unity.  A $\chi^2$ calculation is then performed as per equation \ref{eqn:chi2}. The smaller the value of $\chi^2$, the better the fit is.
 		
 			
 	\subsection{OpenMP Parallelisation}	
@@ -572,7 +583,7 @@ This is the gas analogue of the parameter b described above.
 \subsubsubsection{Properties of the grid and code architecture}
 \subsubsubsection{LS}
 
- Whilst the initial distribution of gas and dust is symmetrical, it is not necessary to consider a single line of sight as all lines of sight will produce the same profile and it is therefore more efficient to collect all packets that escape regardless of their direction of flight.  However, if alternative, axisymmetrical or non-symmetrical geometries are to be used it is important to be able to specify a line of sight.  If this keyword is set to 1 then the 'line of sight logical' will be initialised as \textit{true}.  Only packets that escape within a cone of vertical angle $\pi/6$ will be collected.  Clearly, in practice, the angle would be very much smaller but it is prohibitively expensive to run enough packets through the simulation that enough are collected to achieve a reasonable resolution when a very small vertical angle is adopted.  A representation of this construction is presented in figure \ref{fig:LOS}.
+ Whilst the initial distribution of gas and dust is symmetrical, it is not necessary to consider a single line of sight as all lines of sight will produce the same profile and it is therefore more efficient to collect all packets that escape regardless of their direction of flight.  However, if alternative, axisymmetrical or non-symmetrical geometries are to be used it is important to be able to specify a line of sight.  If this keyword is set to 1 then the 'line of sight logical' will be initialised as \textit{true}.  Only packets that escape within a cone of vertical angle $\pi/6$ will be collected.  Clearly, in practice, the angle would be very much smaller but it is prohibitively expensive to run enough packets through the simulation that enough are collected to achieve a reasonable resolution when a very small vertical angle is adopted.  A representation of this construction is presented in Figure \ref{fig:LOS}.
 
 \begin{centering}
 \begin{figure}
@@ -669,8 +680,6 @@ The modular structure of Damocles allows for easy implementation of additional f
 More widely, supernova explosions can sometimes result in radiation that is polarised.  By including the capacity to model polarised radiation on the code, we may able to glean further information about the distribution and nature of dust forming within the ejecta.  It would also be theoretically possible to expand the code to become a fully self-consistent radiative transfer code or to include certain approximations (e.g. the Sobolev approximation) to allow for full spectral modelling throughout the optical and infrared.
 
 \label{limitations}
-
-\clearpage
 		
 
 
