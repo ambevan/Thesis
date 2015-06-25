@@ -1,4 +1,44 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Auer \& Blerkom(1972)}]{Auer1972b}
+Auer L., Blerkom D.~V., 1972, \apj
+
+\bibitem[{Draine \& Lee(1984)}]{Draine1984}
+Draine B.~T., Lee H.~M., 1984, \apj, 285, 89
+
+\bibitem[{Fransson {et~al}\mbox{.}(2013)Fransson, Larsson, Spyromilio,
+  Chevalier, Gr\"{o}ningsson, Jerkstrand, Leibundgut, McCray, Challis,
+  Kirshner, Kjaer, Lundqvist, \& Sollerman}]{Fransson2013}
+Fransson C. {et~al.}, 2013, \apj, 768, 88
+
+\bibitem[{Gall {et~al}\mbox{.}(2014)Gall, Hjorth, Watson, Dwek, Maund, Fox,
+  Leloudas, Malesani, \& Day-Jones}]{Gall2014}
+Gall C. {et~al.}, 2014, \nat, 511, 326
+
+\bibitem[{Gerasimovic(1933)}]{Gerasimovic1933}
+Gerasimovic B., 1933, Zeitschrift f\"{u}r Astrophysik, 7, 335
+
+\bibitem[{Hillier(1991)}]{Hillier1991}
+Hillier D.~J., 1991, \aap, 247, 455
+
+\bibitem[{Lucy {et~al}\mbox{.}(1989)Lucy, Danziger, Gouiffes, \&
+  Bouchet}]{Lucy1989b}
+Lucy L., Danziger I., Gouiffes C., Bouchet P., 1989, in IAU Colloq. 120:
+  Structure and Dynamics of the Interstellar Medium, Lecture Notes in Physics,
+  Tenorio-Tagle G., Moles M., Melnick J., eds. No. 350, Berlin Springer Verlag,
+  p. 164
+
+\bibitem[{Owen \& Barlow(2015)}]{Owen2015}
+Owen P.~J., Barlow M.~J., 2015, \apj, 801, 141
+
+\bibitem[{Smith {et~al}\mbox{.}(2012)Smith, Silverman, Filippenko, Cooper,
+  Matheson, Bian, Weiner, \& Comerford}]{Smith2012}
+Smith N., Silverman J.~M., Filippenko A.~V., Cooper M.~C., Matheson T., Bian
+  F., Weiner B.~J., Comerford J.~M., 2012, \aj, 17, 6
+
+\bibitem[{Zubko {et~al}\mbox{.}(1996)Zubko, Mennella, Colangeli, \&
+  Bussoletti}]{Zubko1996}
+Zubko V.~G., Mennella V., Colangeli L., Bussoletti E., 1996, \mnras, 282, L1321
 
 \end{thebibliography}

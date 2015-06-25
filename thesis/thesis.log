@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  23 JUN 2015 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  25 JUN 2015 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,8 +469,7 @@ Package srcltx Info: Expanded filename `defs' to `defs.tex' on input line 207.
 (./chapters/chapter1/chapter1.aux) (./chapters/chapter2/chapter2.aux)
 (./chapters/chapter3/chapter3.aux) (./chapters/chapter4/chapter4.aux)
 (./chapters/chapter5/chapter5.aux) (./chapters/chapter6/chapter6.aux)
-(./back/appendices/appendA.aux) (./back/appendices/appendB.aux)
-(./back/appendices/appendC.aux) (./back/backquote.aux))
+(./chapters/chapter7/chapter7.aux) (./back/backquote.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
@@ -622,25 +621,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./thesis.toc [11
 
-] [12])
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [13] [14
+ [12] [13] [14
 
-] (./thesis.lof)
+] (./thesis.lof [15
+
+])
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
 
- [15
-
-] [16
-
-] (./thesis.lot)
+ [16] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
-[17]
+[17
+
+]
 :<+ front/acronyms.tex
 \openout2 = `front/acronyms.aux'.
 
@@ -751,12 +750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--214
 
  []
 
-[32] [33] [34]
-
-Package natbib Warning: Citation `Fransson2013' on page 35 undefined on input l
-ine 322.
-
-[35] [36] [37]
+[32] [33] [34] [35] [36] [37]
 <chapters/chapter2/code_modules_flowchart.png, id=165, 849.1725pt x 757.83125pt
 >
 File: chapters/chapter2/code_modules_flowchart.png Graphic file (type png)
@@ -817,123 +811,762 @@ Package pdftex.def Info: chapters/chapter2/LoS_diagram.png used on input line 5
 
 (./chapters/chapter3/chapter3.tex
 Chapter 3.
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/A/b0_r0_2.
+eps>
+(epstopdf)                    date: 2015-05-05 21:53:59
+(epstopdf)                    size: 265640 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/A/b0_r0_2-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:17:57
+(epstopdf)                    size: 20183 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/A/b0_r0_2-eps-converted-to.pdf chapters/chapter3/images/params/A/b0_r0_2.
+eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/A/b0_r0_2-eps-converted-to.pdf, id=239, 562.1p
+t x 421.575pt>
+File: chapters/chapter3/images/params/A/b0_r0_2-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use chapters/chapter3/images/params/A/b0_r0_2-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/A/b0_r0_2-eps-converte
+d-to.pdf used on input line 31.
+(pdftex.def)             Requested size: 226.24791pt x 168.5316pt.
+
+Overfull \hbox (12.85223pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/A/b0_r0.ep
+s>
+(epstopdf)                    date: 2015-05-05 22:07:35
+(epstopdf)                    size: 250598 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/A/b0_r0-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:01
+(epstopdf)                    size: 17077 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/A/b0_r0-eps-converted-to.pdf chapters/chapter3/images/params/A/b0_r0.eps>
+
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/A/b0_r0-eps-converted-to.pdf, id=241, 562.1pt 
+x 421.575pt>
+File: chapters/chapter3/images/params/A/b0_r0-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use chapters/chapter3/images/params/A/b0_r0-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/A/b0_r0-eps-converted-
+to.pdf used on input line 36.
+(pdftex.def)             Requested size: 204.54652pt x 168.5316pt.
+
+Overfull \hbox (16.24776pt too wide) in paragraph at lines 29--38
+[]$[]$   $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--38
+
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/A/b1_r0_2.
+eps>
+(epstopdf)                    date: 2015-05-05 22:09:25
+(epstopdf)                    size: 265520 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/A/b1_r0_2-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:17:58
+(epstopdf)                    size: 20460 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/A/b1_r0_2-eps-converted-to.pdf chapters/chapter3/images/params/A/b1_r0_2.
+eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/A/b1_r0_2-eps-converted-to.pdf, id=243, 562.1p
+t x 421.575pt>
+File: chapters/chapter3/images/params/A/b1_r0_2-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use chapters/chapter3/images/params/A/b1_r0_2-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/A/b1_r0_2-eps-converte
+d-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 226.24791pt x 168.5316pt.
+
+Overfull \hbox (12.85223pt too wide) in paragraph at lines 41--42
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/A/b1_r0.ep
+s>
+(epstopdf)                    date: 2015-05-05 22:11:52
+(epstopdf)                    size: 250497 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/A/b1_r0-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:02
+(epstopdf)                    size: 17292 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/A/b1_r0-eps-converted-to.pdf chapters/chapter3/images/params/A/b1_r0.eps>
+
+(epstopdf)             \includegraphics on input line 46.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/A/b1_r0-eps-converted-to.pdf, id=245, 562.1pt 
+x 421.575pt>
+File: chapters/chapter3/images/params/A/b1_r0-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use chapters/chapter3/images/params/A/b1_r0-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/A/b1_r0-eps-converted-
+to.pdf used on input line 46.
+(pdftex.def)             Requested size: 204.54652pt x 168.5316pt.
+
+Overfull \hbox (16.24776pt too wide) in paragraph at lines 39--48
+[]$[]$   $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--48
+
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/A/b2_r0_2.
+eps>
+(epstopdf)                    date: 2015-05-05 21:48:38
+(epstopdf)                    size: 265789 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/A/b2_r0_2-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:00
+(epstopdf)                    size: 20028 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/A/b2_r0_2-eps-converted-to.pdf chapters/chapter3/images/params/A/b2_r0_2.
+eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/A/b2_r0_2-eps-converted-to.pdf, id=247, 562.1p
+t x 421.575pt>
+File: chapters/chapter3/images/params/A/b2_r0_2-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use chapters/chapter3/images/params/A/b2_r0_2-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/A/b2_r0_2-eps-converte
+d-to.pdf used on input line 51.
+(pdftex.def)             Requested size: 226.24791pt x 175.45758pt.
+
+Overfull \hbox (12.85223pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/A/b2_r0.ep
+s>
+(epstopdf)                    date: 2015-05-05 21:51:30
+(epstopdf)                    size: 262408 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/A/b2_r0-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:03
+(epstopdf)                    size: 14239 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/A/b2_r0-eps-converted-to.pdf chapters/chapter3/images/params/A/b2_r0.eps>
+
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/A/b2_r0-eps-converted-to.pdf, id=249, 562.1pt 
+x 421.575pt>
+File: chapters/chapter3/images/params/A/b2_r0-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use chapters/chapter3/images/params/A/b2_r0-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/A/b2_r0-eps-converted-
+to.pdf used on input line 56.
+(pdftex.def)             Requested size: 204.54652pt x 175.45758pt.
+
+Overfull \hbox (16.24776pt too wide) in paragraph at lines 49--58
+[]$[]$   $[]$ 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/opt_thick_
+w0.eps>
+(epstopdf)                    date: 2015-05-29 17:54:21
+(epstopdf)                    size: 189928 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/opt_thick_
+w0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-24 12:35:43
+(epstopdf)                    size: 13513 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/opt_thick_w0-eps-converted-to.pdf chapters/chapter3/images/params/opt_thi
+ck_w0.eps>
+(epstopdf)             \includegraphics on input line 83.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/opt_thick_w0-eps-converted-to.pdf, id=251, 563
+.10374pt x 421.575pt>
+File: chapters/chapter3/images/params/opt_thick_w0-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use chapters/chapter3/images/params/opt_thick_w0-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/opt_thick_w0-eps-conve
+rted-to.pdf used on input line 83.
+(pdftex.def)             Requested size: 360.59615pt x 297.36017pt.
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/opt_thick_
+w0_6.eps>
+(epstopdf)                    date: 2015-05-29 18:08:12
+(epstopdf)                    size: 189039 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/opt_thick_
+w0_6-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-24 12:35:45
+(epstopdf)                    size: 14577 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/opt_thick_w0_6-eps-converted-to.pdf chapters/chapter3/images/params/opt_t
+hick_w0_6.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/opt_thick_w0_6-eps-converted-to.pdf, id=253, 5
+62.1pt x 421.575pt>
+File: chapters/chapter3/images/params/opt_thick_w0_6-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use chapters/chapter3/images/params/opt_thick_w0_6-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/opt_thick_w0_6-eps-con
+verted-to.pdf used on input line 87.
+(pdftex.def)             Requested size: 359.84335pt x 297.36017pt.
+
+
+LaTeX Warning: Float too large for page by 21.53683pt on input line 91.
+
 [59
 
 
 
-]) [60]
+] [60 <./chapters/chapter3/images/params/A/b0_r0_2-eps-converted-to.pdf> <./cha
+pters/chapter3/images/params/A/b0_r0-eps-converted-to.pdf> <./chapters/chapter3
+/images/params/A/b1_r0_2-eps-converted-to.pdf> <./chapters/chapter3/images/para
+ms/A/b1_r0-eps-converted-to.pdf> <./chapters/chapter3/images/params/A/b2_r0_2-e
+ps-converted-to.pdf> <./chapters/chapter3/images/params/A/b2_r0-eps-converted-t
+o.pdf>] [61] [62 <./chapters/chapter3/images/params/opt_thick_w0-eps-converted-
+to.pdf> <./chapters/chapter3/images/params/opt_thick_w0_6-eps-converted-to.pdf>
+]
+Overfull \hbox (8.16808pt too wide) in paragraph at lines 157--157
+[]\OT1/cmr/bx/n/14.4 Comparison of DAMO-CLES mod-els with pre-vi-ously pub-
+ []
+
+) [63] [64]
 :<-
 :<+ chapters/chapter4/chapter4.tex
 \openout2 = `chapters/chapter4/chapter4.aux'.
 
 (./chapters/chapter4/chapter4.tex
 Chapter 4.
-) [61
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/D/newDall.
+eps>
+(epstopdf)                    date: 2015-05-04 20:56:27
+(epstopdf)                    size: 252074 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/D/newDall-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:22
+(epstopdf)                    size: 24562 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/D/newDall-eps-converted-to.pdf chapters/chapter3/images/params/D/newDall.
+eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/D/newDall-eps-converted-to.pdf, id=464, 1049.9
+225pt x 927.465pt>
+File: chapters/chapter3/images/params/D/newDall-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use chapters/chapter3/images/params/D/newDall-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/D/newDall-eps-converte
+d-to.pdf used on input line 16.
+(pdftex.def)             Requested size: 430.4541pt x 397.0296pt.
+
+Overfull \hbox (3.66275pt too wide) in paragraph at lines 16--19
+[][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/params/C/C_all.ep
+s>
+(epstopdf)                    date: 2015-05-04 18:48:38
+(epstopdf)                    size: 272255 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/params/C/C_all-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:24
+(epstopdf)                    size: 31563 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/p
+arams/C/C_all-eps-converted-to.pdf chapters/chapter3/images/params/C/C_all.eps>
+
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/params/C/C_all-eps-converted-to.pdf, id=466, 1098.102
+5pt x 901.3675pt>
+File: chapters/chapter3/images/params/C/C_all-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use chapters/chapter3/images/params/C/C_all-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/params/C/C_all-eps-converted-
+to.pdf used on input line 24.
+(pdftex.def)             Requested size: 439.93944pt x 371.73529pt.
+
+Overfull \hbox (13.14809pt too wide) in paragraph at lines 24--27
+[][] 
+ []
+
+[65
 
 
 
 
 
-] [62]
+] [66 <./chapters/chapter3/images/params/D/newDall-eps-converted-to.pdf>]
+[67 <./chapters/chapter3/images/params/C/C_all-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <chapters/chapter3/images/Qext_grainsize_up
+to4.eps>
+(epstopdf)                    date: 2015-05-28 17:34:33
+(epstopdf)                    size: 217906 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/Qext_grainsize_up
+to4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:48:17
+(epstopdf)                    size: 23539 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/Q
+ext_grainsize_upto4-eps-converted-to.pdf chapters/chapter3/images/Qext_grainsiz
+e_upto4.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/Qext_grainsize_upto4-eps-converted-to.pdf, id=522, 56
+2.1pt x 421.575pt>
+File: chapters/chapter3/images/Qext_grainsize_upto4-eps-converted-to.pdf Graphi
+c file (type pdf)
+
+<use chapters/chapter3/images/Qext_grainsize_upto4-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/Qext_grainsize_upto4-eps-conv
+erted-to.pdf used on input line 95.
+(pdftex.def)             Requested size: 359.84335pt x 297.36017pt.
+Package epstopdf Info: Source file: <chapters/chapter3/images/Qext_grainsize_up
+to4_log.eps>
+(epstopdf)                    date: 2015-05-28 17:33:52
+(epstopdf)                    size: 219372 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/Qext_grainsize_up
+to4_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:48:19
+(epstopdf)                    size: 23424 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/Q
+ext_grainsize_upto4_log-eps-converted-to.pdf chapters/chapter3/images/Qext_grai
+nsize_upto4_log.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/Qext_grainsize_upto4_log-eps-converted-to.pdf, id=524
+, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/Qext_grainsize_upto4_log-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use chapters/chapter3/images/Qext_grainsize_upto4_log-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/Qext_grainsize_upto4_log-eps-
+converted-to.pdf used on input line 99.
+(pdftex.def)             Requested size: 361.34898pt x 297.36017pt.
+
+
+LaTeX Warning: Float too large for page by 7.93683pt on input line 103.
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/albedo_grainsize_
+upto4.eps>
+(epstopdf)                    date: 2015-05-28 17:37:10
+(epstopdf)                    size: 218264 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/albedo_grainsize_
+upto4-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:48:20
+(epstopdf)                    size: 22890 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/a
+lbedo_grainsize_upto4-eps-converted-to.pdf chapters/chapter3/images/albedo_grai
+nsize_upto4.eps>
+(epstopdf)             \includegraphics on input line 108.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/albedo_grainsize_upto4-eps-converted-to.pdf, id=526, 
+562.1pt x 421.575pt>
+File: chapters/chapter3/images/albedo_grainsize_upto4-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use chapters/chapter3/images/albedo_grainsize_upto4-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/albedo_grainsize_upto4-eps-co
+nverted-to.pdf used on input line 108.
+(pdftex.def)             Requested size: 359.84335pt x 297.36017pt.
+Package epstopdf Info: Source file: <chapters/chapter3/images/albedo_grainsize_
+upto4_log.eps>
+(epstopdf)                    date: 2015-05-28 17:39:25
+(epstopdf)                    size: 219739 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/albedo_grainsize_
+upto4_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:48:21
+(epstopdf)                    size: 22786 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/a
+lbedo_grainsize_upto4_log-eps-converted-to.pdf chapters/chapter3/images/albedo_
+grainsize_upto4_log.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/albedo_grainsize_upto4_log-eps-converted-to.pdf, id=5
+28, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/albedo_grainsize_upto4_log-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use chapters/chapter3/images/albedo_grainsize_upto4_log-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/albedo_grainsize_upto4_log-ep
+s-converted-to.pdf used on input line 112.
+(pdftex.def)             Requested size: 361.34898pt x 297.36017pt.
+
+
+LaTeX Warning: Float too large for page by 5.19933pt on input line 116.
+
+[68] [69 <./chapters/chapter3/images/Qext_grainsize_upto4-eps-converted-to.pdf>
+ <./chapters/chapter3/images/Qext_grainsize_upto4_log-eps-converted-to.pdf>]
+[70 <./chapters/chapter3/images/albedo_grainsize_upto4-eps-converted-to.pdf> <.
+/chapters/chapter3/images/albedo_grainsize_upto4_log-eps-converted-to.pdf>]
+[71]
+Package epstopdf Info: Source file: <chapters/chapter3/images/dustdep/a0_001_op
+t_thin_HaHbPad.eps>
+(epstopdf)                    date: 2015-05-20 18:27:57
+(epstopdf)                    size: 251595 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/dustdep/a0_001_op
+t_thin_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:50:59
+(epstopdf)                    size: 16057 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/d
+ustdep/a0_001_opt_thin_HaHbPad-eps-converted-to.pdf chapters/chapter3/images/du
+stdep/a0_001_opt_thin_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 238.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/dustdep/a0_001_opt_thin_HaHbPad-eps-converted-to.pdf,
+ id=600, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/dustdep/a0_001_opt_thin_HaHbPad-eps-converted-to
+.pdf Graphic file (type pdf)
+
+<use chapters/chapter3/images/dustdep/a0_001_opt_thin_HaHbPad-eps-converted-to.
+pdf>
+Package pdftex.def Info: chapters/chapter3/images/dustdep/a0_001_opt_thin_HaHbP
+ad-eps-converted-to.pdf used on input line 238.
+(pdftex.def)             Requested size: 219.06633pt x 175.70477pt.
+
+Overfull \hbox (5.67065pt too wide) in paragraph at lines 238--239
+[][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/dustdep/a0_001_op
+t_thick_HaHbPad.eps>
+(epstopdf)                    date: 2015-05-20 18:38:05
+(epstopdf)                    size: 250844 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/dustdep/a0_001_op
+t_thick_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:51:03
+(epstopdf)                    size: 16083 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/d
+ustdep/a0_001_opt_thick_HaHbPad-eps-converted-to.pdf chapters/chapter3/images/d
+ustdep/a0_001_opt_thick_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/dustdep/a0_001_opt_thick_HaHbPad-eps-converted-to.pdf
+, id=602, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/dustdep/a0_001_opt_thick_HaHbPad-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use chapters/chapter3/images/dustdep/a0_001_opt_thick_HaHbPad-eps-converted-to
+.pdf>
+Package pdftex.def Info: chapters/chapter3/images/dustdep/a0_001_opt_thick_HaHb
+Pad-eps-converted-to.pdf used on input line 242.
+(pdftex.def)             Requested size: 205.96748pt x 175.70477pt.
+
+Overfull \hbox (16.24776pt too wide) in paragraph at lines 237--244
+[]$[]$   $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--244
+
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/dustdep/a0_1_opt_
+thin_HaHbPad.eps>
+(epstopdf)                    date: 2015-05-20 17:55:41
+(epstopdf)                    size: 251686 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/dustdep/a0_1_opt_
+thin_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:51:00
+(epstopdf)                    size: 16222 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/d
+ustdep/a0_1_opt_thin_HaHbPad-eps-converted-to.pdf chapters/chapter3/images/dust
+dep/a0_1_opt_thin_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/dustdep/a0_1_opt_thin_HaHbPad-eps-converted-to.pdf, i
+d=604, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/dustdep/a0_1_opt_thin_HaHbPad-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use chapters/chapter3/images/dustdep/a0_1_opt_thin_HaHbPad-eps-converted-to.pd
+f>
+Package pdftex.def Info: chapters/chapter3/images/dustdep/a0_1_opt_thin_HaHbPad
+-eps-converted-to.pdf used on input line 247.
+(pdftex.def)             Requested size: 219.06633pt x 175.70477pt.
+
+Overfull \hbox (5.67065pt too wide) in paragraph at lines 247--248
+[][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/dustdep/a0_1_opt_
+thick_HaHbPad.eps>
+(epstopdf)                    date: 2015-05-20 17:58:34
+(epstopdf)                    size: 251740 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/dustdep/a0_1_opt_
+thick_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:51:04
+(epstopdf)                    size: 16303 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/d
+ustdep/a0_1_opt_thick_HaHbPad-eps-converted-to.pdf chapters/chapter3/images/dus
+tdep/a0_1_opt_thick_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 251.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/dustdep/a0_1_opt_thick_HaHbPad-eps-converted-to.pdf, 
+id=606, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/dustdep/a0_1_opt_thick_HaHbPad-eps-converted-to.
+pdf Graphic file (type pdf)
+
+<use chapters/chapter3/images/dustdep/a0_1_opt_thick_HaHbPad-eps-converted-to.p
+df>
+Package pdftex.def Info: chapters/chapter3/images/dustdep/a0_1_opt_thick_HaHbPa
+d-eps-converted-to.pdf used on input line 251.
+(pdftex.def)             Requested size: 205.96748pt x 175.70477pt.
+
+Overfull \hbox (16.24776pt too wide) in paragraph at lines 245--253
+[]$[]$   $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--253
+
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/dustdep/a1_opt_th
+in_HaHbPad.eps>
+(epstopdf)                    date: 2015-05-20 17:24:12
+(epstopdf)                    size: 250719 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/dustdep/a1_opt_th
+in_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:51:02
+(epstopdf)                    size: 16108 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/d
+ustdep/a1_opt_thin_HaHbPad-eps-converted-to.pdf chapters/chapter3/images/dustde
+p/a1_opt_thin_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 255.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/dustdep/a1_opt_thin_HaHbPad-eps-converted-to.pdf, id=
+608, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/dustdep/a1_opt_thin_HaHbPad-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use chapters/chapter3/images/dustdep/a1_opt_thin_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/dustdep/a1_opt_thin_HaHbPad-e
+ps-converted-to.pdf used on input line 255.
+(pdftex.def)             Requested size: 219.06633pt x 182.93172pt.
+
+Overfull \hbox (5.67065pt too wide) in paragraph at lines 255--256
+[][] 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/dustdep/a1_opt_th
+ick_HaHbPad.eps>
+(epstopdf)                    date: 2015-05-20 17:19:19
+(epstopdf)                    size: 251666 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/dustdep/a1_opt_th
+ick_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:51:05
+(epstopdf)                    size: 16728 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/d
+ustdep/a1_opt_thick_HaHbPad-eps-converted-to.pdf chapters/chapter3/images/dustd
+ep/a1_opt_thick_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 259.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/dustdep/a1_opt_thick_HaHbPad-eps-converted-to.pdf, id
+=610, 562.1pt x 421.575pt>
+File: chapters/chapter3/images/dustdep/a1_opt_thick_HaHbPad-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use chapters/chapter3/images/dustdep/a1_opt_thick_HaHbPad-eps-converted-to.pdf
+>
+Package pdftex.def Info: chapters/chapter3/images/dustdep/a1_opt_thick_HaHbPad-
+eps-converted-to.pdf used on input line 259.
+(pdftex.def)             Requested size: 209.58096pt x 182.93172pt.
+
+Overfull \hbox (13.40248pt too wide) in paragraph at lines 254--261
+[]$[]$   $[]$ 
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/Qabs_a0_001.eps>
+(epstopdf)                    date: 2015-05-20 19:27:54
+(epstopdf)                    size: 183732 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/Qabs_a0_001-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:52:05
+(epstopdf)                    size: 12438 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/Q
+abs_a0_001-eps-converted-to.pdf chapters/chapter3/images/Qabs_a0_001.eps>
+(epstopdf)             \includegraphics on input line 268.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/Qabs_a0_001-eps-converted-to.pdf, id=612, 562.1pt x 4
+21.575pt>
+File: chapters/chapter3/images/Qabs_a0_001-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use chapters/chapter3/images/Qabs_a0_001-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/Qabs_a0_001-eps-converted-to.
+pdf used on input line 268.
+(pdftex.def)             Requested size: 267.75105pt x 201.50336pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--270
+
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/Qabs_a0_1.eps>
+(epstopdf)                    date: 2015-05-20 19:30:20
+(epstopdf)                    size: 183461 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/Qabs_a0_1-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:52:06
+(epstopdf)                    size: 12148 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/Q
+abs_a0_1-eps-converted-to.pdf chapters/chapter3/images/Qabs_a0_1.eps>
+(epstopdf)             \includegraphics on input line 274.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/Qabs_a0_1-eps-converted-to.pdf, id=614, 562.1pt x 421
+.575pt>
+File: chapters/chapter3/images/Qabs_a0_1-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use chapters/chapter3/images/Qabs_a0_1-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/Qabs_a0_1-eps-converted-to.pd
+f used on input line 274.
+(pdftex.def)             Requested size: 267.75105pt x 201.50336pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
+
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter3/images/Qabs_a1_0.eps>
+(epstopdf)                    date: 2015-05-20 19:25:53
+(epstopdf)                    size: 183472 bytes
+(epstopdf)             Output file: <chapters/chapter3/images/Qabs_a1_0-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2015-06-25 16:52:07
+(epstopdf)                    size: 12301 bytes
+(epstopdf)             Command: <repstopdf --outfile=chapters/chapter3/images/Q
+abs_a1_0-eps-converted-to.pdf chapters/chapter3/images/Qabs_a1_0.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter3/images/Qabs_a1_0-eps-converted-to.pdf, id=616, 562.1pt x 421
+.575pt>
+File: chapters/chapter3/images/Qabs_a1_0-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use chapters/chapter3/images/Qabs_a1_0-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter3/images/Qabs_a1_0-eps-converted-to.pd
+f used on input line 279.
+(pdftex.def)             Requested size: 267.75105pt x 212.54466pt.
+
+
+LaTeX Warning: Float too large for page by 31.76785pt on input line 283.
+
+[72] [73 <./chapters/chapter3/images/dustdep/a0_001_opt_thin_HaHbPad-eps-conver
+ted-to.pdf> <./chapters/chapter3/images/dustdep/a0_001_opt_thick_HaHbPad-eps-co
+nverted-to.pdf> <./chapters/chapter3/images/dustdep/a0_1_opt_thin_HaHbPad-eps-c
+onverted-to.pdf> <./chapters/chapter3/images/dustdep/a0_1_opt_thick_HaHbPad-eps
+-converted-to.pdf> <./chapters/chapter3/images/dustdep/a1_opt_thin_HaHbPad-eps-
+converted-to.pdf> <./chapters/chapter3/images/dustdep/a1_opt_thick_HaHbPad-eps-
+converted-to.pdf>] [74 <./chapters/chapter3/images/Qabs_a0_001-eps-converted-to
+.pdf> <./chapters/chapter3/images/Qabs_a0_1-eps-converted-to.pdf> <./chapters/c
+hapter3/images/Qabs_a1_0-eps-converted-to.pdf>] [75] [76] [77]
+
+Package natbib Warning: Citation `Ercolano2007' on page 78 undefined on input l
+ine 429.
+
+[78]) [79]
 :<-
+[80
+
+
+]
 :<+ chapters/chapter5/chapter5.tex
 \openout2 = `chapters/chapter5/chapter5.aux'.
 
 (./chapters/chapter5/chapter5.tex
 Chapter 5.
-) [63
+[81
 
 
 
-
-
-]
+]) [82]
 :<-
-[64
-
-
-]
 :<+ chapters/chapter6/chapter6.tex
 \openout2 = `chapters/chapter6/chapter6.aux'.
 
 (./chapters/chapter6/chapter6.tex
 Chapter 6.
-) [65
+) [83
 
 
-
-]
-:<-
-[66
-
-
-]
-:<+ back/appendices/appendA.tex
-\openout2 = `back/appendices/appendA.aux'.
-
-(./back/appendices/appendA.tex
-Appendix A.
-) [67
 
 
 
 ]
 :<-
-[68
+[84
 
 
 ]
-:<+ back/appendices/appendB.tex
-\openout2 = `back/appendices/appendB.aux'.
+:<+ chapters/chapter7/chapter7.tex
+\openout2 = `chapters/chapter7/chapter7.aux'.
 
-(./back/appendices/appendB.tex
-Appendix B.
-) [69
-
-
-
-]
-:<-
-[70
-
-
-]
-:<+ back/appendices/appendC.tex
-\openout2 = `back/appendices/appendC.aux'.
-
-(./back/appendices/appendC.tex
-Appendix C.
-) [71
+(./chapters/chapter7/chapter7.tex
+Chapter 7.
+) [85
 
 
 
 ]
 :<-
-[72
+[86
 
 
 ]
 :<+ thesis.bbl
-(./thesis.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 4.
-
-)
+(./thesis.bbl)
 :<-
-[73
+[87
 
-] [74
+] [88
 
 ]
 :<+ back/backquote.tex
 \openout2 = `back/backquote.aux'.
 
-(./back/backquote.tex) [75
+(./back/backquote.tex) [89
 
 
 ]
 :<-
-[76
+[90
 
 
 ]
@@ -945,20 +1578,19 @@ Package natbib Warning: There were undefined citations.
 (./chapters/chapter1/chapter1.aux) (./chapters/chapter2/chapter2.aux)
 (./chapters/chapter3/chapter3.aux) (./chapters/chapter4/chapter4.aux)
 (./chapters/chapter5/chapter5.aux) (./chapters/chapter6/chapter6.aux)
-(./back/appendices/appendA.aux) (./back/appendices/appendB.aux)
-(./back/appendices/appendC.aux) (./back/backquote.aux))
+(./chapters/chapter7/chapter7.aux) (./back/backquote.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6276 strings out of 493117
- 88338 string characters out of 6135433
- 167535 words of memory out of 5000000
- 9438 multiletter control sequences out of 15000+600000
- 16675 words of font info for 60 fonts, out of 8000000 for 9000
+ 6442 strings out of 493117
+ 95924 string characters out of 6135433
+ 167671 words of memory out of 5000000
+ 9588 multiletter control sequences out of 15000+600000
+ 19286 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,45p,1565b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,45p,1565b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
 8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -976,13 +1608,14 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (76 pages, 7492950 bytes).
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (90 pages, 7866565 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 951 PDF objects out of 1000 (max. 8388607)
+ 651 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
