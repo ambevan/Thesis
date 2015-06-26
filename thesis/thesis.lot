@@ -1,12 +1,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Values of $q_{H\alpha }(T)$ at three different temperatures as used by Damocles.\relax }}{33}
-\contentsline {table}{\numberline {2.2}{\ignorespaces The input variables read in from the input file and example values\relax }}{47}
-\contentsline {table}{\numberline {2.3}{\ignorespaces List of all outputs and example values produced by the Damocles code.\relax }}{55}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Values of $q_{H\alpha }(T)$ at three different temperatures as used by Damocles.\relax }}{35}
+\contentsline {table}{\numberline {2.2}{\ignorespaces The input variables read in from the input file and example values\relax }}{49}
+\contentsline {table}{\numberline {2.3}{\ignorespaces List of all outputs and example values produced by the Damocles code.\relax }}{57}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Equivalent dust masses for the day 714 clumped models using grain size distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot }$ with $a=0.6 \mu $m) and $p$ is the exponent of the grain size distribution $n(a) \propto a^{-p}$.\relax }}{78}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Equivalent dust masses for the day 714 clumped models using grain size distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot }$ with $a=0.6 \mu $m) and $p$ is the exponent of the grain size distribution $n(a) \propto a^{-p}$.\relax }}{79}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Equivalent dust masses for the day 714 clumped models using grain size distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot }$ with $a=0.6 \mu $m) and $p$ is the exponent of the grain size distribution $n(a) \propto a^{-p}$.\relax }}{80}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Equivalent dust masses for the day 714 clumped models using grain size distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot }$ with $a=0.6 \mu $m) and $p$ is the exponent of the grain size distribution $n(a) \propto a^{-p}$.\relax }}{81}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Details of the archival data for SN 1987A\relax }}{84}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Details of the parameters used for the best fitting smooth models with grain radius $a=0.35\mu $m.\relax }}{84}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Details of the parameters used for the best fitting clumped models with $a=0.6\mu $m.\relax }}{89}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Details of the parameters used for the best fitting clumped models with $a=3.5\mu $m.\relax }}{91}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
