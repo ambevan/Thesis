@@ -1,0 +1,11 @@
+fig=gcf;
+set(findall(fig,'-property','FontSize'),'FontSize',15)
+axesObj=fig.Children
+xlab=axesObj(2).XLabel
+ylab=axesObj(2).YLabel
+xlab.FontSize=18
+ylab.FontSize=18
+str=get(fig,'FileName');
+savefig(str)
+str2=str(1:end-4);
+saveas(gcf,[str2,'.eps'],'epsc')

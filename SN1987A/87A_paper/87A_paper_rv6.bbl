@@ -1,0 +1,353 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Andrews et~al.,}{Andrews
+  et~al.}{2010}]{Andrews2010}
+Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
+  715, 541
+
+\bibitem[\protect\citeauthoryear{Barlow et~al.,}{Barlow
+  et~al.}{2010}]{Barlow2010}
+Barlow M.~J.,  et~al., 2010, \mn@doi [\aap] {10.1051/0004-6361/201014585}, 518,
+  L138
+
+\bibitem[\protect\citeauthoryear{Baron, Nugent, Branch  \& Hauschildt}{Baron
+  et~al.}{2005}]{Baron2005}
+Baron E.,  Nugent P.~E.,  Branch D.,   Hauschildt P.~H.,  2005, in Turrato M.,
+  Benetti S.,  Zampieri L.,   Shea W.,  eds,  Vol. 342, 1604-2004: Supernovae
+  as Cosmological Lighthouses, Astronomical Society of the Pacific Conference
+  Series. p.~351
+
+\bibitem[\protect\citeauthoryear{Bertoldi, Carilli, Cox, Fan, Strauss, Beelen,
+  Omont  \& Zylka}{Bertoldi et~al.}{2003}]{Bertoldi2003}
+Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
+  Omont A.,   Zylka R.,  2003, \mn@doi [\aap] {10.1051/0004-6361:20030710},
+  406, L55
+
+\bibitem[\protect\citeauthoryear{Bouchet, Danziger  \& Lucy}{Bouchet
+  et~al.}{1991}]{Bouchet1991}
+Bouchet P.,  Danziger I.~J.,   Lucy L.~B.,  1991, \mn@doi [\aj]
+  {10.1086/115939}, 102, 1135
+
+\bibitem[\protect\citeauthoryear{Chugai, Chevalier, Kirshner  \&
+  Challis}{Chugai et~al.}{1997}]{Chugai1997}
+Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
+  \mn@doi [\apj] {10.1086/304253}, 483, 925
+
+\bibitem[\protect\citeauthoryear{Danziger, Bouchet, Gouiffes  \& Lucy}{Danziger
+  et~al.}{1991}]{Danziger1991}
+Danziger I.~J.,  Bouchet P.,  Gouiffes C.,   Lucy L.~B.,  1991, in Danziger
+  I.~J.,  Kjaer K.,  eds, European Southern Observatory Conference and Workshop
+  Proceedings. p.~217
+
+\bibitem[\protect\citeauthoryear{Dorschner, Begemann, Henning, Jaeger  \&
+  Mutschke}{Dorschner et~al.}{1995}]{Dorschner1995}
+Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
+  \aap, 300, 503
+
+\bibitem[\protect\citeauthoryear{Draine \& Lee}{Draine \&
+  Lee}{1984}]{Draine1984}
+Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
+
+\bibitem[\protect\citeauthoryear{Dwek \& Arendt}{Dwek \&
+  Arendt}{2015}]{Dwek2015}
+Dwek E.,  Arendt R.~G.,  2015, (D15)
+
+\bibitem[\protect\citeauthoryear{Dwek, Galliano  \& Jones}{Dwek
+  et~al.}{2007}]{Dwek2007}
+Dwek E.,  Galliano F.,   Jones A.~P.,  2007, \mn@doi [\apj] {10.1086/518430},
+  662, 927
+
+\bibitem[\protect\citeauthoryear{Ercolano, Barlow  \& Sugerman}{Ercolano
+  et~al.}{2007}]{Ercolano2007}
+Ercolano B.,  Barlow M.~J.,   Sugerman B. E.~K.,  2007, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2006.11336.x}, 375, 753
+
+\bibitem[\protect\citeauthoryear{Fabbri et~al.,}{Fabbri
+  et~al.}{2011}]{Fabbri2011}
+Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
+  418, 1285
+
+\bibitem[\protect\citeauthoryear{Fransson \& Kozma}{Fransson \&
+  Kozma}{1993}]{Fransson1993}
+Fransson C.,  Kozma C.,  1993, \mn@doi [\apj] {10.1086/186822}, 408, L25
+
+\bibitem[\protect\citeauthoryear{Fransson et~al.,}{Fransson
+  et~al.}{2013}]{Fransson2013}
+Fransson C.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/768/1/88}, 768,
+  88
+
+\bibitem[\protect\citeauthoryear{Fransson et~al.,}{Fransson
+  et~al.}{2014}]{Fransson2014}
+Fransson C.,  et~al., 2014, \mn@doi [\apj] {10.1088/0004-637X/797/2/118}, 797,
+  118
+
+\bibitem[\protect\citeauthoryear{Gall et~al.,}{Gall et~al.}{2014}]{Gall2014}
+Gall C.,  et~al., 2014, \mn@doi [\nat] {10.1038/nature13558}, 511, 326
+
+\bibitem[\protect\citeauthoryear{Gerasimovic}{Gerasimovic}{1933}]{Gerasimovic1933}
+Gerasimovic B.,  1933, Zeitschrift f\"{u}r Astrophysik, 7, 335
+
+\bibitem[\protect\citeauthoryear{Gomez et~al.,}{Gomez et~al.}{2012}]{Gomez2012}
+Gomez H.~L.,  et~al., 2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2011.20272.x}, 420, 3557
+
+\bibitem[\protect\citeauthoryear{Gr\"{o}ningsson, Fransson, Lundqvist, Nymark,
+  Lundqvist, Chevalier, Leibundgut  \& Spyromilio}{Gr\"{o}ningsson
+  et~al.}{2006}]{Groeningsson2006}
+Gr\"{o}ningsson P.,  Fransson C.,  Lundqvist P.,  Nymark T.,  Lundqvist N.,
+  Chevalier R.,  Leibundgut B.,   Spyromilio J.,  2006, \mn@doi [\aap]
+  {10.1051/0004-6361:20065325}, 5325, 11
+
+\bibitem[\protect\citeauthoryear{Gr\"{o}ningsson et~al.,}{Gr\"{o}ningsson
+  et~al.}{2007}]{Groeningsson2007}
+Gr\"{o}ningsson P.,  et~al., 2007, \mn@doi [\aap]
+  {10.1051/0004-6361:200810551}, 491, 19
+
+\bibitem[\protect\citeauthoryear{Gr\"{o}ningsson et~al.,}{Gr\"{o}ningsson
+  et~al.}{2008}]{Groningsson2008}
+Gr\"{o}ningsson P.,  et~al., 2008, \mn@doi [\aap] {10.1051/0004-6361:20077604},
+  479, 761
+
+\bibitem[\protect\citeauthoryear{Hammer, Janka  \& M\"{u}ller}{Hammer
+  et~al.}{2010}]{Hammer2010}
+Hammer N.~J.,  Janka H.-T.,   M\"{u}ller E.,  2010, \mn@doi [\apj]
+  {10.1088/0004-637X/714/2/1371}, 714, 1371
+
+\bibitem[\protect\citeauthoryear{Hanner}{Hanner}{1988}]{Hanner1988}
+Hanner M.,  1988, Technical report, {Grain Optical Properties}
+
+\bibitem[\protect\citeauthoryear{Hanuschik, Spyromilio, Stathakis, Kimeswenger,
+  Gochermann, Seidensticker  \& Meurer}{Hanuschik et~al.}{1993}]{Hanuschik1993}
+Hanuschik R.~W.,  Spyromilio J.,  Stathakis R.,  Kimeswenger S.,  Gochermann
+  J.,  Seidensticker K.~J.,   Meurer G.,  1993, \mnras, 261, 909
+
+\bibitem[\protect\citeauthoryear{Hillier}{Hillier}{1991}]{Hillier1991}
+Hillier D.~J.,  1991, \aap, 247, 455
+
+\bibitem[\protect\citeauthoryear{Hoyle \& Wickramasinghe}{Hoyle \&
+  Wickramasinghe}{1970}]{Hoyle1970}
+Hoyle F.,  Wickramasinghe N.~C.,  1970, \mn@doi [\nat] {10.1038/226062a0}, 226,
+  62
+
+\bibitem[\protect\citeauthoryear{Indebetouw et~al.,}{Indebetouw
+  et~al.}{2014}]{Indebetouw2014}
+Indebetouw R.,  et~al., 2014, \mn@doi [\apj Letters]
+  {10.1088/2041-8205/782/1/L2}, 782, L2
+
+\bibitem[\protect\citeauthoryear{J\"{a}ger, Mutschke, Begemann, Dorschner  \&
+  Henning}{J\"{a}ger et~al.}{1994}]{Jager1994}
+J\"{a}ger C.,  Mutschke H.,  Begemann B.,  Dorschner J.,   Henning T.,  1994,
+  \aap, 292, 641
+
+\bibitem[\protect\citeauthoryear{J\"{a}ger, Dorshner, Mutschke, Posch  \&
+  Henning}{J\"{a}ger et~al.}{2003}]{Jager2003}
+J\"{a}ger C.,  Dorshner J.,  Mutschke H.,  Posch T.,   Henning T.,  2003,
+  \mn@doi [\aap] {10.1051/0004-6361:20030916}, 408, 193
+
+\bibitem[\protect\citeauthoryear{Jerkstrand, Fransson, Maguire, Smartt, Ergon
+  \& Spyromilio}{Jerkstrand et~al.}{2012}]{Jerkstrand2012}
+Jerkstrand a.,  Fransson C.,  Maguire K.,  Smartt S.,  Ergon M.,   Spyromilio
+  J.,  2012, \mn@doi [Astronomy \& Astrophysics] {10.1051/0004-6361/201219528},
+  546, A28
+
+\bibitem[\protect\citeauthoryear{Kotak et~al.,}{Kotak et~al.}{2009}]{Kotak2009}
+Kotak R.,  et~al., 2009, \mn@doi [\apj] {10.1088/0004-637X/704/1/306}, 704, 306
+
+\bibitem[\protect\citeauthoryear{Kozasa, Hasegawa  \& Nomoto}{Kozasa
+  et~al.}{1991}]{Kozasa1991}
+Kozasa T.,  Hasegawa H.,   Nomoto K.,  1991, {Formation of dust grains in the
+  ejecta of SN 1987A}, \mn@doi{10.1086/167801}
+
+\bibitem[\protect\citeauthoryear{Kozma \& Fransson}{Kozma \&
+  Fransson}{1998}]{Kozma1998}
+Kozma C.,  Fransson C.,  1998, \mn@doi [\apj] {10.1086/305452}, p.~63
+
+\bibitem[\protect\citeauthoryear{Li \& McCray}{Li \& McCray}{1992}]{Li1992}
+Li H.,  McCray R.,  1992, \mn@doi [\apj] {10.1086/171082}, 387, 309
+
+\bibitem[\protect\citeauthoryear{Lucy}{Lucy}{2005}]{Lucy2005c}
+Lucy L.,  2005, \mn@doi [\aap] {10.1051/0004-6361}, 30, 19
+
+\bibitem[\protect\citeauthoryear{Lucy, Danziger, Gouiffes  \& Bouchet}{Lucy
+  et~al.}{1989}]{Lucy1989}
+Lucy L.,  Danziger I.,  Gouiffes C.,   Bouchet P.,  1989, in Tenorio-Tagle G.,
+  Moles M.,   Melnick J.,  eds, IAU Colloq. 120: Structure and Dynamics of the
+  Interstellar Medium, Lecture Notes in Physics. No.~350.
+Berlin Springer Verlag, p.~164, \mn@doi{10.1007/BFb0114861}
+
+\bibitem[\protect\citeauthoryear{Lucy, Danziger, Gouiffes  \& Bouchet}{Lucy
+  et~al.}{1991}]{Lucy1991}
+Lucy L.,  Danziger I.~J.,  Gouiffes C.,   Bouchet P.,  1991, in Woosley S.~E.,
+  ed., Supernovae. p.~82
+
+\bibitem[\protect\citeauthoryear{Maeda, Mazzali, Deng, Nomoto, Yoshii, Tomita
+  \& Kobayashi}{Maeda et~al.}{2003}]{Maeda2003}
+Maeda K.,  Mazzali P.~a.,  Deng J.,  Nomoto K.,  Yoshii Y.,  Tomita H.,
+  Kobayashi Y.,  2003, \mn@doi [\apj] {10.1086/376591}, 593, 931
+
+\bibitem[\protect\citeauthoryear{Mathis, Rumpl  \& Nordsieck}{Mathis
+  et~al.}{1977}]{Mathis1977}
+Mathis J.~S.,  Rumpl W.,   Nordsieck K.~H.,  1977, \mn@doi [\apj]
+  {10.1086/155591}, 217, 425
+
+\bibitem[\protect\citeauthoryear{Matsuura et~al.,}{Matsuura
+  et~al.}{2011}]{Matsuura2011}
+Matsuura M.,  et~al., 2011, \mn@doi [\sci] {10.1126/science.1205983}, 333, 1258
+
+\bibitem[\protect\citeauthoryear{Matsuura et~al.,}{Matsuura
+  et~al.}{2015}]{Matsuura2015}
+Matsuura M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/800/1/50}, 800,
+  50
+
+\bibitem[\protect\citeauthoryear{Mauerhan \& Smith}{Mauerhan \&
+  Smith}{2012}]{Mauerhan2012}
+Mauerhan J.,  Smith N.,  2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21325.x}, 424, 2659
+
+\bibitem[\protect\citeauthoryear{McCray}{McCray}{1996}]{McCray1996}
+McCray R.,  1996, in Kuhn T.~S.,  ed., IAU Colloq. 145: Supernovae and
+  Supernova Remnants. p.~223
+
+\bibitem[\protect\citeauthoryear{Meikle et~al.,}{Meikle
+  et~al.}{2007}]{Meikle2007}
+Meikle W. P.~S.,  et~al., 2007, \mn@doi [\apj] {10.1086/519733}, 665, 608
+
+\bibitem[\protect\citeauthoryear{Milisavljevic, Fesen, Chevalier, Kirshner,
+  Challis  \& Turatto}{Milisavljevic et~al.}{2012}]{Milisavljevic2012}
+Milisavljevic D.,  Fesen R.~A.,  Chevalier R.~A.,  Kirshner R.~P.,  Challis P.,
+    Turatto M.,  2012, \mn@doi [\apj] {10.1088/0004-637X/751/1/25}, 751, 25
+
+\bibitem[\protect\citeauthoryear{Morgan \& Edmunds}{Morgan \&
+  Edmunds}{2003}]{Morgan2003}
+Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.2003.06681.x}, 343, 427
+
+\bibitem[\protect\citeauthoryear{Omont, Cox, Bertoldi, McMahon, Carilli  \&
+  Isaak}{Omont et~al.}{2001}]{Omont2001}
+Omont A.,  Cox P.,  Bertoldi F.,  McMahon R.~G.,  Carilli C.,   Isaak K.~G.,
+  2001, \mn@doi [\aap] {10.1051/0004-6361:20010721}, 374, 371
+
+\bibitem[\protect\citeauthoryear{Owen \& Barlow}{Owen \&
+  Barlow}{2015}]{Owen2015}
+Owen P.~J.,  Barlow M.~J.,  2015, \mn@doi [\apj] {10.1088/0004-637X/801/2/141},
+  801, 141
+
+\bibitem[\protect\citeauthoryear{Phillips, Hamuy, Heathcote, Suntzeff  \&
+  Kirhakos}{Phillips et~al.}{1990}]{Phillips1990}
+Phillips M.~M.,  Hamuy M.,  Heathcote S.~R.,  Suntzeff N.~B.,   Kirhakos S.,
+  1990, {An optical spectrophotometric atlas of supernova 1987A in the LMC. II
+  - CCD observations from day 198 to 805}, \mn@doi{10.1086/115402}
+
+\bibitem[\protect\citeauthoryear{Roche, Aitken, Smith  \& James}{Roche
+  et~al.}{1989}]{Roche1989}
+Roche P.~F.,  Aitken D.~K.,  Smith C.~H.,   James S.~D.,  1989, \mn@doi [\nat]
+  {10.1038/337533a0}, 337, 533
+
+\bibitem[\protect\citeauthoryear{Sarangi \& Cherchneff}{Sarangi \&
+  Cherchneff}{2015}]{Sarangi2015}
+Sarangi A.,  Cherchneff I.,  2015, \mn@doi [Astronomy \& Astrophysics]
+  {10.1051/0004-6361/201424969}, 575, A95
+
+\bibitem[\protect\citeauthoryear{Silvia, Smith  \& {Michael Shull}}{Silvia
+  et~al.}{2010}]{Silvia2010}
+Silvia D.~W.,  Smith B.~D.,   {Michael Shull} J.,  2010, \mn@doi [\apj]
+  {10.1088/0004-637X/715/2/1575}, 715, 1575
+
+\bibitem[\protect\citeauthoryear{Silvia, Smith  \& Shull}{Silvia
+  et~al.}{2012}]{Silvia2012}
+Silvia D.~W.,  Smith B.~D.,   Shull J.~M.,  2012, \mn@doi [\apj]
+  {10.1088/0004-637X/748/1/12}, 748, 12
+
+\bibitem[\protect\citeauthoryear{Slavin, Dwek  \& Jones}{Slavin
+  et~al.}{2015}]{Slavin2015}
+Slavin J.~D.,  Dwek E.,   Jones A.~P.,  2015, \mn@doi [\apj]
+  {10.1088/0004-637X/803/1/7}, 803, 7
+
+\bibitem[\protect\citeauthoryear{Smith, Silverman, Filippenko, Cooper,
+  Matheson, Bian, Weiner  \& Comerford}{Smith et~al.}{2012}]{Smith2012}
+Smith N.,  Silverman J.~M.,  Filippenko A.~V.,  Cooper M.~C.,  Matheson T.,
+  Bian F.,  Weiner B.~J.,   Comerford J.~M.,  2012, \mn@doi [\aj]
+  {10.1088/0004-6256/143/1/17}, 17, 6
+
+\bibitem[\protect\citeauthoryear{Spyromilio, Stathakis, Cannon, Waterman, Couch
+   \& Dopita}{Spyromilio et~al.}{1991}]{Spyromilio1991}
+Spyromilio J.,  Stathakis R.,  Cannon R.,  Waterman L.,  Couch W.,   Dopita M.,
+   1991, \mnras, 248, 465
+
+\bibitem[\protect\citeauthoryear{Spyromilio, Stathakis  \& Meurer}{Spyromilio
+  et~al.}{1993}]{Spyromilio1993}
+Spyromilio J.,  Stathakis R.~a.,   Meurer G.~R.,  1993, \mnras, 263, 530
+
+\bibitem[\protect\citeauthoryear{Sugerman et~al.,}{Sugerman
+  et~al.}{2006}]{Sugerman2006}
+Sugerman B. E.~K.,  et~al., 2006, \mn@doi [\sci] {10.1126/science.1128131},
+  313, 196
+
+\bibitem[\protect\citeauthoryear{Suntzeff, Phillips, Depoy, Elias  \&
+  Walker}{Suntzeff et~al.}{1991}]{Suntzeff1991}
+Suntzeff N.~B.,  Phillips M.~M.,  Depoy D.~L.,  Elias J.~H.,   Walker A.~R.,
+  1991, \mn@doi [\aj] {10.1086/115938}, 102, 1118
+
+\bibitem[\protect\citeauthoryear{Todini \& Ferrara}{Todini \&
+  Ferrara}{2001}]{Todini2001}
+Todini P.,  Ferrara A.,  2001, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.2001.04486.x}, 325, 726
+
+\bibitem[\protect\citeauthoryear{Tziamtzis, Lundqvist, Groningsson  \&
+  Nasoudi-Shoar}{Tziamtzis et~al.}{2010}]{Tziamtzis2010}
+Tziamtzis a.,  Lundqvist P.,  Groningsson P.,   Nasoudi-Shoar S.,  2010, \aap,
+  35, 15
+
+\bibitem[\protect\citeauthoryear{Wang et~al.,}{Wang et~al.}{1996}]{Wang1996}
+Wang L.,  et~al., 1996, \mn@doi [\apj] {10.1086/177570}, 466, 998
+
+\bibitem[\protect\citeauthoryear{Watson, Christensen, Knudsen, Richard,
+  Gallazzi  \& Michałowski}{Watson et~al.}{2015}]{Watson2015}
+Watson D.,  Christensen L.,  Knudsen K.~K.,  Richard J.,  Gallazzi A.,
+  Michałowski M.~J.,  2015, \mn@doi [\nat] {10.1038/nature14164}, 519, 327
+
+\bibitem[\protect\citeauthoryear{Wesson, Barlow, Matsuura  \& Ercolano}{Wesson
+  et~al.}{2015}]{Wesson2015}
+Wesson R.,  Barlow M.~J.,  Matsuura M.,   Ercolano B.,  2015, \mnras, 446, 2089
+  (W15)
+
+\bibitem[\protect\citeauthoryear{Wongwathanarat, M\"{u}ller  \&
+  Janka}{Wongwathanarat et~al.}{2015}]{Wongwathanarat2015}
+Wongwathanarat A.,  M\"{u}ller E.,   Janka H.-T.,  2015, \mn@doi [Astronomy \&
+  Astrophysics] {10.1051/0004-6361/201425025}, 577, A48
+
+\bibitem[\protect\citeauthoryear{Wooden, Rank, Bregman, Witteborn, Tielens,
+  Cohen, Pinto  \& Axelrod}{Wooden et~al.}{1993}]{Wooden1993}
+Wooden D.~H.,  Rank D.~M.,  Bregman J.~D.,  Witteborn F.~C.,  Tielens A. G.
+  G.~M.,  Cohen M.,  Pinto P.~A.,   Axelrod T.~S.,  1993, \mn@doi [\apj
+  Supplement Series] {10.1086/191830}, 88, 477
+
+\bibitem[\protect\citeauthoryear{Xu, McCray, Oliva  \& Randich}{Xu
+  et~al.}{1992}]{Xu1992}
+Xu Y.,  McCray R.,  Oliva E.,   Randich S.,  1992, \mn@doi [\apj]
+  {10.1086/171003}, 386, 181
+
+\bibitem[\protect\citeauthoryear{Zubko, Mennella, Colangeli  \&
+  Bussoletti}{Zubko et~al.}{1996}]{Zubko1996}
+Zubko V.~G.,  Mennella V.,  Colangeli L.,   Bussoletti E.,  1996, \mnras, 282,
+  L1321
+
+\makeatother
+\end{thebibliography}

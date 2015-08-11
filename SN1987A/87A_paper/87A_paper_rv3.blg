@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 87A_paper_rv3.aux
+The style file: mnras.bst
+Database file #1: 87A_paper_rv3.bib
+Warning--I didn't find a database entry for "Morgan2003"
+Warning--I didn't find a database entry for "Dwek2007"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty institution in Hanner1988
+Warning--there's a number but no series in Lucy1989
+You've used 52 entries,
+            2881 wiz_defined-function locations,
+            1178 strings with 22808 characters,
+and the built_in function-call counts, 24481 in all, are:
+= -- 1981
+> -- 1865
+< -- 102
++ -- 782
+- -- 299
+* -- 2992
+:= -- 3894
+add.period$ -- 0
+call.type$ -- 52
+change.case$ -- 105
+chr.to.int$ -- 52
+cite$ -- 54
+duplicate$ -- 1182
+empty$ -- 1174
+format.name$ -- 465
+if$ -- 4241
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 49
+newline$ -- 170
+num.names$ -- 352
+pop$ -- 237
+preamble$ -- 1
+purify$ -- 208
+quote$ -- 0
+skip$ -- 701
+stack$ -- 0
+substring$ -- 1359
+swap$ -- 564
+text.length$ -- 211
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 468
+warning$ -- 2
+while$ -- 383
+width$ -- 0
+write$ -- 535
+(There were 4 warnings)

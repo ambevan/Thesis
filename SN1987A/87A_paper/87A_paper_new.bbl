@@ -1,0 +1,135 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Auer \& Blerkom}{Auer \&
+  Blerkom}{1972}]{Auer1972b}
+Auer L.,  Blerkom D.~V.,  1972, Astrophys. J.
+
+\bibitem[\protect\citeauthoryear{Barlow et~al.,}{Barlow
+  et~al.}{2010}]{Barlow2010}
+Barlow M.~J.,  et~al., 2010, \mn@doi [Astron. Astrophys.]
+  {10.1051/0004-6361/201014585}, 518, L138
+
+\bibitem[\protect\citeauthoryear{Chugai, Chevalier, Kirshner  \&
+  Challis}{Chugai et~al.}{1997}]{Chugai1997}
+Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
+  \mn@doi [Astrophys. J.] {10.1086/304253}, 483, 925
+
+\bibitem[\protect\citeauthoryear{Ercolano, Barlow  \& Sugerman}{Ercolano
+  et~al.}{2007}]{Ercolano2007}
+Ercolano B.,  Barlow M.~J.,   Sugerman B. E.~K.,  2007, \mn@doi [Mon. Not. R.
+  Astron. Soc.] {10.1111/j.1365-2966.2006.11336.x}, 375, 753
+
+\bibitem[\protect\citeauthoryear{Fransson, Ergon  \& Challis}{Fransson
+  et~al.}{2013}]{Fransson2013}
+Fransson C.,  Ergon M.,   Challis P.,  2013, arXiv Prepr. arXiv \ldots
+
+\bibitem[\protect\citeauthoryear{Gall et~al.,}{Gall et~al.}{2014}]{Gall2014}
+Gall C.,  et~al., 2014, \mn@doi [Nature] {10.1038/nature13558}, 511, 326
+
+\bibitem[\protect\citeauthoryear{Gerasimovic}{Gerasimovic}{1933}]{Gerasimovic1933}
+Gerasimovic B.,  1933, Zeitschrift f\"{u}r Astrophys., 7, 335
+
+\bibitem[\protect\citeauthoryear{Gomez et~al.,}{Gomez
+  et~al.}{2012}]{Gomez2012b}
+Gomez H.~L.,  et~al., 2012, \mn@doi [Mon. Not. R. Astron. Soc.]
+  {10.1111/j.1365-2966.2011.20272.x}, 420, 3557
+
+\bibitem[\protect\citeauthoryear{Gr\"{o}ningsson, Fransson, Lundqvist, Nymark,
+  Lundqvist, Chevalier, Leibundgut  \& Spyromilio}{Gr\"{o}ningsson
+  et~al.}{2006}]{Groeningsson2006}
+Gr\"{o}ningsson P.,  Fransson C.,  Lundqvist P.,  Nymark T.,  Lundqvist N.,
+  Chevalier R.,  Leibundgut B.,   Spyromilio J.,  2006, \mn@doi [Astron.
+  Astrophys.] {10.1051/0004-6361:20065325}, 5325, 11
+
+\bibitem[\protect\citeauthoryear{Gr\"{o}ningsson et~al.,}{Gr\"{o}ningsson
+  et~al.}{2007}]{Groeningsson2007}
+Gr\"{o}ningsson P.,  et~al., 2007, \mn@doi [Astron. Astrophys.]
+  {10.1051/0004-6361:200810551}, 491, 19
+
+\bibitem[\protect\citeauthoryear{Gr\"{o}ningsson et~al.,}{Gr\"{o}ningsson
+  et~al.}{2008}]{Groningsson2008}
+Gr\"{o}ningsson P.,  et~al., 2008, \mn@doi [Astron. Astrophys.]
+  {10.1051/0004-6361:20077604}, 479, 761
+
+\bibitem[\protect\citeauthoryear{Hanuschik, Spyromilio, Stathakis, Kimeswenger,
+  Gochermann, Seidensticker  \& Meurer}{Hanuschik et~al.}{1993}]{Hanuschik1993}
+Hanuschik R.~W.,  Spyromilio J.,  Stathakis R.,  Kimeswenger S.,  Gochermann
+  J.,  Seidensticker K.~J.,   Meurer G.,  1993, Mon. Not. R. Astron. Soc., 261,
+  909
+
+\bibitem[\protect\citeauthoryear{Hillier}{Hillier}{1991}]{Hillier1991}
+Hillier Â.,  1991, Astron. Astrophys. (ISSN 0004-6361), 247, 455
+
+\bibitem[\protect\citeauthoryear{Lucy, Danziger, Gouiffes  \& Bouchet}{Lucy
+  et~al.}{1989}]{Lucy1989a}
+Lucy L.,  Danziger I.,  Gouiffes C.,   Bouchet P.,  1989, Struct. Dyn. \ldots,
+  pp 164--179
+
+\bibitem[\protect\citeauthoryear{Owen \& Barlow}{Owen \&
+  Barlow}{2015}]{Owen2015}
+Owen P.~J.,  Barlow M.~J.,  2015, \mn@doi [Astrophys. J.]
+  {10.1088/0004-637X/801/2/141}, 801, 141
+
+\bibitem[\protect\citeauthoryear{Phillips, Hamuy, Heathcote, Suntzeff  \&
+  Kirhakos}{Phillips et~al.}{1990}]{Phillips1990}
+Phillips M.~M.,  Hamuy M.,  Heathcote S.~R.,  Suntzeff N.~B.,   Kirhakos S.,
+  1990, {An optical spectrophotometric atlas of supernova 1987A in the LMC. II
+  - CCD observations from day 198 to 805}, \mn@doi{10.1086/115402}
+
+\bibitem[\protect\citeauthoryear{Sarangi \& Cherchne}{Sarangi \&
+  Cherchne}{2015}]{Sarangi2015}
+Sarangi A.,  Cherchne I.,  2015, pp 1--20
+
+\bibitem[\protect\citeauthoryear{Smith, Silverman, Filippenko, Cooper,
+  Matheson, Bian, Weiner  \& Comerford}{Smith et~al.}{2012}]{Smith2012}
+Smith N.,  Silverman J.~M.,  Filippenko A.~V.,  Cooper M.~C.,  Matheson T.,
+  Bian F.,  Weiner B.~J.,   Comerford J.~M.,  2012, \mn@doi [Astron. J.]
+  {10.1088/0004-6256/143/1/17}, 17, 6
+
+\bibitem[\protect\citeauthoryear{Spyromilio, Stathakis, Cannon, Waterman, Couch
+   \& Dopita}{Spyromilio et~al.}{1991}]{Spyromilio1991}
+Spyromilio J.,  Stathakis R.,  Cannon R.,  Waterman L.,  Couch W.,   Dopita M.,
+   1991, Mon. Not. R. Astron. Soc., 248, 465
+
+\bibitem[\protect\citeauthoryear{Spyromilio, Stathakis  \& Meurer}{Spyromilio
+  et~al.}{1993}]{Spyromilio1993a}
+Spyromilio J.,  Stathakis R.~a.,   Meurer G.~R.,  1993, Mon. Not. R. Astron.
+  Soc., 263, 530
+
+\bibitem[\protect\citeauthoryear{Tziamtzis, Lundqvist, Groningsson  \&
+  Nasoudi-Shoar}{Tziamtzis et~al.}{2010}]{Tziamtzis2010}
+Tziamtzis a.,  Lundqvist P.,  Groningsson P.,   Nasoudi-Shoar S.,  2010,
+  Astron. Astrophys., 35, 15
+
+\bibitem[\protect\citeauthoryear{Wang et~al.,}{Wang et~al.}{1996}]{Wang1996}
+Wang L.,  et~al., 1996, \mn@doi [Astrophys. J.] {10.1086/177570}, p.~26
+
+\bibitem[\protect\citeauthoryear{Wesson, Barlow, Matsuura  \& Ercolano}{Wesson
+  et~al.}{2015}]{Wesson2015}
+Wesson R.,  Barlow M.~J.,  Matsuura M.,   Ercolano B.,  2015, Mon. Not. R.
+  Astron. Soc., 446, 2089
+
+\bibitem[\protect\citeauthoryear{Zubko, Mennella, Colangeli  \&
+  Bussoletti}{Zubko et~al.}{1996}]{Zubko1996}
+Zubko V.~G.,  Mennella V.,  Colangeli L.,   Bussoletti E.,  1996, Mon. Not. R.
+  Astron. Soc. Lett., 282, 1321
+
+\makeatother
+\end{thebibliography}

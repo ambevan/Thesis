@@ -1,0 +1,193 @@
+\documentclass[useAMS,usenatbib]{mn2e}
+\usepackage{amsmath}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[Modelling late-time line profile asymmetries in the spectra of SN 1987A]{Modelling late-time line profile asymmetries in the spectra of SN 1987A}
+\author[Antonia Bevan and M. J. Barlow]{Antonia Bevan$^{1}$ and M. J. Barlow$^{1}$\\
+$^{1}$Department of Physics and Astronomy, University College London, Gower Street, London WC1E 6BT, UK}
+\begin{document}
+
+\date{Accepted 1988 December 15. Received 1988 December 14; in original form 1988 October 11}
+
+\pagerange{\pageref{firstpage}--\pageref{lastpage}} \pubyear{2015}
+
+\maketitle
+
+\label{firstpage}
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{keywords}
+supernovae
+\end{keywords}
+
+\section{Introduction}
+
+
+\section{Archival data}
+
+\section{Description of the Code}
+
+Monte Carlo methods have long been used to model radiative transfer problems in diverse environments and there are several examples of codes which utilise the technique in application to supernovae (CITE CLOUDY, MOCASSIN, OTHERS).  Whilst there are numerous instances of these codes treating either dust or gas or both in order to produce an overall spectral energy distribution (SED), there is seemingly a dearth of codes that are designed to focus on the shape of a single line profile.  Codes that look to reproduce the spectra of supernovae generally utilise the Sobolev approximation in order to process the evolution of a series of line profiles and, though a velocity field is naturally considered, dust absorption and scattering is not and thus the resulting shapes of line profiles are potentially unrepresentative of those produced in dusty regions.
+
+In this work we aim to model a single line profile or doublet produced by a moving atmosphere in a dusty medium.  Since a comparatively small wavelength range is considered, a fully self-consistent radiative transfer model is unnecessarily expensive.  Instead any packet that is absorbed during the simulation may simply be removed from circulation on the grounds that it would be reemitted outside the wavelength range of interest.   Extinction due to dust is also temparture-independent and it is therefore unnecessary to iteratively calculate the temperature of the ejecta as in a fully self-consistent calculation of the SED.  Though clearly the total energy transferred through the medium is not conserved, the signature of the normalised line profile is preserved.
+
+The DAMOCLES (Dust Affected Models of Characteristic Line Emission in Supernovae) code builds on the work of (CITE Lucy in line) who employed a similar approach to model the broad [OI]$\lambda 6300\AA$ line seen in SN 1987A at early epochs ($\sim$ day 775).  It models the transport of initially monochromatic energy packets through a smooth or clumped medium of dust in a smooth velocity field.
+
+
+\subsection{Energy packets}
+\label{packets}
+The initial radiation field is inherently tied to the distribution of gas throughout the supernova ejecta which is declared as a  power law  $\rho(r) \propto r^{-\beta}$ between $R_{in}$ and $R_{out}$. The emissivity distribution is also specified as a power law, however this is generally taken to be $i(r) \propto r ^{-2\beta}$ since the majority of lines modelled are recombination lines.  The radiation is quantized into monochromatic packets with equal energy $E_{0}=nh\nu_{0}$.  In Monte Carlo simulations that model non-moving atmospheres, packets are usually taken to be of constant energy.  When the frequency of the packet is altered after an event, the energy of the packet is kept constant and the number of real photons contained within it assumed to change.  However, in the case of dust scattering, the number of real photons is conserved and thus the energy of the packet is altered.  This is most easily achieved by weighting each packet over all scattering events as $w=\prod_{scat} \frac{\nu'}{\nu}$, where $w$ is the weight of the packet.  The final energy of each packet is then $E=wE_0$, where $E_0$ is the initial energy of the packet.
+
+The supernova ejecta is divided into shells between $R_{in}$ and $R_{out}$ and the number of packets to be emitted in each shell calculated according to the emissivity distribution and emitted isotropically.  For each packet a location within that shell and an initial trajectory is randomly sampled from an isotropic distribution such that 
+
+\begin{equation}
+\phi=2\pi\eta
+ \cos (\theta)=2\xi -1
+\end{equation}
+
+\noindent where $0<\eta<1$ and $0<\xi<1$ are random numbers, $\phi$ is the azimuthal angle and $\cos (\theta)$ is the radial direction cosine.  At emission and at each scattering event the frequency of the packet is recalculated according to the specified radial velocity field $v(r) \propto v_{max}r^{\alpha}$ (see section \ref{transport}) .
+
+\subsection{Ejecta Geometry}
+\label{grid}
+The supernova ejecta is approximated by a three-dimensional cartesian grid, each cell of which is assumed to have uniform density and composition.  The grid is a cube with  sides of width $2R_{out}$ and a declarable number of divisions.  After the initial emission of energy packets, the gas plays no further role in the simulation and thus only dust properties are considered.  The dust is generally coupled to the gas and thus follows the smooth distribution described above, although the two components may be decoupled if desired.  The dust density in each cell is therefore calculated accordingly and any cell whose centre falls outside of the bounds of the supernova ejecta has density set to zero.  
+
+It is worth noting that if a constant mass loss rate is required, the exponent of the velocity profile and the exponent of the density profile are not independent.  A constant mass loss rate implies that $4\pi \rho vR^2  \propto k$, where $k$ is a constant, and thus for $v \propto r^\alpha$ and $\rho\propto r^{-\beta}$, we require that $\beta-\alpha=2$.  However,  it is possible that the supernova event may have induced a mass-flow rate that is not constant with radius and thus both exponents may be declared independently.
+
+
+It is known from SED modelling of supernova environments that very different dust masses are required to reproduce the same observations when the dust is located in clumps as opposed to a smooth distribution (REFERENCES/PHRASING).  The capacity for modelling a clumped dusty medium is therefore included in the code.  The fraction of the dust mass that is formed within clumps is declared ($m_{frac}$)as is the total volume filling factor.  Dust that is not located in clumps is distributed according to the specified smooth radial profile whilst the remainder is located in clumps.  The clumps occupy  a single grid cell and their size can therefore be varied by altering the number of divisions in the grid ($n_{div}$).  They are distributed stochastically with probability of a given cell being a clump proportional to the smooth density profile (i.e. $p(r) \propto r^{-\beta}$).  The density of all clumps is constant and is calculated as 
+
+\begin{equation}
+\rho_{clump}=\frac{M_{clumps}}{V_{clumps}}=\frac{m_{frac}M_{tot}}{\frac{4}{3} f\pi (R_{out}^{3}-R_{in}^{3} )}
+\end{equation}
+
+\noindent where $M_{tot}$ is the total dust mass, $M_{clumps}$ is the totall dust mass in clumps and $V_{clumps}$ is the total volume occupied by clumps.  $m_{frac}$ and $f$ are defined as above.
+
+\subsection{Radiation Transport}
+\label{transport}
+
+Following emission a packet must be propagated through the grid until it escapes the outer bound of the ejecta $R_{out}$.  The probability that the packet travels a distance $l$ without interacting is 
+$p(l)=e ^{-n \sigma l}=e ^{-\tau} $
+where $n$ is the number density, $\sigma$ is the cross-section of interaction and $ \tau = n\sigma l$ for constant $n$ and $\sigma$ (as in a grid cell).  Noting that the probability that a packet does interact within a distance $l$ is therefore $1-e^{-\tau}$, we may sample from the cumulative probability distribution to give: 
+
+\begin{equation}
+\xi = 1 - e^{-\tau}   \tau=-\log (1-\xi)
+\end{equation}
+
+\noindent where $0<\xi<1$ is a sampled random number set to be the value of the optical depth for that packet in that cell.  The frequency of the photon packet and the mass density of the cell are then used to calculate the opacity of that cell and, using the fact that $n\sigma=\kappa\rho$, the distance $l$ that the packet travels before its next interaction is calculated.  If this value is greater than the distance from its position to the edge of the cell then the packet is moved along its current trajectory to the cell boundary and the process is repeated.  If the distance is less than the distance to the boundary then an event occurs and the packet is either scattered or absorbed with probability equal to the albedo of the cell
+
+\begin{equation}
+	\omega=\frac{\sigma_{sca}}{\sigma_{sca}+\sigma_{abs}}
+\end{equation}
+
+If the packet is absorbed then it is simply removed from the simulation as discussed above.  If the packet is scattered then a new trajectory is sampled from an isotropic distribution in the comoving frame of the dust grain and the frequency of the packet recalculated using the Lorentz transforms subject to the velocity at the radius of the interaction (see appendix A for further details).  This process is repeated until the packet has either escaped the outer bound of the supernova ejecta or been absorbed.
+   
+Escaped packets are added to frequency bins weighted by $w$ in order to produce an overall emergent line profile.
+
+\subsection{The Dusty Medium}
+
+Dust of any composition may be used for which optical data is available and the relative abundances of the species may be declared by the user.  A grain size may be specified for each species.  Since a full radiative transfer calculation is not performed, it is not useful to specify a grain size distribution since the extinction to dust is only dependent on the cross-sectional area of the grains and not to the overall distribution (see section \ref{params} for further details).  A Mie approximation is used to calculate the overall $Q_{abs}(\nu)$ and $Q_{sca}(\nu)$ for each species and the derived opacities are summed over each species weighted according to their relative abundances. 
+
+\subsection{Electron Scattering}
+
+As will be discussed in sections \ref{params}, the effects of scattering on the shapes of line profiles can potentially be quite pronounced and it is therefore important to consider the potential effects of electron scattering as well as those of dust scattering.  Electron densities are calculated using an estimated average temperature and observed luminosity of $H_{\alpha}$ as follows
+
+[INCLUDE CALCN HERE]
+
+In the majority of cases it seems that the electron densities are not high enough to discernibly effect the overall shape of the profile.  However, there may be a few rare cases (the concept is discussed for SN 2010jl REFERENCE HERE) where the electron densities are high enough to become significant in the observed profiles.  Whilst the inclusion of electron scattering in the code is an approximation, it gives a good suggestion of the potential effects of electron scattering (see section \ref{params} for further detail)
+
+\section{Parameter sensitivity analysis}
+\label{params}
+\section{Results}
+
+\section{Discussion}
+
+\section{Conclusions}
+
+
+\section*{Acknowledgments}
+
+
+
+
+
+\appendix
+
+\section[]{Appendix A}
+Since the outflow velocities in supernovae are high, the photon packets are subject to Doppler shifting at emission and at each scattering event.  When the packet is initially emitted, it has a frequency and a trajectory in the rest frame of the emitter. Both of these must be transformed to the observer's frame in order for the packet to be propagated through the grid.  The new direction and frequency in the observer's frame may be simply found by transforming the momentum 4-vector $\mathbf{P}$ which is defined as
+
+\begin{equation}
+\mathbf{P}=
+\begin{pmatrix}
+	E \\
+	p_x \\
+	p_y \\
+	p_z \\
+	\end{pmatrix} =
+	\begin{pmatrix}
+	h \nu \\
+	h \nu x \\
+	h \nu y \\
+	h \nu z \\
+	\end{pmatrix}
+\end{equation}
+
+
+\noindent We may then derive $\mathbf{P'}$, the momentum 4-vector in the observer's frame using the relation
+
+\begin{equation}
+	\mathbf{P'}=\Lambda \mathbf{P}	
+\end{equation}
+
+\noindent where 
+
+\[
+	{\Lambda}=
+	 \begin{pmatrix} 
+	  \gamma & -\gamma \beta_x & -\gamma \beta_y & -\gamma \beta_z \\
+	 -\gamma \beta_x & 1+(\gamma-1)\frac{\beta_x^2}{\beta^2} & (\gamma-1)\frac{\beta_x \beta_y}{\beta^2} & (\gamma-1)\frac{\beta_x \beta_z}{\beta^2} \\
+	 -\gamma \beta_y  & (\gamma-1)\frac{\beta_y \beta_x}{\beta^2} & 1+(\gamma-1)\frac{\beta_y^2}{\beta^2} & (\gamma-1)\frac{\beta_y \beta_z}{\beta^2} \\
+	 -\gamma \beta_z & (\gamma-1)\frac{\beta_z \beta_x}{\beta^2} & (\gamma-1)\frac{\beta_z \beta_y}{\beta^2} & 1+(\gamma-1)\frac{\beta_z^2}{\beta^2} \\
+	 \end{pmatrix}
+\]
+
+ \noindent and $\mathbf{\beta}=\frac{{\bf{v}}}{c}$,   $\mathbf{\beta}=(\beta_x,\beta_y,\beta_z)$,   $\beta=\mathbf{\beta}$ and $\gamma = \frac{1}{\sqrt{1-\beta^2}}$.
+
+
+In practice, the velocities considered are low enough that it is unnecessary to consider terms of order $O(\frac{v^2}{c^2})$ and thus ${\Lambda}$ may be reduced to
+
+\begin{equation}
+	{\Lambda}=
+	 \begin{pmatrix} 
+	 1 \& - \beta_x \& - \beta_y \& - \beta_z \\
+	- \beta_x \& 1 \& 0 \& 0 \\
+	- \beta_y  \& 0 \& 1 \& 0\\
+	- \beta_z \& 0 \& 0 \& 1 \\
+	 \end{pmatrix}
+	 \\
+\end{equation}
+
+\noindent The new direction of travel and frequency in the observer's frame are therefore given by  
+\begin{equation}
+\nu'=\nu(1-x\beta_x-y\beta_y-z\beta_z) \\
+\end{equation}
+\[
+x'=\frac{\nu}{\nu'}(x-\beta_x) 
+\]
+\[
+y'=\frac{\nu}{\nu'}(x-\beta_y) 
+\]
+\[
+z'=\frac{\nu}{\nu'}(x-\beta_z) 
+\]
+
+
+For each scattering event, the packet must be transformed both into and out of the comoving frame. The reverse transform is applied by using the inverse Lorentz matrix $\Lambda^{-1}$ which is obtained by reversing the sign of $\bf{v}$.  Positive $\bf{v}$ is defined for frames moving away from each other and thus $\bf{v}$ is defined to be negative in the direction of the observer.
+
+\bsp
+
+\label{lastpage}
+
+\end{document}

@@ -1,0 +1,2293 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  11 AUG 2015 11:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**87A_paper_rv6.tex
+(./87A_paper_rv6.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(./mnras.cls
+Document Class: mnras 2015/05/14\ v3.0beta\ LaTeX2e MNRAS document class
+MNRAS document style v3.0beta, released 2015/05/14
+
+./mnras.cls:113: LaTeX Error: \RequirePackage or \LoadClass in Options Section.
+
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 \ProcessOptions\relax
+                           
+? 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count79
+\Gm@cntv=\count80
+\c@Gm@tempcnt=\count81
+\Gm@bindingoffset=\dimen102
+\Gm@wd@mp=\dimen103
+\Gm@odd@mp=\dimen104
+\Gm@even@mp=\dimen105
+\Gm@layoutwidth=\dimen106
+\Gm@layoutheight=\dimen107
+\Gm@layouthoffset=\dimen108
+\Gm@layoutvoffset=\dimen109
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2014/05/13 v1.1q fixes to LaTeX
+LaTeX Info: Redefining \em on input line 429.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen110
+\Hy@linkcounter=\count82
+\Hy@pagecounter=\count83
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count84
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count85
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen111
+\Fld@menulength=\count86
+\Field@Width=\dimen112
+\Fld@charsize=\dimen113
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count87
+\c@Hfootnote=\count88
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count89
+\c@bookmark@seq@number=\count90
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip41
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 123.
+\math@groups=\toks16
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 276.
+\symbmisymbols=\mathgroup4
+\symUPM=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `UPM' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 313.
+\symAMSa=\mathgroup6
+\SFB@measure=\dimen114
+\realparindent=\skip42
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
+\@indentskip=\skip43
+\smallindent=\skip44
+\@footindent=\skip45
+\@leftskip=\skip46
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip47
+\bibsep=\skip48
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count97
+)
+\c@table=\count98
+\c@figure=\count99
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen115
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip11
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks18
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks19
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 59.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 59.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
+)
+Package morefloats Info: Maximum number of possible floats asked for: 36.
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+(morefloats)              on input line 171.
+\bx@S=\insert233
+\bx@T=\insert232
+\bx@U=\insert231
+\bx@V=\insert230
+\bx@W=\insert229
+\bx@X=\insert228
+\bx@Y=\insert227
+\bx@Z=\insert226
+\bx@AA=\insert225
+\bx@AB=\insert224
+\bx@AC=\insert223
+\bx@AD=\insert222
+\bx@AE=\insert221
+\bx@AF=\insert220
+\bx@AG=\insert219
+\bx@AH=\insert218
+\bx@AI=\insert217
+\bx@AJ=\insert216
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count112
+))
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(./87A_paper_rv6.aux)
+\openout1 = `87A_paper_rv6.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=504.0pt
+* \textheight=682.0pt
+* \oddsidemargin=-30.0pt
+* \evensidemargin=-30.0pt
+* \topmargin=0.0pt
+* \headheight=14.0pt
+* \headsep=15.0pt
+* \topskip=9.0pt
+* \footskip=22.0pt
+* \marginparwidth=48.0pt
+* \marginparsep=6.0pt
+* \columnsep=24.0pt
+* \skip\footins=19.5pt plus 12.0pt minus 1.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box28
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+)
+Package hyperref Info: Link coloring ON on input line 16.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+(./87A_paper_rv6.out) (./87A_paper_rv6.out)
+\@outlinefile=\write3
+\openout3 = `87A_paper_rv6.out'.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen126
+\scratchbox=\box29
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen127
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+eur on input line 22.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2013/01/14 v3.01 Euler Roman
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 152.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+ [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Package epstopdf Info: Source file: <Ha_evol_early_1col2.eps>
+(epstopdf)                    date: 2015-07-07 14:23:20
+(epstopdf)                    size: 531194 bytes
+(epstopdf)             Output file: <Ha_evol_early_1col2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-07 14:23:51
+(epstopdf)                    size: 127815 bytes
+(epstopdf)             Command: <repstopdf --outfile=Ha_evol_early_1col2-eps-co
+nverted-to.pdf Ha_evol_early_1col2.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+
+<Ha_evol_early_1col2-eps-converted-to.pdf, id=213, 562.1pt x 421.575pt>
+File: Ha_evol_early_1col2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Ha_evol_early_1col2-eps-converted-to.pdf>
+Package pdftex.def Info: Ha_evol_early_1col2-eps-converted-to.pdf used on input
+ line 193.
+(pdftex.def)             Requested size: 243.66702pt x 202.20273pt.
+
+Overfull \hbox (3.66702pt too wide) in paragraph at lines 193--198
+[][]
+ []
+
+Package epstopdf Info: Source file: <Ha_evol_late_1col.eps>
+(epstopdf)                    date: 2015-04-27 13:46:53
+(epstopdf)                    size: 555021 bytes
+(epstopdf)             Output file: <Ha_evol_late_1col-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:17:56
+(epstopdf)                    size: 125752 bytes
+(epstopdf)             Command: <repstopdf --outfile=Ha_evol_late_1col-eps-conv
+erted-to.pdf Ha_evol_late_1col.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+<Ha_evol_late_1col-eps-converted-to.pdf, id=222, 562.1pt x 421.575pt>
+File: Ha_evol_late_1col-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Ha_evol_late_1col-eps-converted-to.pdf>
+Package pdftex.def Info: Ha_evol_late_1col-eps-converted-to.pdf used on input l
+ine 231.
+(pdftex.def)             Requested size: 240.59558pt x 202.20273pt.
+
+Overfull \hbox (0.59558pt too wide) in paragraph at lines 231--236
+[][]
+ []
+
+
+Overfull \hbox (2.46313pt too wide) in paragraph at lines 248--272
+[][] 
+ []
+
+
+Overfull \hbox (8.1496pt too wide) in paragraph at lines 245--273
+ []$[]$ 
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 292--298
+[]\OT1/cmr/m/n/9 Wavelength ranges en-com-pass-ing the H$\OML/cmm/m/it/9 $ \OT
+1/cmr/m/n/9 line and
+ []
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.298 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.298 
+       <./Ha_evol_early_1col2-eps-converted-to.pdf> <./Ha_evol_late_1col-eps-co
+nverted-to.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 309.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 309.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 309.
+
+Package epstopdf Info: Source file: <d1054Ha.eps>
+(epstopdf)                    date: 2015-07-27 18:04:55
+(epstopdf)                    size: 164837 bytes
+(epstopdf)             Output file: <d1054Ha-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-27 18:05:36
+(epstopdf)                    size: 10176 bytes
+(epstopdf)             Command: <repstopdf --outfile=d1054Ha-eps-converted-to.p
+df d1054Ha.eps>
+(epstopdf)             \includegraphics on input line 376.
+Package epstopdf Info: Output file is already uptodate.
+<d1054Ha-eps-converted-to.pdf, id=335, 562.1pt x 421.575pt>
+File: d1054Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use d1054Ha-eps-converted-to.pdf>
+Package pdftex.def Info: d1054Ha-eps-converted-to.pdf used on input line 376.
+(pdftex.def)             Requested size: 239.52687pt x 193.2938pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.393 T
+       he onset of a fixed ionisation structure in the ejecta causes the rat...
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.393 T
+       he onset of a fixed ionisation structure in the ejecta causes the rat...
+] [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.491 
+       <./d1054Ha-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <params/A/b0_r0_2.eps>
+(epstopdf)                    date: 2015-05-05 21:53:59
+(epstopdf)                    size: 265640 bytes
+(epstopdf)             Output file: <params/A/b0_r0_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:17:57
+(epstopdf)                    size: 20183 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/A/b0_r0_2-eps-conve
+rted-to.pdf params/A/b0_r0_2.eps>
+(epstopdf)             \includegraphics on input line 505.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/A/b0_r0_2-eps-converted-to.pdf, id=414, 562.1pt x 421.575pt>
+File: params/A/b0_r0_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/A/b0_r0_2-eps-converted-to.pdf>
+Package pdftex.def Info: params/A/b0_r0_2-eps-converted-to.pdf used on input li
+ne 505.
+(pdftex.def)             Requested size: 167.22247pt x 129.68274pt.
+Package epstopdf Info: Source file: <params/A/b1_r0_2.eps>
+(epstopdf)                    date: 2015-05-05 22:09:25
+(epstopdf)                    size: 265520 bytes
+(epstopdf)             Output file: <params/A/b1_r0_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:17:58
+(epstopdf)                    size: 20460 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/A/b1_r0_2-eps-conve
+rted-to.pdf params/A/b1_r0_2.eps>
+(epstopdf)             \includegraphics on input line 506.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/A/b1_r0_2-eps-converted-to.pdf, id=416, 562.1pt x 421.575pt>
+File: params/A/b1_r0_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/A/b1_r0_2-eps-converted-to.pdf>
+Package pdftex.def Info: params/A/b1_r0_2-eps-converted-to.pdf used on input li
+ne 506.
+(pdftex.def)             Requested size: 163.12723pt x 129.68274pt.
+Package epstopdf Info: Source file: <params/A/b2_r0_2.eps>
+(epstopdf)                    date: 2015-05-05 21:48:38
+(epstopdf)                    size: 265789 bytes
+(epstopdf)             Output file: <params/A/b2_r0_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:00
+(epstopdf)                    size: 20028 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/A/b2_r0_2-eps-conve
+rted-to.pdf params/A/b2_r0_2.eps>
+(epstopdf)             \includegraphics on input line 507.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/A/b2_r0_2-eps-converted-to.pdf, id=418, 562.1pt x 421.575pt>
+File: params/A/b2_r0_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/A/b2_r0_2-eps-converted-to.pdf>
+Package pdftex.def Info: params/A/b2_r0_2-eps-converted-to.pdf used on input li
+ne 507.
+(pdftex.def)             Requested size: 163.12723pt x 129.68274pt.
+Package epstopdf Info: Source file: <params/A/b0_r0.eps>
+(epstopdf)                    date: 2015-05-05 22:07:35
+(epstopdf)                    size: 250598 bytes
+(epstopdf)             Output file: <params/A/b0_r0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:01
+(epstopdf)                    size: 17077 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/A/b0_r0-eps-convert
+ed-to.pdf params/A/b0_r0.eps>
+(epstopdf)             \includegraphics on input line 509.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/A/b0_r0-eps-converted-to.pdf, id=420, 562.1pt x 421.575pt>
+File: params/A/b0_r0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/A/b0_r0-eps-converted-to.pdf>
+Package pdftex.def Info: params/A/b0_r0-eps-converted-to.pdf used on input line
+ 509.
+(pdftex.def)             Requested size: 167.22247pt x 136.50818pt.
+Package epstopdf Info: Source file: <params/A/b1_r0.eps>
+(epstopdf)                    date: 2015-05-05 22:11:52
+(epstopdf)                    size: 250497 bytes
+(epstopdf)             Output file: <params/A/b1_r0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:02
+(epstopdf)                    size: 17292 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/A/b1_r0-eps-convert
+ed-to.pdf params/A/b1_r0.eps>
+(epstopdf)             \includegraphics on input line 510.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/A/b1_r0-eps-converted-to.pdf, id=422, 562.1pt x 421.575pt>
+File: params/A/b1_r0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/A/b1_r0-eps-converted-to.pdf>
+Package pdftex.def Info: params/A/b1_r0-eps-converted-to.pdf used on input line
+ 510.
+(pdftex.def)             Requested size: 163.12723pt x 136.50818pt.
+Package epstopdf Info: Source file: <params/A/b2_r0.eps>
+(epstopdf)                    date: 2015-05-05 21:51:30
+(epstopdf)                    size: 262408 bytes
+(epstopdf)             Output file: <params/A/b2_r0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:03
+(epstopdf)                    size: 14239 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/A/b2_r0-eps-convert
+ed-to.pdf params/A/b2_r0.eps>
+(epstopdf)             \includegraphics on input line 511.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/A/b2_r0-eps-converted-to.pdf, id=424, 562.1pt x 421.575pt>
+File: params/A/b2_r0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/A/b2_r0-eps-converted-to.pdf>
+Package pdftex.def Info: params/A/b2_r0-eps-converted-to.pdf used on input line
+ 511.
+(pdftex.def)             Requested size: 163.12723pt x 136.50818pt.
+
+Underfull \hbox (badness 4673) in paragraph at lines 526--537
+\OT1/cmr/m/n/9 The su-per-nova ejecta is ap-prox-i-mated by a three-
+ []
+
+[5]
+Package epstopdf Info: Source file: <params/opt_thick_w0.eps>
+(epstopdf)                    date: 2015-05-29 17:54:21
+(epstopdf)                    size: 189928 bytes
+(epstopdf)             Output file: <params/opt_thick_w0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-06-24 12:35:43
+(epstopdf)                    size: 13513 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/opt_thick_w0-eps-co
+nverted-to.pdf params/opt_thick_w0.eps>
+(epstopdf)             \includegraphics on input line 651.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/opt_thick_w0-eps-converted-to.pdf, id=442, 563.10374pt x 421.575pt>
+File: params/opt_thick_w0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/opt_thick_w0-eps-converted-to.pdf>
+Package pdftex.def Info: params/opt_thick_w0-eps-converted-to.pdf used on input
+ line 651.
+(pdftex.def)             Requested size: 247.25035pt x 202.20273pt.
+Package epstopdf Info: Source file: <params/opt_thick_w0_6.eps>
+(epstopdf)                    date: 2015-05-29 18:08:12
+(epstopdf)                    size: 189039 bytes
+(epstopdf)             Output file: <params/opt_thick_w0_6-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-06-24 12:35:45
+(epstopdf)                    size: 14577 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/opt_thick_w0_6-eps-
+converted-to.pdf params/opt_thick_w0_6.eps>
+(epstopdf)             \includegraphics on input line 652.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/opt_thick_w0_6-eps-converted-to.pdf, id=444, 562.1pt x 421.575pt>
+File: params/opt_thick_w0_6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/opt_thick_w0_6-eps-converted-to.pdf>
+Package pdftex.def Info: params/opt_thick_w0_6-eps-converted-to.pdf used on inp
+ut line 652.
+(pdftex.def)             Requested size: 246.73846pt x 202.20273pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.702 \end{equation}
+                     <./params/A/b0_r0_2-eps-converted-to.pdf> <./params/A/b1_r
+0_2-eps-converted-to.pdf> <./params/A/b2_r0_2-eps-converted-to.pdf> <./params/A
+/b0_r0-eps-converted-to.pdf> <./params/A/b1_r0-eps-converted-to.pdf> <./params/
+A/b2_r0-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <params/C/C_all.eps>
+(epstopdf)                    date: 2015-05-04 18:48:38
+(epstopdf)                    size: 272255 bytes
+(epstopdf)             Output file: <params/C/C_all-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:24
+(epstopdf)                    size: 31563 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/C/C_all-eps-convert
+ed-to.pdf params/C/C_all.eps>
+(epstopdf)             \includegraphics on input line 770.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/C/C_all-eps-converted-to.pdf, id=634, 1098.1025pt x 901.3675pt>
+File: params/C/C_all-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/C/C_all-eps-converted-to.pdf>
+Package pdftex.def Info: params/C/C_all-eps-converted-to.pdf used on input line
+ 770.
+(pdftex.def)             Requested size: 503.48906pt x 451.2793pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.797 
+       <./params/opt_thick_w0-eps-converted-to.pdf> <./params/opt_thick_w0_6-ep
+s-converted-to.pdf>]
+Package epstopdf Info: Source file: <params/D/newDall.eps>
+(epstopdf)                    date: 2015-05-04 20:56:27
+(epstopdf)                    size: 252074 bytes
+(epstopdf)             Output file: <params/D/newDall-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-18 13:18:22
+(epstopdf)                    size: 24562 bytes
+(epstopdf)             Command: <repstopdf --outfile=params/D/newDall-eps-conve
+rted-to.pdf params/D/newDall.eps>
+(epstopdf)             \includegraphics on input line 804.
+Package epstopdf Info: Output file is already uptodate.
+
+<params/D/newDall-eps-converted-to.pdf, id=703, 1049.9225pt x 927.465pt>
+File: params/D/newDall-eps-converted-to.pdf Graphic file (type pdf)
+
+<use params/D/newDall-eps-converted-to.pdf>
+Package pdftex.def Info: params/D/newDall-eps-converted-to.pdf used on input li
+ne 804.
+(pdftex.def)             Requested size: 496.25209pt x 464.71948pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.839 
+       <./params/C/C_all-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.858 \end{equation}
+                     <./params/D/newDall-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Qext_grainsize_upto4_2.eps>
+(epstopdf)                    date: 2015-08-07 20:07:51
+(epstopdf)                    size: 259709 bytes
+(epstopdf)             Output file: <Qext_grainsize_upto4_2-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-08-07 20:08:04
+(epstopdf)                    size: 36787 bytes
+(epstopdf)             Command: <repstopdf --outfile=Qext_grainsize_upto4_2-eps
+-converted-to.pdf Qext_grainsize_upto4_2.eps>
+(epstopdf)             \includegraphics on input line 871.
+Package epstopdf Info: Output file is already uptodate.
+
+<Qext_grainsize_upto4_2-eps-converted-to.pdf, id=766, 562.1pt x 421.575pt>
+File: Qext_grainsize_upto4_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Qext_grainsize_upto4_2-eps-converted-to.pdf>
+Package pdftex.def Info: Qext_grainsize_upto4_2-eps-converted-to.pdf used on in
+put line 871.
+(pdftex.def)             Requested size: 241.69829pt x 181.27371pt.
+Package epstopdf Info: Source file: <Qext_grainsize_upto4_log_2.eps>
+(epstopdf)                    date: 2015-08-07 20:05:35
+(epstopdf)                    size: 261194 bytes
+(epstopdf)             Output file: <Qext_grainsize_upto4_log_2-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-08-07 20:07:01
+(epstopdf)                    size: 36516 bytes
+(epstopdf)             Command: <repstopdf --outfile=Qext_grainsize_upto4_log_2
+-eps-converted-to.pdf Qext_grainsize_upto4_log_2.eps>
+(epstopdf)             \includegraphics on input line 872.
+Package epstopdf Info: Output file is already uptodate.
+
+<Qext_grainsize_upto4_log_2-eps-converted-to.pdf, id=768, 562.1pt x 421.575pt>
+File: Qext_grainsize_upto4_log_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Qext_grainsize_upto4_log_2-eps-converted-to.pdf>
+Package pdftex.def Info: Qext_grainsize_upto4_log_2-eps-converted-to.pdf used o
+n input line 872.
+(pdftex.def)             Requested size: 241.69829pt x 181.27371pt.
+Package epstopdf Info: Source file: <albedo_grainsize_upto4_2.eps>
+(epstopdf)                    date: 2015-08-07 20:01:18
+(epstopdf)                    size: 259126 bytes
+(epstopdf)             Output file: <albedo_grainsize_upto4_2-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-08-07 20:07:02
+(epstopdf)                    size: 35373 bytes
+(epstopdf)             Command: <repstopdf --outfile=albedo_grainsize_upto4_2-e
+ps-converted-to.pdf albedo_grainsize_upto4_2.eps>
+(epstopdf)             \includegraphics on input line 875.
+Package epstopdf Info: Output file is already uptodate.
+
+<albedo_grainsize_upto4_2-eps-converted-to.pdf, id=770, 562.1pt x 421.575pt>
+File: albedo_grainsize_upto4_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use albedo_grainsize_upto4_2-eps-converted-to.pdf>
+Package pdftex.def Info: albedo_grainsize_upto4_2-eps-converted-to.pdf used on 
+input line 875.
+(pdftex.def)             Requested size: 241.69829pt x 181.27371pt.
+Package epstopdf Info: Source file: <albedo_grainsize_upto4_log_2.eps>
+(epstopdf)                    date: 2015-08-07 19:59:05
+(epstopdf)                    size: 261634 bytes
+(epstopdf)             Output file: <albedo_grainsize_upto4_log_2-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-08-07 20:07:03
+(epstopdf)                    size: 35252 bytes
+(epstopdf)             Command: <repstopdf --outfile=albedo_grainsize_upto4_log
+_2-eps-converted-to.pdf albedo_grainsize_upto4_log_2.eps>
+(epstopdf)             \includegraphics on input line 876.
+Package epstopdf Info: Output file is already uptodate.
+
+<albedo_grainsize_upto4_log_2-eps-converted-to.pdf, id=772, 562.1pt x 421.575pt
+>
+File: albedo_grainsize_upto4_log_2-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use albedo_grainsize_upto4_log_2-eps-converted-to.pdf>
+Package pdftex.def Info: albedo_grainsize_upto4_log_2-eps-converted-to.pdf used
+ on input line 876.
+(pdftex.def)             Requested size: 241.69829pt x 181.27371pt.
+ [10]
+Package epstopdf Info: Source file: <a0_001_opt_thin_HaHbPad.eps>
+(epstopdf)                    date: 2015-07-28 18:06:34
+(epstopdf)                    size: 251788 bytes
+(epstopdf)             Output file: <a0_001_opt_thin_HaHbPad-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-07-28 18:06:39
+(epstopdf)                    size: 16047 bytes
+(epstopdf)             Command: <repstopdf --outfile=a0_001_opt_thin_HaHbPad-ep
+s-converted-to.pdf a0_001_opt_thin_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 1054.
+Package epstopdf Info: Output file is already uptodate.
+
+<a0_001_opt_thin_HaHbPad-eps-converted-to.pdf, id=812, 494.84875pt x 400.49625p
+t>
+File: a0_001_opt_thin_HaHbPad-eps-converted-to.pdf Graphic file (type pdf)
+ <use a0_001_opt_thin_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: a0_001_opt_thin_HaHbPad-eps-converted-to.pdf used on i
+nput line 1054.
+(pdftex.def)             Requested size: 168.24635pt x 136.16692pt.
+Package epstopdf Info: Source file: <a0_1_opt_thin_HaHbPad.eps>
+(epstopdf)                    date: 2015-07-28 18:06:34
+(epstopdf)                    size: 251840 bytes
+(epstopdf)             Output file: <a0_1_opt_thin_HaHbPad-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2015-07-28 18:06:40
+(epstopdf)                    size: 16195 bytes
+(epstopdf)             Command: <repstopdf --outfile=a0_1_opt_thin_HaHbPad-eps-
+converted-to.pdf a0_1_opt_thin_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 1055.
+Package epstopdf Info: Output file is already uptodate.
+
+<a0_1_opt_thin_HaHbPad-eps-converted-to.pdf, id=814, 494.84875pt x 400.49625pt>
+File: a0_1_opt_thin_HaHbPad-eps-converted-to.pdf Graphic file (type pdf)
+<use a0_1_opt_thin_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: a0_1_opt_thin_HaHbPad-eps-converted-to.pdf used on inp
+ut line 1055.
+(pdftex.def)             Requested size: 162.10347pt x 136.16692pt.
+Package epstopdf Info: Source file: <a1_opt_thin_HaHbPad.eps>
+(epstopdf)                    date: 2015-07-28 18:06:34
+(epstopdf)                    size: 250900 bytes
+(epstopdf)             Output file: <a1_opt_thin_HaHbPad-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-28 18:06:41
+(epstopdf)                    size: 16100 bytes
+(epstopdf)             Command: <repstopdf --outfile=a1_opt_thin_HaHbPad-eps-co
+nverted-to.pdf a1_opt_thin_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 1056.
+Package epstopdf Info: Output file is already uptodate.
+
+<a1_opt_thin_HaHbPad-eps-converted-to.pdf, id=816, 494.84875pt x 400.49625pt>
+File: a1_opt_thin_HaHbPad-eps-converted-to.pdf Graphic file (type pdf)
+
+<use a1_opt_thin_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: a1_opt_thin_HaHbPad-eps-converted-to.pdf used on input
+ line 1056.
+(pdftex.def)             Requested size: 162.10347pt x 136.16692pt.
+Package epstopdf Info: Source file: <a0_001_opt_thick_HaHbPad.eps>
+(epstopdf)                    date: 2015-07-28 18:06:34
+(epstopdf)                    size: 251010 bytes
+(epstopdf)             Output file: <a0_001_opt_thick_HaHbPad-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-07-28 18:06:42
+(epstopdf)                    size: 16051 bytes
+(epstopdf)             Command: <repstopdf --outfile=a0_001_opt_thick_HaHbPad-e
+ps-converted-to.pdf a0_001_opt_thick_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 1058.
+Package epstopdf Info: Output file is already uptodate.
+
+<a0_001_opt_thick_HaHbPad-eps-converted-to.pdf, id=818, 482.80376pt x 400.49625
+pt>
+File: a0_001_opt_thick_HaHbPad-eps-converted-to.pdf Graphic file (type pdf)
+ <use a0_001_opt_thick_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: a0_001_opt_thick_HaHbPad-eps-converted-to.pdf used on 
+input line 1058.
+(pdftex.def)             Requested size: 170.29398pt x 136.16692pt.
+Package epstopdf Info: Source file: <a0_1_opt_thick_HaHbPad.eps>
+(epstopdf)                    date: 2015-07-28 18:06:34
+(epstopdf)                    size: 251892 bytes
+(epstopdf)             Output file: <a0_1_opt_thick_HaHbPad-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-07-28 18:06:43
+(epstopdf)                    size: 16283 bytes
+(epstopdf)             Command: <repstopdf --outfile=a0_1_opt_thick_HaHbPad-eps
+-converted-to.pdf a0_1_opt_thick_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 1059.
+Package epstopdf Info: Output file is already uptodate.
+
+<a0_1_opt_thick_HaHbPad-eps-converted-to.pdf, id=820, 494.84875pt x 400.49625pt
+>
+File: a0_1_opt_thick_HaHbPad-eps-converted-to.pdf Graphic file (type pdf)
+ <use a0_1_opt_thick_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: a0_1_opt_thick_HaHbPad-eps-converted-to.pdf used on in
+put line 1059.
+(pdftex.def)             Requested size: 162.10347pt x 136.16692pt.
+Package epstopdf Info: Source file: <a1_opt_thick_HaHbPad.eps>
+(epstopdf)                    date: 2015-07-28 18:06:34
+(epstopdf)                    size: 251849 bytes
+(epstopdf)             Output file: <a1_opt_thick_HaHbPad-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2015-07-28 18:06:45
+(epstopdf)                    size: 16706 bytes
+(epstopdf)             Command: <repstopdf --outfile=a1_opt_thick_HaHbPad-eps-c
+onverted-to.pdf a1_opt_thick_HaHbPad.eps>
+(epstopdf)             \includegraphics on input line 1060.
+Package epstopdf Info: Output file is already uptodate.
+
+<a1_opt_thick_HaHbPad-eps-converted-to.pdf, id=822, 494.84875pt x 400.49625pt>
+File: a1_opt_thick_HaHbPad-eps-converted-to.pdf Graphic file (type pdf)
+
+<use a1_opt_thick_HaHbPad-eps-converted-to.pdf>
+Package pdftex.def Info: a1_opt_thick_HaHbPad-eps-converted-to.pdf used on inpu
+t line 1060.
+(pdftex.def)             Requested size: 162.10347pt x 136.16692pt.
+Package epstopdf Info: Source file: <Qabs_a0_001.eps>
+(epstopdf)                    date: 2015-07-28 17:40:07
+(epstopdf)                    size: 183856 bytes
+(epstopdf)             Output file: <Qabs_a0_001-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-28 17:56:15
+(epstopdf)                    size: 12433 bytes
+(epstopdf)             Command: <repstopdf --outfile=Qabs_a0_001-eps-converted-
+to.pdf Qabs_a0_001.eps>
+(epstopdf)             \includegraphics on input line 1066.
+Package epstopdf Info: Output file is already uptodate.
+
+<Qabs_a0_001-eps-converted-to.pdf, id=824, 562.1pt x 421.575pt>
+File: Qabs_a0_001-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Qabs_a0_001-eps-converted-to.pdf>
+Package pdftex.def Info: Qabs_a0_001-eps-converted-to.pdf used on input line 10
+66.
+(pdftex.def)             Requested size: 165.61922pt x 139.12018pt.
+Package epstopdf Info: Source file: <Qabs_a0_1.eps>
+(epstopdf)                    date: 2015-07-28 17:40:28
+(epstopdf)                    size: 183585 bytes
+(epstopdf)             Output file: <Qabs_a0_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-28 17:56:16
+(epstopdf)                    size: 12141 bytes
+(epstopdf)             Command: <repstopdf --outfile=Qabs_a0_1-eps-converted-to
+.pdf Qabs_a0_1.eps>
+(epstopdf)             \includegraphics on input line 1067.
+Package epstopdf Info: Output file is already uptodate.
+
+<Qabs_a0_1-eps-converted-to.pdf, id=826, 562.1pt x 421.575pt>
+File: Qabs_a0_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Qabs_a0_1-eps-converted-to.pdf>
+Package pdftex.def Info: Qabs_a0_1-eps-converted-to.pdf used on input line 1067
+.
+(pdftex.def)             Requested size: 155.68204pt x 139.12018pt.
+Package epstopdf Info: Source file: <Qabs_a1_0.eps>
+(epstopdf)                    date: 2015-07-28 17:54:37
+(epstopdf)                    size: 183556 bytes
+(epstopdf)             Output file: <Qabs_a1_0-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-07-28 17:56:17
+(epstopdf)                    size: 12299 bytes
+(epstopdf)             Command: <repstopdf --outfile=Qabs_a1_0-eps-converted-to
+.pdf Qabs_a1_0.eps>
+(epstopdf)             \includegraphics on input line 1068.
+Package epstopdf Info: Output file is already uptodate.
+
+<Qabs_a1_0-eps-converted-to.pdf, id=828, 511.9125pt x 400.49625pt>
+File: Qabs_a1_0-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Qabs_a1_0-eps-converted-to.pdf>
+Package pdftex.def Info: Qabs_a1_0-eps-converted-to.pdf used on input line 1068
+.
+(pdftex.def)             Requested size: 160.65067pt x 132.16417pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1093 
+        <./Qext_grainsize_upto4_2-eps-converted-to.pdf> <./Qext_grainsize_upto4
+_log_2-eps-converted-to.pdf> <./albedo_grainsize_upto4_2-eps-converted-to.pdf> 
+<./albedo_grainsize_upto4_log_2-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1115 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1115 
+        <./a0_001_opt_thin_HaHbPad-eps-converted-to.pdf> <./a0_1_opt_thin_HaHbP
+ad-eps-converted-to.pdf> <./a1_opt_thin_HaHbPad-eps-converted-to.pdf> <./a0_001
+_opt_thick_HaHbPad-eps-converted-to.pdf> <./a0_1_opt_thick_HaHbPad-eps-converte
+d-to.pdf> <./a1_opt_thick_HaHbPad-eps-converted-to.pdf> <./Qabs_a0_001-eps-conv
+erted-to.pdf> <./Qabs_a0_1-eps-converted-to.pdf> <./Qabs_a1_0-eps-converted-to.
+pdf>]
+Package epstopdf Info: Source file: <smooth/d714Ha_smooth_amC_MRN.eps>
+(epstopdf)                    date: 2015-07-22 15:06:44
+(epstopdf)                    size: 164083 bytes
+(epstopdf)             Output file: <smooth/d714Ha_smooth_amC_MRN-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2015-07-22 15:06:51
+(epstopdf)                    size: 13209 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/d714Ha_smooth_amC_M
+RN-eps-converted-to.pdf smooth/d714Ha_smooth_amC_MRN.eps>
+(epstopdf)             \includegraphics on input line 1144.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/d714Ha_smooth_amC_MRN-eps-converted-to.pdf, id=1121, 562.1pt x 421.575p
+t>
+File: smooth/d714Ha_smooth_amC_MRN-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use smooth/d714Ha_smooth_amC_MRN-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/d714Ha_smooth_amC_MRN-eps-converted-to.pdf used
+ on input line 1144.
+(pdftex.def)             Requested size: 246.73846pt x 202.20273pt.
+
+Overfull \hbox (6.73846pt too wide) in paragraph at lines 1144--1150
+ [] 
+ []
+
+Package epstopdf Info: Source file: <smooth/best_fit/d714Ha.eps>
+(epstopdf)                    date: 2015-04-28 15:33:54
+(epstopdf)                    size: 164089 bytes
+(epstopdf)             Output file: <smooth/best_fit/d714Ha-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2015-05-18 13:18:27
+(epstopdf)                    size: 13191 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d714Ha-eps
+-converted-to.pdf smooth/best_fit/d714Ha.eps>
+(epstopdf)             \includegraphics on input line 1157.
+Package epstopdf Info: Output file is already uptodate.
+<smooth/best_fit/d714Ha-eps-converted-to.pdf, id=1125, 562.1pt x 421.575pt>
+File: smooth/best_fit/d714Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use smooth/best_fit/d714Ha-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d714Ha-eps-converted-to.pdf used on in
+put line 1157.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d806Ha_new.eps>
+(epstopdf)                    date: 2015-07-09 14:19:49
+(epstopdf)                    size: 163833 bytes
+(epstopdf)             Output file: <smooth/best_fit/d806Ha_new-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-07-09 14:20:38
+(epstopdf)                    size: 13086 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d806Ha_new
+-eps-converted-to.pdf smooth/best_fit/d806Ha_new.eps>
+(epstopdf)             \includegraphics on input line 1158.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d806Ha_new-eps-converted-to.pdf, id=1127, 562.1pt x 421.575pt>
+File: smooth/best_fit/d806Ha_new-eps-converted-to.pdf Graphic file (type pdf)
+<use smooth/best_fit/d806Ha_new-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d806Ha_new-eps-converted-to.pdf used o
+n input line 1158.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d714OI_ext.eps>
+(epstopdf)                    date: 2015-08-10 18:35:50
+(epstopdf)                    size: 164577 bytes
+(epstopdf)             Output file: <smooth/best_fit/d714OI_ext-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-08-10 18:39:00
+(epstopdf)                    size: 13048 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d714OI_ext
+-eps-converted-to.pdf smooth/best_fit/d714OI_ext.eps>
+(epstopdf)             \includegraphics on input line 1166.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d714OI_ext-eps-converted-to.pdf, id=1131, 562.1pt x 421.575pt>
+File: smooth/best_fit/d714OI_ext-eps-converted-to.pdf Graphic file (type pdf)
+<use smooth/best_fit/d714OI_ext-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d714OI_ext-eps-converted-to.pdf used o
+n input line 1166.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d806OI_ext.eps>
+(epstopdf)                    date: 2015-08-10 18:41:45
+(epstopdf)                    size: 164546 bytes
+(epstopdf)             Output file: <smooth/best_fit/d806OI_ext-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-08-10 18:43:11
+(epstopdf)                    size: 13090 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d806OI_ext
+-eps-converted-to.pdf smooth/best_fit/d806OI_ext.eps>
+(epstopdf)             \includegraphics on input line 1167.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d806OI_ext-eps-converted-to.pdf, id=1133, 562.1pt x 421.575pt>
+File: smooth/best_fit/d806OI_ext-eps-converted-to.pdf Graphic file (type pdf)
+<use smooth/best_fit/d806OI_ext-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d806OI_ext-eps-converted-to.pdf used o
+n input line 1167.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d1054OI.eps>
+(epstopdf)                    date: 2015-07-09 17:57:19
+(epstopdf)                    size: 164012 bytes
+(epstopdf)             Output file: <smooth/best_fit/d1054OI-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-07-09 18:00:06
+(epstopdf)                    size: 13075 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d1054OI-ep
+s-converted-to.pdf smooth/best_fit/d1054OI.eps>
+(epstopdf)             \includegraphics on input line 1168.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d1054OI-eps-converted-to.pdf, id=1135, 562.1pt x 421.575pt>
+File: smooth/best_fit/d1054OI-eps-converted-to.pdf Graphic file (type pdf)
+
+<use smooth/best_fit/d1054OI-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d1054OI-eps-converted-to.pdf used on i
+nput line 1168.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d1478OI.eps>
+(epstopdf)                    date: 2015-07-09 17:38:31
+(epstopdf)                    size: 164736 bytes
+(epstopdf)             Output file: <smooth/best_fit/d1478OI-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-07-09 18:01:20
+(epstopdf)                    size: 13297 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d1478OI-ep
+s-converted-to.pdf smooth/best_fit/d1478OI.eps>
+(epstopdf)             \includegraphics on input line 1169.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d1478OI-eps-converted-to.pdf, id=1137, 562.1pt x 421.575pt>
+File: smooth/best_fit/d1478OI-eps-converted-to.pdf Graphic file (type pdf)
+
+<use smooth/best_fit/d1478OI-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d1478OI-eps-converted-to.pdf used on i
+nput line 1169.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d1862Ha.eps>
+(epstopdf)                    date: 2015-04-28 17:52:27
+(epstopdf)                    size: 169182 bytes
+(epstopdf)             Output file: <smooth/best_fit/d1862Ha-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-18 13:18:32
+(epstopdf)                    size: 14736 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d1862Ha-ep
+s-converted-to.pdf smooth/best_fit/d1862Ha.eps>
+(epstopdf)             \includegraphics on input line 1225.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d1862Ha-eps-converted-to.pdf, id=1151, 562.1pt x 421.575pt>
+File: smooth/best_fit/d1862Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use smooth/best_fit/d1862Ha-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d1862Ha-eps-converted-to.pdf used on i
+nput line 1225.
+(pdftex.def)             Requested size: 169.3351pt x 138.7705pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d2875Ha.eps>
+(epstopdf)                    date: 2015-04-28 17:56:10
+(epstopdf)                    size: 168709 bytes
+(epstopdf)             Output file: <smooth/best_fit/d2875Ha-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-18 13:18:34
+(epstopdf)                    size: 15111 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d2875Ha-ep
+s-converted-to.pdf smooth/best_fit/d2875Ha.eps>
+(epstopdf)             \includegraphics on input line 1226.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d2875Ha-eps-converted-to.pdf, id=1153, 562.1pt x 421.575pt>
+File: smooth/best_fit/d2875Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use smooth/best_fit/d2875Ha-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d2875Ha-eps-converted-to.pdf used on i
+nput line 1226.
+(pdftex.def)             Requested size: 161.6061pt x 138.7705pt.
+Package epstopdf Info: Source file: <smooth/best_fit/d3604Ha.eps>
+(epstopdf)                    date: 2015-04-28 18:02:09
+(epstopdf)                    size: 168906 bytes
+(epstopdf)             Output file: <smooth/best_fit/d3604Ha-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-18 13:18:35
+(epstopdf)                    size: 15129 bytes
+(epstopdf)             Command: <repstopdf --outfile=smooth/best_fit/d3604Ha-ep
+s-converted-to.pdf smooth/best_fit/d3604Ha.eps>
+(epstopdf)             \includegraphics on input line 1227.
+Package epstopdf Info: Output file is already uptodate.
+
+<smooth/best_fit/d3604Ha-eps-converted-to.pdf, id=1155, 562.1pt x 421.575pt>
+File: smooth/best_fit/d3604Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use smooth/best_fit/d3604Ha-eps-converted-to.pdf>
+Package pdftex.def Info: smooth/best_fit/d3604Ha-eps-converted-to.pdf used on i
+nput line 1227.
+(pdftex.def)             Requested size: 161.6061pt x 138.7705pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1257 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1257 
+        <./smooth/d714Ha_smooth_amC_MRN-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.12
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1257 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1257 
+        <./smooth/best_fit/d714Ha-eps-converted-to.pdf> <./smooth/best_fit/d806
+Ha_new-eps-converted-to.pdf> <./smooth/best_fit/d714OI_ext-eps-converted-to.pdf
+> <./smooth/best_fit/d806OI_ext-eps-converted-to.pdf> <./smooth/best_fit/d1054O
+I-eps-converted-to.pdf> <./smooth/best_fit/d1478OI-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (8.1496pt too wide) in paragraph at lines 1311--1343
+ []$[]$ 
+ []
+
+
+Overfull \hbox (8.1496pt too wide) in paragraph at lines 1347--1380
+ []$[]$ 
+ []
+
+
+Overfull \hbox (8.1496pt too wide) in paragraph at lines 1385--1414
+ []$[]$ 
+ []
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1424 
+        <./smooth/best_fit/d1862Ha-eps-converted-to.pdf> <./smooth/best_fit/d28
+75Ha-eps-converted-to.pdf> <./smooth/best_fit/d3604Ha-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16pdfTeX warning (ext4): destination with the same identifier (name{table.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1428 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1428 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1428 
+       ]
+Package epstopdf Info: Source file: <clump_1/best_fit/d714Ha_new.eps>
+(epstopdf)                    date: 2015-07-22 15:12:03
+(epstopdf)                    size: 164083 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d714Ha_new-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-07-22 15:12:22
+(epstopdf)                    size: 13227 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d714Ha_ne
+w-eps-converted-to.pdf clump_1/best_fit/d714Ha_new.eps>
+(epstopdf)             \includegraphics on input line 1486.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d714Ha_new-eps-converted-to.pdf, id=1419, 562.1pt x 421.575pt
+>
+File: clump_1/best_fit/d714Ha_new-eps-converted-to.pdf Graphic file (type pdf)
+ <use clump_1/best_fit/d714Ha_new-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d714Ha_new-eps-converted-to.pdf used 
+on input line 1486.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d806Ha_new.eps>
+(epstopdf)                    date: 2015-07-10 11:36:26
+(epstopdf)                    size: 163837 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d806Ha_new-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-07-10 11:36:34
+(epstopdf)                    size: 13073 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d806Ha_ne
+w-eps-converted-to.pdf clump_1/best_fit/d806Ha_new.eps>
+(epstopdf)             \includegraphics on input line 1487.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d806Ha_new-eps-converted-to.pdf, id=1421, 562.1pt x 421.575pt
+>
+File: clump_1/best_fit/d806Ha_new-eps-converted-to.pdf Graphic file (type pdf)
+ <use clump_1/best_fit/d806Ha_new-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d806Ha_new-eps-converted-to.pdf used 
+on input line 1487.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d714OI_ext.eps>
+(epstopdf)                    date: 2015-08-10 18:32:00
+(epstopdf)                    size: 164587 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d714OI_ext-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-10 18:39:01
+(epstopdf)                    size: 13061 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d714OI_ex
+t-eps-converted-to.pdf clump_1/best_fit/d714OI_ext.eps>
+(epstopdf)             \includegraphics on input line 1494.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d714OI_ext-eps-converted-to.pdf, id=1425, 562.1pt x 421.575pt
+>
+File: clump_1/best_fit/d714OI_ext-eps-converted-to.pdf Graphic file (type pdf)
+ <use clump_1/best_fit/d714OI_ext-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d714OI_ext-eps-converted-to.pdf used 
+on input line 1494.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d806OI_ext.eps>
+(epstopdf)                    date: 2015-08-10 18:45:49
+(epstopdf)                    size: 164547 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d806OI_ext-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-10 18:47:54
+(epstopdf)                    size: 13091 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d806OI_ex
+t-eps-converted-to.pdf clump_1/best_fit/d806OI_ext.eps>
+(epstopdf)             \includegraphics on input line 1495.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d806OI_ext-eps-converted-to.pdf, id=1427, 562.1pt x 421.575pt
+>
+File: clump_1/best_fit/d806OI_ext-eps-converted-to.pdf Graphic file (type pdf)
+ <use clump_1/best_fit/d806OI_ext-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d806OI_ext-eps-converted-to.pdf used 
+on input line 1495.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d1054OI.eps>
+(epstopdf)                    date: 2015-07-10 14:40:41
+(epstopdf)                    size: 164004 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d1054OI-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-07-10 14:47:32
+(epstopdf)                    size: 13063 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d1054OI-e
+ps-converted-to.pdf clump_1/best_fit/d1054OI.eps>
+(epstopdf)             \includegraphics on input line 1496.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d1054OI-eps-converted-to.pdf, id=1429, 562.1pt x 421.575pt>
+File: clump_1/best_fit/d1054OI-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/best_fit/d1054OI-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d1054OI-eps-converted-to.pdf used on 
+input line 1496.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d1478OI.eps>
+(epstopdf)                    date: 2015-07-10 15:01:27
+(epstopdf)                    size: 164735 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d1478OI-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-07-10 15:06:07
+(epstopdf)                    size: 13296 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d1478OI-e
+ps-converted-to.pdf clump_1/best_fit/d1478OI.eps>
+(epstopdf)             \includegraphics on input line 1497.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d1478OI-eps-converted-to.pdf, id=1431, 562.1pt x 421.575pt>
+File: clump_1/best_fit/d1478OI-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/best_fit/d1478OI-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d1478OI-eps-converted-to.pdf used on 
+input line 1497.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d1862Ha.eps>
+(epstopdf)                    date: 2015-04-29 14:18:53
+(epstopdf)                    size: 169502 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d1862Ha-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-18 13:18:41
+(epstopdf)                    size: 14743 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d1862Ha-e
+ps-converted-to.pdf clump_1/best_fit/d1862Ha.eps>
+(epstopdf)             \includegraphics on input line 1505.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d1862Ha-eps-converted-to.pdf, id=1435, 562.1pt x 421.575pt>
+File: clump_1/best_fit/d1862Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/best_fit/d1862Ha-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d1862Ha-eps-converted-to.pdf used on 
+input line 1505.
+(pdftex.def)             Requested size: 169.3351pt x 138.7705pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d2875Ha.eps>
+(epstopdf)                    date: 2015-04-29 14:30:40
+(epstopdf)                    size: 168706 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d2875Ha-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-18 13:18:42
+(epstopdf)                    size: 15121 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d2875Ha-e
+ps-converted-to.pdf clump_1/best_fit/d2875Ha.eps>
+(epstopdf)             \includegraphics on input line 1506.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d2875Ha-eps-converted-to.pdf, id=1437, 562.1pt x 421.575pt>
+File: clump_1/best_fit/d2875Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/best_fit/d2875Ha-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d2875Ha-eps-converted-to.pdf used on 
+input line 1506.
+(pdftex.def)             Requested size: 161.6061pt x 138.7705pt.
+Package epstopdf Info: Source file: <clump_1/best_fit/d3604Ha.eps>
+(epstopdf)                    date: 2015-04-29 14:38:07
+(epstopdf)                    size: 168905 bytes
+(epstopdf)             Output file: <clump_1/best_fit/d3604Ha-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2015-05-18 13:18:43
+(epstopdf)                    size: 15132 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/best_fit/d3604Ha-e
+ps-converted-to.pdf clump_1/best_fit/d3604Ha.eps>
+(epstopdf)             \includegraphics on input line 1507.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/best_fit/d3604Ha-eps-converted-to.pdf, id=1439, 562.1pt x 421.575pt>
+File: clump_1/best_fit/d3604Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/best_fit/d3604Ha-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/best_fit/d3604Ha-eps-converted-to.pdf used on 
+input line 1507.
+(pdftex.def)             Requested size: 161.6061pt x 138.7705pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.15
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1553 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1553 
+        <./clump_1/best_fit/d714Ha_new-eps-converted-to.pdf> <./clump_1/best_fi
+t/d806Ha_new-eps-converted-to.pdf> <./clump_1/best_fit/d714OI_ext-eps-converted
+-to.pdf> <./clump_1/best_fit/d806OI_ext-eps-converted-to.pdf> <./clump_1/best_f
+it/d1054OI-eps-converted-to.pdf> <./clump_1/best_fit/d1478OI-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <clump_1/maximum/d714OI_ext.eps>
+(epstopdf)                    date: 2015-08-10 18:26:59
+(epstopdf)                    size: 164578 bytes
+(epstopdf)             Output file: <clump_1/maximum/d714OI_ext-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-08-10 18:27:55
+(epstopdf)                    size: 13054 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d714OI_ext
+-eps-converted-to.pdf clump_1/maximum/d714OI_ext.eps>
+(epstopdf)             \includegraphics on input line 1564.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/maximum/d714OI_ext-eps-converted-to.pdf, id=1565, 562.1pt x 421.575pt>
+File: clump_1/maximum/d714OI_ext-eps-converted-to.pdf Graphic file (type pdf)
+<use clump_1/maximum/d714OI_ext-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d714OI_ext-eps-converted-to.pdf used o
+n input line 1564.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/maximum/d806OI_ext.eps>
+(epstopdf)                    date: 2015-08-10 18:49:10
+(epstopdf)                    size: 164549 bytes
+(epstopdf)             Output file: <clump_1/maximum/d806OI_ext-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-08-10 18:49:20
+(epstopdf)                    size: 13094 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d806OI_ext
+-eps-converted-to.pdf clump_1/maximum/d806OI_ext.eps>
+(epstopdf)             \includegraphics on input line 1565.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/maximum/d806OI_ext-eps-converted-to.pdf, id=1567, 562.1pt x 421.575pt>
+File: clump_1/maximum/d806OI_ext-eps-converted-to.pdf Graphic file (type pdf)
+<use clump_1/maximum/d806OI_ext-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d806OI_ext-eps-converted-to.pdf used o
+n input line 1565.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/maximum/d1054OI.eps>
+(epstopdf)                    date: 2015-07-10 16:59:12
+(epstopdf)                    size: 164019 bytes
+(epstopdf)             Output file: <clump_1/maximum/d1054OI-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-07-10 18:49:17
+(epstopdf)                    size: 13072 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d1054OI-ep
+s-converted-to.pdf clump_1/maximum/d1054OI.eps>
+(epstopdf)             \includegraphics on input line 1566.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/maximum/d1054OI-eps-converted-to.pdf, id=1569, 562.1pt x 421.575pt>
+File: clump_1/maximum/d1054OI-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/maximum/d1054OI-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d1054OI-eps-converted-to.pdf used on i
+nput line 1566.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+Package epstopdf Info: Source file: <clump_1/maximum/d1478OI_new.eps>
+(epstopdf)                    date: 2015-08-07 12:56:29
+(epstopdf)                    size: 164738 bytes
+(epstopdf)             Output file: <clump_1/maximum/d1478OI_new-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-07 12:57:01
+(epstopdf)                    size: 13328 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d1478OI_ne
+w-eps-converted-to.pdf clump_1/maximum/d1478OI_new.eps>
+(epstopdf)             \includegraphics on input line 1567.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/maximum/d1478OI_new-eps-converted-to.pdf, id=1571, 562.1pt x 421.575pt
+>
+File: clump_1/maximum/d1478OI_new-eps-converted-to.pdf Graphic file (type pdf)
+ <use clump_1/maximum/d1478OI_new-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d1478OI_new-eps-converted-to.pdf used 
+on input line 1567.
+(pdftex.def)             Requested size: 227.38947pt x 186.34618pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1618 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1618 
+        <./clump_1/best_fit/d1862Ha-eps-converted-to.pdf> <./clump_1/best_fit/d
+2875Ha-eps-converted-to.pdf> <./clump_1/best_fit/d3604Ha-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <clump_1/maximum/d1862Ha.eps>
+(epstopdf)                    date: 2015-05-06 14:18:00
+(epstopdf)                    size: 168561 bytes
+(epstopdf)             Output file: <clump_1/maximum/d1862Ha-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-18 13:18:45
+(epstopdf)                    size: 14698 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d1862Ha-ep
+s-converted-to.pdf clump_1/maximum/d1862Ha.eps>
+(epstopdf)             \includegraphics on input line 1628.
+Package epstopdf Info: Output file is already uptodate.
+<clump_1/maximum/d1862Ha-eps-converted-to.pdf, id=1654, 562.1pt x 421.575pt>
+File: clump_1/maximum/d1862Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/maximum/d1862Ha-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d1862Ha-eps-converted-to.pdf used on i
+nput line 1628.
+(pdftex.def)             Requested size: 169.3351pt x 138.7705pt.
+Package epstopdf Info: Source file: <clump_1/maximum/d2875Ha.eps>
+(epstopdf)                    date: 2015-05-06 13:28:38
+(epstopdf)                    size: 168088 bytes
+(epstopdf)             Output file: <clump_1/maximum/d2875Ha-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-18 13:18:46
+(epstopdf)                    size: 15086 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d2875Ha-ep
+s-converted-to.pdf clump_1/maximum/d2875Ha.eps>
+(epstopdf)             \includegraphics on input line 1629.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/maximum/d2875Ha-eps-converted-to.pdf, id=1656, 562.1pt x 421.575pt>
+File: clump_1/maximum/d2875Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/maximum/d2875Ha-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d2875Ha-eps-converted-to.pdf used on i
+nput line 1629.
+(pdftex.def)             Requested size: 161.6061pt x 138.7705pt.
+Package epstopdf Info: Source file: <clump_1/maximum/d3604Ha.eps>
+(epstopdf)                    date: 2015-05-06 13:08:37
+(epstopdf)                    size: 167801 bytes
+(epstopdf)             Output file: <clump_1/maximum/d3604Ha-eps-converted-to.p
+df>
+(epstopdf)                    date: 2015-05-18 13:18:47
+(epstopdf)                    size: 15090 bytes
+(epstopdf)             Command: <repstopdf --outfile=clump_1/maximum/d3604Ha-ep
+s-converted-to.pdf clump_1/maximum/d3604Ha.eps>
+(epstopdf)             \includegraphics on input line 1630.
+Package epstopdf Info: Output file is already uptodate.
+
+<clump_1/maximum/d3604Ha-eps-converted-to.pdf, id=1658, 562.1pt x 421.575pt>
+File: clump_1/maximum/d3604Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use clump_1/maximum/d3604Ha-eps-converted-to.pdf>
+Package pdftex.def Info: clump_1/maximum/d3604Ha-eps-converted-to.pdf used on i
+nput line 1630.
+(pdftex.def)             Requested size: 161.6061pt x 138.7705pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 1663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 1663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 1663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\NAT@ctype' on input line 1663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 1663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\let' on input line 1663.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\new@ifnextchar' on input line 1663.
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1670 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1670 
+        <./clump_1/maximum/d714OI_ext-eps-converted-to.pdf> <./clump_1/maximum/
+d806OI_ext-eps-converted-to.pdf> <./clump_1/maximum/d1054OI-eps-converted-to.pd
+f> <./clump_1/maximum/d1478OI_new-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <silicates_take2/composite_Dwek_Ha.eps>
+(epstopdf)                    date: 2015-08-10 13:17:44
+(epstopdf)                    size: 248609 bytes
+(epstopdf)             Output file: <silicates_take2/composite_Dwek_Ha-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:21:58
+(epstopdf)                    size: 16428 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/composite_
+Dwek_Ha-eps-converted-to.pdf silicates_take2/composite_Dwek_Ha.eps>
+(epstopdf)             \includegraphics on input line 1674.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/composite_Dwek_Ha-eps-converted-to.pdf, id=1760, 494.84875pt x
+ 400.49625pt>
+File: silicates_take2/composite_Dwek_Ha-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use silicates_take2/composite_Dwek_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/composite_Dwek_Ha-eps-converted-to.pdf
+ used on input line 1674.
+(pdftex.def)             Requested size: 128.65764pt x 98.90718pt.
+Package epstopdf Info: Source file: <silicates_take2/MgSiO3_Dwek_Ha.eps>
+(epstopdf)                    date: 2015-08-10 13:19:04
+(epstopdf)                    size: 248281 bytes
+(epstopdf)             Output file: <silicates_take2/MgSiO3_Dwek_Ha-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:00
+(epstopdf)                    size: 16771 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/MgSiO3_Dwe
+k_Ha-eps-converted-to.pdf silicates_take2/MgSiO3_Dwek_Ha.eps>
+(epstopdf)             \includegraphics on input line 1675.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/MgSiO3_Dwek_Ha-eps-converted-to.pdf, id=1762, 494.84875pt x 40
+0.49625pt>
+File: silicates_take2/MgSiO3_Dwek_Ha-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use silicates_take2/MgSiO3_Dwek_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/MgSiO3_Dwek_Ha-eps-converted-to.pdf us
+ed on input line 1675.
+(pdftex.def)             Requested size: 122.39436pt x 98.90718pt.
+Package epstopdf Info: Source file: <silicates_take2/AmC_Dwek_Ha.eps>
+(epstopdf)                    date: 2015-08-10 17:45:15
+(epstopdf)                    size: 247834 bytes
+(epstopdf)             Output file: <silicates_take2/AmC_Dwek_Ha-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-10 17:45:26
+(epstopdf)                    size: 16656 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/AmC_Dwek_H
+a-eps-converted-to.pdf silicates_take2/AmC_Dwek_Ha.eps>
+(epstopdf)             \includegraphics on input line 1676.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/AmC_Dwek_Ha-eps-converted-to.pdf, id=1764, 494.84875pt x 400.4
+9625pt>
+File: silicates_take2/AmC_Dwek_Ha-eps-converted-to.pdf Graphic file (type pdf)
+ <use silicates_take2/AmC_Dwek_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/AmC_Dwek_Ha-eps-converted-to.pdf used 
+on input line 1676.
+(pdftex.def)             Requested size: 122.39436pt x 98.90718pt.
+Package epstopdf Info: Source file: <silicates_take2/MgFeSiO4_Dwek_Ha.eps>
+(epstopdf)                    date: 2015-08-10 13:18:32
+(epstopdf)                    size: 248610 bytes
+(epstopdf)             Output file: <silicates_take2/MgFeSiO4_Dwek_Ha-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:02
+(epstopdf)                    size: 17134 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/MgFeSiO4_D
+wek_Ha-eps-converted-to.pdf silicates_take2/MgFeSiO4_Dwek_Ha.eps>
+(epstopdf)             \includegraphics on input line 1677.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/MgFeSiO4_Dwek_Ha-eps-converted-to.pdf, id=1766, 494.84875pt x 
+400.49625pt>
+File: silicates_take2/MgFeSiO4_Dwek_Ha-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use silicates_take2/MgFeSiO4_Dwek_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/MgFeSiO4_Dwek_Ha-eps-converted-to.pdf 
+used on input line 1677.
+(pdftex.def)             Requested size: 122.39436pt x 98.90718pt.
+Package epstopdf Info: Source file: <silicates_take2/composite_bestfit_Ha.eps>
+(epstopdf)                    date: 2015-08-10 17:47:38
+(epstopdf)                    size: 248730 bytes
+(epstopdf)             Output file: <silicates_take2/composite_bestfit_Ha-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2015-08-10 17:47:45
+(epstopdf)                    size: 16712 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/composite_
+bestfit_Ha-eps-converted-to.pdf silicates_take2/composite_bestfit_Ha.eps>
+(epstopdf)             \includegraphics on input line 1679.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/composite_bestfit_Ha-eps-converted-to.pdf, id=1768, 494.84875p
+t x 400.49625pt>
+File: silicates_take2/composite_bestfit_Ha-eps-converted-to.pdf Graphic file (t
+ype pdf)
+
+<use silicates_take2/composite_bestfit_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/composite_bestfit_Ha-eps-converted-to.
+pdf used on input line 1679.
+(pdftex.def)             Requested size: 128.65764pt x 106.73625pt.
+Package epstopdf Info: Source file: <silicates_take2/MgSiO3_bestfit_Ha.eps>
+(epstopdf)                    date: 2015-08-10 13:18:55
+(epstopdf)                    size: 248389 bytes
+(epstopdf)             Output file: <silicates_take2/MgSiO3_bestfit_Ha-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:04
+(epstopdf)                    size: 16900 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/MgSiO3_bes
+tfit_Ha-eps-converted-to.pdf silicates_take2/MgSiO3_bestfit_Ha.eps>
+(epstopdf)             \includegraphics on input line 1680.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/MgSiO3_bestfit_Ha-eps-converted-to.pdf, id=1770, 494.84875pt x
+ 400.49625pt>
+File: silicates_take2/MgSiO3_bestfit_Ha-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use silicates_take2/MgSiO3_bestfit_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/MgSiO3_bestfit_Ha-eps-converted-to.pdf
+ used on input line 1680.
+(pdftex.def)             Requested size: 122.39436pt x 106.73625pt.
+Package epstopdf Info: Source file: <silicates_take2/AmC_bestfit_Ha.eps>
+(epstopdf)                    date: 2015-08-10 17:46:51
+(epstopdf)                    size: 247970 bytes
+(epstopdf)             Output file: <silicates_take2/AmC_bestfit_Ha-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-08-10 17:46:56
+(epstopdf)                    size: 16826 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/AmC_bestfi
+t_Ha-eps-converted-to.pdf silicates_take2/AmC_bestfit_Ha.eps>
+(epstopdf)             \includegraphics on input line 1681.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/AmC_bestfit_Ha-eps-converted-to.pdf, id=1772, 494.84875pt x 40
+0.49625pt>
+File: silicates_take2/AmC_bestfit_Ha-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use silicates_take2/AmC_bestfit_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/AmC_bestfit_Ha-eps-converted-to.pdf us
+ed on input line 1681.
+(pdftex.def)             Requested size: 122.39436pt x 106.73625pt.
+Package epstopdf Info: Source file: <silicates_take2/MgFeSiO4_bestfit_Ha.eps>
+(epstopdf)                    date: 2015-08-10 17:48:43
+(epstopdf)                    size: 248957 bytes
+(epstopdf)             Output file: <silicates_take2/MgFeSiO4_bestfit_Ha-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2015-08-10 17:48:51
+(epstopdf)                    size: 17237 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/MgFeSiO4_b
+estfit_Ha-eps-converted-to.pdf silicates_take2/MgFeSiO4_bestfit_Ha.eps>
+(epstopdf)             \includegraphics on input line 1682.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/MgFeSiO4_bestfit_Ha-eps-converted-to.pdf, id=1774, 494.84875pt
+ x 400.49625pt>
+File: silicates_take2/MgFeSiO4_bestfit_Ha-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use silicates_take2/MgFeSiO4_bestfit_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/MgFeSiO4_bestfit_Ha-eps-converted-to.p
+df used on input line 1682.
+(pdftex.def)             Requested size: 122.39436pt x 106.73625pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/composit_Dwek.eps>
+(epstopdf)                    date: 2015-08-10 13:20:37
+(epstopdf)                    size: 249133 bytes
+(epstopdf)             Output file: <silicates_take2/OI/composit_Dwek-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:08
+(epstopdf)                    size: 16265 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/composi
+t_Dwek-eps-converted-to.pdf silicates_take2/OI/composit_Dwek.eps>
+(epstopdf)             \includegraphics on input line 1688.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/composit_Dwek-eps-converted-to.pdf, id=1778, 506.89375pt x 
+393.47pt>
+File: silicates_take2/OI/composit_Dwek-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use silicates_take2/OI/composit_Dwek-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/composit_Dwek-eps-converted-to.pdf 
+used on input line 1688.
+(pdftex.def)             Requested size: 126.72313pt x 98.36725pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/MgSiO3_Dwek.eps>
+(epstopdf)                    date: 2015-08-10 13:21:47
+(epstopdf)                    size: 248794 bytes
+(epstopdf)             Output file: <silicates_take2/OI/MgSiO3_Dwek-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:09
+(epstopdf)                    size: 16595 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/MgSiO3_
+Dwek-eps-converted-to.pdf silicates_take2/OI/MgSiO3_Dwek.eps>
+(epstopdf)             \includegraphics on input line 1689.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/MgSiO3_Dwek-eps-converted-to.pdf, id=1780, 506.89375pt x 39
+3.47pt>
+File: silicates_take2/OI/MgSiO3_Dwek-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use silicates_take2/OI/MgSiO3_Dwek-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/MgSiO3_Dwek-eps-converted-to.pdf us
+ed on input line 1689.
+(pdftex.def)             Requested size: 120.44969pt x 98.36725pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/AmC_Dwek.eps>
+(epstopdf)                    date: 2015-08-10 13:20:06
+(epstopdf)                    size: 248338 bytes
+(epstopdf)             Output file: <silicates_take2/OI/AmC_Dwek-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:10
+(epstopdf)                    size: 16548 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/AmC_Dwe
+k-eps-converted-to.pdf silicates_take2/OI/AmC_Dwek.eps>
+(epstopdf)             \includegraphics on input line 1690.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/AmC_Dwek-eps-converted-to.pdf, id=1782, 506.89375pt x 393.4
+7pt>
+File: silicates_take2/OI/AmC_Dwek-eps-converted-to.pdf Graphic file (type pdf)
+ <use silicates_take2/OI/AmC_Dwek-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/AmC_Dwek-eps-converted-to.pdf used 
+on input line 1690.
+(pdftex.def)             Requested size: 120.44969pt x 98.36725pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/MgFeSiO4_Dwek.eps>
+(epstopdf)                    date: 2015-08-10 13:21:18
+(epstopdf)                    size: 249133 bytes
+(epstopdf)             Output file: <silicates_take2/OI/MgFeSiO4_Dwek-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2015-08-10 13:22:11
+(epstopdf)                    size: 16962 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/MgFeSiO
+4_Dwek-eps-converted-to.pdf silicates_take2/OI/MgFeSiO4_Dwek.eps>
+(epstopdf)             \includegraphics on input line 1691.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/MgFeSiO4_Dwek-eps-converted-to.pdf, id=1784, 506.89375pt x 
+393.47pt>
+File: silicates_take2/OI/MgFeSiO4_Dwek-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use silicates_take2/OI/MgFeSiO4_Dwek-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/MgFeSiO4_Dwek-eps-converted-to.pdf 
+used on input line 1691.
+(pdftex.def)             Requested size: 120.44969pt x 98.36725pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/composit_bestfit.eps>
+(epstopdf)                    date: 2015-08-11 10:03:32
+(epstopdf)                    size: 249260 bytes
+(epstopdf)             Output file: <silicates_take2/OI/composit_bestfit-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2015-08-11 10:06:43
+(epstopdf)                    size: 16492 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/composi
+t_bestfit-eps-converted-to.pdf silicates_take2/OI/composit_bestfit.eps>
+(epstopdf)             \includegraphics on input line 1693.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/composit_bestfit-eps-converted-to.pdf, id=1786, 506.89375pt
+ x 393.47pt>
+File: silicates_take2/OI/composit_bestfit-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use silicates_take2/OI/composit_bestfit-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/composit_bestfit-eps-converted-to.p
+df used on input line 1693.
+(pdftex.def)             Requested size: 126.72313pt x 104.64069pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/MgSiO3_bestfit.eps>
+(epstopdf)                    date: 2015-08-11 09:50:06
+(epstopdf)                    size: 248793 bytes
+(epstopdf)             Output file: <silicates_take2/OI/MgSiO3_bestfit-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2015-08-11 10:06:44
+(epstopdf)                    size: 16611 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/MgSiO3_
+bestfit-eps-converted-to.pdf silicates_take2/OI/MgSiO3_bestfit.eps>
+(epstopdf)             \includegraphics on input line 1694.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/MgSiO3_bestfit-eps-converted-to.pdf, id=1788, 506.89375pt x
+ 393.47pt>
+File: silicates_take2/OI/MgSiO3_bestfit-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use silicates_take2/OI/MgSiO3_bestfit-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/MgSiO3_bestfit-eps-converted-to.pdf
+ used on input line 1694.
+(pdftex.def)             Requested size: 120.44969pt x 104.64069pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/AmC_bestfit.eps>
+(epstopdf)                    date: 2015-08-11 09:53:55
+(epstopdf)                    size: 248463 bytes
+(epstopdf)             Output file: <silicates_take2/OI/AmC_bestfit-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2015-08-11 10:06:45
+(epstopdf)                    size: 16622 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/AmC_bes
+tfit-eps-converted-to.pdf silicates_take2/OI/AmC_bestfit.eps>
+(epstopdf)             \includegraphics on input line 1695.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/AmC_bestfit-eps-converted-to.pdf, id=1790, 506.89375pt x 39
+3.47pt>
+File: silicates_take2/OI/AmC_bestfit-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use silicates_take2/OI/AmC_bestfit-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/AmC_bestfit-eps-converted-to.pdf us
+ed on input line 1695.
+(pdftex.def)             Requested size: 120.44969pt x 104.64069pt.
+Package epstopdf Info: Source file: <silicates_take2/OI/MgFeSiO4_bestfit.eps>
+(epstopdf)                    date: 2015-08-11 09:57:57
+(epstopdf)                    size: 249260 bytes
+(epstopdf)             Output file: <silicates_take2/OI/MgFeSiO4_bestfit-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2015-08-11 10:06:46
+(epstopdf)                    size: 17056 bytes
+(epstopdf)             Command: <repstopdf --outfile=silicates_take2/OI/MgFeSiO
+4_bestfit-eps-converted-to.pdf silicates_take2/OI/MgFeSiO4_bestfit.eps>
+(epstopdf)             \includegraphics on input line 1696.
+Package epstopdf Info: Output file is already uptodate.
+
+<silicates_take2/OI/MgFeSiO4_bestfit-eps-converted-to.pdf, id=1792, 506.89375pt
+ x 393.47pt>
+File: silicates_take2/OI/MgFeSiO4_bestfit-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use silicates_take2/OI/MgFeSiO4_bestfit-eps-converted-to.pdf>
+Package pdftex.def Info: silicates_take2/OI/MgFeSiO4_bestfit-eps-converted-to.p
+df used on input line 1696.
+(pdftex.def)             Requested size: 120.44969pt x 104.64069pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.19
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1715 \subsection
+                  {Predicting unattenuated fluxes} <./clump_1/maximum/d1862Ha-e
+ps-converted-to.pdf> <./clump_1/maximum/d2875Ha-eps-converted-to.pdf> <./clump_
+1/maximum/d3604Ha-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.20
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1718 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1718 
+        <./silicates_take2/composite_Dwek_Ha-eps-converted-to.pdf> <./silicates
+_take2/MgSiO3_Dwek_Ha-eps-converted-to.pdf> <./silicates_take2/AmC_Dwek_Ha-eps-
+converted-to.pdf> <./silicates_take2/MgFeSiO4_Dwek_Ha-eps-converted-to.pdf> <./
+silicates_take2/composite_bestfit_Ha-eps-converted-to.pdf> <./silicates_take2/M
+gSiO3_bestfit_Ha-eps-converted-to.pdf> <./silicates_take2/AmC_bestfit_Ha-eps-co
+nverted-to.pdf> <./silicates_take2/MgFeSiO4_bestfit_Ha-eps-converted-to.pdf> <.
+/silicates_take2/OI/composit_Dwek-eps-converted-to.pdf> <./silicates_take2/OI/M
+gSiO3_Dwek-eps-converted-to.pdf> <./silicates_take2/OI/AmC_Dwek-eps-converted-t
+o.pdf> <./silicates_take2/OI/MgFeSiO4_Dwek-eps-converted-to.pdf> <./silicates_t
+ake2/OI/composit_bestfit-eps-converted-to.pdf> <./silicates_take2/OI/MgSiO3_bes
+tfit-eps-converted-to.pdf> <./silicates_take2/OI/AmC_bestfit-eps-converted-to.p
+df> <./silicates_take2/OI/MgFeSiO4_bestfit-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <undep_fluxes_Ha.eps>
+(epstopdf)                    date: 2015-08-10 17:12:57
+(epstopdf)                    size: 286447 bytes
+(epstopdf)             Output file: <undep_fluxes_Ha-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-10 17:13:04
+(epstopdf)                    size: 23873 bytes
+(epstopdf)             Command: <repstopdf --outfile=undep_fluxes_Ha-eps-conver
+ted-to.pdf undep_fluxes_Ha.eps>
+(epstopdf)             \includegraphics on input line 1730.
+Package epstopdf Info: Output file is already uptodate.
+
+<undep_fluxes_Ha-eps-converted-to.pdf, id=2301, 590.205pt x 487.8225pt>
+File: undep_fluxes_Ha-eps-converted-to.pdf Graphic file (type pdf)
+
+<use undep_fluxes_Ha-eps-converted-to.pdf>
+Package pdftex.def Info: undep_fluxes_Ha-eps-converted-to.pdf used on input lin
+e 1730.
+(pdftex.def)             Requested size: 277.39638pt x 229.2766pt.
+
+Overfull \hbox (37.39638pt too wide) in paragraph at lines 1730--1731
+[][] 
+ []
+
+Package epstopdf Info: Source file: <undep_lum_OI.eps>
+(epstopdf)                    date: 2015-08-06 11:43:24
+(epstopdf)                    size: 265140 bytes
+(epstopdf)             Output file: <undep_lum_OI-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-06 11:44:33
+(epstopdf)                    size: 15724 bytes
+(epstopdf)             Command: <repstopdf --outfile=undep_lum_OI-eps-converted
+-to.pdf undep_lum_OI.eps>
+(epstopdf)             \includegraphics on input line 1732.
+Package epstopdf Info: Output file is already uptodate.
+<undep_lum_OI-eps-converted-to.pdf, id=2303, 571.13374pt x 481.8pt>
+File: undep_lum_OI-eps-converted-to.pdf Graphic file (type pdf)
+
+<use undep_lum_OI-eps-converted-to.pdf>
+Package pdftex.def Info: undep_lum_OI-eps-converted-to.pdf used on input line 1
+732.
+(pdftex.def)             Requested size: 268.43289pt x 226.44603pt.
+
+Overfull \hbox (28.43289pt too wide) in paragraph at lines 1732--1733
+[][] 
+ []
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1764 
+        <./undep_fluxes_Ha-eps-converted-to.pdf> <./undep_lum_OI-eps-converted-
+to.pdf>]
+Package epstopdf Info: Source file: <Mdust_evol5.eps>
+(epstopdf)                    date: 2015-08-10 17:09:59
+(epstopdf)                    size: 277254 bytes
+(epstopdf)             Output file: <Mdust_evol5-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-10 17:11:28
+(epstopdf)                    size: 21549 bytes
+(epstopdf)             Command: <repstopdf --outfile=Mdust_evol5-eps-converted-
+to.pdf Mdust_evol5.eps>
+(epstopdf)             \includegraphics on input line 1769.
+Package epstopdf Info: Output file is already uptodate.
+ <Mdust_evol5-eps-converted-to.pdf, id=2366, 1019.81pt x 644.4075pt>
+File: Mdust_evol5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Mdust_evol5-eps-converted-to.pdf>
+Package pdftex.def Info: Mdust_evol5-eps-converted-to.pdf used on input line 17
+69.
+(pdftex.def)             Requested size: 501.2528pt x 347.55867pt.
+
+Underfull \hbox (badness 1348) in paragraph at lines 1933--1943
+[]\OT1/cmr/m/n/9 The dust masses ob-tained from our mod-elling of
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.23
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1984 
+        <./Mdust_evol5-eps-converted-to.pdf>] (./87A_paper_rv6.bbl
+Underfull \hbox (badness 3557) in paragraph at lines 114--117
+[]\OT1/cmr/m/n/8 Gr^^?oningsson P., Frans-son C., Lundqvist P., Ny-mark T.,
+ []
+
+[26]
+Missing character: There is no Å in font cmr8!
+Missing character: There is no ‚ in font cmr8!
+)
+Overfull \hbox (13.13551pt too wide) detected at line 2140
+\OT1/cmr/m/n/9 ^^C = []
+ []
+
+
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2186.
+ [27]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2186.
+
+(./87A_paper_rv6.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2186.
+
+Package rerunfilecheck Info: File `87A_paper_rv6.out' has not changed.
+(rerunfilecheck)             Checksum: 5505522CC27241FA399C1DEBDABBBDBA;2093.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2186.
+ )
+(\end occurred when \iftrue on line 1779 was incomplete)
+(\end occurred when \iftrue on line 1700 was incomplete)
+(\end occurred when \iftrue on line 1685 was incomplete)
+(\end occurred when \iftrue on line 1635 was incomplete)
+(\end occurred when \iftrue on line 1571 was incomplete)
+(\end occurred when \iftrue on line 1512 was incomplete)
+(\end occurred when \iftrue on line 1501 was incomplete)
+(\end occurred when \iftrue on line 1491 was incomplete)
+(\end occurred when \iftrue on line 1414 was incomplete)
+(\end occurred when \iftrue on line 1380 was incomplete)
+(\end occurred when \iftrue on line 1343 was incomplete)
+(\end occurred when \iftrue on line 1232 was incomplete)
+(\end occurred when \iftrue on line 1173 was incomplete)
+(\end occurred when \iftrue on line 1162 was incomplete)
+(\end occurred when \iftrue on line 1071 was incomplete)
+(\end occurred when \iftrue on line 1063 was incomplete)
+(\end occurred when \iftrue on line 880 was incomplete)
+(\end occurred when \iftrue on line 809 was incomplete)
+(\end occurred when \iftrue on line 775 was incomplete)
+(\end occurred when \iftrue on line 655 was incomplete)
+(\end occurred when \iftrue on line 521 was incomplete)
+(\end occurred when \iftrue on line 273 was incomplete) 
+Here is how much of TeX's memory you used:
+ 7993 strings out of 493117
+ 122608 string characters out of 6135433
+ 241345 words of memory out of 5000000
+ 11090 multiletter control sequences out of 15000+600000
+ 22667 words of font info for 82 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,19n,34p,1809b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmti8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb>
+Output written on 87A_paper_rv6.pdf (27 pages, 1587628 bytes).
+PDF statistics:
+ 2642 PDF objects out of 2984 (max. 8388607)
+ 2045 compressed objects within 21 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 990 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 87A_paper_rv5.aux
+The style file: mnras.bst
+Database file #1: 87A_paper_rv4.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+"" is a string literal, not an integer, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+"" is a string literal, not an integer, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+Warning--empty institution in Hanner1988
+Warning--there's a number but no series in Lucy1989
+You've used 61 entries,
+            2881 wiz_defined-function locations,
+            1247 strings with 25312 characters,
+and the built_in function-call counts, 28955 in all, are:
+= -- 2324
+> -- 2199
+< -- 128
++ -- 923
+- -- 350
+* -- 3512
+:= -- 4600
+add.period$ -- 0
+call.type$ -- 61
+change.case$ -- 123
+chr.to.int$ -- 61
+cite$ -- 63
+duplicate$ -- 1413
+empty$ -- 1409
+format.name$ -- 540
+if$ -- 5035
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 58
+newline$ -- 197
+num.names$ -- 425
+pop$ -- 293
+preamble$ -- 1
+purify$ -- 244
+quote$ -- 0
+skip$ -- 844
+stack$ -- 0
+substring$ -- 1575
+swap$ -- 694
+text.length$ -- 251
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 549
+warning$ -- 2
+while$ -- 455
+width$ -- 0
+write$ -- 625
+(There were 6 error messages)
