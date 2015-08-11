@@ -1,0 +1,17 @@
+FC=gfortran
+LD=gfortran
+FFLAGS=-fbounds-check -ffree-line-length-0  -Wunused-parameter
+
+.PHONY: all clean
+all:	damocles
+
+source/%.o: source/%.f90
+	$(FC) $(FFLAGS) $^ -c -o $@
+
+damocles: source/input.o source/ES.o source/random_routines.o source/functions.o source/sizes.o source/global.o source/photon.o source/BHmie.o source/init_random_seed.o \
+source/newiterate_rec.o source/construct_grid.o source/lin_interp.o source/CODE_dust6.o source/damocles_wrap.o source/damocles.o
+	$(LD) $(LDFLAGS) $(FFLAGS) -o $@ $^
+
+
+clean:
+	rm damocles source/*.o	

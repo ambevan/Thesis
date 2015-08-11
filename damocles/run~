@@ -1,0 +1,5 @@
+#cp damocles.f90 ../DAMOCLES_run2/.
+make clean
+make
+./damocles
+python plotting/plot2.py

@@ -1,0 +1,9 @@
+make clean
+make
+./damocles input_core.in
+cp output/output.out output/output_core.out
+cp line.out line_core.out
+./damocles input_rs.in
+cp output/output.out output/output_rs.out
+cp line.out line_rs.out
+python plotting/plot_shell.py

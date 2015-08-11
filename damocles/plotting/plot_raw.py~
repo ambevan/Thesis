@@ -1,0 +1,19 @@
+import numpy as np 
+import matplotlib.pyplot as pl
+
+wave,flux  = np.loadtxt('line.in', skiprows=3,usecols = (0,1), unpack = True)
+
+flux[flux==0]=None
+
+fig = pl.figure()
+pl.xlabel('wavelength $\mu$m')
+pl.ylabel('Flux')
+pl.title('halpha')
+pl.xlim(-20000, 20000)
+#pl.xscale('log')
+pl.plot(wave, flux,'b')
+#pl.plot(wave_dat,flux_dat,'r')
+#pl.plot(x,y)
+#pl.xlim([-rng,rng])
+#pl.savefig('line.eps')
+pl.show()
