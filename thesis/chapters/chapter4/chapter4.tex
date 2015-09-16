@@ -9,46 +9,28 @@
 %{AUTHOR}  
 %\end{flushright}
 
-
-\label{ps}
-
-\begin{figure}
-\includegraphics[trim =87 30 6 15,clip=true,scale=0.45]{chapters/chapter4/images/params/D/newDall}
-\caption{Set of models with $i(r) \propto r^{-2\beta}$ for $\beta=1.0$ (left), $\beta=1.5$ (middle) or $\beta=2.0$ (right), $\omega=0$, 
-$R_{in}/R_{out}=0.2$, $v(r) \propto r$ and $v_{max}=1$ illustrating the effects of varying 
-$\tau$.  Peak fluxes are scaled to unity.}
-\label{bt}
-\end{figure}
-
-\begin{figure}
-\includegraphics[trim =80 60 40 15,clip=true,scale=0.45]{chapters/chapter4/images/params/C/C_all}
-\caption{Set of models with $i(r) \propto r^{-4}$ (i.e. $\beta=2.0$), $R_{in}/R_{out}=0.2$, $v(r) \propto r$  
-and $v_{max}=1$ illustrating the effects of varying $\tau$ and $\omega$. 
-Peak fluxes are scaled to unity.}
-\label{wt}
-\end{figure}
-
-
 It is of general interest to establish potential diagnostic signatures in 
 the line profiles of supernovae and their remnants in order to trace dust 
-formation more effectively.  We here discuss the effects of the main 
+formation more effectively. The capacity to specifiy a number of parameters is included in Damocles.  The variation of each parameter potentially affects the contour of the resulting line profile in a different way.  By investigating each parameter separately over a range of values, it may be possible to identify certain characteristics of dust-affected line profiles that may be associated with a particular property of the dusty medium.  This insight could help to explain unusual or interesting features of observed line profiles where dust is suspected to be an influential factor.  In this chapter, I investigate and discuss the effects of the main 
 parameters of interest, namely:
 
 \begin{itemize}
-\item $V_{max}$
-\item $R_{in}/R_{out}$
-\item $\beta$, where $\rho \propto r^{-\beta}$
-\item albedo $\omega$ 
-\item optical depth  $\tau$
+\item the maximum velocity, $V_{max}$
+\item the ejecta radius ratio, $R_{in}/R_{out}$
+\item the dust optical depth,  $\tau$
+\item the dust albedo, $\omega$ 
+\item the dust density profile exponent, $\beta$, where $\rho \propto r^{-\beta}$
 \end{itemize}
 
+I also investigate the capacity of this type of model to infer properties of the dust itself, speficially the size of dust grains and any size distribution that may be discernible, and the composition of the dusty medium as made up of a number of species. 
 
-\section{The maximum line velocity $V_{max}$}
 
-The maximum velocity is defined as the velocity at the outer edges of 
+\section{The maximum line velocity, $V_{max}$}
+
+The maximum velocity is defined as the velocity at the outer edge of 
 the line emitting region for a given line.  The 
 maximum velocity may vary between different spectral lines or doublets due 
-to different locations of  species having differing ionization 
+to different locations of  species with differing ionization 
 thresholds.  Clearly, the larger the maximum velocity used the wider the 
 profile becomes.  To some extent therefore the steepness of the density 
 profile and the maximum velocity can act to counter each other since a steeper 
@@ -66,27 +48,128 @@ Practically speaking, the maximum velocity can usually be fairly well determined
 from the observations (identified as the point where the flux vanishes 
 on the blue side) and may be further constrained through modelling.
 
-\section{The ejecta radius ratio $R_{in}/R_{out}$}
+\section{The ejecta radius ratio, $R_{in}/R_{out}$}
 
 As already discussed in Section \ref{analytics}, the width of the flat top 
 is determined solely by the ratio of the inner and outer radii, the 
-exponent of the velocity profile and the maximum velocity.  We to 
-assume that the velocity profile takes the form $v \propto r$ from 
-just a few months after the explosion as the supernova is in free 
-expansion.  For this case, $R_{in}/R_{out}$ is given by
+exponent of the velocity profile and the maximum velocity.  Throughout my sensitivity analysis of parameter space, I  
+assume that the velocity profile takes the form $v \propto r$ despite it being a variable parameter in the code.  This is the case for all supernovae from just a few months after the initial explosion (and therefore likely well before the epoch of the onset of dust formation) since the ejecta is in free expansion.  This is discussed in further detail in Section \ref{scn:vel_prof}.  For this case, $R_{in}/R_{out}$ is given by
 
 \begin{equation}
 \frac{R_{in}}{R_{out}}=\frac{V_{min}}{V_{max}}
 \end{equation}
 
 \noindent where it is often possible to constrain $V_{min}$ and $V_{max}$ 
-to a relatively narrow range simply from the observed line profile.
+to a relatively narrow range simply from the observed line profile by identifying the velocity at which the flux goes to zero on the blue side ($V_{max}$) and the velocity at which the profile starts to flatten off, also on the blue side ($V_{min}$).
 
 The majority of spectral lines emitted from supernovae and supernova 
 remnants are expected to have a flat top before dust attenuation effects since it is rare for these 
 objects to form a completely filled nebula.  However, even a very small amount of 
 dust attenuation may result in the line profile appearing to be smoothed at its 
 peak.
+
+The effect of varying the ratio of the inner and outer radii is derived analytically in Chapter 2 and presented for a number of emissivity profiles in Figure \ref{fig:analytics}.   All profiles have been scaled to unity flux at their peaks.
+
+
+
+\section{The dust optical depth, $\tau$}
+\label{tau}
+
+The effects of dust optical depth on the line profile produced by Damocles are in essence the same in the case of both a detached shell and a complete nebula.  However, due to the increased complexity of the original profile in the case of the detached shell, a number of slightly more interesting effects are observed in these models and we discuss these first.  I then go on to discuss the case of a complete nebula where the effects observed are very similar to those seen in models with high dust optical depth in the detached shell case.
+
+
+
+\subsection{The detached shell case}
+As expected, in cases of non-zero dust optical depth, greater attenuation of the original line profile on 
+the red side is exhibited.  This is illustrated in two panels of profiles in Figures \ref{bt} and \ref{wt}.     The profiles are most revealing at lower 
+dust optical depths.  The effects of the asymmetric absorption can be seen in 
+different sections of the profiles.  The region of the profile that is 
+most clearly affected by dust absorption is the flat-topped region.  A 
+small amount of absorption in this region results in a skewed profile, 
+with a fraction of the flat-topped section removed.  The peak becomes 
+blue-shifted as a result, but only to the original value of $-V_{min}$, the minimum 
+velocity corresponding to $R_{in}$. In addition to the attenuation in this region, 
+the red wing of the profile is also somewhat reduced, and the blue wing 
+somewhat increased relative to their original symmetric positions.  The 
+result is a relatively ``jagged'' looking profile, often with sharp changes 
+at $\pm V_{min}$.  The profile is generally asymmetric, although the 
+degree of absorption in the flat-topped region may sometimes make it seem 
+as though the profile is in fact symmetric and uniformly blue-shifted (see 
+Section \ref{asym} for further discussion).
+
+\begin{figure}
+\includegraphics[trim =87 30 6 15,clip=true,scale=0.45]{chapters/chapter4/images/params/D/newDall}
+\caption{Set of models with $i(r) \propto r^{-2\beta}$ for $\beta=1.0$ (left), $\beta=1.5$ (middle) or $\beta=2.0$ (right), $\omega=0$, 
+$R_{in}/R_{out}=0.2$, $v(r) \propto r$ and $v_{max}=1$ illustrating the effects of varying 
+$\tau$.  Peak fluxes are scaled to unity.}
+\label{bt}
+\end{figure}
+
+
+At high dust optical depths the entire profile is shifted to the blue and the 
+peak moves beyond $-V_{min}$ further into the blue.  The 
+profiles also become more smooth.  A set of models showing 
+the effects of varying optical depths for different density profiles and 
+dust albedos are presented in Figures \ref{bt} and \ref{wt}.
+
+
+
+\subsection{The complete nebula case}
+
+To reproduce similar characteristic dust-affected line profiles where the peak of the profile is shifted beyond $-V_{min}$ into the blue is ``easier" for smaller values of $V_{min}$.  The complete nebula is therefore effectively analogous to cases of higher optical depths for a detached shell and the same effects that are illustrated in Figures \ref{bt} and \ref{wt} apply.
+
+%NEED MORE HERE - PRESENT A MODEL?
+
+\begin{figure}
+\includegraphics[trim =80 60 40 15,clip=true,scale=0.45]{chapters/chapter4/images/params/C/C_all}
+\caption{Set of models with $i(r) \propto r^{-4}$ (i.e. $\beta=2.0$), $R_{in}/R_{out}=0.2$, $v(r) \propto r$  
+and $v_{max}=1$ illustrating the effects of varying $\tau$ and $\omega$. 
+Peak fluxes are scaled to unity.}
+\label{wt}
+\end{figure}
+
+
+\section{The dust albedo, $\omega$}
+\label{omega}
+
+In the past, there has largely been a focus on the effects of absorption by dust 
+on the shapes of line profiles and less attention has been paid to the 
+potential effects of scattering by dust.  In fact, line profiles 
+can be significantly affected by scattering of radiation.  Not only does 
+repeated scattering of photons increase the number of potential 
+opportunities for a given photon to be absorbed but it also results in 
+continuous shifting of the frequency of the photon to the red.  The photon 
+must do work on the expanding shell of dust in order to escape and thus 
+many of the photons are reprocessed beyond the theoretical maximum 
+velocity on the red side of the profile.  The result can be a substantial, 
+extended wing on the red side of the line.  In the case of strong 
+dust scattering, this can result in an asymmetric profile that is the opposite 
+of that normally expected with the majority of the emission on the 
+\textit{red} side.  The peak however, remains blue-shifted (see the bottom right panel on Figure \ref{wt} as an example).  
+For the line profile to exhibit this feature requires the dust to be a 
+nearly perfect scatterer and it is therefore unlikely that profiles of this sort will be
+frequently observed.  See Figure \ref{wt} for a fuller illustration of the variation
+with $\omega$ and $\tau$.
+
+The implications of this result in relation to the use of line profiles as 
+a diagnostic for tracing dust formation in supernova ejecta 
+are discussed further in Section \ref{asym}.
+
+
+\section{The dust density profile, $\rho \propto r^{-2\beta}$}
+\label{beta}
+
+Whilst the density profile of the dust may have some effect on the 
+resulting profiles, it is the initial emissivity profile (dependent on the 
+dust density profile) that has greatest effect on the resulting shape of 
+the line profile.
+
+In general, the steeper the emissivity distribution, the narrower the line 
+profile becomes.  The sides of the line profile may become almost straight 
+for a very steep distribution since the majority of the emission then 
+comes from a very narrow velocity range.  For a flat-topped profile of 
+fixed width this approximates the square profile produced in the case of 
+an emitting shell with constant velocity.
 
 \begin{figure}
 
@@ -115,83 +198,6 @@ peak.
 \label{albedo_grain}
 \end{figure}
 
-The effects of dust on a line profile for $R_{in}/R_{out}=0$ as opposed 
-to a detached shell, is shown in Figure \ref{fig:analytics}.  
-The effects of line scatting from moving dust grains are evidenced 
-by the presence of an extended red scattering wing beyond $V_{max}$ as shown in Figure \ref{wt}. 
-All profiles have been scaled to unity flux at their peaks.
-
-
-
-\section{The dust optical depth $\tau$ (detached shell case)}
-\label{tau}
-
-As expected, Figures \ref{bt} and \ref{wt} show greater attenuation of the original line profile on 
-the red side.  The profiles are most revealing at lower 
-dust optical depths.  The effects of the asymmetric absorption can be seen in 
-different sections of the profiles.  The region of the profile that is 
-most clearly affected by dust absorption is the flat-topped region.  A 
-small amount of absorption in this region results in a skewed profile, 
-with a fraction of the flat-topped section removed.  The peak becomes 
-blue-shifted as a result, but only to the original value of $-V_{min}$, the minimum 
-velocity corresponding to $R_{in}$. In addition to the attenuation in this region, 
-the red wing of the profile is also somewhat reduced, and the blue wing 
-somewhat increased relative to their original symmetric positions.  The 
-result is a relatively ``jagged'' looking profile, often with sharp changes 
-at $\pm V_{min}$.  The profile is generally asymmetric, although the 
-degree of absorption in the flat-topped region may sometimes make it seem 
-as though the profile is in fact symmetric and uniformly blue-shifted (see 
-Section \ref{asym} for further discussion).
-
-At high dust optical depths the entire profile is shifted to the blue and the 
-peak moves beyond $-V_{min}$ further into the blue.  The 
-profiles also become more smooth.  A set of models showing 
-the effects of varying optical depths for different density profiles and 
-dust albedos are presented in Figures \ref{bt} and \ref{wt}.
-
-
-\section{The dust albedo $\omega$}
-\label{omega}
-
-In the past, there has largely been a focus on the effects of absorption by dust 
-on the shapes of line profiles and less attention has been paid to the 
-potential effects of scattering by dust.  In fact, line profiles 
-can be significantly affected by scattering of radiation.  Not only does 
-repeated scattering of photons increase the number of potential 
-opportunities for a given photon to be absorbed but it also results in 
-continuous shifting of the frequency of the photon to the red.  The photon 
-must do work on the expanding shell of dust in order to escape and thus 
-many of the photons are reprocessed beyond the theoretical maximum 
-velocity on the red side of the profile.  The result can be a substantial, 
-extended wing on the red side of the line.  In the case of strong 
-dust scattering, this can result in an asymmetric profile that is the opposite 
-of that normally expected with the majority of the emission on the 
-\textit{red} side.  The peak however, remains blue-shifted (see the bottom right panel on Figure \ref{wt} for an example).  
-For the line profile to exhibit this feature requires the dust to be a 
-nearly perfect scatterer and it is therefore unlikely that profiles of this sort will be
-frequently observed.  See Figure \ref{wt} for a fuller illustration of the variation
-with $\omega$ and $\tau$.
-
-The implications of this result in relation to the use of line profiles as 
-a diagnostic for tracing dust formation in supernova ejecta 
-are discussed further in Section \ref{asym}.
-
-
-\section{Density profile $\rho \propto r^{-2\beta}$}
-\label{beta}
-
-Whilst the density profile of the dust may have some effect on the 
-resulting profiles, it is the initial emissivity profile (dependent on the 
-dust density profile) that has greatest effect on the resulting shape of 
-the line profile.
-
-In general, the steeper the emissivity distribution, the narrower the line 
-profile becomes.  The sides of the line profile may become almost straight 
-for a very steep distribution since the majority of the emission then 
-comes from a very narrow velocity range.  For a flat-topped profile of 
-fixed width this approximates the square profile produced in the case of 
-an emitting shell with constant velocity.
-
 The dependence of the shape of the line profile in the optically thin dust case 
 is described in Section \ref{analytics}.  However, the density profile 
 also plays a significant role where there is even a small amount of 
@@ -213,11 +219,11 @@ The presence of an extended red wing at large positive velocities in
 combination with increased extinction on the red side at smaller positive 
 velocities can allow the values of $\tau$ and $\omega$ to be well 
 constrained.  In this case it is possible to translate these values into a 
-dust mass and average grain size for a given species or combination of 
-species using optical properties Mie theory (see Figures 
-\ref{albedo_grain} and \ref{Qext_grain}).  In fact, it is the dust mass and average grain size 
+dust mass and average grain size respectively for a given species or combination of 
+species using  optical properties and Mie theory (see Figures 
+\ref{Qext_grain} and \ref{albedo_grain}).  In fact, it is the dust mass and average grain size 
 that is varied within the code for a specified species or combination of 
-species.  It is therefore important to note that the use of different 
+species i.e. the dust optical depth and grain size are not varied directly.  It is therefore important to note that the use of different 
 optical properties may substantially alter the inferred optical depths and 
 albedos for a given species of specific grain size as has been noted 
 previously (e.g. \citet{Owen2015}).
@@ -310,8 +316,7 @@ Since dust absorption is wavelength dependent for $2\pi a < \lambda$, one might 
 position of the peak flux to be dependent on the wavelength of the line being 
 considered.  The relationship between the locations of the peaks 
 of profiles and their wavelength has been discussed by several authors in 
-relation to dust formation \citep{Smith2012, Fransson2013, Gall2014}.  We 
-note here that whilst this may occur in cases of high dust 
+relation to dust formation \citep{Smith2012, Fransson2013, Gall2014}.  Whilst this may occur in cases of high dust 
 optical depth, this is not necessarily likely to be seen in the ejecta of 
 most supernovae.  The wavelength-dependence of dust absorption instead 
 can result in differing degrees of extinction in the flat-topped region of 
@@ -332,7 +337,7 @@ All lines were modelled using three different grain sizes and in both optically 
 thick cases.  We also show the variation of the absorption cross-section with 
 wavelength at three different grain sizes in Figure \ref{wav_dep2}.
 
-The attenuation of the flat-topped region is also often such that it can 
+The attenuation of the flat-topped region is  often such that it can 
 be hard to discern a difference in slope between the attenuated 
 section between $-V_{min}$ and $+V_{min}$ and the slope of the wing for 
 $V>+V_{min}$, particularly in circumstances where data is of poor 
@@ -347,7 +352,7 @@ majority of the observed emission is located bluewards of the peak.
 However, the effects of repeated dust scattering events within the 
 ejecta can serve to counter this asymmetry.  Even in the case of dust grains 
 with a relatively low albedo, a surprisingly persistent wing on the red 
-side of the profile is seen, often beyond the maximum theoretical velocity 
+side of the profile is seen beyond the maximum theoretical velocity 
 of the emitting region.  For higher albedos this can actively result in a 
 shift in the overall asymmetry of the profile, with the majority of the 
 emission being emitted redwards of the peak, though the peak itself 
@@ -379,54 +384,48 @@ should be noted (see Figures \ref{bt} and \ref{wt} for examples of this).
 \label{gs_distn}
 It is important to consider the potential effect on the dust mass of modelling a grain size distribution instead of a single grain size.  For a grain size distribution the overall extinction cross section, $C_{ext}$, at a given wavelength is calculated as
 
-\[ C_{ext}=\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) \pi a^2 da \]
+\begin{equation}
+C_{ext}=\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) \pi a^2 da 
+\end{equation}
 
 where $Q_{ext}(a)$ is the extinction efficiency for a grain size $a$ and $n(a)$ is the number of grains with size $a$. The overall extinction efficiency is then
 
-\[ Q_{ext} = \frac{C_{ext}}{ \int^{a_{max}}_{a_{min}} n(a) \pi a^2 da} \]
+\begin{equation} 
+Q_{ext} = \frac{C_{ext}}{ \int^{a_{max}}_{a_{min}} n(a) \pi a^2 da} 
+\end{equation}
  
-The scattering cross-section $Q_{sca}$ is similarly calculated.  As a result of these calculations, there is rarely a single grain size that has the same albedo and extinction efficiency as a size distribution.  Modelling a size distribution may therefore alter the deduced dust mass.  Since the models are only sensitive to the optical depth and the albedo, however, it is not possible to deduce the grain size range or distribution and only single grain sizes are investigated (as presented above).
+The scattering cross-section $Q_{sca}$ is similarly calculated.  As a result of these calculations, there is rarely a single grain size that has the same albedo and extinction efficiency as a size distribution.  Modelling a size distribution instead of a single grain size may therefore alter the deduced dust mass.  Since models are only sensitive to the optical depth and the albedo, however, it is not possible to deduce the grain size range or distribution and only single grain sizes are investigated in the models that are presented in the following chapters.
 
-Whilst this apparently limits the scope of the results, it is important to consider the extent to which considering grain size distributions would alter the derived dust masses.  By considering a number of grain size ranges and adopting a power law distribution with a variable exponent, we may gain some insight into the effects of adopting a distribution rather than a single size.  For the classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain size range ($a_{min} = 0.001 \mu$m to $a_{max} = 4.0 \mu$m) the derived albedo is much too small to reproduce the required wing seen at early epochs.  We therefore adopt an approach whereby, for a number of grain size ranges, we adjust the exponent of the distribution until the overall albedo is the same as that seen for the best fitting single grain size for the clumped distributions.  We may then approximately calculate the required dust mass as
+Whilst this apparently limits the scope of these results, it is important to consider the extent to which considering grain size distributions would alter the derived dust masses.  By considering a number of grain size ranges and adopting a power law distribution with a variable exponent, we may gain some insight into the effects of adopting a distribution rather than a single size.  For the classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain size range ($a_{min} = 0.001 \mu$m to $a_{max} = 4.0 \mu$m) the derived albedo of $\omega=0.001$ is much too small to reproduce the required wing seen at early epochs.  We investigate this issue by adjusting the exponent of a distribution for a number of grain size ranges until the overall albedo is the same as that seen for the best fitting single grain size.  We can then approximately calculate the required dust mass for a distribution of grain sizes from the properties of a single-size model by equating the optical depths.  The optical depth for a single grain size is proportional to 
+
+\begin{equation}
+\tau \propto Q_{ext}(a)  \sigma(a) n_d
+\end{equation}
+
+\noindent where $n_d$ is the number density of dust grains, $\sigma(a)$ is the cross-sectional area of a grain of radius $a$ and $Q_{ext}(a)$ is the extinction efficiency for a grain of radius $a$.  On average, this gives
+
+\begin{equation}
+\tau \propto \frac{Q_{ext}(a) M \pi a^2}{\frac{4}{3} \pi a^3 \rho V}
+\end{equation}
+
+\noindent for a total dust mass $M$, total volume of the ejecta $V$ and density of a dust grain $\rho$.
+
+This simplifies to 
+
+\begin{equation}
+\tau \propto \frac{Q_{ext}(a) M}{\frac{4}{3} a \rho V}
+\end{equation}
 
 \begin{equation}
 \label{distn_conv}
 M_{d}= \frac{M_s Q_{ext,s}(a_s)}{a_s} \times \frac{\int^{a_{max}}_{a_{min}} n(a) a^3 da}{\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) a^2 da}
 \end{equation}
 
-where the subscript $s$ represents the single grain size quantities and the $d$ subscript represents quantities for the grain size distribution.  
-
-We calculate the required dust masses for the clumped model on day 714 for a selection of distributions with varied $a_{min}$.  These are presented in Table \ref{tb_distn}.  It can be seen that in all cases, a larger dust mass is required in order to reproduce the same conditions as a single grain size.  The conversion factors presented in the table are valid for any model with grain size $a=0.6\mu$m and may therefore also be applied to the models for day 806.  We repeated the process for $a=3.5 \mu$m but found that, in order to reproduce the required albedo, the distribution had to be heavily weighted towards the larger grains and that the value of $a_{min}$ had no effect of the required dust mass.  Increasing the value of $a_{min}$ to larger values (>2$\mu$m) does not have a significant effect either.  This is because both extinction efficiency and albedo tend to a constant value with increasing grain radius and the adoption of different grain size ranges and distributions above a certain threshold therefore results in only insignificant variation in these quantities. 
-
-\begin{table}
-	%\begin{minipage}{180mm}
-	\caption{Equivalent dust masses for the day 714 clumped models using grain size distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot}$ with $a=0.6 \mu$m) and $p$ is the exponent of the grain size distribution $n(a) \propto a^{-p}$.}
-	\label{tb_distn}
-	\begin{center}
-  	\begin{tabular}{@{} ccccc @{}}
-    	\hline
-$a_{min}$ & $a_{max}$ & $p$ & $M$ & $f$  \\%& $Q_{ext}$ \\
-($\mu$m) & ($\mu$m) & & ($M_{\odot}$) & \\
-\hline
-0.001 & 4 & 2.45 & 1.93E-04 & 2.76 \\%& 2.13 \\
-0.01 & 4 & 2.45 & 1.93E-04 & 2.76 \\%& 2.32 \\
-0.05 & 4 & 2.52 & 1.84E-04 & 2.62 \\%& 2.44 \\
-0.1 & 4 & 2.72 & 1.61E-04 & 2.3\\ %& 2.53 \\
-0.5 & 4 & 8.2 & 7.23E-04 & 1.03 \\%& 2.61 \\
-
-    \hline
-  \end{tabular}
-  \end{center}
-%\end{minipage}
-\end{table}
-
-This calculation in equation \ref{distn_conv} holds only for a single wavelength and therefore is not exact for our models which obviously transport radiation over a range of wavelengths.  However, the dust masses derived using the above formula produce almost identical fits to the data as for the single grain size and therefore give an excellent suggestion of the approximate dust mass required when using a distribution.
-
-We therefore conclude that, if a distribution of grain sizes is indeed present, the deduced dust masses are likely to be under-estimating the true mass of newly formed dust rather than overestimating it.
+where the subscript $s$ represents the single grain size quantities and the subscript  $d$ represents quantities for the grain size distribution.  This is only calculable for a specific wavelength and is therefore only an approximate conversion when performed at the rest-frame wavelength of the line in question.  However, practically, the variation of extinction efficiency and albedo over the narrow wavelength ranges modelled within the code is not significant and so this method produces relatively accurate dust masses (as determined by running models with the new parameters).
 
 \section{The effect of different species}
 
-In all of our analyses heretofore, we have considered only amorphous carbon as the species of interest.  This is in part motivated by previously published literature that suggests that, if silicates do form a fraction of the total dust mass, it is likely that that fraction is limited to approximately 15\% (W15, \citet{Ercolano2007}).  It is also partly motivated by the nature of the model; the parameters that affect the quantity of dust required in the model are the albedo and the optical depth.  There are likely many possible combinations of species and grain sizes that result in a good fit to the data.  
+In the majority of the modelling that follows, a single species, amorphous carbon, is considered.   A single species is used since the parameters that affect the quantity of dust required in the model are the albedo and the optical depth.  There are therefore  likely many possible combinations of species that may result in a good fit to the data.  The choice of amorphous carbon is partly motivated by evidence that, for SN~1987A (which, as an incredibly well-observed and relatively typical core-collapse supernova, is an excellent test case) the fraction of silicates present in the dusty ejecta is limited to approximately 15\% (W15, \citet{Ercolano2007}).  It is also motivated by previously published SED models which generally employ amorphous carbon.  This is because SED models frequently require far larger masses of silicate dust than amorphous carbon dust in order to produce similar levels of infrared flux and therefore amorphous carbon models are likely to produce the more conservative dust mass estimates.  By modelling with amorphous carbon we may compare directly to these models where possible.
 
 We consider the change in dust mass when a medium of 100\% silicates is used instead of amorphous carbon.  We use optical constants presented in \cite{Draine1984}.  In a similar manner to the approach detailed in Section \ref{gs_distn}, we may calculate the mass of silicates that is equivalent to a carbon mass for a single grain size.  We consider the albedo at the original grain size, calculate the equivalent grain size for silicates that results in the same albedo and then calculate the new dust mass by considering the change in the extinction efficiency as
 
@@ -460,6 +459,8 @@ $a$ & $Q_{ext}$ & &$a$& $Q_{ext}$ & $f=M_{sil}/M_{amc}$ \\
 %\end{minipage}
 \end{table}
 
+\section{The velocity distribution}
+\label{scn:vel_prof}
 
 
 

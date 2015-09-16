@@ -374,6 +374,35 @@ Table \ref{clumped1}.}
 \end{center}
 \end{figure*}
 
+\subsection{Grain size distributions and species conversions...}
+%WILL NEED TO ADD/EDIT HERE
+We calculate the required dust masses for the clumped model on day 714 for a selection of distributions with varied $a_{min}$.  These are presented in Table \ref{tb_distn}.  It can be seen that in all cases, a larger dust mass is required in order to reproduce the same conditions as a single grain size.  The conversion factors presented in the table are valid for any model with grain size $a=0.6\mu$m and may therefore also be applied to the models for day 806.  We repeated the process for $a=3.5 \mu$m but found that, in order to reproduce the required albedo, the distribution had to be heavily weighted towards the larger grains and that the value of $a_{min}$ had no effect of the required dust mass.  Increasing the value of $a_{min}$ to larger values (>2$\mu$m) does not have a significant effect either.  This is because both extinction efficiency and albedo tend to a constant value with increasing grain radius and the adoption of different grain size ranges and distributions above a certain threshold therefore results in only insignificant variation in these quantities. 
+
+\begin{table}
+	%\begin{minipage}{180mm}
+	\caption{Equivalent dust masses for the day 714 clumped models using grain size distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot}$ with $a=0.6 \mu$m) and $p$ is the exponent of the grain size distribution $n(a) \propto a^{-p}$.}
+	\label{tb_distn}
+	\begin{center}
+  	\begin{tabular}{@{} ccccc @{}}
+    	\hline
+$a_{min}$ & $a_{max}$ & $p$ & $M$ & $f$  \\%& $Q_{ext}$ \\
+($\mu$m) & ($\mu$m) & & ($M_{\odot}$) & \\
+\hline
+0.001 & 4 & 2.45 & 1.93E-04 & 2.76 \\%& 2.13 \\
+0.01 & 4 & 2.45 & 1.93E-04 & 2.76 \\%& 2.32 \\
+0.05 & 4 & 2.52 & 1.84E-04 & 2.62 \\%& 2.44 \\
+0.1 & 4 & 2.72 & 1.61E-04 & 2.3\\ %& 2.53 \\
+0.5 & 4 & 8.2 & 7.23E-04 & 1.03 \\%& 2.61 \\
+
+    \hline
+  \end{tabular}
+  \end{center}
+%\end{minipage}
+\end{table}
+
+This calculation in equation \ref{distn_conv} holds only for a single wavelength and therefore is not exact for our models which obviously transport radiation over a range of wavelengths.  However, the dust masses derived using the above formula produce almost identical fits to the data as for the single grain size and therefore give an excellent suggestion of the approximate dust mass required when using a distribution.
+
+
 \subsection{Contamination of the the H$\alpha$ profiles at days 714 and 806}
 
 The profile at day 714 (Figure \ref{d714bf}) exhibits several of the features discussed above.  

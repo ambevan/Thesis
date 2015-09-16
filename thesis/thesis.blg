@@ -12,52 +12,54 @@ A level-1 auxiliary file: chapters/chapter3/chapter3.aux
 A level-1 auxiliary file: chapters/chapter4/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6/chapter6.aux
-A level-1 auxiliary file: back/appendices/appendA.aux
-A level-1 auxiliary file: back/appendices/appendB.aux
-A level-1 auxiliary file: back/appendices/appendC.aux
+A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 The style file: mn2e.bst
 A level-1 auxiliary file: back/backquote.aux
 Database file #1: Thesis.bib.bib
-Warning-- there's a number but no series in Lucy1989b
-You've used 10 entries,
+Warning--I didn't find a database entry for "Lucy1989b"
+Warning--I didn't find a database entry for "MRN"
+Warning--I didn't find a database entry for "Auer1972b"
+Warning--I didn't find a database entry for "Spyromilio1993a"
+Warning--I didn't find a database entry for "Kozma1997"
+You've used 37 entries,
             2938 wiz_defined-function locations,
-            698 strings with 6553 characters,
-and the built_in function-call counts, 5235 in all, are:
-= -- 401
-> -- 474
-< -- 2
-+ -- 154
-- -- 149
-* -- 433
-:= -- 995
+            883 strings with 13395 characters,
+and the built_in function-call counts, 23772 in all, are:
+= -- 1687
+> -- 2726
+< -- 0
++ -- 868
+- -- 843
+* -- 2027
+:= -- 4537
 add.period$ -- 0
-call.type$ -- 10
-change.case$ -- 86
-chr.to.int$ -- 10
-cite$ -- 11
-duplicate$ -- 178
-empty$ -- 269
-format.name$ -- 166
-if$ -- 1014
+call.type$ -- 37
+change.case$ -- 423
+chr.to.int$ -- 37
+cite$ -- 37
+duplicate$ -- 621
+empty$ -- 951
+format.name$ -- 911
+if$ -- 4586
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 34
-num.names$ -- 42
-pop$ -- 79
+missing$ -- 35
+newline$ -- 115
+num.names$ -- 148
+pop$ -- 379
 preamble$ -- 1
-purify$ -- 86
+purify$ -- 421
 quote$ -- 0
-skip$ -- 181
+skip$ -- 720
 stack$ -- 0
-substring$ -- 190
-swap$ -- 18
-text.length$ -- 2
+substring$ -- 762
+swap$ -- 37
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
-warning$ -- 1
-while$ -- 45
+type$ -- 333
+warning$ -- 0
+while$ -- 157
 width$ -- 0
-write$ -- 103
-(There was 1 warning)
+write$ -- 371
+(There were 5 warnings)

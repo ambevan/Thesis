@@ -37,13 +37,14 @@ The subtleties of the problem we consider here lie in the treatment of an atmosp
 
 Throughout this section, I will describe the principles, assumptions and techniques adopted in the production of DAMOCLES (see Figure \ref{fig:flowchart}) before I move on to address the mechanics and architecture of the code itself.  Damocles stands for \textbf{D}ust-\textbf{A}ffected \textbf{M}odels \textbf{O}f \textbf{C}haracteristic \textbf{L}ine \textbf{E}mission in \textbf{S}upernovae.
  
-	\begin{centering}
+
 	\begin{figure}
-	\includegraphics[scale=0.8, trim=160mm 5mm 8mm 5mm]{chapters/chapter2/code_flow.png}
+	\centering
+	\includegraphics[scale=0.185, trim=650mm 25mm 8mm 25mm]{chapters/chapter2/code_flow.png}
 	\caption{A flowchart representing the sequence of processes that take place in the Damocles code.  The modules involved at each stage are given in parentheses.}
 	\label{fig:flowchart}
 	\end{figure}
-	\end{centering}	
+
 	
 	
 	\subsection{Energy Packets}
@@ -360,13 +361,14 @@ Damocles includes the capacity to read in observed line profile data for direct 
 		
 		Various statistics are also processed and output here including the fraction of packets that are absorbed and the estimated undepleted luminosity of the observed line. 
 		
-			\begin{centering}
+
 	\begin{figure}
-	\includegraphics[scale=0.8, trim=110mm 0mm 0mm 5mm]{chapters/chapter2/code_modules_flowchart.png}
+	\centering
+	\includegraphics[scale=0.18, trim=430mm 20mm 30mm 25mm]{chapters/chapter2/code_modules_flowchart.png}
 	\caption{A flowchart representing the hierarchy of modules and subroutines in the Damocles code.  Ellipses represent modules and rectangles represent subroutines (the red rectangle is a recursive subroutine).  Green arrows indicate the dependence on module or subroutine on previous modules or subroutines.  Purple arrows indicate the flow of the code.}
 	\label{fig:flowchart_mods}
 	\end{figure}
-	\end{centering}
+
 		
 		\subsubsection{The input module}
 		The \textit{input} module is where the primary input file is read into the code and all global variables are declared and assigned.  A number of logicals are assigned based on values declared in the input file and some simple calculations are performed that determine the inner and outer radii based on the maximum velocity specified and the epoch of consideration.  A number of physical constants that are used throughout the code are also declared here as 'parameters', meaning that their value cannot be changed at any point in the simulation.
@@ -409,7 +411,7 @@ Damocles includes the capacity to read in observed line profile data for direct 
 		
 		\begin{centering}
             	\begin{figure}
-            	\includegraphics[scale=0.67, trim=8mm 0mm 8mm 5mm]{chapters/chapter2/propagate_module.png}
+            	\includegraphics[scale=0.165, trim=1180mm -20mm 28mm -20mm]{chapters/chapter2/propagate_module.png}
             	\caption[A flowchart representing the processes that occur in the \textit{propagate} subroutine]{A flowchart representing the processes that occur in the \textit{propagate} subroutine.  The life of a packet passing through the grid may be determined by following the flowchart starting at the blue parallelogram.  Purple oblongs indicate a standard step in the evolution, green diamonds indicate that a determination must be made, red boxes mean that the packet's evolution has concluded as it has escaped, been absorbed or been removed and the blue rounded oblong indicates a return to the start of the routine.}
             	\label{fig:flowchart_propagate}
             	\end{figure}
