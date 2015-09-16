@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  11 SEP 2015 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  16 SEP 2015 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -669,45 +669,34 @@ File: chapters/chapter1/figs/black_patch_B68.jpg Graphic file (type jpg)
 Package pdftex.def Info: chapters/chapter1/figs/black_patch_B68.jpg used on inp
 ut line 37.
 (pdftex.def)             Requested size: 376.7681pt x 376.38266pt.
- [18] [19 <./chapters/chapter1/figs/black_patch_B68.jpg>]
-
-Package natbib Warning: Citation `MRN' on page 20 undefined on input line 57.
-
-[20]
+ [18] [19 <./chapters/chapter1/figs/black_patch_B68.jpg>] [20]
 <chapters/chapter1/figs/sn_classification.png, id=82, 3141.7375pt x 1886.04625p
 t>
 File: chapters/chapter1/figs/sn_classification.png Graphic file (type png)
  <use chapters/chapter1/figs/sn_classification.png>
 Package pdftex.def Info: chapters/chapter1/figs/sn_classification.png used on i
-nput line 71.
+nput line 73.
 (pdftex.def)             Requested size: 430.60065pt x 325.00836pt.
 
-Overfull \hbox (3.8093pt too wide) in paragraph at lines 71--72
+Overfull \hbox (3.8093pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
 [21] [22 <./chapters/chapter1/figs/sn_classification.png>] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-[24]
-
-Package natbib Warning: Citation `Lucy1989' on page 25 undefined on input line 
-135.
-
-[25] [26]) [27]
+[24] [25] [26]) [27] [28]
 :<-
-[28
-
-
-]
 :<+ chapters/chapter2/chapter2.tex
 \openout2 = `chapters/chapter2/chapter2.aux'.
 
 (./chapters/chapter2/chapter2.tex
 Chapter 2.
 [29
+
+
 
 
 
@@ -2198,17 +2187,18 @@ Chapter 7.
 (./thesis.bbl [113
 
 ]
-./thesis.bbl:99: Undefined control sequence.
-l.99 Matsuura M. {et~al.}, 2011, \sci
-                                     , 333, 1258
+./thesis.bbl:129: Undefined control sequence.
+l.129 Matsuura M. {et~al.}, 2011, \sci
+                                      , 333, 1258
 ? 
-./thesis.bbl:139: Undefined control sequence.
-l.139 Sugerman B. E.~K. {et~al.}, 2006, \sci
+[114]
+./thesis.bbl:181: Undefined control sequence.
+l.181 Sugerman B. E.~K. {et~al.}, 2006, \sci
                                             , 313, 196
 ? 
 Missing character: There is no Å in font cmr10!
 Missing character: There is no ‚ in font cmr10!
-[114])
+)
 :<-
 [115] [116
 
@@ -2239,10 +2229,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6657 strings out of 493117
- 104175 string characters out of 6135433
- 184136 words of memory out of 5000000
- 9786 multiletter control sequences out of 15000+600000
+ 6689 strings out of 493117
+ 104795 string characters out of 6135433
+ 184835 words of memory out of 5000000
+ 9818 multiletter control sequences out of 15000+600000
  18939 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,13n,45p,1565b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2267,7 +2257,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (118 pages, 14541683 bytes).
+Output written on thesis.pdf (118 pages, 14544354 bytes).
 PDF statistics:
  1410 PDF objects out of 1440 (max. 8388607)
  960 compressed objects within 10 object streams

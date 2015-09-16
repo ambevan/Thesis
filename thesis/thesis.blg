@@ -16,50 +16,54 @@ A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 The style file: mn2e.bst
 A level-1 auxiliary file: back/backquote.aux
 Database file #1: Thesis.bib.bib
+Repeated entry---line 665 of file Thesis.bib.bib
+ : @article{Todini2001
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Lucy1989b"
-Warning--I didn't find a database entry for "MRN"
 Warning--I didn't find a database entry for "Auer1972b"
 Warning--I didn't find a database entry for "Spyromilio1993a"
 Warning--I didn't find a database entry for "Kozma1997"
-You've used 37 entries,
+Warning-- there's a number but no series in Lucy1989
+You've used 48 entries,
             2938 wiz_defined-function locations,
-            883 strings with 13395 characters,
-and the built_in function-call counts, 23772 in all, are:
-= -- 1687
-> -- 2726
-< -- 0
-+ -- 868
-- -- 843
-* -- 2027
-:= -- 4537
+            956 strings with 15175 characters,
+and the built_in function-call counts, 28915 in all, are:
+= -- 2126
+> -- 3068
+< -- 3
++ -- 987
+- -- 960
+* -- 2458
+:= -- 5487
 add.period$ -- 0
-call.type$ -- 37
-change.case$ -- 423
-chr.to.int$ -- 37
-cite$ -- 37
-duplicate$ -- 621
-empty$ -- 951
-format.name$ -- 911
-if$ -- 4586
+call.type$ -- 48
+change.case$ -- 497
+chr.to.int$ -- 48
+cite$ -- 49
+duplicate$ -- 828
+empty$ -- 1268
+format.name$ -- 1050
+if$ -- 5599
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 35
-newline$ -- 115
-num.names$ -- 148
-pop$ -- 379
+missing$ -- 44
+newline$ -- 148
+num.names$ -- 196
+pop$ -- 449
 preamble$ -- 1
-purify$ -- 421
+purify$ -- 495
 quote$ -- 0
-skip$ -- 720
+skip$ -- 911
 stack$ -- 0
-substring$ -- 762
-swap$ -- 37
-text.length$ -- 0
+substring$ -- 999
+swap$ -- 63
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 333
-warning$ -- 0
-while$ -- 157
+type$ -- 432
+warning$ -- 1
+while$ -- 213
 width$ -- 0
-write$ -- 371
-(There were 5 warnings)
+write$ -- 482
+(There was 1 error message)
