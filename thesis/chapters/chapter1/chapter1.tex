@@ -18,7 +18,7 @@ The universe is an extremely dusty place.  The ubiquity of dust throughout almos
 
 It is perhaps confusing therefore that there is comparatively little consensus regarding the formation processes and natal environments that result in the evolution of certain atoms and molecules into the grains we call dust.  Over the years since the first discovery  of dust in the very early universe, a growing population of astronomers and astrophysicists have turned their attention to the study of dust formation in core-collapse supernovae (CCSNe), in the hope that these objects might prove to be the missing piece of the puzzle.  Recent observations of a number of core-collapse supernovae  and remnants have lent weight to this theory, with models and analyses of spectral energy distributions (SEDs)  suggesting the presence of large reservoirs of cool, ejecta-condensed dust. 
 
-I have sought to make my own small contribution to this field by exploiting a different observational signature, that of  blue-shifted line asymmetries observed in the spectra of many CCSNe and attributed to the formation of dust in the ejecta.  By quantitatively modelling characteristically asymmetric spectral line profiles using a novel code, DAMOCLES, I have attempted to determine the rate of dust formation in CCSNe and the expected order of magnitude of the eventual dust masses produced.
+I have sought to make my own small contribution to this field by exploiting a different observational signature, that of  blue-shifted line profile asymmetries observed in the spectra of many CCSNe and attributed to the formation of dust in the ejecta.  By quantitatively modelling characteristically asymmetric spectral line profiles using a novel code, DAMOCLES, I have attempted to determine the rate of dust formation in CCSNe and the expected order of magnitude of the eventual dust masses produced.
 
 Throughout the remainder of this chapter I will attempt to elucidate the above synopsis in more detail.  A brief discussion of the roles that dust plays in the universe will be followed by a summary of our current understanding of dust formation in CCSNe.  I will conclude this chapter with a short justification of the approach that I have adopted for this work and an outline of the structure of this thesis.
 
@@ -47,14 +47,19 @@ In addition to the above physical functions, dust plays an essential part in che
 
 Dust does not reside solely in the ISM however.  It is present in  large quantities in the circumnuclear tori found around active galactic nuclei.  Dust is also found between planets, around stars and in protoplanetary discs, where dust grains are often the smallest unit of the building blocks that will go on to form planetesimals and planets.  These grains may even be responsible for the origins of life.  
 
-The more detailed our understanding of dust as an astrophysical community, the more accurate we can make our inferences across an entire range of  fields.  There is arguably no other topic that has such wide-ranging effects.
+The more detailed our understanding of dust as an astrophysical community, the more accurate we can make our inferences across an entire range of  fields.  There is arguably no other topic in astronomy that has such wide-ranging effects.
 
 
 \subsection{The Medium of Dust}
 
 An increasingly detailed knowledge of the nature and properties of dust has developed over the last few decades. Dust grains have their terrestrial analogue in soot or very fine sand rather than in the dust bunnies that one may find behind the sofa.  When found in the ISM they are generally small, between 0.05\micron\ and 0.25\micron\ in radius, and are normally predominantly composed of carbon or silicates.  Carbonaceous grains may take many forms ranging from structured solids such as diamond and graphite to amorphous molecules and aromatics.  They are generally found to be strongly attentuating.  Silicates tend to be more glassy and contain silicon and oxygen potentially with the dirtying addition of magnesium, iron or other heavier elements.  Condensates of more complex molecules such as olivine (MgFeSiO$_4$) and pyroxene (MgSiO$_3$) make up these grains.  
 
-Whilst an increasingly strong picture of the composition and properties of dust is becoming apparent, there are still a number of largely unresolved issues regarding the early stages of the life cycle of dust grains.  Dust grains in the ISM are found to follow a grain radius distribution $n(a) \propto a^{-3.5}$ as described by \citeauthor{Mathis1977} in 1977.  After their formation, however, grains are subject to numerous forces that can result in their destruction, sputtering or evaporation that mean that the grain radius distribution of newly-formed dust is not necessarily that observed in the ISM.  The grain size distribution and relative abundances of species of newly-formed grains are still topics in dispute and are issues that I attempt to address in my models.
+Whilst an increasingly strong picture of the composition and properties of dust is becoming apparent, there are still a number of largely unresolved issues regarding the makeup of a dusty medium.
+Different species and composites thereof have different optical properties.  In order to model the absorption and scattering of radiation off dust grains it is necessary to first know the complex refractive indices of a given species over the relevant wavelength range.  Laboratory measurements have produced a number of different sets of optical constants for a variety of carbonaceous and silicate species and these are well-utilised throughout the field.  It is noted at this early juncture however that in many cases there are numerous, somewhat contradictory, sets of optical constants for a given species and that these variations can potentially cause a degree of confusion regarding the results of models that utilise them.  This topic will be discussed in detail later in this thesis (SECTION).
+
+Dust grains are generally assumed to be spherical in order to make their simulative treatment more straightforward but in reality dust shapes are actually much more complex.  Sophisticated models of dust grains sometimes adopt a continuous distribution of ellipsoids to represent dust grain shape.  This allows grains to take any ellipsoidal form ranging from flat discs to needles to perfect spheres.  However, even this more detailed consideration omits structures that are akin to long strings or to fluffy particles (not dissimilar to a tumble dryer ball in shape). Heretofore, the vast majority of models, including DAMOCLES, have only considered spherical grains and this wide variety of shapes therefore represents a significant modelling challenge to be addressed in the future.
+
+Dust in the universe follows a cycle.  From its stellar birthplace, it is ejected and slowly integrates itself with the ISM before condensing into molecular clouds and ultimately once again returning to stars.  Most of the knowledge of the properties of dust applies only to grains in the ISM, which are found to follow a grain radius distribution $n(a) \propto a^{-3.5}$ as described by \citeauthor{Mathis1977} in 1977.  This distribution does not necessarily apply immediately after their formation, however, as grains are subject to numerous forces that can result in their destruction, sputtering or evaporation.  The grain size distribution and relative abundances of species of newly-formed grains are still topics in dispute and are issues that I attempt to address in my models.  The issue of dust grain shape will hopefully be addressed in future versions of DAMOCLES.
 
 \section{Core-Collapse Supernovae as Dust Factories}
 
@@ -66,7 +71,7 @@ Supernovae are the violent explosions that are the death of stars.  They evolve 
 
 \subsection{Types of Supernovae}
 
-Supernovae may be classified into a number of different types depending on the properties of their light curves and optical spectra.  They are bisected initially into Types I and II according respectively to the absence or presence of hydrogen in their spectra.  Further sub-classifications depend on the evolution of the supernova's light curve after maximum light and the features in its spectrum.  A summary of the supernova classification scheme is presented in Figure \ref{intro:fig:sn_class}.  
+Supernovae may be classified into a number of different types.  They are bisected initially into Types I and II according respectively to the absence or presence of hydrogen in their early spectra.  Further sub-classifications depend on  other features in the early spectra, properties of later spectra and the evolution of the  light curve after maximum light.  A summary of the supernova classification scheme is presented in Figure \ref{intro:fig:sn_class}.  
 
 \begin{figure}
 \centering
@@ -75,16 +80,15 @@ Supernovae may be classified into a number of different types depending on the p
 \label{intro:fig:sn_class}
 \end{figure}
 
-
-%THIS IS MESSY
-The initial classification of Type I or Type II is based on very early spectra, as are all further classifications of Type I supernovae.  Type II supernovae are more complex in their categorisation.  The further subdivisions of the Type II supernovae depend on the dominance of hydrogen or helium in later spectra, with helium dominant supernovae being classified as Type IIb.  The classification of Type II supernovae that exhibit strong hydrogen lines is then dependent on the evolution of the light curve after maximum light, with a linearly decaying light curve being classified as Type IIL and a plateauing light curve classifying the supernova as Type IIP.  Type IIn supernovae are omitted from the summary presented in Figure \ref{intro:fig:sn_class} as they cannot be classified straightforwardly via a bifurcating process.  Type IIn supernovae will generally have strong emission lines, particularly hydrogen lines, often with complex profiles.  Crucially, the spectra of Type IIn supernovae do not exhibit the broad absorption features frequently seen in other types and instead contain narrow lines (hence Type IIn).  
+If the initial classification is Type I then all further sub-classifications depend solely on the properties of the early spectra (a few days after explosion) as detailed in Figure \ref{intro:fig:sn_class}.  Type II supernovae are somewhat more complex in their categorisation.  After classification as a Type II, further subdivisions depend on the dominance of hydrogen or helium in \textit{later} spectra.  Helium dominant supernovae are classified as Type IIb and hydrogen dominant supernovae are classified as either Type IIL (those which have a linearly decaying light curve after maximum light) or Type IIP (those that exhibit a plateauing light curve after maximum light).  Type IIn supernovae are omitted from the summary presented in Figure \ref{intro:fig:sn_class} as they cannot be classified straightforwardly via a bifurcating process.  Type IIn supernovae will generally have strong emission lines, particularly hydrogen lines, often with complex profiles.  Crucially, the spectra of Type IIn supernovae do not exhibit the broad absorption features frequently seen in other types and instead contain narrow lines (hence Type IIn).  
 
 \subsection{From Massive Stars to Remnants}
-%make this flow more nicely :)
 
-It is generally accepted that the progenitors of Type Ia supernovae are white dwarfs that exist in a binary system with another star.  The accretion of material from one star to another results in a thermonuclear explosion.  This explosion mechanism is unique to Type Ia supernovae with Type Ib/c and Type II supernovae thought to explode via the core-collapse mechanism.  Broadly, this process is initiated when the massive star ($\ge 8$\msun) starts to fuse heavier elements. The fusion of ever heavier elements generates less and less energy whilst also causing the mass of the core to increase.  Eventually, radiation pressure drops sufficiently that the core can no longer support itself against its own self-gravity and begins to collapse rapidly. Within milliseconds, the core reaches extremely high densities and, when it can no longer condense further, ``bounces" off itself causing both an immense shockwave to propagate outwards and a vast quantity of energy to be released via the expulsion of neutrinos.  Much of this complex process is still poorly understood and interesting work is currently being done modelling these very early stages.  Though the explosion mechanisms of CCSNe are largely beyond the scope of my work, some attention will be paid to these models later in this thesis since instabilities that arise in these early stages can influence the structure of the ejecta at later stages of its evolution.
+It is generally accepted that the progenitors of Type Ia supernovae are white dwarfs that exist in a binary system with another star.  The accretion of material from one star to another results in a thermonuclear explosion, a mechanism that is unique to Type Ia supernovae.  There have not been any observations suggestive of dust forming in the aftermath of a Type Ia supernova and I therefore do not consider these objects any further, focusing my attention solely on supernovae that explode via the core-collapse mechanism.  
 
-For several hundred years after the explosion, the supernova (now a remnant) is in the free-expansion phase. During this phase, the mass and velocity of the expanding supernova massively exceed those of the surrounding medium and the behaviour of the remnant may be analysed as if it were expanding into a vacuum.  The shock radius during this phase may be simply calculated as $R_s = v_s t$.  As the shockwave propagates through the ISM, interstellar material that has been compressed by the forward shock begins to accumulate.  At the same time a reverse shock wave begins to propagate back through the ejecta.  It is during this phase, which arises very soon after the initial explosion and lasts for a few hundred years, that the physical conditions in the ejecta are thought to be optimal for dust formation.
+Broadly, this process is initiated when a massive star ($\ge 8$\msun) starts to fuse heavier elements. The fusion of ever heavier elements generates increasingly less energy whilst also causing the mass of the core to increase.  Eventually, radiation pressure drops sufficiently that the core can no longer support itself against its own self-gravity and begins to collapse rapidly. Within milliseconds, the core reaches extremely high densities and, when it can no longer condense further, ``bounces" off itself causing  an immense shockwave to propagate outwards and a vast quantity of energy to be released via the expulsion of neutrinos.  Much of this complex process is still poorly understood and interesting models are currently being produced recreating these very early stages using a numerical approach.  Though the explosion mechanisms of CCSNe are largely beyond the scope of my work, some attention will be paid to these models later in this thesis since instabilities that arise in these early stages can influence the structure of the ejecta at later stages of its evolution.
+
+For several hundred years after the explosion, the supernova (now a remnant) is in the free-expansion phase. During this phase, the mass and velocity of the expanding supernova massively exceed those of the surrounding medium, fortuitously allowing the behaviour of the remnant to be analysed as if it were expanding into a vacuum.  The shock radius during this phase may therefore be calculated simply as $R_s = v_s t$.  As the shockwave propagates through the ISM, interstellar material that has been compressed by the forward shock begins to accumulate.  At the same time a reverse shock wave begins to propagate back through the ejecta.  It is during this phase, which arises very soon after the initial explosion and lasts for a few hundred years, that the physical conditions in the ejecta are thought to be optimal for dust formation.  The phase ends when the mass of material ahead of the forward shock is of a similar magnitude to that behind and the mathematical treatment of its behaviour must be altered.
 
 
 \subsection{Dust Formation in CCSNe}
@@ -134,14 +138,14 @@ Matsuura2011, Gomez2012}.
 
 %more waffle on sn1987a
 
-Critical to this field has been the study of SN 1987A.   This supernova is one of the most studied objects in the history of astronomy and has been observed almost continuously since it exploded 28 years ago.  The reason for this is its proximity.  At only Xpc away, it has allowed for some exceptionally well-resolved spectral and photometric observations.  Neutrinos from its explosion were even detected by scientists at Y.  As such, it has yielded results and insight that would not have been possible otherwise and is a key to understanding the formation and evolution of dust in CCSNe.
+Critical to this field has been the study of SN 1987A.   This supernova is one of the most studied objects in the history of astronomy and has been observed almost continuously since it exploded 28 years ago.  The reason for this is its proximity.  At only ~50pc away, it has allowed for some exceptionally well-resolved spectral and photometric observations.  Neutrinos from its explosion were even detected at three different observatories .  As such, it has yielded results and insight that would not have been possible otherwise and is a key to understanding the formation and evolution of dust in CCSNe.
 
 It is of no surprise therefore that this object has been central to the debate.  \citet{Lucy1989} was the first to suggest the presence of dust in SN~1987A {\em Herschel} observations of SN~1987A were the first to suggest the presence of cold dust in any supernova.
 
 
 
-\subsection{Motivation - call something else}
-
+\subsection{Motivation}
+%- call something else
 It is seems increasingly likely that CCSNe do indeed produce significant quantities of dust.  However, there remain a large number of outstanding challenges to consider.  Firstly, there are still only a very small number of supernovae that have been observed to have sizeable masses of dust present in their ejecta.  If further CCSNe were also shown to have formed large quantities of dust then  the already shifting opinion might start to become consensus.  Other points to consider regarding dust formation and evolution in CCSNe include the nature of the dust (composition, grain size, grain shape etc.) which is still largely unclear, as is the extent to which it is destroyed or sputtered after its initial formation.  Related to this is the uncertainty of the dust formation rate in the ejecta and the issue of where this formation takes place.  These are all interesting questions that call out for answers.  
 
 The {\em Hershel} dust mass estimates were based on fitting dust SEDs that peaked at far-IR wavelengths. Unfortunately, following the end of the {\em Herschel} mission in 2013, there is likely to be a long wait for far-IR facilities with comparable or better sensitivities than {\em Herschel} to become available.  Without data, this methodology is temporarily ineffectual.  This provided an incentive to make use of alternative methods to estimate the dust masses that form in supernova ejecta.
@@ -149,6 +153,15 @@ The {\em Hershel} dust mass estimates were based on fitting dust SEDs that peake
 \section{Dust-Affected Line Profiles}
 
 %%MORE HERE
+
+ \citet{Lucy1989} identified a progressive blue-shifting of the [O~{\sc 
+i}]~$\lambda$6300,6363~\AA\ doublet from SN~1987A between days 529 and 739 
+after outburst, with the doublet in the later spectrum being blue-shifted 
+by $\sim 600 $~km~s$^{-1}$. Since then, such red-blue asymmetries have 
+been frequently observed in the late-time ($ > 400$ days) spectra of 
+supernova ejecta and there is now a growing database of such observations (e.g.
+\citet{Lucy1989,Fabbri2011,Mauerhan2012,Milisavljevic2012}).
+
 
 The purpose of my work has been to develop a new approach to determining dust masses in supernovae, with the aim of providing an alternative to SED fitting for the future and of providing corroborating or contradicting evidence of past results.  I looked to exploit the third signature of dust formation in supernovae, namely the red-clue line asymmetry observed in optical and IR line profiles.  Though this feature has been discussed a length by numerous authors (REFERENCES) it has very rarely been quantitatively measured or modelled.
 
@@ -160,11 +173,6 @@ Numerous telescopes have recorded spectra of CCSNe in the optical and IR, some w
 
 Advances in digital storage have allowed for spectral and photometric observations to be made easily available online.  Many observatories now publish their recent observations online in archives and are working to upload observations that pre-date file sharing services.  Much of the data used in this thesis was obtained from these archives. 
 
-\subsection{Previous Work on Line Profiles}
-LUCY LUCY LUCY!!!  Also some of the other stuff - gerasimovic, some of the other theoretical papers, maybe also the electron scattering stuff
-
-
-EXAMPLES OF RBLA WORK
 \subsection{Modelling}
 Need to think about what i actually need to consider in this section.
 
@@ -178,5 +186,5 @@ In order to truly understand observations that are a product of dust, we must fi
 
 
 
-\section{This Thesis}
+\section{Content Of This Thesis}
 And relate to your current work - give an overview of the work and what you did as well as the structure of the thesis - see Jo's for example.

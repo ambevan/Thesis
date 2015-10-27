@@ -14,7 +14,7 @@ consider dust absorption-affected asymmetric line profiles.  We therefore test
 the code by comparing the results to optically thin profiles that may be 
 derived analytically.  We then test the absorption and scattering 
 components of the code by comparing our results in the case of an 
-optically thick medium with those derived by \citet{Lucy1989b} in their 
+optically thick medium with those derived by \citet{Lucy1989} in their 
 Model II and Model III scenarios.
 
 \section{Theoretical line profiles from first principles}
@@ -28,32 +28,32 @@ expanding shell.
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
 \centering
-\includegraphics[trim =25 40 45 15,clip=true,scale=0.46]{chapters/chapter3/images/params/A/b0_r0_2}
+\includegraphics[trim =25 40 45 15,clip=true,scale=0.46]{chapters/chapter4/images/params/A/b0_r0_2}
 \end{subfigure}
 \hspace{4mm}
 \begin{subfigure}{0.5\textwidth}
 \centering
-\includegraphics[trim =72 40 45 15,clip=true,scale=0.46]{chapters/chapter3/images/params/A/b0_r0}  
+\includegraphics[trim =72 40 45 15,clip=true,scale=0.46]{chapters/chapter4/images/params/A/b0_r0}  
 \end{subfigure} \\[0.0ex]
 
 \begin{subfigure}{0.5\textwidth}
 \centering
-\includegraphics[trim =25 40 45 15,clip=true,scale=0.46]{chapters/chapter3/images/params/A/b1_r0_2}
+\includegraphics[trim =25 40 45 15,clip=true,scale=0.46]{chapters/chapter4/images/params/A/b1_r0_2}
 \end{subfigure}
 \hspace{4mm}
 \begin{subfigure}{0.5\textwidth}
 \centering
-\includegraphics[trim =72 40 45 15,clip=true,scale=0.46]{chapters/chapter3/images/params/A/b1_r0} 
+\includegraphics[trim =72 40 45 15,clip=true,scale=0.46]{chapters/chapter4/images/params/A/b1_r0} 
 \end{subfigure} \\[0.0ex]
 
 \begin{subfigure}{0.5\textwidth}
 \centering
-\includegraphics[trim =25 25 45 15,clip=true,scale=0.46]{chapters/chapter3/images/params/A/b2_r0_2}
+\includegraphics[trim =25 25 45 15,clip=true,scale=0.46]{chapters/chapter4/images/params/A/b2_r0_2}
 \end{subfigure}
 \hspace{4mm}
 \begin{subfigure}{0.5\textwidth}
 \centering
-\includegraphics[trim =72 25 45 15,clip=true,scale=0.46]{chapters/chapter3/images/params/A/b2_r0}
+\includegraphics[trim =72 25 45 15,clip=true,scale=0.46]{chapters/chapter4/images/params/A/b2_r0}
 \end{subfigure}
 
 \caption{\textit{Red:} Benchmark models for optically thin ($\tau =0$) 
@@ -80,13 +80,13 @@ $r$ and $\theta$ is the angle to the observer's line of sight.  We adopt inner r
 \begin{figure}
 \begin{subfigure}{\textwidth}
 \centering
-\includegraphics[trim =37 10 45 15,clip=true,scale=0.75]{chapters/chapter3/images/params/opt_thick_w0}
+\includegraphics[trim =37 10 45 15,clip=true,scale=0.75]{chapters/chapter4/images/params/opt_thick_w0}
 \end{subfigure} \\[1ex]
 \begin{subfigure}{\textwidth} 
 \centering
-\includegraphics[trim =37 10 45 15,clip=true,scale=0.75]{chapters/chapter3/images/params/opt_thick_w0_6}
+\includegraphics[trim =37 10 45 15,clip=true,scale=0.75]{chapters/chapter4/images/params/opt_thick_w0_6}
 \end{subfigure}  
-\caption{Benchmark models for line profiles  with $v \propto r$, $i(r) \propto$ constant and a filled sphere with $R_{in}/R_{out}=0$.  Pure dust absorption models ($\omega = 0$) are presented in the top plot, whilst partially scattering models are presented at the bottom ($\omega = 0.6$) as per \citet{Lucy1989b} Models II and III. All resulting profiles have been scaled to unity flux at their peaks.}
+\caption{Benchmark models for line profiles  with $v \propto r$, $i(r) \propto$ constant and a filled sphere with $R_{in}/R_{out}=0$.  Pure dust absorption models ($\omega = 0$) are presented in the top plot, whilst partially scattering models are presented at the bottom ($\omega = 0.6$) as per \citet{Lucy1989} Models II and III. All resulting profiles have been scaled to unity flux at their peaks.}
 \label{fig:Lucy}
 \end{figure}
 
@@ -154,14 +154,14 @@ expansion phase is used throughout.  Values of $\beta = 0, 1$ and $2$ are
 adopted.  Figure \ref{fig:analytics} illustrates the excellent agreement between 
 the analytical case and the models.  All fluxes are scaled to unity at the peak.
 
-\section{The line profile models of \citet{Lucy1989b}}
+\section{The line profile models of \citet{Lucy1989}}
 \label{opt_thick_testing}
 
 In addition to the tests for optically thin lines described above, we also 
-compared our outputs to those derived by \citet{Lucy1989b} in order to 
+compared our outputs to those derived by \citet{Lucy1989} in order to 
 assess the accuracy of the scattering and absorption aspects of the code.  
 We consider two similar cases, equivalent to Models II and III of 
-\citet{Lucy1989b}. In the first case, dust with zero albedo is 
+\citet{Lucy1989}. In the first case, dust with zero albedo is 
 uniformly distributed throughout a completely filled nebula with a velocity profile 
 $v \propto r$.  In the second case, the same scenario is considered but a 
 medium of dust with albedo $\omega =0.6$ is considered.
@@ -175,14 +175,14 @@ $+v$ where $\tau_{\nu}$ is optical depth at frequency $\nu$ from the centre to t
 \frac{I(v)}{I(-v)} = \exp(-2\tau_{\nu} v)  
 \end{equation}
 
-\citet{Lucy1989b} presented several examples for both the analytical case of 
+\citet{Lucy1989} presented several examples for both the analytical case of 
 the perfect absorber and a Monte Carlo model for grains with $\omega 
 =0.6$.  We present the same cases in Figure \ref{fig:Lucy} and note that 
 the resulting profiles exhibit the same features and shape. Of particular 
 interest is the scattering wing that appears beyond the maximum velocity 
 ($v_{max}=1$) on the red side of profiles in the case of the partial 
 scatterer, as a result of the packets doing work on the expanding sphere.  
-This was noted by \citet{Lucy1989b} as a potential diagnostic for the 
+This was noted by \citet{Lucy1989} as a potential diagnostic for the 
 presence of dust in the ejecta of a supernova and we will discuss this 
 further in Section \ref{ps}.
 
