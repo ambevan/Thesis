@@ -8,7 +8,6 @@ A level-1 auxiliary file: front/frontquote.aux
 A level-1 auxiliary file: front/acronyms.aux
 A level-1 auxiliary file: chapters/chapter1/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2/chapter2.aux
-A level-1 auxiliary file: chapters/chapter3/chapter3.aux
 A level-1 auxiliary file: chapters/chapter4/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6/chapter6.aux
@@ -18,46 +17,51 @@ A level-1 auxiliary file: back/backquote.aux
 Database file #1: thesis.bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+`author' is a missing field, not a string, for entry openmp
+while executing---line 3411 of file mnras.bst
+`author' is a missing field, not a string, for entry openmp
+while executing---line 3411 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
-You've used 95 entries,
+Warning--empty year in openmp
+You've used 103 entries,
             2881 wiz_defined-function locations,
-            1542 strings with 32478 characters,
-and the built_in function-call counts, 45639 in all, are:
-= -- 3690
-> -- 3373
-< -- 250
-+ -- 1449
-- -- 511
-* -- 5505
-:= -- 7223
+            1591 strings with 33786 characters,
+and the built_in function-call counts, 49207 in all, are:
+= -- 3920
+> -- 3649
+< -- 275
++ -- 1596
+- -- 541
+* -- 5909
+:= -- 7811
 add.period$ -- 0
-call.type$ -- 95
-change.case$ -- 191
-chr.to.int$ -- 93
-cite$ -- 96
-duplicate$ -- 2221
-empty$ -- 2247
-format.name$ -- 821
-if$ -- 7954
+call.type$ -- 103
+change.case$ -- 208
+chr.to.int$ -- 101
+cite$ -- 107
+duplicate$ -- 2419
+empty$ -- 2477
+format.name$ -- 877
+if$ -- 8555
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 98
-newline$ -- 302
-num.names$ -- 690
-pop$ -- 469
+missing$ -- 110
+newline$ -- 331
+num.names$ -- 745
+pop$ -- 545
 preamble$ -- 1
-purify$ -- 380
+purify$ -- 412
 quote$ -- 0
-skip$ -- 1340
+skip$ -- 1441
 stack$ -- 0
-substring$ -- 2514
-swap$ -- 1184
-text.length$ -- 394
+substring$ -- 2629
+swap$ -- 1277
+text.length$ -- 426
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 846
-warning$ -- 1
-while$ -- 728
+type$ -- 903
+warning$ -- 2
+while$ -- 779
 width$ -- 0
-write$ -- 970
-(There was 1 warning)
+write$ -- 1055
+(There were 2 error messages)

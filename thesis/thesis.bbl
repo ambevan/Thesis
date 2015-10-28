@@ -49,6 +49,13 @@ Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
   [\mnras] {10.1046/j.1365-8711.2000.03113.x}, \href
   {http://adsabs.harvard.edu/abs/2000MNRAS.311..601B} {311, 601}
 
+\bibitem[\protect\citeauthoryear{Bohren \& Huffman}{Bohren \&
+  Huffman}{1983}]{Bohren1983}
+Bohren C.~F.,  Huffman D.,  1983, Absorption and scattering of light by small
+  particles.
+Wiley science paperback series, Wiley, \url
+  {https://books.google.co.uk/books?id=S1RCZ8BjgN0C}
+
 \bibitem[\protect\citeauthoryear{{Brinch} \& {Hogerheijde}}{{Brinch} \&
   {Hogerheijde}}{2010}]{Brinch2010}
 {Brinch} C.,  {Hogerheijde} M.~R.,  2010, \mn@doi [\aap]
@@ -108,6 +115,11 @@ Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
   et~al.}{2007}]{Dwek2007}
 Dwek E.,  Galliano F.,   Jones A.~P.,  2007, \mn@doi [\apj] {10.1086/518430},
   662, 927
+
+\bibitem[\protect\citeauthoryear{Ellis, Phillips  \& Lahey}{Ellis
+  et~al.}{1994}]{Ellis1994}
+Ellis T. M.~R.,  Phillips I.~R.,   Lahey T.~M.,  1994, Fortran 90 Programming.
+Addison-Wesley
 
 \bibitem[\protect\citeauthoryear{{Ercolano}, {Barlow}, {Storey}  \&
   {Liu}}{{Ercolano} et~al.}{2003}]{Ercolano2003}
@@ -294,6 +306,10 @@ Berlin Springer Verlag, p.~164, \mn@doi{10.1007/BFb0114861}
 Lucy L.,  Danziger I.~J.,  Gouiffes C.,   Bouchet P.,  1991, in Woosley S.~E.,
   ed., Supernovae. Springer-Verlag, New York, p.~82
 
+\bibitem[\protect\citeauthoryear{{Marsaglia} \& {Bray}}{{Marsaglia} \&
+  {Bray}}{1964}]{Marsaglia1964}
+{Marsaglia} G.,  {Bray} T.~A.,  1964, SIAM Review, 6, 260
+
 \bibitem[\protect\citeauthoryear{Mathis, Rumpl  \& Nordsieck}{Mathis
   et~al.}{1977}]{Mathis1977}
 Mathis J.~S.,  Rumpl W.,   Nordsieck K.~H.,  1977, \mn@doi [\apj]
@@ -348,6 +364,13 @@ Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
   Isaak}{Omont et~al.}{2001}]{Omont2001}
 Omont A.,  Cox P.,  Bertoldi F.,  McMahon R.~G.,  Carilli C.,   Isaak K.~G.,
   2001, \mn@doi [\aap] {10.1051/0004-6361:20010721}, 374, 371
+
+\bibitem[\protect\citeauthoryear{Osterbrock \& Ferland}{Osterbrock \&
+  Ferland}{2006}]{Osterbrock2006}
+Osterbrock D.,  Ferland G.,  2006, Astrophysics of Gaseous Nebulae and Active
+  Galactic Nuclei, 2 edn.
+University Science Books, \url
+  {https://books.google.co.uk/books?id=6GIXMFpET4cC}
 
 \bibitem[\protect\citeauthoryear{Owen \& Barlow}{Owen \&
   Barlow}{2015}]{Owen2015}
@@ -443,6 +466,11 @@ Suntzeff N.~B.,  Phillips M.~M.,  Depoy D.~L.,  Elias J.~H.,   Walker A.~R.,
   Series Vol. 288, Stellar Atmosphere Modeling. p.~453 (\mn@eprint {}
   {astro-ph/0207089})
 
+\bibitem[\protect\citeauthoryear{Tielens}{Tielens}{2005}]{tielens2005}
+Tielens A.,  2005, The Physics and Chemistry of the Interstellar Medium.
+Cambridge University Press, \url
+  {https://books.google.co.uk/books?id=o7KDfwkoXa0C}
+
 \bibitem[\protect\citeauthoryear{Todini \& Ferrara}{Todini \&
   Ferrara}{2001}]{Todini2001}
 Todini P.,  Ferrara A.,  2001, \mn@doi [\mnras]
@@ -470,6 +498,12 @@ Watson D.,  Christensen L.,  Knudsen K.~K.,  Richard J.,  Gallazzi A.,
 Wongwathanarat A.,  M\"{u}ller E.,   Janka H.-T.,  2015, \mn@doi [\aap]
   {10.1051/0004-6361/201425025}, 577, A48
 
+\bibitem[\protect\citeauthoryear{{Wood}, {Mathis}  \& {Ercolano}}{{Wood}
+  et~al.}{2004}]{Wood2004}
+{Wood} K.,  {Mathis} J.~S.,   {Ercolano} B.,  2004, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2004.07458.x}, \href
+  {http://adsabs.harvard.edu/abs/2004MNRAS.348.1337W} {348, 1337}
+
 \bibitem[\protect\citeauthoryear{Wooden, Rank, Bregman, Witteborn, Tielens,
   Cohen, Pinto  \& Axelrod}{Wooden et~al.}{1993}]{Wooden1993}
 Wooden D.~H.,  Rank D.~M.,  Bregman J.~D.,  Witteborn F.~C.,  Tielens A. G.
@@ -485,6 +519,15 @@ Xu Y.,  McCray R.,  Oliva E.,   Randich S.,  1992, \mn@doi [\apj]
   Bussoletti}{Zubko et~al.}{1996}]{Zubko1996}
 Zubko V.~G.,  Mennella V.,  Colangeli L.,   Bussoletti E.,  1996, \mnras, 282,
   L1321
+
+\bibitem[\protect\citeauthoryear{Bohren \& Huffman}{ope}{}]{openmp}
+The OpenMP API Specification for Parallel Programming,
+  \url{https://www.openmp.org}
+
+\bibitem[\protect\citeauthoryear{van~de Hulst}{van~de Hulst}{1957}]{hulst1957}
+van~de Hulst H.,  1957, Light Scattering by Small Particles.
+Dover Books on Physics, Dover Publications, \url
+  {https://books.google.co.uk/books?id=PlHfPMVAFRcC}
 
 \makeatother
 \end{thebibliography}

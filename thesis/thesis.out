@@ -26,11 +26,11 @@
 \BOOKMARK [2][-]{subsection.2.2.2}{Initialisation and the Grid}{section.2.2}% 26
 \BOOKMARK [2][-]{subsection.2.2.3}{Properties of the Dusty Medium}{section.2.2}% 27
 \BOOKMARK [2][-]{subsection.2.2.4}{Emission and Propagation}{section.2.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.5}{Doppler shifting}{section.2.2}% 29
+\BOOKMARK [2][-]{subsection.2.2.5}{The Velocity Field and Doppler shifting}{section.2.2}% 29
 \BOOKMARK [2][-]{subsection.2.2.6}{Electron Scattering}{section.2.2}% 30
 \BOOKMARK [2][-]{subsection.2.2.7}{Doublets}{section.2.2}% 31
 \BOOKMARK [2][-]{subsection.2.2.8}{Comparing the Model with Observations}{section.2.2}% 32
-\BOOKMARK [1][-]{section.2.3}{The Structure of Damocles}{chapter.2}% 33
+\BOOKMARK [1][-]{section.2.3}{The Structure of DAMOCLES}{chapter.2}% 33
 \BOOKMARK [2][-]{subsection.2.3.1}{Computational Architecture and Processes}{section.2.3}% 34
 \BOOKMARK [2][-]{subsection.2.3.2}{OpenMP Parallelisation}{section.2.3}% 35
 \BOOKMARK [2][-]{subsection.2.3.3}{Input}{section.2.3}% 36

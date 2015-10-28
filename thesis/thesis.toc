@@ -28,101 +28,103 @@
 \contentsline {section}{\numberline {2.2}Radiative Transfer and the Monte Carlo Method}{35}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Energy Packets}{36}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Initialisation and the Grid}{38}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Properties of the Dusty Medium}{40}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Emission and Propagation}{41}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Doppler shifting}{43}{subsection.2.2.5}
+\contentsline {subsubsection}{Smooth power-law density distributions}{39}{section*.11}
+\contentsline {subsubsection}{Clumped geometries}{39}{section*.12}
+\contentsline {subsection}{\numberline {2.2.3}Properties of the Dusty Medium}{41}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Emission and Propagation}{42}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}The Velocity Field and Doppler shifting}{45}{subsection.2.2.5}
 \contentsline {subsection}{\numberline {2.2.6}Electron Scattering}{46}{subsection.2.2.6}
-\contentsline {subsection}{\numberline {2.2.7}Doublets}{48}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.7}Doublets}{49}{subsection.2.2.7}
 \contentsline {subsection}{\numberline {2.2.8}Comparing the Model with Observations}{49}{subsection.2.2.8}
-\contentsline {section}{\numberline {2.3}The Structure of Damocles}{49}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Computational Architecture and Processes}{50}{subsection.2.3.1}
-\contentsline {subsubsection}{The driver}{51}{section*.13}
-\contentsline {subsubsection}{The input module}{51}{section*.15}
-\contentsline {subsubsection}{The initialisation module}{53}{section*.16}
-\contentsline {subsubsection}{The grain size module}{53}{section*.17}
-\contentsline {subsubsection}{The Mie approximation subroutine}{54}{section*.18}
-\contentsline {subsubsection}{The grid construction subroutine}{54}{section*.19}
-\contentsline {subsubsection}{The electron scattering module}{54}{section*.20}
-\contentsline {subsubsection}{The random seed subroutine}{55}{section*.21}
-\contentsline {subsubsection}{The packet initialisation module}{55}{section*.22}
-\contentsline {subsubsection}{The vector functions module}{55}{section*.23}
-\contentsline {subsubsection}{The propagate subroutine}{56}{section*.24}
-\contentsline {subsubsection}{The random routines module}{58}{section*.26}
-\contentsline {subsubsection}{The model comparison module}{58}{section*.27}
-\contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{59}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Input}{60}{subsection.2.3.3}
-\contentsline {subsubsection}{Properties of the emitted rest-frame line or doublet}{61}{section*.29}
-\contentsline {subsubsection}{lambda1\_0 }{61}{section*.30}
-\contentsline {subsubsection}{L\_tot }{61}{section*.31}
-\contentsline {subsubsection}{L\_Halpha}{61}{section*.32}
-\contentsline {subsubsection}{doublet}{61}{section*.33}
-\contentsline {subsubsection}{lambda2\_0}{61}{section*.34}
-\contentsline {subsubsection}{L\_ratio}{62}{section*.35}
-\contentsline {subsubsection}{properties of the dust and gas in the ejecta}{62}{section*.36}
-\contentsline {subsubsection}{ES}{62}{section*.37}
-\contentsline {subsubsection}{ES\_temp}{62}{section*.38}
-\contentsline {subsubsection}{MF}{62}{section*.39}
-\contentsline {subsubsection}{FF}{63}{section*.40}
-\contentsline {subsubsection}{dayno}{63}{section*.41}
-\contentsline {subsubsection}{v\_max}{63}{section*.42}
-\contentsline {subsubsection}{Rrat}{63}{section*.43}
-\contentsline {subsubsection}{MD\_tot }{64}{section*.44}
-\contentsline {subsubsection}{l}{64}{section*.45}
-\contentsline {subsubsection}{q}{64}{section*.46}
-\contentsline {subsubsection}{b}{64}{section*.47}
-\contentsline {subsubsection}{gas\_shell}{64}{section*.48}
-\contentsline {subsubsection}{v\_max\_gas}{64}{section*.49}
-\contentsline {subsubsection}{Rrat\_gas}{64}{section*.50}
-\contentsline {subsubsection}{l\_gas}{65}{section*.51}
-\contentsline {subsubsection}{q\_gas}{65}{section*.52}
-\contentsline {subsubsection}{b\_gas}{65}{section*.53}
-\contentsline {subsubsection}{Properties of the grid and code architecture}{65}{section*.54}
-\contentsline {subsubsection}{LS}{65}{section*.55}
-\contentsline {subsubsection}{VelShift}{65}{section*.57}
-\contentsline {subsubsection}{ncells}{66}{section*.58}
-\contentsline {subsubsection}{n\_packets}{66}{section*.59}
-\contentsline {subsubsection}{n\_bins}{67}{section*.60}
-\contentsline {subsubsection}{n\_shells}{67}{section*.61}
-\contentsline {subsubsection}{dustfile}{67}{section*.62}
-\contentsline {subsection}{\numberline {2.3.4}Output, Post-Processing and Visualisation}{67}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Further Developments}{69}{section.2.4}
-\contentsline {chapter}{\numberline {3}Testing and Parameter Sensitivity Analyses}{71}{chapter.3}
-\contentsline {section}{\numberline {3.1}Testing and benchmarking}{71}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Theoretical line profiles from first principles}{71}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}The line profile models of \citet {Lucy1989}}{75}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Testing the electron scattering mechanism}{76}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Clumped models in smooth limits}{76}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}An analysis of the sensitivity of line profiles to the variable parameters}{76}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The maximum line velocity, $V_{max}$}{77}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The ejecta radius ratio, $R_{in}/R_{out}$}{77}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The dust optical depth, $\tau $}{78}{subsection.3.2.3}
-\contentsline {subsubsection}{The detached shell case}{78}{section*.66}
-\contentsline {subsubsection}{The complete nebula case}{79}{section*.68}
-\contentsline {subsection}{\numberline {3.2.4}The dust albedo, $\omega $}{80}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}The dust density profile, $\rho \propto r^{-2\beta }$}{81}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Inferring properties of the dust from the models}{81}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Observable signatures of dust in line profiles}{84}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}The effect of a grain size distribution}{88}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}The effect of different species}{90}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}The velocity distribution}{91}{subsection.3.2.10}
-\contentsline {chapter}{\numberline {4}SN\nobreakspace {}1987A}{93}{chapter.4}
-\contentsline {section}{\numberline {4.1}Spectral Observations of SN 1987A}{93}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Contamination of the H$\alpha $ profiles}{96}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}The evolution of the maximum and minimum velocities}{97}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Modelling SN\nobreakspace {}1987A}{99}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Smooth Density Models for SN 1987A}{104}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Clumped Dust Models for SN 1987A}{109}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}The effects of clumping}{110}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}More complex models}{111}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}The effect of a grain size distribution}{114}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}The effect of different grain species}{115}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{119}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Unattenuated line fluxes}{123}{subsection.4.2.8}
-\contentsline {section}{\numberline {4.3}Discussion}{124}{section.4.3}
-\contentsline {section}{\numberline {4.4}Conclusions}{131}{section.4.4}
-\contentsline {chapter}{\numberline {5}Other Supernova Remnants}{133}{chapter.5}
-\contentsline {section}{\numberline {5.1}SN 1980K}{133}{section.5.1}
-\contentsline {section}{\numberline {5.2}SN 1993J}{133}{section.5.2}
-\contentsline {section}{\numberline {5.3}Cassiopeia A}{133}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{137}{chapter.6}
-\contentsline {chapter}{Bibliography}{139}{chapter.6}
+\contentsline {section}{\numberline {2.3}The Structure of DAMOCLES}{50}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Computational Architecture and Processes}{51}{subsection.2.3.1}
+\contentsline {subsubsection}{The driver}{52}{section*.15}
+\contentsline {subsubsection}{The input module}{52}{section*.17}
+\contentsline {subsubsection}{The initialisation module}{54}{section*.18}
+\contentsline {subsubsection}{The grain size module}{54}{section*.19}
+\contentsline {subsubsection}{The Mie approximation subroutine}{55}{section*.20}
+\contentsline {subsubsection}{The grid construction subroutine}{55}{section*.21}
+\contentsline {subsubsection}{The electron scattering module}{55}{section*.22}
+\contentsline {subsubsection}{The random seed subroutine}{56}{section*.23}
+\contentsline {subsubsection}{The packet initialisation module}{56}{section*.24}
+\contentsline {subsubsection}{The vector functions module}{56}{section*.25}
+\contentsline {subsubsection}{The propagate subroutine}{57}{section*.26}
+\contentsline {subsubsection}{The random routines module}{58}{section*.28}
+\contentsline {subsubsection}{The model comparison module}{60}{section*.29}
+\contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{60}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Input}{61}{subsection.2.3.3}
+\contentsline {subsubsection}{Properties of the emitted rest-frame line or doublet}{61}{section*.31}
+\contentsline {subsubsection}{lambda1\_0 }{61}{section*.32}
+\contentsline {subsubsection}{L\_tot }{62}{section*.33}
+\contentsline {subsubsection}{L\_Halpha}{62}{section*.34}
+\contentsline {subsubsection}{doublet}{63}{section*.35}
+\contentsline {subsubsection}{lambda2\_0}{63}{section*.36}
+\contentsline {subsubsection}{L\_ratio}{63}{section*.37}
+\contentsline {subsubsection}{Properties of the dust and gas in the ejecta}{63}{section*.38}
+\contentsline {subsubsection}{ES}{63}{section*.39}
+\contentsline {subsubsection}{ES\_temp}{64}{section*.40}
+\contentsline {subsubsection}{MF}{64}{section*.41}
+\contentsline {subsubsection}{FF}{64}{section*.42}
+\contentsline {subsubsection}{dayno}{64}{section*.43}
+\contentsline {subsubsection}{v\_max}{65}{section*.44}
+\contentsline {subsubsection}{Rrat}{65}{section*.45}
+\contentsline {subsubsection}{MD\_tot }{65}{section*.46}
+\contentsline {subsubsection}{l}{65}{section*.47}
+\contentsline {subsubsection}{q}{65}{section*.48}
+\contentsline {subsubsection}{b}{66}{section*.49}
+\contentsline {subsubsection}{gas\_shell}{66}{section*.50}
+\contentsline {subsubsection}{v\_max\_gas}{66}{section*.51}
+\contentsline {subsubsection}{Rrat\_gas}{66}{section*.52}
+\contentsline {subsubsection}{l\_gas}{66}{section*.53}
+\contentsline {subsubsection}{q\_gas}{66}{section*.54}
+\contentsline {subsubsection}{b\_gas}{66}{section*.55}
+\contentsline {subsubsection}{Properties of the grid and code architecture}{66}{section*.56}
+\contentsline {subsubsection}{LS}{66}{section*.57}
+\contentsline {subsubsection}{VelShift}{67}{section*.59}
+\contentsline {subsubsection}{ncells}{68}{section*.60}
+\contentsline {subsubsection}{n\_packets}{68}{section*.61}
+\contentsline {subsubsection}{n\_bins}{68}{section*.62}
+\contentsline {subsubsection}{n\_shells}{68}{section*.63}
+\contentsline {subsubsection}{dustfile}{69}{section*.64}
+\contentsline {subsection}{\numberline {2.3.4}Output, Post-Processing and Visualisation}{69}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Further Developments}{71}{section.2.4}
+\contentsline {chapter}{\numberline {3}Testing and Parameter Sensitivity Analyses}{73}{chapter.3}
+\contentsline {section}{\numberline {3.1}Testing and benchmarking}{73}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Theoretical line profiles from first principles}{73}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}The line profile models of \citet {Lucy1989}}{77}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Testing the electron scattering mechanism}{78}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Clumped models in smooth limits}{78}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}An analysis of the sensitivity of line profiles to the variable parameters}{78}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The maximum line velocity, $V_{max}$}{79}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The ejecta radius ratio, $R_{in}/R_{out}$}{79}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The dust optical depth, $\tau $}{80}{subsection.3.2.3}
+\contentsline {subsubsection}{The detached shell case}{80}{section*.68}
+\contentsline {subsubsection}{The complete nebula case}{81}{section*.70}
+\contentsline {subsection}{\numberline {3.2.4}The dust albedo, $\omega $}{82}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}The dust density profile, $\rho \propto r^{-2\beta }$}{83}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Inferring properties of the dust from the models}{83}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Observable signatures of dust in line profiles}{86}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}The effect of a grain size distribution}{90}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}The effect of different species}{92}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}The velocity distribution}{93}{subsection.3.2.10}
+\contentsline {chapter}{\numberline {4}SN\nobreakspace {}1987A}{95}{chapter.4}
+\contentsline {section}{\numberline {4.1}Spectral Observations of SN 1987A}{95}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Contamination of the H$\alpha $ profiles}{98}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}The evolution of the maximum and minimum velocities}{99}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Modelling SN\nobreakspace {}1987A}{101}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Smooth Density Models for SN 1987A}{106}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Clumped Dust Models for SN 1987A}{111}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}The effects of clumping}{112}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}More complex models}{113}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}The effect of a grain size distribution}{116}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}The effect of different grain species}{117}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{121}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Unattenuated line fluxes}{125}{subsection.4.2.8}
+\contentsline {section}{\numberline {4.3}Discussion}{126}{section.4.3}
+\contentsline {section}{\numberline {4.4}Conclusions}{133}{section.4.4}
+\contentsline {chapter}{\numberline {5}Other Supernova Remnants}{135}{chapter.5}
+\contentsline {section}{\numberline {5.1}SN 1980K}{135}{section.5.1}
+\contentsline {section}{\numberline {5.2}SN 1993J}{135}{section.5.2}
+\contentsline {section}{\numberline {5.3}Cassiopeia A}{135}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{139}{chapter.6}
+\contentsline {chapter}{Bibliography}{141}{chapter.6}
