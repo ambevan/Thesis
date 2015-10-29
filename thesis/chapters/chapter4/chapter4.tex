@@ -8,25 +8,25 @@
 %\normalsize
 %{AUTHOR}  
 %\end{flushright}
-\chapter{Testing and Parameter Sensitivity Analyses}\label{chp:chp4}
+\chapter{Probing DAMOCLES:  Testing and a Parameter Sensitivity Analysis}\label{chp:chp4}
 
-\section{Testing and benchmarking}
-%change benchmarking?  No actual benchmarks
-There is a general lack of published models in the literature that 
-consider dust absorption-affected asymmetric line profiles.  We therefore test 
-the code by comparing the results to optically thin profiles that may be 
-derived analytically.  We then test the absorption and scattering 
-components of the code by comparing our results in the case of an 
-optically thick medium with those derived by \citet{Lucy1989} in their 
-Model II and Model III scenarios.
+The introduction of any new piece of software into a field has the potential to yield exciting new results.  The first step in this process should therefore be a thorough investigation into the functionality of the code and an assessment of the outputs from a theoretical standpoint.  Before the modelling of real data takes place, it is important to understand why the variation of a  given parameter affects results in a particular way.  A comprehensive understanding of parameter space not only facilitates the modelling process but may also give rise to interesting results in and of itself.
+
+To this end, this chapter describes the ways in which DAMOCLES was tested and the results of these tests.  I then also present a parameter sensitivity analysis.  I describe the changes that are seen in the shapes of line profiles and consider any interesting features that arise as a result of varying the parameters of interest.  I also contemplate the physical processes behind these effects.
+
+
+\section{Testing and benchmarking the code}
+
+The field of astronomy is highly reliant on the production of bespoke software to understand and interpret observations from telescopes and to develop and test new theories.  As one of only a few sciences which do not have the ability to run experiments or to validate results in a laboratory, progress is made via mathematical analyses or computational models based on observed data.  Astrophysicists typically develop their own programs because a deep understanding of the topic to be modelled is required.  Like any experiment, however, the ``apparatus" should be checked and tested in order to establish its reliability.
+
+Throughout the production of DAMOCLES, I sought, as far as was possible, to maintain best practices in scientific computing as detailed by \citet{Wilson2012}.  The code is carefully structured into modules and subroutines as described in the previous chapter.  Each of these modules and subroutines was tested for sense and accuracy as it was written, and at each update and addition the code as a whole was tested against basic logical tests.  In addition to these basic checks performed throughout the program development, it was very important to establish that DAMOCLES produced standard results as expected.
+
+There is a general lack of published models in the literature that consider dust-affected asymmetric line profiles.  This is problematic since there are no published benchmark cases against which I can compare results.  I therefore consider a number of analytic line profiles derived from first principles in the case of optically thin dust (i.e. no dust was included in the models).  This process ensures the functionality of the grid and the initialisation and propagation of energy packets.  Additionally, I also check the the absorption and scattering components of the code which are crucial to the modelling of a dusty medium.  I  consider some optically thick scenarios and qualitatively compare my results with those derived by \citet{Lucy1989}.  The profiles presented by  \citet{Lucy1989} are produced both analytically and from numerical modelling and are of scenarios that are typical of the those treated by DAMOCLES and are therefore ideal for comparison.  They are also the only published numerical models of dust-affected asymmetric line profiles and as such it is important that DAMOCLES is capable of reproducing the results.
 
 \subsection{Theoretical line profiles from first principles}
 \label{analytics}
 
-Analytical profiles may be calculated in the dust-free case.  We ran a 
-number of models based on the methods of \cite{Gerasimovic1933} 
-who derived equations for line profiles emitted from a transparent 
-expanding shell.
+The simple nature of a spherically-symmetric expanding medium with a given velocity outflow law and emissivity profile allows for analytical line profiles to be calculated from first principles in the dust-free case.  Based on the methods of \cite{Gerasimovic1933},  I derive a set of three equations that describe the contours of theoretical line profiles under different starting conditions as follows.
 
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
@@ -69,16 +69,66 @@ $i(u) \sim -\log u$.}
 \label{fig:analytics}
 \end{figure}
 
-Describing the fractional expansion velocity of the shell as $v(r)=r^\alpha$ with 
-$\alpha \neq 0$ such that $v(r)=\frac{V(r)}{V_{max}}$ where $V(r)$ and $V_max$ represent physical velocities and $v_{max}=1$, the energy emitted by 
-the nebula between radial velocities $v$ and $v+dv$ is proportional to
-
+Describing the fractional expansion velocity of the shell as $v(r) \propto 
+r^\alpha$ with $\alpha \neq 0$ such that $v(r)=\frac{V(r)}{V_{max}}$ where 
+$V(r)$ and $V_{max}$ represent physical velocities and $v_{max}=1$, velocity along the line of sight to the observer is given by 
 \begin{equation}
-\int _\tau i(r) r \sin (\theta) \, r \, d\theta \, dr
+\label{eqn:radial_vel}
+v=r^\alpha \cos \theta
 \end{equation}
 
-\noindent where $i(r)$ represents the emission per unit volume at radius 
-$r$ and $\theta$ is the angle to the observer's line of sight.  We adopt inner radius $R=q$ and outer radius $R=1$.
+Consider curves with constant line of sight velocity $v=const$ gives
+\begin{equation}
+\,d r = \frac{r}{\alpha} \tan \theta \,d \theta
+\end{equation}
+
+Now we may consider the path length for $v = const$ is given by
+\begin{equation}
+\, ds^2 = r^2 \, d\theta^2 + \, dr^2 = r^2 \Big( \frac{\tan^2\theta}{\alpha^2}+1 \Big)\, d\theta^2
+\end{equation}
+
+\noindent and therefore, along curves of constant $v$ we have
+ \begin{equation}
+ \label{eqn:vs}
+s = v^{\frac{1}{\alpha}} \int_{\theta_{0}}^{\theta_{1}} \frac{\sqrt{\frac{\tan^2\theta}{\alpha^2}+1}}{\cos ^ {\frac{1}{\alpha}}\theta}\, d\theta
+\end{equation}
+
+
+The angle between the tangent to a curve and the radial line $\psi$ is given by the formula (in polar coordinates) \begin{equation}
+\tan \psi = r \frac{\, d \theta}{\, d r} 
+\end{equation}
+
+\noindent which for curves with constant line of sight velocity $v$ gives
+\begin{equation}
+\tan \psi = \frac{\alpha}{\tan \theta}
+\end{equation}
+
+Curves of constant line of sight velocity $v=const$ therefore intersect the line $\theta = 0$ orthogonally (see Figure \ref{analytic_diagram}), although note that the $v,s$ net is only orthogonal is $\alpha=1$.
+
+We can now construct an volume element between $v$ and $v+\, dv$ by rotating a section of thickness $\, dv$  around the $\theta =0 $ axis and integrating over radius $r$.  Assuming that $i(r)$ is the emission per unit volume (dependent only on radius), then the energy emitted by the nebula between $v$ and $v+dv$ is proportional to
+\begin{equation}
+\int i(r) r \sin (\theta) \, r \, d\theta \, dr
+\end{equation}
+
+The integral is most easily solved along the curves $v=const$ and by transforming variables from $\theta$ and $r$ to $s$ and $v$ as
+\begin{equation}
+\label{eqn:integral}
+\int i(r) r \sin (\theta) \, r \frac{\partial (r,\theta)}{\partial (v,s)}\, ds \, du
+\end{equation}
+
+We therefore compute the Jacobian from equations \ref{eqn:radial_vel} and \ref{eqn:vs} as
+\begin{equation}
+\label{eqn:jacob}
+\frac{\partial (v,s)}{\partial (r,\theta)} = \alpha v \sqrt{\frac{\tan^2\theta}{\alpha^2}+1}
+\end{equation}
+
+Assuming an initial emissivity dependent on radius only, we put $i(r) \propto r^{-2\beta}$ (i.e. appropriate for a gas density distribution $\rho \propto r^{-\beta}$ with the emissivity proportional to the density squared).  Substituting Equation \ref{eqn:jacob} into Equation \ref{eqn:integral} and calculating the curvilinear integral along curves of constant $v$ yields the following:
+\begin{align}
+i(v) \,d v  &\sim \frac{du} \int_\ 
+\end{align}
+
+
+I adopt inner radius $R_{in}=q$  and outer radius $R_{out}=1$ such that $q=R_{in}/R_{out}$.
 
 \begin{figure}
 \begin{subfigure}{\textwidth}
@@ -92,7 +142,6 @@ $r$ and $\theta$ is the angle to the observer's line of sight.  We adopt inner r
 \caption{Benchmark models for line profiles  with $v \propto r$, $i(r) \propto$ constant and a filled sphere with $R_{in}/R_{out}=0$.  Pure dust absorption models ($\omega = 0$) are presented in the top plot, whilst partially scattering models are presented at the bottom ($\omega = 0.6$) as per \citet{Lucy1989} Models II and III. All resulting profiles have been scaled to unity flux at their peaks.}
 \label{fig:Lucy}
 \end{figure}
-
 Setting $i(r) \propto r^{-2\beta}$ (for a recombination or collisionally excited line emitted from 
 a medium with an assumed density profile for the emitter $\rho \propto 
 r^{-\beta}$) then gives
@@ -109,16 +158,18 @@ i(v) \, dv &\sim \frac{dv}{\alpha v^{\frac{2\beta-3+\alpha}{\alpha}}} \int^{\the
 $\frac{2\beta-3}{\alpha} = -1$ results in a logarithmic relationship.
 
 
-
-In the case of a ``complete'' nebula, i.e. one where the inner radius is 
+In the case of a ``filled'' nebula, i.e. one where the inner radius is 
 vanishingly small in comparison to the outer radius, we obtain
 
 \begin{equation}
 \label{eqn:sides}
-	i(v) \, dv \sim \pm \frac{du}{(2\beta-3+\alpha) v^{\frac{2\beta-1+\alpha}{\alpha}}} \Big(1-v^{\frac{2\beta-3+\alpha}{\alpha}} \Big)
+	i(v) \, dv \sim \pm \frac{dv}{(2\beta-3+\alpha) v^{\frac{2\beta-1+\alpha}{\alpha}}} \Big(1-v^{\frac{2\beta-3+\alpha}{\alpha}} \Big)
 \end{equation}
 
-If the nebula is not ``complete'', that is to say, the inner radius is some fraction of the outer radius and the remnant is a detached shell, the above formula becomes valid only from $v=1$ to some critical value $v'=q^\alpha$. For $v<v'$, we obtain
+If the nebula is not ``filled'', that is to say, the inner radius is some 
+fraction of the outer radius and the remnant is a detached shell, the 
+above formula becomes valid only from $v=1$ to some critical value 
+$v'=q^\alpha$. For $v<v'$, we obtain
 
 \begin{equation}
 i(v) \, dv \sim \pm \frac{dv}{(2\beta-3+\alpha)} \Big( \frac{1}{q^\alpha} - 1 \Big)
@@ -129,14 +180,13 @@ sloping.
 
 Crucially, the width of the flat section is determined by $v'=q^\alpha$ or 
 simply $v'=q$ in the case where $v \propto r$, whilst the shape of the 
-profile outside of the flattop is described by equation \ref{eqn:sides}.
+profile outside of the flat top is described by equation \ref{eqn:sides}.
 
 Profiles with a variety of shapes may be derived from these formulae 
 depending on the relative values of $\alpha$ and $\beta$.  Here we 
 consider three main families of curves:
 
 
-%\begin{minipage}{0.55\textwidth}
 \begin{enumerate}\parskip3pt
 
 	\item \ \ $\quad i(v)  \sim v^{-\gamma}-1$ \quad ($\alpha>0$, $2\beta-3+\alpha>0$)
@@ -144,35 +194,37 @@ consider three main families of curves:
 	\item  $\quad i(v) \sim -\log v$ \quad \ \ ($\alpha>0$, $2\beta-3+\alpha=0$)
 
 \end{enumerate}
-%\end{minipage}
 
 
 \noindent where $\gamma$ is defined as $\gamma= \lvert 
 \frac{2\beta-3+\alpha}{\alpha} \rvert$.
 
-Models are presented for each of these cases, both for a 
-complete nebula and for a shell structure with $R_{in}/R_{out}=0.2$.  
-A velocity profile $v \propto r$ appropriate for supernova ejecta in the free 
-expansion phase is used throughout.  Values of $\beta = 0, 1$ and $2$ are 
-adopted.  Figure \ref{fig:analytics} illustrates the excellent agreement between 
-the analytical case and the models.  All fluxes are scaled to unity at the peak.
+Models are presented for each of these cases, both for a filled nebula and 
+for a shell structure with $R_{in}/R_{out}=0.2$.  A velocity profile $v 
+\propto r$ appropriate for supernova ejecta in the free expansion phase is 
+used throughout \citep{Li1992,Xu1992,McCray1996,Baron2005}.  Values of 
+$\beta = 0, 1$ and $2$ are adopted.  Figure \ref{fig:analytics} 
+illustrates the excellent agreement between the analytical case and the 
+models.  All fluxes are scaled to unity at the peak.
 
-\subsection{The line profile models of \citet{Lucy1989}}
+\subsection{Comparison of DAMOCLES models with previously published results}
 \label{opt_thick_testing}
 
 In addition to the tests for optically thin lines described above, we also 
 compared our outputs to those derived by \citet{Lucy1989} in order to 
 assess the accuracy of the scattering and absorption aspects of the code.  
 We consider two similar cases, equivalent to Models II and III of 
-\citet{Lucy1989}. In the first case, dust with zero albedo is 
-uniformly distributed throughout a completely filled nebula with a velocity profile 
-$v \propto r$.  In the second case, the same scenario is considered but a 
-medium of dust with albedo $\omega =0.6$ is considered.
+\citet{Lucy1989}. In the first case, dust with zero albedo (pure absorption) is 
+uniformly distributed throughout a filled nebula with a velocity profile 
+$v \propto r$.  In the second case, the same scenario is considered but in a 
+medium of dust with albedo $\omega =0.6$.
 
 In the first case, the profile may once again be derived analytically from 
 the basic geometry using the fact that radiation will be attenuated by a 
-factor $e^{-2\tau_{\nu} v}$ between points with line of sight fractional velocities $-v$ and 
-$+v$ where $\tau_{\nu}$ is optical depth at frequency $\nu$ from the centre to the outer edge of the ejecta.  The line profile is therefore given by
+factor $e^{-2\tau_{\nu} v}$ between points with line of sight fractional 
+velocities $-v$ and $+v$ where $\tau_{\nu}$ is the optical depth at 
+frequency $\nu$ from the centre to the outer edge of the ejecta.  The line 
+profile is therefore given by
 
 \begin{equation}
 \frac{I(v)}{I(-v)} = \exp(-2\tau_{\nu} v)  
@@ -183,11 +235,12 @@ the perfect absorber and a Monte Carlo model for grains with $\omega
 =0.6$.  We present the same cases in Figure \ref{fig:Lucy} and note that 
 the resulting profiles exhibit the same features and shape. Of particular 
 interest is the scattering wing that appears beyond the maximum velocity 
-($v_{max}=1$) on the red side of profiles in the case of the partial 
-scatterer, as a result of the packets doing work on the expanding sphere.  
+($v_{max}=1$) on the red side of profiles in the partial 
+scatterer case as a result of the packets doing work on the expanding sphere.  
 This was noted by \citet{Lucy1989} as a potential diagnostic for the 
 presence of dust in the ejecta of a supernova and we will discuss this 
 further in Section \ref{ps}.
+
 
 \subsection{Testing the electron scattering mechanism}
 \subsection{Clumped models in smooth limits}
@@ -197,7 +250,7 @@ further in Section \ref{ps}.
 \section{An analysis of the sensitivity of line profiles to the variable parameters}
 It is of general interest to establish potential diagnostic signatures in 
 the line profiles of supernovae and their remnants in order to trace dust 
-formation more effectively. The capacity to specifiy a number of parameters is included in Damocles.  The variation of each parameter potentially affects the contour of the resulting line profile in a different way.  By investigating each parameter separately over a range of values, it may be possible to identify certain characteristics of dust-affected line profiles that may be associated with a particular property of the dusty medium.  This insight could help to explain unusual or interesting features of observed line profiles where dust is suspected to be an influential factor.  In this chapter, I investigate and discuss the effects of the main 
+formation more effectively. The capacity to specify a number of parameters is included in Damocles.  The variation of each parameter potentially affects the contour of the resulting line profile in a different way.  By investigating each parameter separately over a range of values, it may be possible to identify certain characteristics of dust-affected line profiles that may be associated with a particular property of the dusty medium.  This insight could help to explain unusual or interesting features of observed line profiles where dust is suspected to be an influential factor.  In this chapter, I investigate and discuss the effects of the main 
 parameters of interest, namely:
 
 \begin{itemize}
@@ -261,7 +314,7 @@ The effect of varying the ratio of the inner and outer radii is derived analytic
 \subsection{The dust optical depth, $\tau$}
 \label{tau}
 
-The effects of dust optical depth on the line profile produced by Damocles are in essence the same in the case of both a detached shell and a complete nebula.  However, due to the increased complexity of the original profile in the case of the detached shell, a number of slightly more interesting effects are observed in these models and we discuss these first.  I then go on to discuss the case of a complete nebula where the effects observed are very similar to those seen in models with high dust optical depth in the detached shell case.
+The effects of dust optical depth on the line profile produced by Damocles are in essence the same in the case of both a detached shell and a complete nebula.  However, due to the increased complexity of the original profile in the case of the detached shell, a number of slightly more interesting effects are observed in these models and I discuss these first.  I then go on to discuss the case of a complete nebula where the effects observed are very similar to those seen in models with high dust optical depth in the detached shell case.
 
 
 
@@ -513,14 +566,14 @@ reason to expect a variation in the position of the peak of profiles to be
 correlated with the wavelength dependence of dust.  Rather one would 
 expect it potentially to trace the location of different ions within the ejecta. 
 However, for lines from the same ion, for example the Balmer and Paschen lines of HI,
-we might expect to see peaks at the same position but differing degrees of absorption.
+I might expect to see peaks at the same position but differing degrees of absorption.
 At high resolutions, it might be possible to detect differences in the shape of the line 
 profiles, particularly between $-V_{min}$ and $+V_{min}$ where the steepness of the 
 incline traces the degree of dust absorption.  This can be seen in Figure \ref{wav_dep} 
-where we illustrate the effects of the wavelength dependence of dust absorption for 
+where I illustrate the effects of the wavelength dependence of dust absorption for 
 three lines, H$\alpha$ (6563\AA), H$\beta$ (4861\AA) and Pa$\delta$ (10049\AA).  
 All lines were modelled using three different grain sizes and in both optically thin and 
-thick cases.  We also show the variation of the absorption cross-section with 
+thick cases.  I also show the variation of the absorption cross-section with 
 wavelength at three different grain sizes in Figure \ref{wav_dep2}.
 
 The attenuation of the flat-topped region is  often such that it can 
@@ -582,7 +635,7 @@ Q_{ext} = \frac{C_{ext}}{ \int^{a_{max}}_{a_{min}} n(a) \pi a^2 da}
  
 The scattering cross-section $Q_{sca}$ is similarly calculated.  As a result of these calculations, there is rarely a single grain size that has the same albedo and extinction efficiency as a size distribution.  Modelling a size distribution instead of a single grain size may therefore alter the deduced dust mass.  Since models are only sensitive to the optical depth and the albedo, however, it is not possible to deduce the grain size range or distribution and only single grain sizes are investigated in the models that are presented in the following chapters.
 
-Whilst this apparently limits the scope of these results, it is important to consider the extent to which considering grain size distributions would alter the derived dust masses.  By considering a number of grain size ranges and adopting a power law distribution with a variable exponent, we may gain some insight into the effects of adopting a distribution rather than a single size.  For the classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain size range ($a_{min} = 0.001 \mu$m to $a_{max} = 4.0 \mu$m) the derived albedo of $\omega=0.001$ is much too small to reproduce the required wing seen at early epochs.  We investigate this issue by adjusting the exponent of a distribution for a number of grain size ranges until the overall albedo is the same as that seen for the best fitting single grain size.  We can then approximately calculate the required dust mass for a distribution of grain sizes from the properties of a single-size model by equating the optical depths.  The optical depth for a single grain size is proportional to 
+Whilst this apparently limits the scope of these results, it is important to consider the extent to which considering grain size distributions would alter the derived dust masses.  By considering a number of grain size ranges and adopting a power law distribution with a variable exponent, I may gain some insight into the effects of adopting a distribution rather than a single size.  For the classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain size range ($a_{min} = 0.001 \mu$m to $a_{max} = 4.0 \mu$m) the derived albedo of $\omega=0.001$ is much too small to reproduce the required wing seen at early epochs.  I investigate this issue by adjusting the exponent of a distribution for a number of grain size ranges until the overall albedo is the same as that seen for the best fitting single grain size.  I can then approximately calculate the required dust mass for a distribution of grain sizes from the properties of a single-size model by equating the optical depths.  The optical depth for a single grain size is proportional to 
 
 \begin{equation}
 \tau \propto Q_{ext}(a)  \sigma(a) n_d
@@ -611,15 +664,15 @@ where the subscript $s$ represents the single grain size quantities and the subs
 
 \subsection{The effect of different species}
 
-In the majority of the modelling that follows, a single species, amorphous carbon, is considered.   A single species is used since the parameters that affect the quantity of dust required in the model are the albedo and the optical depth.  There are therefore  likely many possible combinations of species that may result in a good fit to the data.  The choice of amorphous carbon is partly motivated by evidence that, for SN~1987A (which, as an incredibly well-observed and relatively typical core-collapse supernova, is an excellent test case) the fraction of silicates present in the dusty ejecta is limited to approximately 15\% (W15, \citet{Ercolano2007}).  It is also motivated by previously published SED models which generally employ amorphous carbon.  This is because SED models frequently require far larger masses of silicate dust than amorphous carbon dust in order to produce similar levels of infrared flux and therefore amorphous carbon models are likely to produce the more conservative dust mass estimates.  By modelling with amorphous carbon we may compare directly to these models where possible.
+In the majority of the modelling that follows, a single species, amorphous carbon, is considered.   A single species is used since the parameters that affect the quantity of dust required in the model are the albedo and the optical depth.  There are therefore  likely many possible combinations of species that may result in a good fit to the data.  The choice of amorphous carbon is partly motivated by evidence that, for SN~1987A (which, as an incredibly well-observed and relatively typical core-collapse supernova, is an excellent test case) the fraction of silicates present in the dusty ejecta is limited to approximately 15\% (W15, \citet{Ercolano2007}).  It is also motivated by previously published SED models which generally employ amorphous carbon.  This is because SED models frequently require far larger masses of silicate dust than amorphous carbon dust in order to produce similar levels of infrared flux and therefore amorphous carbon models are likely to produce the more conservative dust mass estimates.  By modelling with amorphous carbon I may compare directly to these models where possible.
 
-We consider the change in dust mass when a medium of 100\% silicates is used instead of amorphous carbon.  We use optical constants presented in \cite{Draine1984}.  In a similar manner to the approach detailed in Section \ref{gs_distn}, we may calculate the mass of silicates that is equivalent to a carbon mass for a single grain size.  We consider the albedo at the original grain size, calculate the equivalent grain size for silicates that results in the same albedo and then calculate the new dust mass by considering the change in the extinction efficiency as
+I consider the change in dust mass when a medium of 100\% silicates is used instead of amorphous carbon.  I use optical constants presented in \cite{Draine1984}.  In a similar manner to the approach detailed in Section \ref{gs_distn}, I may calculate the mass of silicates that is equivalent to a carbon mass for a single grain size.  I consider the albedo at the original grain size, calculate the equivalent grain size for silicates that results in the same albedo and then calculate the new dust mass by considering the change in the extinction efficiency as
 
 \begin{equation}
 M_{sil} = M_{amc} \Big( \frac{Q_{amc}}{Q_{sil}} \Big) \Big(\frac{a_{sil}}{a_{amc}}\Big) \Big(\frac{\rho_{sil}}{\rho_{amC}}\Big)
 \end{equation}
 
-Because of the nature of the variation of albedo with grain size for silicates (see Figure \ref{albedo_grain}), there is often more than one silicate grain size that will give rise to the same albedo.  We consider all the possibilities and the resulting mass conversion factors in Table \ref{tb_sil}.  In our best fitting models for days 714 and 806, using any fraction of silicates of either grain size would serve to increase the dust mass.  However, at later epochs, using some fraction of silicate dust would reduce the dust mass to potentially more than half of our estimated values. However, this is still within our predicted range and our minimum and maximum dust masses remain robust.
+Because of the nature of the variation of albedo with grain size for silicates (see Figure \ref{albedo_grain}), there is often more than one silicate grain size that will give rise to the same albedo.  I consider all the possibilities and the resulting mass conversion factors in Table \ref{tb_sil}.  In my best fitting models for days 714 and 806, using any fraction of silicates of either grain size would serve to increase the dust mass.  However, at later epochs, using some fraction of silicate dust would reduce the dust mass to potentially more than half of my estimated values. However, this is still within my predicted range and my minimum and maximum dust masses remain robust.
 
 \begin{table}
 	%\begin{minipage}{180mm}

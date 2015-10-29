@@ -53,8 +53,7 @@ Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
   Huffman}{1983}]{Bohren1983}
 Bohren C.~F.,  Huffman D.,  1983, Absorption and scattering of light by small
   particles.
-Wiley science paperback series, Wiley, \url
-  {https://books.google.co.uk/books?id=S1RCZ8BjgN0C}
+Wiley science paperback series, Wiley
 
 \bibitem[\protect\citeauthoryear{{Brinch} \& {Hogerheijde}}{{Brinch} \&
   {Hogerheijde}}{2010}]{Brinch2010}
@@ -369,8 +368,7 @@ Omont A.,  Cox P.,  Bertoldi F.,  McMahon R.~G.,  Carilli C.,   Isaak K.~G.,
   Ferland}{2006}]{Osterbrock2006}
 Osterbrock D.,  Ferland G.,  2006, Astrophysics of Gaseous Nebulae and Active
   Galactic Nuclei, 2 edn.
-University Science Books, \url
-  {https://books.google.co.uk/books?id=6GIXMFpET4cC}
+University Science Books
 
 \bibitem[\protect\citeauthoryear{Owen \& Barlow}{Owen \&
   Barlow}{2015}]{Owen2015}
@@ -468,8 +466,7 @@ Suntzeff N.~B.,  Phillips M.~M.,  Depoy D.~L.,  Elias J.~H.,   Walker A.~R.,
 
 \bibitem[\protect\citeauthoryear{Tielens}{Tielens}{2005}]{tielens2005}
 Tielens A.,  2005, The Physics and Chemistry of the Interstellar Medium.
-Cambridge University Press, \url
-  {https://books.google.co.uk/books?id=o7KDfwkoXa0C}
+Cambridge University Press
 
 \bibitem[\protect\citeauthoryear{Todini \& Ferrara}{Todini \&
   Ferrara}{2001}]{Todini2001}
@@ -492,6 +489,12 @@ Wang L.,  et~al., 1996, \mn@doi [\apj] {10.1086/177570}, 466, 998
   Gallazzi  \& Michałowski}{Watson et~al.}{2015}]{Watson2015}
 Watson D.,  Christensen L.,  Knudsen K.~K.,  Richard J.,  Gallazzi A.,
   Michałowski M.~J.,  2015, \mn@doi [\nat] {10.1038/nature14164}, 519, 327
+
+\bibitem[\protect\citeauthoryear{{Wilson} et~al.,}{{Wilson}
+  et~al.}{2012}]{Wilson2012}
+{Wilson} G.,  et~al., 2012, preprint, \href
+  {http://adsabs.harvard.edu/abs/2012arXiv1210.0530W} {} (\mn@eprint {arXiv}
+  {1210.0530})
 
 \bibitem[\protect\citeauthoryear{Wongwathanarat, M\"{u}ller  \&
   Janka}{Wongwathanarat et~al.}{2015}]{Wongwathanarat2015}
@@ -520,14 +523,9 @@ Xu Y.,  McCray R.,  Oliva E.,   Randich S.,  1992, \mn@doi [\apj]
 Zubko V.~G.,  Mennella V.,  Colangeli L.,   Bussoletti E.,  1996, \mnras, 282,
   L1321
 
-\bibitem[\protect\citeauthoryear{Bohren \& Huffman}{ope}{}]{openmp}
-The OpenMP API Specification for Parallel Programming,
-  \url{https://www.openmp.org}
-
 \bibitem[\protect\citeauthoryear{van~de Hulst}{van~de Hulst}{1957}]{hulst1957}
 van~de Hulst H.,  1957, Light Scattering by Small Particles.
-Dover Books on Physics, Dover Publications, \url
-  {https://books.google.co.uk/books?id=PlHfPMVAFRcC}
+Dover Books on Physics, Dover Publications
 
 \makeatother
 \end{thebibliography}

@@ -17,51 +17,46 @@ A level-1 auxiliary file: back/backquote.aux
 Database file #1: thesis.bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-`author' is a missing field, not a string, for entry openmp
-while executing---line 3411 of file mnras.bst
-`author' is a missing field, not a string, for entry openmp
-while executing---line 3411 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
-Warning--empty year in openmp
 You've used 103 entries,
             2881 wiz_defined-function locations,
-            1591 strings with 33786 characters,
-and the built_in function-call counts, 49207 in all, are:
-= -- 3920
-> -- 3649
-< -- 275
-+ -- 1596
-- -- 541
-* -- 5909
-:= -- 7811
+            1590 strings with 33869 characters,
+and the built_in function-call counts, 49157 in all, are:
+= -- 3919
+> -- 3641
+< -- 274
++ -- 1589
+- -- 539
+* -- 5905
+:= -- 7798
 add.period$ -- 0
 call.type$ -- 103
 change.case$ -- 208
 chr.to.int$ -- 101
-cite$ -- 107
+cite$ -- 104
 duplicate$ -- 2419
-empty$ -- 2477
-format.name$ -- 877
-if$ -- 8555
+empty$ -- 2475
+format.name$ -- 879
+if$ -- 8550
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 110
+missing$ -- 111
 newline$ -- 331
-num.names$ -- 745
-pop$ -- 545
+num.names$ -- 746
+pop$ -- 544
 preamble$ -- 1
 purify$ -- 412
 quote$ -- 0
-skip$ -- 1441
+skip$ -- 1443
 stack$ -- 0
-substring$ -- 2629
-swap$ -- 1277
+substring$ -- 2626
+swap$ -- 1274
 text.length$ -- 426
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 903
-warning$ -- 2
-while$ -- 779
+warning$ -- 1
+while$ -- 778
 width$ -- 0
-write$ -- 1055
-(There were 2 error messages)
+write$ -- 1054
+(There was 1 warning)
