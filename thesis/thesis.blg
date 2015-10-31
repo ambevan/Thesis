@@ -17,46 +17,58 @@ A level-1 auxiliary file: back/backquote.aux
 Database file #1: thesis.bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+"" is a string literal, not an integer, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+"" is a string literal, not an integer, for entry Baron2005
+while executing---line 3643 of file mnras.bst
+`series' is a missing field, not a string, for entry Baron2005
+while executing---line 3643 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
-You've used 103 entries,
+You've used 106 entries,
             2881 wiz_defined-function locations,
-            1590 strings with 33869 characters,
-and the built_in function-call counts, 49157 in all, are:
-= -- 3919
-> -- 3641
-< -- 274
-+ -- 1589
-- -- 539
-* -- 5905
-:= -- 7798
+            1613 strings with 35129 characters,
+and the built_in function-call counts, 50765 in all, are:
+= -- 4038
+> -- 3749
+< -- 286
++ -- 1636
+- -- 554
+* -- 6079
+:= -- 8038
 add.period$ -- 0
-call.type$ -- 103
-change.case$ -- 208
-chr.to.int$ -- 101
-cite$ -- 104
-duplicate$ -- 2419
-empty$ -- 2475
-format.name$ -- 879
-if$ -- 8550
+call.type$ -- 106
+change.case$ -- 214
+chr.to.int$ -- 104
+cite$ -- 107
+duplicate$ -- 2512
+empty$ -- 2578
+format.name$ -- 902
+if$ -- 8854
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 111
-newline$ -- 331
-num.names$ -- 746
-pop$ -- 544
+missing$ -- 114
+newline$ -- 340
+num.names$ -- 771
+pop$ -- 577
 preamble$ -- 1
-purify$ -- 412
+purify$ -- 424
 quote$ -- 0
-skip$ -- 1443
+skip$ -- 1501
 stack$ -- 0
-substring$ -- 2626
-swap$ -- 1274
-text.length$ -- 426
+substring$ -- 2698
+swap$ -- 1320
+text.length$ -- 442
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 903
+type$ -- 930
 warning$ -- 1
-while$ -- 778
+while$ -- 802
 width$ -- 0
-write$ -- 1054
-(There was 1 warning)
+write$ -- 1084
+(There were 6 error messages)

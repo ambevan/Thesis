@@ -17,10 +17,10 @@
 
 SN~1987A has been the most intensively observed supernova in history, with 
 a wealth of both spectral and photometric data available to model.  From 
-the archives of a number of different telescopes we have collated optical 
-spectra acquired over a wide range of epochs.  At the earlier epochs we 
+the archives of a number of different telescopes I have collated optical 
+spectra acquired over a wide range of epochs.  At the earlier epochs I 
 use spectra obtained by the Anglo-Australian Telescope (AAT) and the Cerro 
-Tololo Inter-American Observatory (CTIO) and at later epochs we 
+Tololo Inter-American Observatory (CTIO) and at later epochs I 
 use spectra from the archives of the Hubble Space Telescope (HST) and the Very 
 Large Telescope (VLT).  An explosion date of 23 February 1987 is adopted 
 throughout and epochs are measured relative to this date.  Full details of 
@@ -61,12 +61,30 @@ been subtracted from each spectrum and a velocity correction has been
 applied for a recession velocity of 287 km~s$^{-1}$ 
 \citep{Groningsson2008}.
 
-
+\begin{figure}
+\centering
+\includegraphics[trim =45 10 45 15,clip=true,scale=0.8]{chapters/chapter5/images/Ha_evol_late_1col.pdf}
+\caption{Archival data showing the evolution of the H$\alpha$
+line profile from SN~1987A at the later epochs. The spectral gaps 
+correspond to where narrow line emission from the equatorial ring has been 
+removed. The spectra have been continuum-subtracted and offsets applied 
+for display purposes.}
+\label{Ha_evol_late}
+%\end{center}
+\end{figure}
 %FIGURE
+
+
+\subsection{Contamination of the H$\alpha$ profiles}
+
+The H$\alpha$ profile at day 714 exhibits a very slight inflection visible 
+at $V \approx +900$ km~s$^{-1}$.  By day 806, this slight inflection has 
+developed into a noticeable shoulder in the line profile of H$\alpha$ (see 
+Figure \ref{Ha}).
 
 \setlength{\tabcolsep}{5pt}
 \begin{landscape}
-\begin{table*}
+\begin{table*}[hbtp]
 	\begin{minipage}{180mm}
 	\caption{Details of the archival data for SN 1987A.}
 	\label{tb:data}
@@ -99,36 +117,36 @@ applied for a recession velocity of 287 km~s$^{-1}$
 \end{landscape}
 \setlength{\tabcolsep}{12pt}
 
-\subsection{Contamination of the H$\alpha$ profiles}
-
-The H$\alpha$ profile at day 714 exhibits a very slight inflection visible 
-at $V \approx +900$ km~s$^{-1}$.  By day 806, this slight inflection has 
-developed into a noticeable shoulder in the line profile of H$\alpha$ (see 
-Figure \ref{Ha}).
 
 Although these features are similar in nature to features produced by dust 
 absorption in the flat-topped region (as discussed in Section \ref{beta}), 
-we conclude that this shoulder is an early appearance of the unresolved 
+I conclude that this shoulder is an early appearance of the unresolved 
 [NII] $\lambda$6583~\AA\ line from the equatorial ring \citep{Kozma1998b}.  Unresolved nebular [N~{\sc ii}] lines at $\lambda=$ 6583~\AA\ and 
 $\lambda=$ 6548~\AA\ either side of the H$\alpha$ rest frame velocity at 
 6563~\AA\ are certainly seen by day 1054 
 %(see Figure \ref{d1054}) 
 and have to be removed in order to consider the evolution of the broad 
-H$\alpha$ profile (see Figure \ref{Ha_evol_early}). We do not remove this 
+H$\alpha$ profile (see Figure \ref{Ha_evol_early}). I do not remove this 
 potential contaminant at earlier epochs but try to fit the broad line 
 profiles around it.
 
-\begin{figure}
-\centering
-\includegraphics[trim =45 10 45 15,clip=true,scale=0.8]{chapters/chapter5/images/Ha_evol_late_1col.pdf}
-\caption{Archival data showing the evolution of the H$\alpha$
-line profile from SN~1987A at the later epochs. The spectral gaps 
-correspond to where narrow line emission from the equatorial ring has been 
-removed. The spectra have been continuum-subtracted and offsets applied 
-for display purposes.}
-\label{Ha_evol_late}
-%\end{center}
-\end{figure}
+
+
+
+
+ 
+By day 1054, all three of the narrow nebular lines are strong.  They 
+remain unresolved in the low spectral resolution CTIO data at days 1054 
+and 1478 and therefore contaminate the entire central region of the 
+H$\alpha$ line profile.  Their presence renders two CTIO H$\alpha$ 
+profiles from days 1054 and 1478 unusable for modelling purposes.  The HST 
+and VLT H$\alpha$ profiles at later epochs ($\ge$ 1862 days) have a higher 
+spectral resolution and it was therefore easier to remove the narrower 
+[N~{\sc ii}] and H$\alpha$ lines from the broad H$\alpha$ profiles (for 
+example Figures \ref{Ha_evol_early} and \ref{Ha_evol_late}). Although this 
+does remove a potentially informative section of the profile ($+500$ 
+km~s$^{-1}<v<+1500$ km~s$^{-1}$), I achieve good fits to the overall line 
+profiles at these epochs.
 
 \begin{table}
 \centering
@@ -156,30 +174,14 @@ day & FWHM (\AA) & HWZI (\AA) \\
 \label{FWHM}
 \end{table}%
 
-
- 
-By day 1054, all three of the narrow nebular lines are strong.  They 
-remain unresolved in the low spectral resolution CTIO data at days 1054 
-and 1478 and therefore contaminate the entire central region of the 
-H$\alpha$ line profile.  Their presence renders two CTIO H$\alpha$ 
-profiles from days 1054 and 1478 unusable for modelling purposes.  The HST 
-and VLT H$\alpha$ profiles at later epochs ($\ge$ 1862 days) have a higher 
-spectral resolution and it was therefore easier to remove the narrower 
-[N~{\sc ii}] and H$\alpha$ lines from the broad H$\alpha$ profiles (for 
-example Figures \ref{Ha_evol_early} and \ref{Ha_evol_late}). Although this 
-does remove a potentially informative section of the profile ($+500$ 
-km~s$^{-1}<v<+1500$ km~s$^{-1}$), we achieve good fits to the overall line 
-profiles at these epochs.
-
-
 \subsection{The evolution of the maximum and minimum velocities}
 
 For a freely expanding medium, the velocity of any fractional radial 
 element should not change with time.  The maximum velocity of any 
 line-emitting region is therefore expected to be constant.  However, at 
-the epochs we consider here, it appears that the maximum velocities of the 
+the epochs I consider here, it appears that the maximum velocities of the 
 H$\alpha$ line, as determined by the velocity at zero intensity on the 
-blue side, generally increase over time (see Table \ref{FWHM}).  We 
+blue side, generally increase over time (see Table \ref{FWHM}).  I 
 attribute this to the start of the freeze-out phase in the outer regions 
 of the ejecta, while the hydrogen neutral fraction is still increasing in 
 the denser inner regions \citep{Danziger1991,Fransson1993}.
@@ -234,14 +236,14 @@ and day 806 for the parameters detailed in Tables \ref{smooth1} and \ref{clumped
 \end{figure*}
 
 
-We have modelled the H$\alpha$ line of SN~1987A at days 714, 806, 1862, 
+I have modelled the H$\alpha$ line of SN~1987A at days 714, 806, 1862, 
 2211, 2875, 3500 and 3604, and the [O~{\sc i}]~$\lambda$6300,6363~\AA\ 
 doublet at days 714, 806, 1054 and 1478.  After day 3604 the H$\alpha$ 
 profile begins to become dominated by emission from the reverse shock and 
 the structure of the emitting region may no longer be approximated by a 
-single shell model as we do here \citep{Fransson2013}.  The [O~{\sc 
+single shell model as I do here \citep{Fransson2013}.  The [O~{\sc 
 i}]~$\lambda$6300,6363~\AA\ doublet becomes too weak to model after day 
-1478 (see Figure \ref{Ha_evol_early}).  We continue to adopt a velocity 
+1478 (see Figure \ref{Ha_evol_early}).  I continue to adopt a velocity 
 profile $V(r) = \frac{V_{max}}{R_{max}}r$ and treat the variable 
 parameters listed at the start of Section \ref{ps}.  Whilst the albedo and 
 optical depth are not varied directly, they are altered by adjusting the 
@@ -288,14 +290,13 @@ to have a smooth density distribution and is assumed to be coupled to the
 gas so as to follow the same radial profile.  A clumped distribution of 
 dust is considered later (see Section \ref{clumped_models}).
 
-We estimate the electron scattering optical depths assuming an electron 
-temperature of 10,000~K between $R_{in}$ and $R_{out}$ based on the 
-observed fluxes of the H$\alpha$ line.  A temperature of 10,000~K is 
-likely too high at the epochs considered but we adopt it in order
+Assuming an electron temperature of 10,000~K, I estimated the total electron scattering optical depths between $R_{in}$ and $R_{out}$ based on the 
+observed fluxes of the H$\alpha$ recombination line. A temperature of 10,000~K for the recombining material is 
+likely too high at the epochs considered but I adopt it in order
 not to underestimate electron scattering optical depths.  The values 
-we calculate from the observed H$\alpha$ luminosities are listed in Table 
+I calculate from the observed H$\alpha$ luminosities are listed in Table 
 \ref{tau_e}.  Since the electron scattering optical depths at these epochs 
-are negligibly small we therefore do not include electron scattering in 
+are negligibly small I therefore do not include electron scattering in 
 the models.
 
 
@@ -303,29 +304,29 @@ the models.
 
 There is rarely a unique set of parameters that provide the best fit to 
 the data.  However, the majority of the parameters of interest can be well 
-constrained from our modelling by considering different elements of the 
+constrained from my modelling by considering different elements of the 
 shape of the profile.  In particular, by constructing fits to the data 
 using minimum and maximum limits for the grain radius, credible lower and 
 upper bounds on the dust mass formed within the ejecta may be derived.  
-We present here fits to the data obtained using both small and large 
+I present here fits to the data obtained using both small and large 
 values of the grain radius $a$ since it is the grain size which has the 
 most significant effect on the overall dust mass required to reproduce the 
 line profile (see Section \ref{params}).
 
 
-All of our models are of a dusty medium composed solely of amorphous 
-carbon grains. We use the optical constants from the BE sample presented 
+All of my models are of a dusty medium composed solely of amorphous 
+carbon grains. I use the optical constants from the BE sample presented 
 by \citet{Zubko1996}.  Although previous SED modelling of SN~1987A  
 limited the fraction of silicates present in the dusty ejecta to a maximum 
 of 15\% (\citet{Ercolano2007}, W15), the recent work of \citet{Dwek2015} has suggested that a large mass of mostly silicate dust may have formed at early epochs ($\sim$ 615 days).  It is therefore useful to consider the effects 
-on our models of using silicate dust.  We discuss this in detail in 
+on my models of using silicate dust.  I discuss this in detail in 
 Sections \ref{species} and \ref{dwek}.
 
 For each profile, the maximum velocity is initially identified from the 
 data as the point where the emission vanishes on the blue side and is then 
 varied throughout the modelling in order to produce the best fit.  The 
 equivalent point on the red side is indeterminate from observations due to 
-the effects of dust scattering.  We determine the approximate value of 
+the effects of dust scattering.  I determine the approximate value of 
 $V_{min}$ by examining the width of the profile near its peak. On the red side the theoretical minimum velocity often 
 falls at a similar velocity to the 6583\AA\ line so any dust-induced 
 features near this wavelength that would allow a more accurate 
@@ -352,7 +353,7 @@ each component of the doublet being modelled independently and the
 resulting profiles added according to a specified ratio.  Although the 
 theoretical intrinsic flux ratio is 3.1 for optically thin emission \citep{Storey2000}, the 
 actual ratio between the two components can be affected by self-absorption 
-\citep{Li1992} and we therefore left it as a free parameter.  The deduced 
+\citep{Li1992} and I therefore left it as a free parameter.  The deduced 
 doublet ratios are listed in Tables \ref{smooth1}, \ref{clumped1} and 
 \ref{clumped2}.
 
@@ -392,12 +393,12 @@ substantial effect on the fit to the resulting profile.  Since it is not
 feasible to establish the level of the continuum so precisely, the value 
 of the continuum has been left as a free parameter that may be adjusted 
 (to within sensible margins) in order to allow for the widest possible 
-dust mass range to be determined.  We generally find it is necessary to 
+dust mass range to be determined.  I generally find it is necessary to 
 assume a continuum level that is slightly lower where the dust mass is 
 higher.  The [O~{\sc i}]$\lambda$6300,6363~\AA\ doublets at days 1054 and 
 1478 are weak relative to the continuum and are also blended with the 
 wings of other lines making it difficult to fit their wings accurately.  
-We aim to fit the lines between approximately -3000 km s$^{-1}$ and +5000 
+I aim to fit the lines between approximately -3000 km s$^{-1}$ and +5000 
 km s$^{-1}$ but present a wider velocity range for context (for example 
 see Figure \ref{OI_smooth}).
 
@@ -424,11 +425,11 @@ for the day 714 H$\alpha$ profile for the case where a classic MRN
 \mu$m, $a_{max}=0.25~\mu$m and $n(a) \propto a^{-3.5}$.  It can be seen 
 clearly that the extended red wing is significantly underestimated.  
 Since the albedo of amorphous carbon grains varies significantly with 
-grain radius (see Figure \ref{albedo_grain}) we can establish a strong 
-lower bound to the mean dust grain radius, which we estimate to be $a \ge 
+grain radius (see Figure \ref{albedo_grain}) I can establish a strong 
+lower bound to the mean dust grain radius, which I estimate to be $a \ge 
 0.35~\mu$m.  This is the smallest grain size that is still capable of 
-reproducing the red scattering wing at all epochs and we therefore use 
-this lower limit value throughout our smooth density modelling.
+reproducing the red scattering wing at all epochs and I therefore use 
+this lower limit value throughout my smooth density modelling.
 
 
 The inner and outer radii of the ejecta are calculated at each epoch from 
@@ -450,7 +451,7 @@ It can be seen from Tables \ref{smooth1} to \ref{clumped2} that, in order
 to reproduce the blueshifts seen in the [O~{\sc 
 i}]~$\lambda$6300,6363~\AA\ doublet, considerably larger dust masses are 
 required than to fit the H$\alpha$ line at the same epoch.  Although the 
-same maximum velocities and therefore outer radii are used in our [O~{\sc 
+same maximum velocities and therefore outer radii are used in my [O~{\sc 
 i}] and H$\alpha$ models, the inner radii for the [O~{\sc i}] models are 
 significantly smaller and the density distribution much steeper.  This 
 implies that [O~{\sc i}] is concentrated towards the centre of the 
@@ -574,12 +575,12 @@ H$\alpha$ & 3604 & 10250 &1230& 0.12 & 2 & 1.25$\times 10^{-1}$  & 3.19$\times 1
 
 A number of investigators have presented arguments for the material in the 
 ejecta of SN~1987A being clumped \citep{Lucy1991,Li1992,Kozma1998b} and so 
-we consider clumped models for the ejecta dust to be more realistic than 
+I consider clumped models for the ejecta dust to be more realistic than 
 smoothly distributed dust models. It has been shown through the modelling 
 of optical-IR SEDs that when dust is assumed to have a clumped 
 distribution then the derived dust masses can be significantly larger than 
 for the case of dust that is distributed smoothly between the inner and 
-outer radii (e.g. \citet{Ercolano2007,Owen2015}). We present two sets of 
+outer radii (e.g. \citet{Ercolano2007,Owen2015}). I present two sets of 
 fits to the line profile based on the clumped dust modelling of W15, one 
 set with a minimum grain size and one set with a maximum grain size.  
 Each fit is based on the best fitting smooth model such that the photon 
@@ -599,7 +600,7 @@ scattering wing, upper limits to the grain size were also derived with the
 purpose of limiting the maximum dust mass at each epoch.  By steadily 
 reducing the grain radius from an initial value of 5~$\mu$m (motivated by 
 the maximum possible grain size derived by W15 for their day 8515 model), 
-we produced a set of models with a maximum grain radius of $a=3.5~\mu$m.  
+I produced a set of models with a maximum grain radius of $a=3.5~\mu$m.  
 
 The increase in grain size from the smooth case to the clumped case is 
 necessary in order to have a slightly larger albedo.  Grains of radius 
@@ -615,7 +616,7 @@ obtained with either a grain radius of $a=0.6~\mu$m or $a=3.5~\mu$m (see
 Figures \ref{Ha} and \ref{d1862_3604}).  However, for H$\alpha$ 
 at days 714 and 806 even a small change to the grain radius from 0.6~$\mu$m resulted in a 
 significantly poorer fit, either over- or under-estimating the red wing. 
-We therefore conclude that the dust mass estimates produced for the 
+I therefore conclude that the dust mass estimates produced for the 
 H$\alpha$ lines at days 714 and 806 for a grain radius of $a=0.6~\mu$m are 
 the best H$\alpha$-based estimates of the dust mass at this epoch.
 
@@ -627,7 +628,7 @@ the best H$\alpha$-based estimates of the dust mass at this epoch.
 \label{HaOImod}
 \end{figure}
 
-In our subsequent analyses, we adopt the values derived from our clumped 
+In my subsequent analyses, I adopt the values derived from my clumped 
 models.  Details of the parameters used are presented in 
 Tables \ref{clumped1} and \ref{clumped2} and the fits are presented in Figures 
 \ref{Ha} and \ref{d1862_3604}.
@@ -673,19 +674,70 @@ Tables \ref{clumped1} and \ref{clumped2} and the fits are presented in Figures
 
 \end{figure*}
 
+\begin{landscape}
+\setlength{\tabcolsep}{16pt}
+\begin{table*}
+\centering
+\caption{Mean square errors illustrating the variation in goodness of fit for the H$\alpha$ line profile for a range of dust masses with other parameters fixed at their best-fitting values for the clumped model with $a=0.6\mu$m as detailed in Table \ref{clumped1}.  The MSE is calculated between $-5000$~km~s$^{-1}$ and $+7000$~km~s$^{-1}$ for the day 714 H$\alpha$ profile and between $-8000$~km~s$^{-1}$ and $+8000$~km~s$^{-1}$ for the day 2875 H$\alpha$ profile.  A factor of zero represents the dust-free model.  The best-fitting model is italicised.}
+\begin{tabular}{l c c c c c c}
+\hline
+& \multicolumn{6}{c}{\textit{multiple of best-fit mass}}\\
+\hline
+& 0 & 0.1 & 0.5 & \textit{1.0} & 2.0 & 10 \\
+\hline
+Day 714 MSE ($10^{-13}$~ergs~cm$^{-2}$~s$^{-1}$)  &0.167 & 0.133 &0.043 & \textit{0.005} &0.115&1.15\\
+Day 2875 MSE ($10^{-15}$~ergs~cm$^{-2}$~s$^{-1}$) &0.0791 & 0.0604 & 0.0258 &\textit{0.0182}&0.0563&0.288 \\
+\hline
+\end{tabular}
+\label{MSE_mass}
+\end{table*}%
+
+\setlength{\tabcolsep}{20pt}
+\begin{table*}
+\centering
+\caption{Mean square errors illustrating the variation in goodness of fit for the H$\alpha$ line profile for a range of density profiles with other parameters fixed at their best-fitting values for the clumped model with $a=0.6\mu$m as detailed in Table \ref{clumped1}. The MSE is calculated between $-5000$~km~s$^{-1}$ and $+7000$~km~s$^{-1}$ for the day 714 H$\alpha$ profile and between $-8000$~km~s$^{-1}$ and $+8000$~km~s$^{-1}$ for the day 2875 H$\alpha$ profile. The best-fitting model is italicised.}
+\begin{tabular}{l c c c c c}
+\hline
+& \multicolumn{5}{c}{\textit{density profile exponent ($\beta$)}}\\
+\hline
+& 1.0 & 1.2 & \textit{1.4} & 1.6 & 1.8 \\
+\hline
+Day 714 MSE ($10^{-13}$~ergs~cm$^{-2}$~s$^{-1}$)  & 0.0328 & 0.0117 & \textit{0.005} & 0.0184 & 0.0410\\
+\hline
+\\
+\hline
+& 1.6 & 1.8 & \textit{2.0} & 2.2 & 2.4 \\
+\hline
+Day 2875 MSE ($10^{-15}$~ergs~cm$^{-2}$~s$^{-1}$) & 0.0282 & 0.0205 & \textit{0.0182} & 0.0193 & 0.0255 \\
+\hline
+\end{tabular}
+
+\label{MSE_beta}
+\end{table*}%
+\end{landscape}
+\subsection{Goodness of fit}
+I detailed at the start of Section \ref{results} the process by which parameters were constrained in order to obtain good fits to the data.  These fits were judged both by eye and by minimising the mean square error between the model and the observed data for each line profile.  For those interested in the sensitivity of the fits to various parameters, in Tables \ref{MSE_mass} and \ref{MSE_beta} I detail the mean square error (MSE) for the H$\alpha$ profile at days 714 and 2875 for a range of dust masses and density profile exponents.  All other parameters were kept fixed at their best-fitting values for the clumped models of H$\alpha$ with a grain radius $a=0.6\mu$m as in Table \ref{clumped1}.  The MSE is calculated as
+\begin{equation}
+\frac{1}{N} \sum_i (f_{obs,i} - f_{mod,i})^2
+\end{equation}
+
+where $N$ is the number of data points, $f_{obs,i}$ is the observed flux at the $i^{th}$ data point 
+and $f_{mod,i}$ is the modelled flux at the $i^{th}$ data point. The MSEs were calculated between $-5000$~km~s$^{-1}$ and $+7000$~km~s$^{-1}$ for the day 714 H$\alpha$ profile and between $-8000$~km~s$^{-1}$ and $+8000$~km~s$^{-1}$ for the day 2875 H$\alpha$ profile.  Note that the MSEs should only be compared between models for a given observed line profile and not between different line profiles since each observation is associated with a different inherent error.
+
+For day 714, I find that increasing or decreasing the total dust mass by a factor of two with all other parameters fixed causes a substantial increase in the mean square error (by factors of 23 and 8.6 respectively) effectively ruling out these values.  For day 2875 a similar variation is seen but with the MSE varying by factors of 1.4 and 3.0 for each case.  The narrower range of MSEs at day 2875 compared to day 714 is due to a noisier profile which results in a greater allowed range of good fits.   The sensitivity of the goodness of fit to the dust mass and density profile is similar for the other modelled epochs.
 
 
 \subsection{The effects of clumping}
 
 As in the case of SED radiative transfer models, the dust masses required 
 to reproduce the observations in the clumped scenario are considerably 
-higher than for the smooth scenario.  The dust masses differ between our 
+higher than for the smooth scenario.  The dust masses differ between my 
 smooth models for $a=0.35~\mu$m and clumped models for $a=0.6\mu$m by a 
 factor of approximately 3.  The dust mass estimates are even larger when
 comparing clumped $a=0.6~\mu$m models to clumped $a=3.5~\mu$m models at 
 later epochs. This does not take into account the increase in grain radius 
 between the two cases however.  This increase accounts for a reasonable 
-fraction of this difference. We estimate the effects of clumping alone to 
+fraction of this difference. I estimate the effects of clumping alone to 
 increase the required dust mass by a factor of approximately 1.5-2.0 from 
 the smooth case.
 
@@ -695,12 +747,12 @@ the smooth case.
 
 Where blue-shifted lines are observed in the spectra of CCSNe it is often the case that the Balmer lines of HI are less affected than the [O~{\sc i}] lines \citep{Milisavljevic2012}.  This may be due to a difference in the location or distribution of the emitting elements; if the neutral hydrogen was diffusely distributed throughout the envelope but the oxygen was co-located with the dust in the core and in clumps then this could result in [O~{\sc i}] emission undergoing greater attenuation than H$\alpha$.  This geometry would be in line with previous models of SN~1987A that suggested that the dust-forming regions are likely to include those which are oxygen-rich \citep{Kozma1998a}.  Clearly, any model of dust formation in the ejecta of a CCSN must consistently reproduce all of the line profiles at a given epoch.  The models presented in this paper thus far have coupled the gas and dust distributions for a fixed clump volume filling factor and clump size.  The H$\alpha$ and [O~{\sc i}] models therefore require different dust masses with the [O~{\sc i}] models usually requiring a dust mass $\sim4$ times larger than the H$\alpha$ models. 
 
-We now present a model that reconciles this difference by additionally varying the clump filling factor, clump size and emissivity distribution.  We assume that neutral hydrogen is likely diffuse throughout the ejecta and so maintains a smoothly distributed power-law emissivity distribution between $R_{in}$ and $R_{out}$ for H$\alpha$.  However, we now assume that dust mostly forms in dense regions of high metallicity and so restrict the [O~{\sc i}]$\lambda$6300,6363~\AA\ emission to originate largely from the dusty clumps with only a small fraction emitted from the inter-clump medium.  As previously discussed, the greater the covering factor of the dust the greater the albedo required in order to reproduce the H$\alpha$ red scattering wing. In order to obtain both the strong blue-shifting of the [O~{\sc i}] line and the extended red scattering wing observed in H$\alpha$ a small number of dense clumps were required along with a small mass of diffusely distributed highly scattering dust in the inter-clump medium.
+I now present a model that reconciles this difference by additionally varying the clump filling factor, clump size and emissivity distribution.  I assume that neutral hydrogen is likely diffuse throughout the ejecta and so maintains a smoothly distributed power-law emissivity distribution between $R_{in}$ and $R_{out}$ for H$\alpha$.  However, I now assume that dust mostly forms in dense regions of high metallicity and so restrict the [O~{\sc i}]$\lambda$6300,6363~\AA\ emission to originate largely from the dusty clumps with only a small fraction emitted from the inter-clump medium.  As previously discussed, the greater the covering factor of the dust the greater the albedo required in order to reproduce the H$\alpha$ red scattering wing. In order to obtain both the strong blue-shifting of the [O~{\sc i}] line and the extended red scattering wing observed in H$\alpha$ a small number of dense clumps were required along with a small mass of diffusely distributed highly scattering dust in the inter-clump medium.
 
 
-In order to fit both line profiles simultaneously we required a very high albedo ($\omega > 0.8$) that demanded the inclusion of some fraction of silicate dust. Amorphous carbon grains alone are incapable of producing this level of scattering for any grain size.  We adopted a grain radius of $a=0.6\mu$m, the same as that used in our initial clumped models and we varied the relative proportions of amorphous carbon and MgSiO$_3$ in order to achieve the necessary albedo.  The adopted grain densities were $\rho_c=1.85$~g~cm$^{-3}$ for amorphous carbon grains and $\rho_s = 2.71$~g~cm$^{-3}$ for MgSiO$_3$.  The resulting dust model for day 714 used 75\% MgSiO$_3$ and 25\% amorphous carbon by cross-sectional area with a volume filing factor $f_V=0.1$ and a clump size $R_{out}/5$.  90\% of the dust mass was located in clumps with the remaining 10\% emitted smoothly between $R_{in}$ and $R_{out}$ according to a power law $\rho \propto r$. Clumps were distributed stochastically with probability $\propto r^{-8}$ compared to $r^{-2.7}$ in our standard models discussed earlier. Equal numbers of [O~{\sc i}] packets were emitted from each clump. H$\alpha$ was distributed smoothly according to a density power law $\rho(r) \propto r^{-1.3}$.  $R_{out}$ was the same for all components (i.e. clumped dust, diffuse dust, [O~{\sc i}] emission and H$\alpha$ emission) and was calculated using a maximum velocity of 3250~km~s$^{-1}$.  The inner radius was $R_{in} = 0.07 R_{out}$ for all components except the smooth H$\alpha$ emission which was emitted between $R_{in}=0.25R_{out}$ and $R_{out}$.  
+In order to fit both line profiles simultaneously I required a very high albedo ($\omega > 0.8$) that demanded the inclusion of some fraction of silicate dust. Amorphous carbon grains alone are incapable of producing this level of scattering for any grain size.  I adopted a grain radius of $a=0.6\mu$m, the same as that used in my initial clumped models and I varied the relative proportions of amorphous carbon and MgSiO$_3$ in order to achieve the necessary albedo.  The adopted grain densities were $\rho_c=1.85$~g~cm$^{-3}$ for amorphous carbon grains and $\rho_s = 2.71$~g~cm$^{-3}$ for MgSiO$_3$.  The resulting dust model for day 714 used 75\% MgSiO$_3$ and 25\% amorphous carbon by cross-sectional area with a volume filing factor $f_V=0.1$ and a clump size $R_{out}/5$.  90\% of the dust mass was located in clumps with the remaining 10\% emitted smoothly between $R_{in}$ and $R_{out}$ according to a power law $\rho \propto r$. Clumps were distributed stochastically with probability $\propto r^{-8}$ compared to $r^{-2.7}$ in my standard models discussed earlier. Equal numbers of [O~{\sc i}] packets were emitted from each clump. The increased steepness of the density profile is required to compensate for the clumped packet emission relative to the previous smooth distribution.  Since the clumps are distributed stochastically according to the density profile, less flux is emitted from the central regions in a clumped emission model than in a smooth distribution model (since there are gaps between the clumps).  In order to obtain a sufficiently steeply rising line profile, the density profile must therefore be steepened in clumped emission models. The adopted value of $\beta$ does not significantly affect the best-fitting values of the other parameters of interest however.  H$\alpha$ was distributed smoothly according to a density power law $\rho(r) \propto r^{-1.3}$.  $R_{out}$ was the same for all components (i.e. clumped dust, diffuse dust, [O~{\sc i}] emission and H$\alpha$ emission) and was calculated using a maximum velocity of 3250~km~s$^{-1}$.  The inner radius was $R_{in} = 0.07 R_{out}$ for all components except the smooth H$\alpha$ emission which was emitted between $R_{in}=0.25R_{out}$ and $R_{out}$.  
 
-The total dust mass used was $M_{dust}=2.3 \times 10^{-4}$~M$_{\odot}$.  This dust mass is very similar to that derived from our original clumped models of [O~{\sc i}] using amorphous carbon grains of radius $a=0.6\mu$m.  The slight increase over our amorphous carbon dust mass of $1.5 \times 10^{-4}$~M$_{\odot}$ is largely due to the higher grain density of MgSiO$_3$.  At this grain radius amorphous carbon and MgSiO$_3$ have similar extinction efficiencies and so the change in species and geometry does not substantially alter the dust mass. We therefore adopt the [O~{\sc i}] dust masses in our further analyses and consider the differences in our derived dust masses between H$\alpha$ and [O~{\sc i}] to be the result of the clumped emission of [O~{\sc i}].
+The total dust mass used was $M_{dust}=2.3 \times 10^{-4}$~M$_{\odot}$.  This dust mass is very similar to that derived from my original clumped models of [O~{\sc i}] using amorphous carbon grains of radius $a=0.6\mu$m.  The slight increase over my amorphous carbon dust mass of $1.5 \times 10^{-4}$~M$_{\odot}$ is largely due to the higher grain density of MgSiO$_3$.  At this grain radius amorphous carbon and MgSiO$_3$ have similar extinction efficiencies and so the change in species and geometry does not substantially alter the dust mass. I therefore adopt the [O~{\sc i}] dust masses in my further analyses and consider the differences in my derived dust masses between H$\alpha$ and [O~{\sc i}] to be the result of the clumped emission of [O~{\sc i}].
 
 
 Fits to both the [O~{\sc i}]$\lambda$6300,6363~\AA\ and H$\alpha$ lines for day 714 using these parameters are presented in Figure \ref{HaOImod}.
@@ -710,61 +762,60 @@ Fits to both the [O~{\sc i}]$\lambda$6300,6363~\AA\ and H$\alpha$ lines for day 
 \subsection{The effect of a grain size distribution}
 \label{gs_distn}
 
-It is important to consider the potential effect on the dust mass of 
-modelling a grain size distribution instead of a single grain size.  For a 
-grain size distribution the overall extinction cross section, $C_{ext}$, 
-at a given wavelength is
-
-\begin{equation}
- C_{ext}=\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) \pi a^2 da 
- \end{equation}
-
-where $Q_{ext}(a)$ is the extinction efficiency for a grain size $a$ and 
-$n(a)$ is the number of grains with size $a$. The overall extinction 
-efficiency is then
-
-\begin{equation}
- Q_{ext} = \frac{C_{ext}}{ \int^{a_{max}}_{a_{min}} n(a) \pi a^2 da} 
- \end{equation}
+%It is important to consider the potential effect on the dust mass of 
+%modelling a grain size distribution instead of a single grain size.  For a 
+%grain size distribution the overall extinction cross section, $C_{ext}$, 
+%at a given wavelength is
+%
+%\begin{equation}
+% C_{ext}=\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) \pi a^2 da 
+% \end{equation}
+%
+%where $Q_{ext}(a)$ is the extinction efficiency for a grain size $a$ and 
+%$n(a)$ is the number of grains with size $a$. The overall extinction 
+%efficiency is then
+%
+%\begin{equation}
+% Q_{ext} = \frac{C_{ext}}{ \int^{a_{max}}_{a_{min}} n(a) \pi a^2 da} 
+% \end{equation}
  
-The scattering cross-section $Q_{sca}$ is similarly calculated.  As a 
-result of these calculations, there is rarely a single grain size that has 
-the same albedo and extinction efficiency as a size distribution.  
-Modelling a size distribution may therefore alter the deduced dust mass.  
-Since the models are only sensitive to the overall optical depth and 
-albedo, it is not possible to deduce the grain size range or distribution 
-and only single grain sizes are investigated (as presented above).
+%The scattering cross-section $Q_{sca}$ is similarly calculated.  As a 
+%result of these calculations, there is rarely a single grain size that has 
+%the same albedo and extinction efficiency as a size distribution.  
+%Modelling a size distribution may therefore alter the deduced dust mass.  
+%Since the models are only sensitive to the overall optical depth and 
+%albedo, it is not possible to deduce the grain size range or distribution 
+%and only single grain sizes are investigated (as presented above).
+%
+%Whilst this apparently limits the scope of the results, it is useful to 
+%consider the extent to which different grain size distributions would 
+%alter the derived dust masses.  By considering a number of grain radius 
+%ranges and adopting a power law distribution with a variable exponent, I 
+%may gain some insight into the effects of adopting a distribution rather 
+%than a single size.  As discussed in Section \ref{smooth_models}, a classical MRN power law ($n(a) \propto 
+%a^{-3.5}$) with a wide grain radius range ($a_{min} = 0.001~\mu$m to 
+%$a_{max} = 4.0~\mu$m) the derived albedo is much too small to reproduce 
+%the required wing seen at early epochs.  I therefore adopt an approach 
+%whereby, for a number of grain size ranges, I adjust the exponent of the 
+%distribution until the overall albedo is the same as that seen for the 
+%best fitting single grain radius for the clumped distributions.  I may 
+%then approximately calculate the required dust mass as
+%
+%\begin{equation}
+%\label{distn_conv}
+%M_{d}= \frac{M_s Q_{ext,s}(a_s)}{a_s} \times \frac{\int^{a_{max}}_{a_{min}} n(a) a^3 da}{\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) a^2 da}
+%\end{equation}
+%
+%where the subscript $s$ represents the single grain size quantities and 
+%the $d$ subscript represents quantities for the grain size distribution.
 
-Whilst this apparently limits the scope of the results, it is useful to 
-consider the extent to which different grain size distributions would 
-alter the derived dust masses.  By considering a number of grain radius 
-ranges and adopting a power law distribution with a variable exponent, we 
-may gain some insight into the effects of adopting a distribution rather 
-than a single size.  As discussed in Section \ref{smooth_models}, a classical MRN power law ($n(a) \propto 
-a^{-3.5}$) with a wide grain radius range ($a_{min} = 0.001~\mu$m to 
-$a_{max} = 4.0~\mu$m) the derived albedo is much too small to reproduce 
-the required wing seen at early epochs.  We therefore adopt an approach 
-whereby, for a number of grain size ranges, we adjust the exponent of the 
-distribution until the overall albedo is the same as that seen for the 
-best fitting single grain radius for the clumped distributions.  We may 
-then approximately calculate the required dust mass as
-
-\begin{equation}
-\label{distn_conv}
-M_{d}= \frac{M_s Q_{ext,s}(a_s)}{a_s} \times \frac{\int^{a_{max}}_{a_{min}} n(a) a^3 da}{\int^{a_{max}}_{a_{min}} Q_{ext}(a) n(a) a^2 da}
-\end{equation}
-
-where the subscript $s$ represents the single grain size quantities and 
-the $d$ subscript represents quantities for the grain size distribution.
-
-
-We calculate the required dust masses for the clumped H$\alpha$ model on 
+All of the models heretofore have been based on a singe grain radius.  As previously discussed in Chapter \ref{chp:chp4}, it is important to consider the possible effects of a dust grain radius distribution.  This is more likely to be the case in reality and potentially has a significant effect on the derived dust mass.  Using Equation \ref{distn_conv} from Chapter \ref{chp:chp4}, I calculate the required dust masses for the clumped H$\alpha$ model on 
 day 714 for a selection of distributions with varying $a_{min}$.  These 
 are presented in Table \ref{tb_distn}.  It can be seen that in all cases, 
 a larger dust mass is required for grain size distributions in order to reproduce the same profile as a 
 single grain size.  The conversion factors presented in the table are 
 valid for any model with grain size $a=0.6~\mu$m and may therefore also be 
-applied to the models for day 806.  We repeated the process for 
+applied to the models for day 806.  I repeated the process for 
 $a=3.5~\mu$m but found that, in order to reproduce the required albedo, the 
 distribution had to be heavily weighted towards the larger grains and that 
 the value of $a_{min}$ had no effect on the required dust mass.  
@@ -800,51 +851,52 @@ $a_{min}$ & $a_{max}$ & $p$ & $M$ & $M/M_{0.6}$  \\%& $Q_{ext}$ \\
 \setlength{\tabcolsep}{7pt}
 
 
-We conclude that if a distribution of grain sizes is indeed present, the 
+I conclude that if a distribution of grain sizes is indeed present, the 
 deduced single size dust masses are likely to under-estimate the true mass 
 of newly formed dust.
 
 \subsection{The effect of different grain species}
 \label{species}
 
-In our analyses so far we have considered only amorphous carbon as the 
+In my analyses so far I have mostly focussed on amorphous carbon as the 
 species of interest.  This was motivated by previously published early epoch optical 
 and IR SED analyses that found that the silicate mass fraction must be  limited to $\leq$15\% (\citet{Ercolano2007}, W15).  The recent suggestion by 
 \citet{Dwek2015} that large masses of the  glassy silicate MgSiO$_3$ 
 may have formed at early epochs is discussed further in the next 
-subsection.  The parameters that affect the quantity of dust required by 
-our models are the mean albedo and optical depth of the dust.  There could 
+subsection.  As previously discussed in Chapter \ref{chp:chp4}, the parameters that affect the quantity of dust required by 
+my models are the mean albedo and optical depth of the dust and there could therefore
 be multiple combinations of grain species and sizes that result in a good 
 fit to the data.
 
-We can evaluate the required change in dust mass when a medium of 100\% 
-silicates is used instead of amorphous carbon. Using the astronomical 
-silicate optical constants of \cite{Draine1984}, which are `dirtier' (with 
-lower albedos) than the glassy pure MgSiO$_3$ sample of \citet{Jager2003}. 
-In a similar manner to the approach detailed in Section \ref{gs_distn}, we 
-can calculate the mass of DL silicate that gives a fit equivalent to that 
-for a single carbon grain radius.  We consider the albedo for the grain 
-radius needed for the best fit amorphous carbon model, calculate the 
-equivalent grain radius for DL silicate that gives the same albedo and 
-then calculate a new dust mass by allowing for the change in the 
-extinction cross-section:
-
-\begin{equation}
-M_{sil} = M_{amc} \Big( \frac{Q_{amc}}{Q_{sil}} \Big) \Big(\frac{a_{sil}}{a_{amc}}\Big) \Big(\frac{\rho_{sil}}{\rho_{amC}}\Big)
-\end{equation}
+In Chapter \ref{chp:chp4}, I evaluated the required change in dust mass when a medium of 100\% 
+silicates is used instead of amorphous carbon (see Equation \ref{species_conversion}). 
+%Using the astronomical 
+%silicate optical constants of \cite{Draine1984}, which are `dirtier' (with 
+%lower albedos) than the glassy pure MgSiO$_3$ sample of \citet{Jager2003}. 
+%In a similar manner to the approach detailed in Section \ref{gs_distn}, I 
+%can calculate the mass of DL silicate that gives a fit equivalent to that 
+%for a single carbon grain radius.  I consider the albedo for the grain 
+%radius needed for the best fit amorphous carbon model, calculate the 
+%equivalent grain radius for DL silicate that gives the same albedo and 
+%then calculate a new dust mass by allowing for the change in the 
+%extinction cross-section:
+%
+%\begin{equation}
+%M_{sil} = M_{amc} \Big( \frac{Q_{amc}}{Q_{sil}} \Big) \Big(\frac{a_{sil}}{a_{amc}}\Big) \Big(\frac{\rho_{sil}}{\rho_{amC}}\Big)
+%\end{equation}
 
 Because of the nature of the variation of albedo with grain radius for the 
 \citet{Draine1984} astronomical silicate (see Figure \ref{albedo_grain}), 
 there is often more than one silicate grain radius that will give rise to 
 the same albedo at a given wavelength.  Some of the possibilities and the 
-resulting mass conversion factors are given in Table \ref{tb_sil}.  For 
-our best fitting amorphous carbon models with $a=0.6~\mu$m (the first two 
+resulting mass conversion factors derived using Equation \ref{species_conversion} in Chapter \ref{chp:chp4} are given in Table \ref{tb_sil}.  For 
+my best fitting amorphous carbon models with $a=0.6~\mu$m (the first two 
 entries in Table \ref{tb_sil}), using any fraction of silicates with 
 either $a=0.6~\mu$m or $a=3.5~\mu$m would increase the dust mass.  
 However, 
 for the case of an amorphous carbon grain radius of $a=3.5~\mu$m (the last 
 three entries), using silicate dust would reduce the dust mass by a factor 
-of about two relative to our amorphous carbon values.
+of about two relative to my amorphous carbon values.
 
 \begin{table}
 	%\begin{minipage}{180mm}
@@ -888,7 +940,7 @@ $a$ &$\omega$ &  $Q_{ext}$ & &$a$&$\omega$ & $Q_{ext}$ & M$_{sil}$/M$_{amc}$ \\
 \includegraphics[trim =24 0 0 -10,clip=true,scale=0.33]{chapters/chapter5/images/silicates_take2/MgFeSiO4_bestfit_Ha.pdf}
 \caption{H$\alpha$ models using different grain species and dust masses.   
 Models for the dust masses presented by \citet{Dwek2015} are on the top and models 
-using our minimum required dust masses are on the bottom.  From left to 
+using my minimum required dust masses are on the bottom.  From left to 
 right the dust species are composite grains (82\% MgSiO$_3$ and 18\% 
 amorphous carbon by volume), pure MgSiO$_3$, pure amorphous carbon and pure 
 MgFeSiO$_4$. A density distribution with $\beta=2.3$ was adopted with a 
@@ -907,47 +959,47 @@ In a recent analysis of infrared SED data, \citet{Dwek2015} (hereafter
 DA15) suggested that it may be possible for a large mass (0.4~M$_\odot$) of 
 MgSiO$_3$ silicate dust to have been present in SN~1987A even at 
 relatively early epochs ($t\sim615$ days), since that species has very low 
-IR emissivities.  Up to this point we have constructed models using 
-\citet{Zubko1996} BE amorphous carbon dust but in the previous section we 
+IR emissivities.  Up to this point I have constructed models using 
+\citet{Zubko1996} BE amorphous carbon dust but in the previous section I 
 discussed the effect on derived dust masses of instead using 
 \citet{Draine1984} astronomical silicate,, which has higher optical and IR 
-emissivities than the glassy MgSiO$_3$ species considered by DA15. Our 
-clumping structure in our models was based on that used by W15.
+emissivities than the glassy MgSiO$_3$ species considered by DA15. My 
+clumping structure in my models was based on that used by W15.
 
-We now consider models for day 714 based on the grain types
-used by DA15.  We adopt a clumped structure equivalent to the 
+I now consider models for day 714 based on the grain types
+used by DA15.  I adopt a clumped structure equivalent to the 
 preferred model of DA15 who considered 1000 clumps with a filling factor of 
-0.09 and a negligible dust mass in the inter-clump medium.  We calculate 
-the effective spherical radius of our clumps by equating the volume of our 
+0.09 and a negligible dust mass in the inter-clump medium.  I calculate 
+the effective spherical radius of my clumps by equating the volume of my 
 cubic clumps to a sphere of radius $R_{eff}$.  Clumps of width 
 $R_{out}/14$ generate the desired $R_{eff}/R_{out}=0.044$ equivalent to 
-that of DA15.  In our code, using a filling factor of 0.09 then generates 
-1034 clumps, similar to the number used by DA15.  We ran a series of models 
+that of DA15.  In my code, using a filling factor of 0.09 then generates 
+1034 clumps, similar to the number used by DA15.  I ran a series of models 
 (presented in Figures \ref{Dwek_models_Ha} and \ref{Dwek_models_OI}) for 
 both the H$\alpha$ and [O~{\sc i}]$\lambda$6300,6363~\AA\ line profiles.  
-In each case we modelled the lines using a dust grain mixture as described 
+In each case I modelled the lines using a dust grain mixture as described 
 by DA15 such that the medium comprised 18\% amorphous carbon and 82\% 
-MgSiO$_3$ by volume.  We adopted the same optical constants as used in 
+MgSiO$_3$ by volume.  I adopted the same optical constants as used in 
 their work (i.e. \citet{Jager2003} for MgSiO$_3$ grains and 
 \citet{Zubko1996} for amorphous carbon) and the same grain mass densities as DA15, 
 $\rho_s=3.2$~g~cm$^{-3}$ and $\rho_c=1.8$~g~cm$^{-3}$.  In addition to 
-modelling their composite grain case, we also considered three single 
+modelling their composite grain case, I also considered three single 
 species models, using Zubko BE amorphous carbon, MgSiO$_3$, and 
 MgFeSiO$_4$ (in the latter two cases the optical constants were taken from 
-\citet{Jager1994} and \citet{Dorschner1995}). For each species we 
+\citet{Jager1994} and \citet{Dorschner1995}). For each species I 
 adopted the smallest single grain size that has an albedo of $\omega 
 \approx 0.6$. The ejecta 
 parameters were as listed in Table \ref{clumped1}, with the exception of 
-the density distribution which we took to be $\rho(r) \propto r^{-1.3}$ 
+the density distribution which I took to be $\rho(r) \propto r^{-1.3}$ 
 for H$\alpha$ and $\rho(r) \propto r^{-2.3}$ for [O~{\sc i}] in order to 
-improve the fits.
+optimise the best fits.
 
 For each species, two models are presented.  The first adopts the minimum 
 possible dust mass that provides a reasonable fit to the observed line 
 profiles and the second uses the dust mass derived by DA15 for that 
 specific species ($M=0.4~M_{\odot}$ for MgSiO$_3$ and $M=0.047~M_{\odot}$ 
 for amorphous carbon giving a total composite dust mass of 
-$M=0.447~M_{\odot}$).  We treated MgFeSiO$_4$ as we do the composite 
+$M=0.447~M_{\odot}$).  I treated MgFeSiO$_4$ as I do the composite 
 grains and adopted a dust mass of $M=0.447~M_{\odot}$ for it.  Results 
 from the models are presented in Figures \ref{Dwek_models_Ha} and 
 \ref{Dwek_models_OI}.
@@ -967,7 +1019,7 @@ from the models are presented in Figures \ref{Dwek_models_Ha} and
 
 \caption{[O~{\sc i}]$\lambda$6300,6363~\AA\ models using different grain 
 species and dust masses.  Models using the dust masses presented by DA15 
-are on the top and models using our minimum required dust masses are on 
+are on the top and models using my minimum required dust masses are on 
 the bottom.  From left to right the species are composite grains (82\% 
 MgSiO$_3$ and 18\% amorphous carbon by volume), pure MgSiO$_3$, pure 
 amorphous carbon and pure MgFeSiO$_4$.  A density distribution with 
@@ -983,20 +1035,20 @@ different dust masses.  This is a result of the relatively high optical
 depths within the clumps themselves. If a clump is optically thick then 
 the majority of radiation that hits it will be absorbed and the profile 
 becomes insensitive to how much dust is actually contained within the 
-clump.  For our [O~{\sc i}] minimum dust mass models, the optical depths 
+clump.  For my [O~{\sc i}] minimum dust mass models, the optical depths 
 within a clump over an effective clump radius $R_{eff}$ at 6300\AA\ are 
 around $\tau_{clump} \approx 0.4$.  Over the entire nebula optical depths 
 are very high and $\sim$72\% of the total flux is absorbed.  Increasing the 
 total dust mass therefore has only a small effect on the emergent line 
 profile and once $\tau_{clump}>1$ then the line profile remains unchanged 
-for increasingly large dust masses.  It is because of this fact that we 
+for increasingly large dust masses.  It is because of this fact that I 
 present only the smallest dust mass capable of reproducing the [O~{\sc i}] 
 profiles seen in Figure \ref{Dwek_models_OI}.  The insensitivity of the 
 [O~{\sc i}] profiles to dust mass is not the case for the H$\alpha$ 
-profile models (where $\tau_{clump} < 0.05$ for all of our models) and the 
+profile models (where $\tau_{clump} < 0.05$ for all of my models) and the 
 H$\alpha$-fit dust masses presented in Figure \ref{Dwek_models_Ha} 
 therefore represent the most sensitive diagnostic of the dust mass for 
-each grain type.  All of our models discussed in previous sections have 
+each grain type.  All of my models discussed in previous sections have 
 significantly smaller clump optical depths ($\tau_{clump}<0.1$), making 
 them sensitive to dust mass variations.
 
@@ -1006,7 +1058,7 @@ significantly less than those proposed by DA15. The [O~{\sc i}] profile
 obtained using DA15's very large MgSiO$_3$ dust mass of 0.4~M$_{\odot}$ 
 provides a reasonable fit, but the same dust mass significantly 
 overestimates the blueshifting of the H$\alpha$ line 
-(Figure~\ref{Dwek_models_Ha}). We can place an upper limit on the 
+(Figure~\ref{Dwek_models_Ha}). I can place an upper limit on the 
 mass of pure MgSiO$_3$ on day 714 of 0.07~M$_\odot$, as this 
 is the highest mass for which a fit to the observed H$\alpha$ profile can 
 be obtained (Figure~\ref{Dwek_models_OI}).
@@ -1027,11 +1079,12 @@ efficiencies and much lower dust mass upper limits.
 If the dust that formed at early epochs contained some fraction of 
 elements such as carbon, iron or aluminium, yielding `dirtier' silicate 
 grains or composite grains, then fits to the observed blue-shifted line 
-profiles imply low dust masses. We conclude that for dust masses as large
+profiles imply low dust masses. I conclude that for dust masses as large
 as 0.07~M$_\odot$ to have been present in SN~1987A's ejecta as early as 
 days 600-1000 then the dust would have to have been formed of glassy pure 
 magnesium silicates.
 
+In order to be certain that there was no set of parameters for which a dust mass of $M=0.447M_{\odot}$ comprising 82\% MgSiO$_3$ and 18\% amorphous carbon by volume could result in a good fit, a thorough investigation of the variable parameters was performed.  Having fixed the clump size, filling factor, dust mass and composition as per the values detailed above and in DA15, I varied the density profile ($\beta$) and grain radius $a$.  Varying the maximum velocity and the ratio of the inner and outer radii was found to have little effect on the goodness of fit.  The MSE for the H$\alpha$ profile presented in the upper left panel of Figure \ref{Dwek_models_Ha} was 0.599 (in units of 10$^{-13}$~ergs~cm$^{-2}$~s$^{-1}$).  This was improved to 0.246 by increasing the grain radius to $a=0.6\mu$m and the density profile exponent to $\beta=1.5$, which represents the best fit that I could achieve using the values described by DA15 and a dust mass of $M=0.447M_{\odot}$.  However, the overall best fit I obtain for this scenario (see the lower left panel of \ref{Dwek_models_Ha}) used a dust mass of $M=5 \times 10^{-4}M_{\odot}$ giving a MSE=0.0058, substantially improving the fit.
 
 %%%%%%%ADDITIONAL CONTENT%%%%%%%%%%%%%%%%%
 \subsection{Unattenuated line fluxes}
@@ -1039,12 +1092,12 @@ magnesium silicates.
 The evolution of the SN~1987A H$\alpha$ and [O~{\sc 
 i}]$\lambda$6300,6363~\AA\ line fluxes over time has been discussed 
 previously by, for example, \citet{Li1992}, \citet{Xu1992} and 
-\citet{Kozma1998b}. We may use our clumped models to predict the 
+\citet{Kozma1998b}. I may use my clumped models to predict the 
 unattenuated 
 emitted line fluxes and consider their evolution through time.  For each 
 model, the fraction of the total line energy absorbed by the dust was 
-predicted.  We determined the total flux for each observed line profile 
-and used the absorbed fraction from our clumped models for $a=3.5\mu$m to 
+predicted.  I determined the total flux for each observed line profile 
+and used the absorbed fraction from my clumped models for $a=3.5\mu$m to 
 predict the undepleted flux of the line before attenuation by the dust.  
 Gaps in the observed data due to contamination by narrow line emission 
 were interpolated over in order to estimate the flux of the broad line 
@@ -1053,14 +1106,14 @@ luminosities are given in Table \ref{tau_e} along with the energy fraction
 absorbed by the dust in each model. No correction has been made for 
 interstellar extinction along the sightline to SN~1987A.
 There is very little change in 
-these values if we adopt the models with $a=0.6~\mu$m instead of 
+these values if I adopt the models with $a=0.6~\mu$m instead of 
 $a=3.5~\mu$m.  Plots of the observed and undepleted line luminosities are 
 given for all modelled epochs of H$\alpha$ and [O~{\sc i}] in Figure 
 \ref{undep}.
 
-We also present power-law fits to the time evolution of the unattenuated 
-H$\alpha$ and [O~{\sc i}] line fluxes.  For H$\alpha$, we find that 
-$L_{H\alpha}(t) \propto t^{-4.15}$ between days 714 and 3604.  We can 
+I also present power-law fits to the time evolution of the unattenuated 
+H$\alpha$ and [O~{\sc i}] line fluxes.  For H$\alpha$, I find that 
+$L_{H\alpha}(t) \propto t^{-4.15}$ between days 714 and 3604.  I can 
 compare this value to the theoretical time dependence of the flux of a 
 recombination line based on the dynamics of the ejecta.  For an 
 environment in a Hubble-type flow $r=vt$.  For a frozen-in ionization 
@@ -1075,11 +1128,11 @@ $L_{H\alpha}(t) \propto t^{-3}$.
 This relationship is only true for an constant ionization fraction.  This 
 ``freeze-out" phase is estimated to have begun at $\sim 800$ days and 
 first sets in at lower density high velocity regions, gradually moving 
-inwards with time \citep{Danziger1991,Fransson1993}.  Since our modelling 
+inwards with time \citep{Danziger1991,Fransson1993}.  Since my modelling 
 begins at day 714, the ionization fraction in the inner higher density 
-regions is likely still decreasing due to recombination during our first 
+regions is likely still decreasing due to recombination during my first 
 two epochs.  This presumably accounts for the slightly steeper 
-$L_{H\alpha}(t) \propto t^{-4.15}$ that we find across all epochs.  
+$L_{H\alpha}(t) \propto t^{-4.15}$ that I find across all epochs.  
 \citet{Kozma1998b} estimate that H$\alpha$ emission from the outer regions 
 begins to dominate over H$\alpha$ emission from core regions for t $>$ 
 900 days. If earlier epochs are ignored, the last five epochs ($t \ge 
@@ -1113,7 +1166,7 @@ regions should have fallen below 1000~K after day $\sim$1000.
 \label{discuss}
 
 Using Monte Carlo models that consider both the absorbing and scattering 
-effects of dust, we have modelled the evolution of the H$\alpha$ and 
+effects of dust, I have modelled the evolution of the H$\alpha$ and 
 [O~{\sc i}]~$\lambda$6300,6363~\AA\ line profiles over time, enabling us 
 to place constraints on the evolution of newly formed dust in the ejecta 
 of SN 1987A.
@@ -1126,17 +1179,17 @@ masses to account for a similar degree of blue-shifting since the
 expansion of the ejecta would otherwise cause the dust optical depth to 
 the edge of the ejecta to be reduced.
 
-In Section \ref{dwek} we compared our results with those of \citet{Dwek2015} and 
+In Section \ref{dwek} I compared my results with those of \citet{Dwek2015} and 
 concluded that large dust masses can only have been present at early 
 epochs if the grains were formed purely of glassy magnesium silicates that 
 contained no iron or carbon component and that even for pure magnesium 
-silicates no more than 0.07~M$_\odot$ can have been present. We now 
-compare our results with those of \citet{Lucy1989} and W15.
+silicates no more than 0.07~M$_\odot$ can have been present. I now 
+compare my results with those of \citet{Lucy1989} and W15.
 
 \citet{Lucy1989} analysed the [O~{\sc i}]~$\lambda$6300,6363~\AA\ doublet 
 for SN~1987A and estimated dust optical depths for a number of epochs. 
-They translated these into dust masses for day 775 only. From our smooth 
-flow modelling of the [O~{\sc i}] doublets we obtain $\tau_V \approx 3.60$ at day 
+They translated these into dust masses for day 775 only. From my smooth 
+flow modelling of the [O~{\sc i}] doublets I obtain $\tau_V \approx 3.60$ at day 
 714 and $\tau_V \approx 2.86$ at day 806.  These values are higher 
 than the values given by \citet{Lucy1989} who derived $\tau_V=1.19$ at day 
 725 and $\tau_V=1.25$ at day 775.  The value of the assumed albedo 
@@ -1144,8 +1197,8 @@ accounts for the majority of this discrepancy.  \citet{Lucy1989}
 considered line profiles before and after dust condensation and concluded 
 that any evidence of an extended red scattering wing was unconvincing.  
 Accordingly, they adopted a model with perfectly absorbing dust ($\omega = 
-0$).  For our amorphous carbon models for the [O~{\sc 
-i}]~$\lambda$6300,6363~\AA\ profile using a grain radius $a=0.35\mu$m, we 
+0$).  For my amorphous carbon models for the [O~{\sc 
+i}]~$\lambda$6300,6363~\AA\ profile using a grain radius $a=0.35\mu$m, I 
 obtain an albedo of approximately $\omega = 0.5$ at $\lambda=6300$ \AA.
 
 \begin{landscape}
@@ -1164,7 +1217,7 @@ for $t \le 1478$ days and for the H$\alpha$ models for $t \ge 1862$ days.
 stars -} predicted dust masses calculated as the mean of the maximum and 
 minimum dust masses.
 \textit{Green line -} sigmoid fit 
-to our predicted dust masses.}
+to my predicted dust masses.}
 \label{Mdust}
 \end{center}
 \end{figure*}
@@ -1172,17 +1225,17 @@ to our predicted dust masses.}
 
 The dust masses derived by \citet{Lucy1989} at day 775 (e.g. $M_{dust}=4.4 
 \times 10^{-6} M_{\odot}$ for amorphous carbon) are  
-different to those obtained from our smooth dust modelling of the [O~{\sc 
+different to those obtained from my smooth dust modelling of the [O~{\sc 
 i}]~$\lambda$6300,6363~\AA\ doublet at day 806 ($M_{dust}=1.5 \times 
 10^{-4} M_{\odot}$ for amorphous carbon).  There are three main reasons 
-for the discrepancy.  Firstly, the albedo is significantly larger in our 
+for the discrepancy.  Firstly, the albedo is significantly larger in my 
 modelling as already discussed.  A larger dust mass is therefore required 
 to produce the same amount of absorption.  Secondly, to match the extended 
-red wing our required grain radius is considerably larger than the small 
+red wing my required grain radius is considerably larger than the small 
 grains ($a < 0.1\mu$m) adopted by \citet{Lucy1989}. Larger grain radii 
 reduce the total cross-section of interaction and so a greater dust mass 
 must be present to compensate for this. Finally, the adopted maximum 
-velocity (4000~km~s$^{-1}$) in our model is larger than the value adopted 
+velocity (4000~km~s$^{-1}$) in my model is larger than the value adopted 
 by \citet{Lucy1989} (1870~km~s$^{-1}$).  The larger value of $V_{max}$ 
 increases the total volume of the ejecta significantly and therefore 
 significantly more dust is required to produce the same optical depth.
@@ -1190,14 +1243,14 @@ significantly more dust is required to produce the same optical depth.
 \citet{Lucy1989} also noted that the dust optical depth increased rapidly 
 after day 580 and that the rate of increase of the dust optical depth 
 appeared to slow between day 670 and day 775, the latest day that they 
-considered.  Our results, for both clumped and smooth models, suggest that 
+considered.  My results, for both clumped and smooth models, suggest that 
 the dust optical depth actually drops between day 714 and day 806 before 
 starting to increase again at later epochs.  This is consistent with the 
 results of \citet{Lucy1989} where the slowing rate of increase of dust 
 optical depth could be consistent with a turning point subsequent to day 
 775.
 
-We can also compare our dust masses with the mass estimates derived from 
+I can also compare my dust masses with the mass estimates derived from 
 SED-fitting by W15 (see Figure \ref{Mdust}).  W15 used a sigmoid fit to 
 their dust mass evolution, of the form
 
@@ -1215,16 +1268,16 @@ formation whereby initial conditions appropriate for grain growth
 gradually develop until optimal conditions are reached at an intermediate 
 epoch when grain growth is at its fastest before conditions once again 
 deteriorate and the rate slows again (as discussed by W15).  Performing a 
-least-squares regression to this function using just our own derived 
-clumped dust masses, we obtain a sigmoid fit with coefficients 
+least-squares regression to this function using just my own derived 
+clumped dust masses, I obtain a sigmoid fit with coefficients 
 $a=1.0M_{\odot}$, $b=-10.0$ and $c=-0.0004$.  These values are 
 remarkably similar to those derived by W15.  This sigmoid fit is also 
 plotted in Figure \ref{Mdust}.
 
-We find that at all epochs the dust masses derived by W15 are entirely 
-within the dust mass ranges determined by our models.
+I find that at all epochs the dust masses derived by W15 are entirely 
+within the dust mass ranges determined by my models.
 
-Our sigmoid fit to the mean of the maximum and 
+My sigmoid fit to the mean of the maximum and 
 minimum dust masses does not take into account any systematic effects of 
 grain growth.  At earlier epochs, whilst grains are 
 still small relative to later epochs, the lower bound to the dust mass 
@@ -1236,19 +1289,19 @@ epoch SEDs used an MRN distribution with grain radii between 0.005~$\mu$m
 and 0.25~$\mu$m, whilst their fits to their last two epochs required grain 
 radii between 3.005~$\mu$m and 3.25~$\mu$m. The dust masses used for their 
 sigmoid fit thus accounted the effects of grain growth between the earlier 
-and later epochs. As mentioned, we could not fit the extended red wings of 
+and later epochs. As mentioned, I could not fit the extended red wings of 
 the profiles at early epochs using an MRN distribution.  W15 found that at 
 their earlier epochs they could not obtain SED fits with grain radii as 
 large as $\sim 1.0~\mu$m. However, they did not consider radii in between 
-these size ranges, such as the grains with $a \approx 0.6~\mu$m that we 
+these size ranges, such as the grains with $a \approx 0.6~\mu$m that I 
 require at earlier epochs.  For SED modelling it is generally the case that 
 the larger the grain size used, the less dust is required to produce the 
 same level of flux.  This may account for the differences between W15's 
-earlier epoch dust masses and our own minimum dust mass estimates at 
+earlier epoch dust masses and my own minimum dust mass estimates at 
 similar epochs.  The models of W15 used 15\% silicate dust, in contrast to 
-our models which used 100\% amorphous carbon dust.  This could also 
+my models which used 100\% amorphous carbon dust.  This could also 
 contribute to the differences at early epochs, as could the use of 
-different sets of optical constants - we used the BE amorphous carbon 
+different sets of optical constants - I used the BE amorphous carbon 
 optical constants of \citet{Zubko1996} whereas W15 used AC constants from 
 \citet{Hanner1988}.  W15 found that in order to fit early epoch SEDs epochs 
 (e.g. day 615) with Zubko ACH2 constants, smaller inner and outer ejecta 
@@ -1257,9 +1310,9 @@ compared to the Hanner AC results.
 
 W15 derived a maximum possible grain size at late epochs, concluding that 
 the grains could not be larger than $\sim 5~\mu$m by day 8515. This is 
-consistent with the maximum grain radii that we derive at our latest 
-epochs.  We find that grain radii most likely cannot have exceeded $\sim 
-3.5~\mu$m at day 3604 - the dust mass that we obtain using this grain 
+consistent with the maximum grain radii that I derive at my latest 
+epochs.  I find that grain radii most likely cannot have exceeded $\sim 
+3.5~\mu$m at day 3604 - the dust mass that I obtain using this grain 
 radius is similar to the value predicted by W15's sigmoid fit at that 
 epoch.
 
@@ -1267,31 +1320,31 @@ The relationship between ejecta dust grain radii and post-explosion
 time is important for understanding the likelihood of dust surviving the 
 passage of a reverse shock propagating back through the ejecta. By the 
 time the effects of a reverse shock begin to appear in the line profiles 
-(around day 5000), our models imply that the grains could already be as 
+(around day 5000), my models imply that the grains could already be as 
 large as several microns in radius and are likely to be larger than $\sim 
 0.6~\mu$m. Grains as large as this are more likely to survive destruction 
 by sputtering in supernova reverse shocks and in interstellar shocks 
 \citep{Silvia2010, Silvia2012, Slavin2015}.
 It has been suggested that very large grains (radii up to 4.2$~\mu$m) 
 formed in the ejecta of SN 2010jl within a few hundred days after the 
-explosion \cite{Gall2014}. The grain radii that W15 and ourselves obtain 
+explosion \cite{Gall2014}. The grain radii that W15 and I obtain 
 for SN~1987A at very late epochs are nearly as large as found by 
 \citet{Gall2014} for SN~2010jl, with both results suggesting that grains 
 large enough to survive the destructive force of a reverse shock have 
 formed by a few hundred days post-explosion. 
 
-The dust masses obtained from our modelling of SN~1987A's line profiles 
+The dust masses obtained from my modelling of SN~1987A's line profiles 
 support the conclusion of W15 that even after $\sim$3000 days the dust 
 mass was still only a fraction of its current value. This contrasts with 
 the results of \citet{Sarangi2015} whose grain chemistry models predict 
 that ejecta dust masses should plateau by around 5 years after the 
-explosion. Our results show that SN~1987A's dust mass had reached 
+explosion. My results show that SN~1987A's dust mass had reached 
 the order of $0.1M_{\odot}$ by day 3604.  Since its present dust mass is 
 several times larger than this (\citet{Matsuura2015}, W15), a 
 substantial fraction of the current dust mass must have condensed after 
 this epoch, in agreement with the conclusions of W15.
 
-Ideally, our models would cover the entire evolution of SN 1987A's 
+Ideally, my models would cover the entire evolution of SN 1987A's 
 H$\alpha$ line profiles up to the present day.  However, the excitation of 
 gas in the outer edges of the ejecta by the reverse shock after $\sim$ day 
 5000 results in significant broad and asymmetric emission that 
@@ -1313,7 +1366,7 @@ clearly has wider application to other supernovae.
 
 \section{Conclusions}
 
-We have investigated the effects of scattering and absorption by ejecta 
+I have investigated the effects of scattering and absorption by ejecta 
 dust on supernova line profile shapes and the different characteristic 
 features that may be produced.  In particular, attention is drawn to the 
 fact that a classical blue-shifted peak and asymmetric profile with most 
@@ -1331,15 +1384,15 @@ ejecta shell. If not obscured by narrow circumstellar [N~{\sc ii}]
 red side of the profile, also corresponding to the minimum velocity at the 
 inner edge of the ejecta shell.
 
-We have modelled the H$\alpha$ and [O~{\sc i}]~$\lambda$6300,6363~\AA\ 
+I have modelled the H$\alpha$ and [O~{\sc i}]~$\lambda$6300,6363~\AA\ 
 line profiles from SN~1987A over a range of epochs and have obtained dust 
-masses of the order of $0.1M_{\odot}$ by day 3604.  We derive a sigmoid 
-fit to our dust mass data that predicts a current dust mass of 
+masses of the order of $0.1M_{\odot}$ by day 3604.  I derive a sigmoid 
+fit to my dust mass data that predicts a current dust mass of 
 0.68$M_{\odot}$, in line with current SED-based dust mass estimates for 
-SN~1987A.  We find that large grains are necessary in order to reproduce 
+SN~1987A.  I find that large grains are necessary in order to reproduce 
 the both the extended red scattering wings and the asymmetry seen in 
 several of the lines and that grains larger than $0.6~\mu$m have formed by 
-day 714, while by day 3604 grain radii of $\sim 3.5~\mu$m are needed. We 
+day 714, while by day 3604 grain radii of $\sim 3.5~\mu$m are needed. I 
 find from fits to the H$\alpha$ profile that dust masses cannot have 
 exceeded a few$\times10^{-3}$~M$_\odot$ on day 714 for all the grain types 
 investigated, apart from glassy pure magnesium silicate grains, for which 

@@ -40,32 +40,32 @@
 \BOOKMARK [1][-]{section.3.1}{Testing and benchmarking the code}{chapter.3}% 40
 \BOOKMARK [2][-]{subsection.3.1.1}{Theoretical line profiles from first principles}{section.3.1}% 41
 \BOOKMARK [2][-]{subsection.3.1.2}{Comparison of DAMOCLES models with previously published results}{section.3.1}% 42
-\BOOKMARK [2][-]{subsection.3.1.3}{Testing the electron scattering mechanism}{section.3.1}% 43
-\BOOKMARK [2][-]{subsection.3.1.4}{Clumped models in smooth limits}{section.3.1}% 44
-\BOOKMARK [1][-]{section.3.2}{An analysis of the sensitivity of line profiles to the variable parameters}{chapter.3}% 45
-\BOOKMARK [2][-]{subsection.3.2.1}{The maximum line velocity, Vmax}{section.3.2}% 46
-\BOOKMARK [2][-]{subsection.3.2.2}{The ejecta radius ratio, Rin/Rout}{section.3.2}% 47
-\BOOKMARK [2][-]{subsection.3.2.3}{The dust optical depth, }{section.3.2}% 48
-\BOOKMARK [2][-]{subsection.3.2.4}{The dust albedo, }{section.3.2}% 49
-\BOOKMARK [2][-]{subsection.3.2.5}{The dust density profile, r-2}{section.3.2}% 50
-\BOOKMARK [2][-]{subsection.3.2.6}{Inferring properties of the dust from the models}{section.3.2}% 51
-\BOOKMARK [2][-]{subsection.3.2.7}{Observable signatures of dust in line profiles}{section.3.2}% 52
-\BOOKMARK [2][-]{subsection.3.2.8}{The effect of a grain size distribution}{section.3.2}% 53
-\BOOKMARK [2][-]{subsection.3.2.9}{The effect of different species}{section.3.2}% 54
-\BOOKMARK [2][-]{subsection.3.2.10}{The velocity distribution}{section.3.2}% 55
-\BOOKMARK [0][-]{chapter.4}{The Evolution of Dust Formation in SN 1987A}{}% 56
-\BOOKMARK [1][-]{section.4.1}{Spectral Observations of SN 1987A}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.1.1}{Contamination of the H profiles}{section.4.1}% 58
-\BOOKMARK [2][-]{subsection.4.1.2}{The evolution of the maximum and minimum velocities}{section.4.1}% 59
-\BOOKMARK [1][-]{section.4.2}{Modelling SN 1987A}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.2.1}{Smooth Density Models for SN 1987A}{section.4.2}% 61
-\BOOKMARK [2][-]{subsection.4.2.2}{Clumped Dust Models for SN 1987A}{section.4.2}% 62
-\BOOKMARK [2][-]{subsection.4.2.3}{The effects of clumping}{section.4.2}% 63
-\BOOKMARK [2][-]{subsection.4.2.4}{More complex models}{section.4.2}% 64
-\BOOKMARK [2][-]{subsection.4.2.5}{The effect of a grain size distribution}{section.4.2}% 65
-\BOOKMARK [2][-]{subsection.4.2.6}{The effect of different grain species}{section.4.2}% 66
-\BOOKMARK [2][-]{subsection.4.2.7}{Modelling large masses of dust at early epochs: comparison with the results of Dwek2015}{section.4.2}% 67
-\BOOKMARK [2][-]{subsection.4.2.8}{Unattenuated line fluxes}{section.4.2}% 68
+\BOOKMARK [1][-]{section.3.2}{A Parameter Sensitivity Analysis}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.2.1}{The maximum line velocity, Vmax}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.2}{The ejecta radius ratio, Rin/Rout}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.3}{The dust optical depth, }{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.4}{The dust albedo, }{section.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.2.5}{The dust density profile, r-2}{section.3.2}% 48
+\BOOKMARK [2][-]{subsection.3.2.6}{Inferring properties of the dust from the models}{section.3.2}% 49
+\BOOKMARK [2][-]{subsection.3.2.7}{The wavelength dependence of dust absorption}{section.3.2}% 50
+\BOOKMARK [2][-]{subsection.3.2.8}{The effect of a grain radius distribution}{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.9}{The effect of different species}{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.10}{The velocity distribution}{section.3.2}% 53
+\BOOKMARK [1][-]{section.3.3}{Conclusions}{chapter.3}% 54
+\BOOKMARK [0][-]{chapter.4}{The Evolution of Dust Formation in SN 1987A}{}% 55
+\BOOKMARK [1][-]{section.4.1}{Spectral Observations of SN 1987A}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.1.1}{Contamination of the H profiles}{section.4.1}% 57
+\BOOKMARK [2][-]{subsection.4.1.2}{The evolution of the maximum and minimum velocities}{section.4.1}% 58
+\BOOKMARK [1][-]{section.4.2}{Modelling SN 1987A}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.2.1}{Smooth Density Models for SN 1987A}{section.4.2}% 60
+\BOOKMARK [2][-]{subsection.4.2.2}{Clumped Dust Models for SN 1987A}{section.4.2}% 61
+\BOOKMARK [2][-]{subsection.4.2.3}{Goodness of fit}{section.4.2}% 62
+\BOOKMARK [2][-]{subsection.4.2.4}{The effects of clumping}{section.4.2}% 63
+\BOOKMARK [2][-]{subsection.4.2.5}{More complex models}{section.4.2}% 64
+\BOOKMARK [2][-]{subsection.4.2.6}{The effect of a grain size distribution}{section.4.2}% 65
+\BOOKMARK [2][-]{subsection.4.2.7}{The effect of different grain species}{section.4.2}% 66
+\BOOKMARK [2][-]{subsection.4.2.8}{Modelling large masses of dust at early epochs: comparison with the results of Dwek2015}{section.4.2}% 67
+\BOOKMARK [2][-]{subsection.4.2.9}{Unattenuated line fluxes}{section.4.2}% 68
 \BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 69
 \BOOKMARK [1][-]{section.4.4}{Conclusions}{chapter.4}% 70
 \BOOKMARK [0][-]{chapter.5}{A Wider View: Models of Other Supernova Remnants}{}% 71
