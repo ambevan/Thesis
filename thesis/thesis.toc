@@ -91,7 +91,7 @@
 \contentsline {chapter}{\numberline {3}Probing DAMOCLES: Testing and a Parameter Sensitivity Analysis}{68}{chapter.3}
 \contentsline {section}{\numberline {3.1}Testing and benchmarking the code}{68}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Theoretical line profiles from first principles}{69}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Comparison of DAMOCLES models with previously published results}{75}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Benchmarking against numerical models}{75}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}A Parameter Sensitivity Analysis}{76}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}The maximum line velocity, $V_{max}$}{78}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}The ejecta radius ratio, $R_{in}/R_{out}$}{78}{subsection.3.2.2}
@@ -104,26 +104,27 @@
 \contentsline {subsection}{\numberline {3.2.8}The effect of a grain radius distribution}{89}{subsection.3.2.8}
 \contentsline {subsection}{\numberline {3.2.9}The effect of different species}{90}{subsection.3.2.9}
 \contentsline {subsection}{\numberline {3.2.10}The velocity distribution}{91}{subsection.3.2.10}
-\contentsline {section}{\numberline {3.3}Conclusions}{92}{section.3.3}
+\contentsline {section}{\numberline {3.3}Conclusions}{91}{section.3.3}
 \contentsline {chapter}{\numberline {4}The Evolution of Dust Formation in SN\nobreakspace {}1987A}{93}{chapter.4}
-\contentsline {section}{\numberline {4.1}Spectral Observations of SN 1987A}{93}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Contamination of the H$\alpha $ profiles}{95}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}The evolution of the maximum and minimum velocities}{98}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Modelling SN\nobreakspace {}1987A}{98}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Smooth Density Models for SN 1987A}{104}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Clumped Dust Models for SN 1987A}{109}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Goodness of fit}{114}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}The effects of clumping}{114}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}More complex models}{115}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}The effect of a grain size distribution}{117}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}The effect of different grain species}{118}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{120}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Unattenuated line fluxes}{124}{subsection.4.2.9}
-\contentsline {section}{\numberline {4.3}Discussion}{125}{section.4.3}
-\contentsline {section}{\numberline {4.4}Conclusions}{132}{section.4.4}
-\contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{133}{chapter.5}
-\contentsline {section}{\numberline {5.1}SN 1980K}{133}{section.5.1}
-\contentsline {section}{\numberline {5.2}SN 1993J}{133}{section.5.2}
-\contentsline {section}{\numberline {5.3}Cassiopeia A}{133}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{136}{chapter.6}
-\contentsline {chapter}{Bibliography}{137}{chapter.6}
+\contentsline {section}{\numberline {4.1}10,000 days of SN 1987A}{93}{section.4.1}
+\contentsline {section}{\numberline {4.2}Spectral Observations of SN 1987A}{94}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Contamination of the H$\alpha $ profiles}{95}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{99}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{99}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN 1987A}{105}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN 1987A}{110}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{115}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{115}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}More complex models}{118}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}The effect of a grain size distribution}{120}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{120}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{124}{subsection.4.3.8}
+\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{128}{subsection.4.3.9}
+\contentsline {section}{\numberline {4.4}Discussion}{129}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusions}{136}{section.4.5}
+\contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{137}{chapter.5}
+\contentsline {section}{\numberline {5.1}SN 1980K}{137}{section.5.1}
+\contentsline {section}{\numberline {5.2}SN 1993J}{137}{section.5.2}
+\contentsline {section}{\numberline {5.3}Cassiopeia A}{137}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{140}{chapter.6}
+\contentsline {chapter}{Bibliography}{141}{chapter.6}

@@ -9,6 +9,14 @@
 {AUTHOR}  
 \end{flushright}
 
+\section{10,000 days of SN 1987A}
+
+On 23 February 1987, a star died in an explosion that would inform our understanding of core-collapse supernovae for decades to come.  SN 1987A is uniquely important to the study of supernovae.  At only 50kpc away in the Large Magellanic Cloud (LMC) and as the brightest supernova to be observed since SN1604 (Kepler), it has provided an unprecedented opportunity for studying every aspect of supernovae imaginable.  Since its explosion, SN 1987A has been continuously observed across the entire wavelength range providing a wealth of data to be interpreted.
+
+SN 1987A was the first supernova to be detected via the emission of neutrinos.  Hours before the visible light from SN1987A reached Earth, 19 neutrinos were simultaneously detected in various locations across the globe confirming the core-collapse theory of supernovae \citep{Bionta1987,Hirata1987}.  However, the expected neutron star resulting from this collapse still has yet to be detected.  Various theories exist for this non-detection such as the possibility that a black hole formed instead or that dust is obscuring the light from the star.
+
+Four days after its initial detection, the progenitor star was identified as a blue supergiant \citep{Sonneborn1987}.  Mass ejection from this progenitor star resulted in the complex system of circumstellar rings that are observed around SN 1987A (see Figure \ref{}).
+
 \section{Spectral Observations of SN 1987A}
 \label{spectra}
 %This is just the archival spectra section of the paper
@@ -727,6 +735,35 @@ and $f_{mod,i}$ is the modelled flux at the $i^{th}$ data point. The MSEs were c
 For day 714, I find that increasing or decreasing the total dust mass by a factor of two with all other parameters fixed causes a substantial increase in the mean square error (by factors of 23 and 8.6 respectively) effectively ruling out these values.  For day 2875 a similar variation is seen but with the MSE varying by factors of 1.4 and 3.0 for each case.  The narrower range of MSEs at day 2875 compared to day 714 is due to a noisier profile which results in a greater allowed range of good fits.   The sensitivity of the goodness of fit to the dust mass and density profile is similar for the other modelled epochs.
 
 
+\begin{figure}
+\centering
+
+\includegraphics[clip = true, scale=0.43, trim=20 20 40 0]{chapters/chapter5/images/MSE/d714_M/d714_M0}
+\includegraphics[clip = true, scale=0.43, trim=52 20 40 0]{chapters/chapter5/images/MSE/d714_M/d714_M0_1}
+
+\includegraphics[clip = true, scale=0.43, trim=20 20 40 0]{chapters/chapter5/images/MSE/d714_M/d714_M0_5}
+\includegraphics[clip = true, scale=0.43, trim=52 20 40 0]{chapters/chapter5/images/MSE/d714_M/d714_M1}
+
+\includegraphics[clip = true, scale=0.43, trim=20 0 40 0]{chapters/chapter5/images/MSE/d714_M/d714_M2}
+\includegraphics[clip = true, scale=0.43, trim=52 0 40 0]{chapters/chapter5/images/MSE/d714_M/d714_M10}
+\caption{Fits to the H$\alpha$ line profile for day 714 for a variety of dust masses.  All other parameters are given as per Table \ref{clumped1}. Dust masses are given as a multiple of the best fitting dust mass ($M_{bf}$) and the mean squared error is presented for each plot.}
+\end{figure}
+
+\begin{figure}
+\centering
+
+\includegraphics[clip = true, scale=0.43, trim=20 0 40 0]{chapters/chapter5/images/MSE/d714_B/d714_B1_0}
+\includegraphics[clip = true, scale=0.43, trim=52 0 40 0]{chapters/chapter5/images/MSE/d714_B/d714_B1_2}
+
+\includegraphics[clip = true, scale=0.43, trim=20 0 40 0]{chapters/chapter5/images/MSE/d714_B/d714_B1_4}
+\includegraphics[clip = true, scale=0.43, trim=52 0 40 0]{chapters/chapter5/images/MSE/d714_B/d714_B1_6}
+
+\includegraphics[clip = true, scale=0.43, trim=20 0 40 0]{chapters/chapter5/images/MSE/d714_B/d714_B1_8}
+
+\caption{Fits to the H$\alpha$ line profile for day 2875 for a variety of density distributions.  All other parameters are given as per Table \ref{clumped1}. The mean squared error is presented for each plot.}
+\end{figure}
+
+
 \subsection{The effects of clumping}
 
 As in the case of SED radiative transfer models, the dust masses required 
@@ -792,13 +829,11 @@ Fits to both the [O~{\sc i}]$\lambda$6300,6363~\AA\ and H$\alpha$ lines for day 
 %alter the derived dust masses.  By considering a number of grain radius 
 %ranges and adopting a power law distribution with a variable exponent, I 
 %may gain some insight into the effects of adopting a distribution rather 
-%than a single size.  As discussed in Section \ref{smooth_models}, a classical MRN power law ($n(a) \propto 
-%a^{-3.5}$) with a wide grain radius range ($a_{min} = 0.001~\mu$m to 
-%$a_{max} = 4.0~\mu$m) the derived albedo is much too small to reproduce 
-%the required wing seen at early epochs.  I therefore adopt an approach 
-%whereby, for a number of grain size ranges, I adjust the exponent of the 
-%distribution until the overall albedo is the same as that seen for the 
-%best fitting single grain radius for the clumped distributions.  I may 
+%than a single size.  
+
+
+
+% I may 
 %then approximately calculate the required dust mass as
 %
 %\begin{equation}
@@ -809,22 +844,12 @@ Fits to both the [O~{\sc i}]$\lambda$6300,6363~\AA\ and H$\alpha$ lines for day 
 %where the subscript $s$ represents the single grain size quantities and 
 %the $d$ subscript represents quantities for the grain size distribution.
 
-All of the models heretofore have been based on a singe grain radius.  As previously discussed in Chapter \ref{chp:chp4}, it is important to consider the possible effects of a dust grain radius distribution.  This is more likely to be the case in reality and potentially has a significant effect on the derived dust mass.  Using Equation \ref{distn_conv} from Chapter \ref{chp:chp4}, I calculate the required dust masses for the clumped H$\alpha$ model on 
-day 714 for a selection of distributions with varying $a_{min}$.  These 
-are presented in Table \ref{tb_distn}.  It can be seen that in all cases, 
-a larger dust mass is required for grain size distributions in order to reproduce the same profile as a 
-single grain size.  The conversion factors presented in the table are 
-valid for any model with grain size $a=0.6~\mu$m and may therefore also be 
-applied to the models for day 806.  I repeated the process for 
-$a=3.5~\mu$m but found that, in order to reproduce the required albedo, the 
-distribution had to be heavily weighted towards the larger grains and that 
-the value of $a_{min}$ had no effect on the required dust mass.  
-Increasing the value of $a_{min}$ to larger values ($>2~\mu$m) does not 
-have a significant effect either.  This is because both extinction 
-efficiency and albedo tend to a constant value with increasing grain 
-radius and the adoption of different grain size ranges and distributions 
-above a certain threshold results in only insignificant variations in 
-these quantities.
+All of the models heretofore have been based on a single grain radius.  As previously discussed in Chapter \ref{chp:chp4}, it is important to consider the possible effects of a dust grain radius distribution.  This is more likely to be the case in reality and potentially has a significant effect on the derived dust mass.  
+
+ As discussed in Section \ref{smooth_models}, a classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain radius range ($a_{min} = 0.001~\mu$m to $a_{max} = 4.0~\mu$m) the derived albedo is much too small to reproduce the required wing seen at early epochs.  I therefore adopt an approach whereby, for a number of grain size ranges, I adjust the exponent of the distribution until the overall albedo is the same as that seen for the best fitting single grain radius for the clumped distributions. Using Equation \ref{distn_conv} from Chapter \ref{chp:chp4}, I calculate the required dust masses for the clumped H$\alpha$ model on day 714 for a selection of distributions with varying $a_{min}$.  These are presented in Table \ref{tb_distn}.  
+ 
+ It can be seen that in all cases, a larger dust mass is required for grain size distributions in order to reproduce the same profile as a single grain size.  The conversion factors presented in the table are valid for any model with grain size $a=0.6~\mu$m and may therefore also be applied to the models for day 806.  I repeated the process for $a=3.5~\mu$m but found that, in order to reproduce the required albedo, the distribution had to be heavily weighted towards the larger grains and that the value of $a_{min}$ had no effect on the required dust mass.  Increasing the value of $a_{min}$ to larger values ($>2~\mu$m) does not have a significant effect either.  This is because both extinction efficiency and albedo tend to a constant value with increasing grain radius and the adoption of different grain size ranges and distributions above a certain threshold results in only insignificant variations in these quantities.
+ 
 \setlength{\tabcolsep}{12pt}
 \begin{table}
 	%\begin{minipage}{180mm}

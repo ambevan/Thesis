@@ -39,7 +39,7 @@
 \BOOKMARK [0][-]{chapter.3}{Probing DAMOCLES: Testing and a Parameter Sensitivity Analysis}{}% 39
 \BOOKMARK [1][-]{section.3.1}{Testing and benchmarking the code}{chapter.3}% 40
 \BOOKMARK [2][-]{subsection.3.1.1}{Theoretical line profiles from first principles}{section.3.1}% 41
-\BOOKMARK [2][-]{subsection.3.1.2}{Comparison of DAMOCLES models with previously published results}{section.3.1}% 42
+\BOOKMARK [2][-]{subsection.3.1.2}{Benchmarking against numerical models}{section.3.1}% 42
 \BOOKMARK [1][-]{section.3.2}{A Parameter Sensitivity Analysis}{chapter.3}% 43
 \BOOKMARK [2][-]{subsection.3.2.1}{The maximum line velocity, Vmax}{section.3.2}% 44
 \BOOKMARK [2][-]{subsection.3.2.2}{The ejecta radius ratio, Rin/Rout}{section.3.2}% 45
@@ -53,24 +53,25 @@
 \BOOKMARK [2][-]{subsection.3.2.10}{The velocity distribution}{section.3.2}% 53
 \BOOKMARK [1][-]{section.3.3}{Conclusions}{chapter.3}% 54
 \BOOKMARK [0][-]{chapter.4}{The Evolution of Dust Formation in SN 1987A}{}% 55
-\BOOKMARK [1][-]{section.4.1}{Spectral Observations of SN 1987A}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.1.1}{Contamination of the H profiles}{section.4.1}% 57
-\BOOKMARK [2][-]{subsection.4.1.2}{The evolution of the maximum and minimum velocities}{section.4.1}% 58
-\BOOKMARK [1][-]{section.4.2}{Modelling SN 1987A}{chapter.4}% 59
-\BOOKMARK [2][-]{subsection.4.2.1}{Smooth Density Models for SN 1987A}{section.4.2}% 60
-\BOOKMARK [2][-]{subsection.4.2.2}{Clumped Dust Models for SN 1987A}{section.4.2}% 61
-\BOOKMARK [2][-]{subsection.4.2.3}{Goodness of fit}{section.4.2}% 62
-\BOOKMARK [2][-]{subsection.4.2.4}{The effects of clumping}{section.4.2}% 63
-\BOOKMARK [2][-]{subsection.4.2.5}{More complex models}{section.4.2}% 64
-\BOOKMARK [2][-]{subsection.4.2.6}{The effect of a grain size distribution}{section.4.2}% 65
-\BOOKMARK [2][-]{subsection.4.2.7}{The effect of different grain species}{section.4.2}% 66
-\BOOKMARK [2][-]{subsection.4.2.8}{Modelling large masses of dust at early epochs: comparison with the results of Dwek2015}{section.4.2}% 67
-\BOOKMARK [2][-]{subsection.4.2.9}{Unattenuated line fluxes}{section.4.2}% 68
-\BOOKMARK [1][-]{section.4.3}{Discussion}{chapter.4}% 69
-\BOOKMARK [1][-]{section.4.4}{Conclusions}{chapter.4}% 70
-\BOOKMARK [0][-]{chapter.5}{A Wider View: Models of Other Supernova Remnants}{}% 71
-\BOOKMARK [1][-]{section.5.1}{SN 1980K}{chapter.5}% 72
-\BOOKMARK [1][-]{section.5.2}{SN 1993J}{chapter.5}% 73
-\BOOKMARK [1][-]{section.5.3}{Cassiopeia A}{chapter.5}% 74
-\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 75
-\BOOKMARK [0][-]{chapter.6}{Bibliography}{}% 76
+\BOOKMARK [1][-]{section.4.1}{10,000 days of SN 1987A}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.2}{Spectral Observations of SN 1987A}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.2.1}{Contamination of the H profiles}{section.4.2}% 58
+\BOOKMARK [2][-]{subsection.4.2.2}{The evolution of the maximum and minimum velocities}{section.4.2}% 59
+\BOOKMARK [1][-]{section.4.3}{Modelling SN 1987A}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.3.1}{Smooth Density Models for SN 1987A}{section.4.3}% 61
+\BOOKMARK [2][-]{subsection.4.3.2}{Clumped Dust Models for SN 1987A}{section.4.3}% 62
+\BOOKMARK [2][-]{subsection.4.3.3}{Goodness of fit}{section.4.3}% 63
+\BOOKMARK [2][-]{subsection.4.3.4}{The effects of clumping}{section.4.3}% 64
+\BOOKMARK [2][-]{subsection.4.3.5}{More complex models}{section.4.3}% 65
+\BOOKMARK [2][-]{subsection.4.3.6}{The effect of a grain size distribution}{section.4.3}% 66
+\BOOKMARK [2][-]{subsection.4.3.7}{The effect of different grain species}{section.4.3}% 67
+\BOOKMARK [2][-]{subsection.4.3.8}{Modelling large masses of dust at early epochs: comparison with the results of Dwek2015}{section.4.3}% 68
+\BOOKMARK [2][-]{subsection.4.3.9}{Unattenuated line fluxes}{section.4.3}% 69
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 70
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 71
+\BOOKMARK [0][-]{chapter.5}{A Wider View: Models of Other Supernova Remnants}{}% 72
+\BOOKMARK [1][-]{section.5.1}{SN 1980K}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.2}{SN 1993J}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.3}{Cassiopeia A}{chapter.5}% 75
+\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 76
+\BOOKMARK [0][-]{chapter.6}{Bibliography}{}% 77

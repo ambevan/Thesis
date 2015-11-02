@@ -56,6 +56,12 @@ Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
   [\mnras] {10.1046/j.1365-8711.2000.03113.x}, \href
   {http://adsabs.harvard.edu/abs/2000MNRAS.311..601B} {311, 601}
 
+\bibitem[\protect\citeauthoryear{{Bionta}, {Blewitt}, {Bratton}, {Casper}  \&
+  {Ciocio}}{{Bionta} et~al.}{1987}]{Bionta1987}
+{Bionta} R.~M.,  {Blewitt} G.,  {Bratton} C.~B.,  {Casper} D.,   {Ciocio} A.,
+  1987, \mn@doi [Physical Review Letters] {10.1103/PhysRevLett.58.1494}, \href
+  {http://adsabs.harvard.edu/abs/1987PhRvL..58.1494B} {58, 1494}
+
 \bibitem[\protect\citeauthoryear{Bohren \& Huffman}{Bohren \&
   Huffman}{1983}]{Bohren1983}
 Bohren C.~F.,  Huffman D.,  1983, Absorption and scattering of light by small
@@ -223,6 +229,12 @@ Hastings W.,  1970, \mn@doi [Biometrika] {10.1093/biomet/57.1.97}, 57, 97
 
 \bibitem[\protect\citeauthoryear{Hillier}{Hillier}{1991}]{Hillier1991}
 Hillier D.~J.,  1991, \aap, 247, 455
+
+\bibitem[\protect\citeauthoryear{{Hirata}, {Kajita}, {Koshiba}, {Nakahata}  \&
+  {Oyama}}{{Hirata} et~al.}{1987}]{Hirata1987}
+{Hirata} K.,  {Kajita} T.,  {Koshiba} M.,  {Nakahata} M.,   {Oyama} Y.,  1987,
+  \mn@doi [Physical Review Letters] {10.1103/PhysRevLett.58.1490}, \href
+  {http://adsabs.harvard.edu/abs/1987PhRvL..58.1490H} {58, 1490}
 
 \bibitem[\protect\citeauthoryear{{Hogerheijde} \& {van der Tak}}{{Hogerheijde}
   \& {van der Tak}}{2000}]{Hogerheijde2000}
@@ -448,6 +460,12 @@ Smith N.,  Silverman J.~M.,  Filippenko A.~V.,  Cooper M.~C.,  Matheson T.,
 \bibitem[\protect\citeauthoryear{{Sobolev}}{{Sobolev}}{1957}]{Sobolev1957}
 {Sobolev} V.~V.,  1957, Soviet Astronomy, \href
   {http://adsabs.harvard.edu/abs/1957SvA.....1..678S} {1, 678}
+
+\bibitem[\protect\citeauthoryear{{Sonneborn}, {Altner}  \&
+  {Kirshner}}{{Sonneborn} et~al.}{1987}]{Sonneborn1987}
+{Sonneborn} G.,  {Altner} B.,   {Kirshner} R.~P.,  1987, \mn@doi [\apjl]
+  {10.1086/185052}, \href {http://adsabs.harvard.edu/abs/1987ApJ...323L..35S}
+  {323, L35}
 
 \bibitem[\protect\citeauthoryear{Spyromilio, Stathakis, Cannon, Waterman, Couch
    \& Dopita}{Spyromilio et~al.}{1991}]{Spyromilio1991}
