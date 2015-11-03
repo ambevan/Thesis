@@ -17,10 +17,23 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{Ahmad, Greene, Kutschera  \& Paul}{Ahmad
+  et~al.}{2002}]{Manuel2002}
+Ahmad I.,  Greene J.,  Kutschera W.,   Paul M.,  2002, in Manuel O.,  ed., ,
+  Origin of Elements in the Solar System.
+Springer US, pp 203--210, \mn@doi{10.1007/0-306-46927-8_17}, \url
+  {http://dx.doi.org/10.1007/0-306-46927-8_17}
+
 \bibitem[\protect\citeauthoryear{Andrews et~al.,}{Andrews
   et~al.}{2010}]{Andrews2010}
 Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
   715, 541
+
+\bibitem[\protect\citeauthoryear{{Arnett}, {Bahcall}, {Kirshner}  \&
+  {Woosley}}{{Arnett} et~al.}{1989}]{Arnett1989}
+{Arnett} W.~D.,  {Bahcall} J.~N.,  {Kirshner} R.~P.,   {Woosley} S.~E.,  1989,
+  \mn@doi [\araa] {10.1146/annurev.aa.27.090189.003213}, \href
+  {http://adsabs.harvard.edu/abs/1989ARA%26A..27..629A} {27, 629}
 
 \bibitem[\protect\citeauthoryear{{Auer} \& {van Blerkom}}{{Auer} \& {van
   Blerkom}}{1972}]{Auer1972}
@@ -68,6 +81,20 @@ Bohren C.~F.,  Huffman D.,  1983, Absorption and scattering of light by small
   particles.
 Wiley science paperback series, Wiley
 
+\bibitem[\protect\citeauthoryear{{Bouchet} \& {Danziger}}{{Bouchet} \&
+  {Danziger}}{2014}]{Bouchet2014}
+{Bouchet} P.,  {Danziger} J.,  2014, in {Ray} A.,  {McCray} R.~A.,  eds,  IAU
+  Symposium Vol. 296, IAU Symposium. pp 9--14,
+  \mn@doi{10.1017/S1743921313009162}
+
+\bibitem[\protect\citeauthoryear{{Bouchet}, {De Buizer}, {Suntzeff},
+  {Danziger}, {Hayward}, {Telesco}  \& {Packham}}{{Bouchet}
+  et~al.}{2004}]{Bouchet2004}
+{Bouchet} P.,  {De Buizer} J.~M.,  {Suntzeff} N.~B.,  {Danziger} I.~J.,
+  {Hayward} T.~L.,  {Telesco} C.~M.,   {Packham} C.,  2004, \mn@doi [\apj]
+  {10.1086/421936}, \href {http://adsabs.harvard.edu/abs/2004ApJ...611..394B}
+  {611, 394}
+
 \bibitem[\protect\citeauthoryear{{Brinch} \& {Hogerheijde}}{{Brinch} \&
   {Hogerheijde}}{2010}]{Brinch2010}
 {Brinch} C.,  {Hogerheijde} M.~R.,  2010, \mn@doi [\aap]
@@ -102,9 +129,14 @@ Buslenko N.~P.,  Golenko D.~I.,  Shreider Y.~A.,  Sobol' I.~M.,   Sragovich
 Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
   \mn@doi [\apj] {10.1086/304253}, 483, 925
 
+\bibitem[\protect\citeauthoryear{{Danziger}, {Lucy}, {Bouchet}  \&
+  {Gouiffes}}{{Danziger} et~al.}{1991a}]{Danziger1991a}
+{Danziger} I.~J.,  {Lucy} L.~B.,  {Bouchet} P.,   {Gouiffes} C.,  1991a, in
+  {Woosley} S.~E.,  ed., Supernovae. p.~69
+
 \bibitem[\protect\citeauthoryear{{Danziger}, {Bouchet}, {Gouiffes}  \&
-  {Lucy}}{{Danziger} et~al.}{1991}]{Danziger1991}
-{Danziger} I.~J.,  {Bouchet} P.,  {Gouiffes} C.,   {Lucy} L.~B.,  1991, in
+  {Lucy}}{{Danziger} et~al.}{1991b}]{Danziger1991}
+{Danziger} I.~J.,  {Bouchet} P.,  {Gouiffes} C.,   {Lucy} L.~B.,  1991b, in
   {Danziger} I.~J.,  {Kjaer} K.,  eds,  European Southern Observatory
   Conference and Workshop Proceedings Vol. 37, European Southern Observatory
   Conference and Workshop Proceedings. p.~217
@@ -118,6 +150,10 @@ Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
   Lee}{1984}]{Draine1984}
 Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
 
+\bibitem[\protect\citeauthoryear{{Dwek}}{{Dwek}}{1988}]{Dwek1988}
+{Dwek} E.,  1988, \mn@doi [\apj] {10.1086/166425}, \href
+  {http://adsabs.harvard.edu/abs/1988ApJ...329..814D} {329, 814}
+
 \bibitem[\protect\citeauthoryear{{Dwek} \& {Arendt}}{{Dwek} \&
   {Arendt}}{2015}]{Dwek2015}
 {Dwek} E.,  {Arendt} R.~G.,  2015, \mn@doi [\apj] {10.1088/0004-637X/810/1/75},
@@ -128,10 +164,20 @@ Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
 Dwek E.,  Galliano F.,   Jones A.~P.,  2007, \mn@doi [\apj] {10.1086/518430},
   662, 927
 
+\bibitem[\protect\citeauthoryear{{Dwek} et~al.,}{{Dwek}
+  et~al.}{2010}]{Dwek2010}
+{Dwek} E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/722/1/425}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...722..425D} {722, 425}
+
 \bibitem[\protect\citeauthoryear{Ellis, Phillips  \& Lahey}{Ellis
   et~al.}{1994}]{Ellis1994}
 Ellis T. M.~R.,  Phillips I.~R.,   Lahey T.~M.,  1994, Fortran 90 Programming.
 Addison-Wesley
+
+\bibitem[\protect\citeauthoryear{{Ensman} \& {Burrows}}{{Ensman} \&
+  {Burrows}}{1992}]{Ensman1992}
+{Ensman} L.,  {Burrows} A.,  1992, \mn@doi [\apj] {10.1086/171542}, \href
+  {http://adsabs.harvard.edu/abs/1992ApJ...393..742E} {393, 742}
 
 \bibitem[\protect\citeauthoryear{{Ercolano}, {Barlow}, {Storey}  \&
   {Liu}}{{Ercolano} et~al.}{2003}]{Ercolano2003}
@@ -174,8 +220,19 @@ Fransson C.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/768/1/88}, 768,
 Fransson C.,  et~al., 2014, \mn@doi [\apj] {10.1088/0004-637X/797/2/118}, 797,
   118
 
+\bibitem[\protect\citeauthoryear{{Fransson} et~al.,}{{Fransson}
+  et~al.}{2015}]{Fransson2015}
+{Fransson} C.,  et~al., 2015, \mn@doi [\apjl] {10.1088/2041-8205/806/1/L19},
+  \href {http://adsabs.harvard.edu/abs/2015ApJ...806L..19F} {806, L19}
+
 \bibitem[\protect\citeauthoryear{Gall et~al.,}{Gall et~al.}{2014}]{Gall2014}
 Gall C.,  et~al., 2014, \mn@doi [\nat] {10.1038/nature13558}, 511, 326
+
+\bibitem[\protect\citeauthoryear{{Gehrz} \& {Ney}}{{Gehrz} \&
+  {Ney}}{1987}]{Gehrz1987}
+{Gehrz} R.~D.,  {Ney} E.~P.,  1987, \mn@doi [Proceedings of the National
+  Academy of Science] {10.1073/pnas.84.20.6961}, \href
+  {http://adsabs.harvard.edu/abs/1987PNAS...84.6961G} {84, 6961}
 
 \bibitem[\protect\citeauthoryear{Gerasimovic}{Gerasimovic}{1933}]{Gerasimovic1933}
 Gerasimovic B.,  1933, Zeitschrift f\"{u}r Astrophysik, 7, 335
@@ -246,6 +303,11 @@ Hillier D.~J.,  1991, \aap, 247, 455
 Hoyle F.,  Wickramasinghe N.~C.,  1970, \mn@doi [\nat] {10.1038/226062a0}, 226,
   62
 
+\bibitem[\protect\citeauthoryear{Indebetouw et~al.,}{Indebetouw
+  et~al.}{2014}]{Indebetouw2014}
+Indebetouw R.,  et~al., 2014, \mn@doi [\apj] {10.1088/2041-8205/782/1/L2}, 782,
+  L2
+
 \bibitem[\protect\citeauthoryear{J\"{a}ger, Mutschke, Begemann, Dorschner  \&
   Henning}{J\"{a}ger et~al.}{1994}]{Jager1994}
 J\"{a}ger C.,  Mutschke H.,  Begemann B.,  Dorschner J.,   Henning T.,  1994,
@@ -255,6 +317,12 @@ J\"{a}ger C.,  Mutschke H.,  Begemann B.,  Dorschner J.,   Henning T.,  1994,
   Henning}{J\"{a}ger et~al.}{2003}]{Jager2003}
 J\"{a}ger C.,  Dorshner J.,  Mutschke H.,  Posch T.,   Henning T.,  2003,
   \mn@doi [\aap] {10.1051/0004-6361:20030916}, 408, 193
+
+\bibitem[\protect\citeauthoryear{{Kirshner}, {Sonneborn}, {Crenshaw}  \&
+  {Nassiopoulos}}{{Kirshner} et~al.}{1987}]{Kirshner1987}
+{Kirshner} R.~P.,  {Sonneborn} G.,  {Crenshaw} D.~M.,   {Nassiopoulos} G.~E.,
+  1987, \mn@doi [\apj] {10.1086/165579}, \href
+  {http://adsabs.harvard.edu/abs/1987ApJ...320..602K} {320, 602}
 
 \bibitem[\protect\citeauthoryear{Kotak et~al.,}{Kotak et~al.}{2009}]{Kotak2009}
 Kotak R.,  et~al., 2009, \mn@doi [\apj] {10.1088/0004-637X/704/1/306}, 704, 306
@@ -283,6 +351,11 @@ Kozma C.,  Fransson C.,  1998b, \mn@doi [\apj] {10.1086/305452}, 497, 431
 {Kromer} M.,  {Sim} S.~A.,  2009, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2009.15256.x}, \href
   {http://adsabs.harvard.edu/abs/2009MNRAS.398.1809K} {398, 1809}
+
+\bibitem[\protect\citeauthoryear{{Kunkel} et~al.,}{{Kunkel}
+  et~al.}{1987}]{Kunkel1987}
+{Kunkel} W.,  et~al., 1987, IAU Circ., \href
+  {http://adsabs.harvard.edu/abs/1987IAUC.4316....1K} {4316, 1}
 
 \bibitem[\protect\citeauthoryear{{Li} \& {Greenberg}}{{Li} \&
   {Greenberg}}{2003}]{Li2003}
@@ -353,13 +426,43 @@ Matsuura M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/800/1/50}, 800,
 Mauerhan J.,  Smith N.,  2012, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2012.21325.x}, 424, 2659
 
+\bibitem[\protect\citeauthoryear{{McCray}}{{McCray}}{1993}]{McCray1993}
+{McCray} R.,  1993, \mn@doi [\araa] {10.1146/annurev.aa.31.090193.001135},
+  \href {http://adsabs.harvard.edu/abs/1993ARA%26A..31..175M} {31, 175}
+
 \bibitem[\protect\citeauthoryear{McCray}{McCray}{1996}]{McCray1996}
 McCray R.,  1996, in Kuhn T.~S.,  ed., IAU Colloq. 145: Supernovae and
   Supernova Remnants. p.~223
 
+\bibitem[\protect\citeauthoryear{{McCray}}{{McCray}}{2003}]{McCray2003}
+{McCray} R.,  2003, in {Li} X.~D.,  {Trimble} V.,   {Wang} Z.~R.,  eds,  IAU
+  Symposium Vol. 214, High Energy Processes and Phenomena in Astrophysics.
+  p.~121
+
+\bibitem[\protect\citeauthoryear{McCray \& Fransson}{McCray \&
+  Fransson}{2016}]{McCray2016}
+McCray R.,  Fransson C.,  2016, \mn@doi [Annual Review of Astronomy and
+  Astrophysics] {10.1146/annurev-astro-082615-105405}, 54, null
+
+\bibitem[\protect\citeauthoryear{{Meikle}, {Allen}, {Spyromilio}  \&
+  {Varani}}{{Meikle} et~al.}{1991}]{Meikle1991}
+{Meikle} W.~P.~S.,  {Allen} D.~A.,  {Spyromilio} J.,   {Varani} G.,  1991, in
+  {Woosley} S.~E.,  ed., Supernovae. p.~102
+
+\bibitem[\protect\citeauthoryear{{Meikle}, {Spyromilio}, {Allen}, {Varani}  \&
+  {Cumming}}{{Meikle} et~al.}{1993}]{Meikle1993}
+{Meikle} W.~P.~S.,  {Spyromilio} J.,  {Allen} D.~A.,  {Varani} G.-F.,
+  {Cumming} R.~J.,  1993, \mnras, \href
+  {http://adsabs.harvard.edu/abs/1993MNRAS.261..535M} {261, 535}
+
 \bibitem[\protect\citeauthoryear{Meikle et~al.,}{Meikle
   et~al.}{2007}]{Meikle2007}
 Meikle W. P.~S.,  et~al., 2007, \mn@doi [\apj] {10.1086/519733}, 665, 608
+
+\bibitem[\protect\citeauthoryear{{Meixner} et~al.,}{{Meixner}
+  et~al.}{2013}]{Meixner2013}
+{Meixner} M.,  et~al., 2013, \mn@doi [\aj] {10.1088/0004-6256/146/3/62}, \href
+  {http://adsabs.harvard.edu/abs/2013AJ....146...62M} {146, 62}
 
 \bibitem[\protect\citeauthoryear{Metropolis \& Ulam}{Metropolis \&
   Ulam}{1949}]{Metropolis1949}
@@ -418,6 +521,16 @@ Cambridge University Press
 \bibitem[\protect\citeauthoryear{{Robitaille}}{{Robitaille}}{2011}]{Robitaille2011}
 {Robitaille} T.~P.,  2011, \mn@doi [\aap] {10.1051/0004-6361/201117150}, \href
   {http://adsabs.harvard.edu/abs/2011A%26A...536A..79R} {536, A79}
+
+\bibitem[\protect\citeauthoryear{Roche, Aitken, Smith  \& James}{Roche
+  et~al.}{1989}]{Roche1989}
+Roche P.~F.,  Aitken D.~K.,  Smith C.~H.,   James S.~D.,  1989, \mn@doi [\nat]
+  {10.1038/337533a0}, 337, 533
+
+\bibitem[\protect\citeauthoryear{{Roche}, {Aitken}  \& {Smith}}{{Roche}
+  et~al.}{1993}]{Roche1993}
+{Roche} P.~F.,  {Aitken} D.~K.,   {Smith} C.~H.,  1993, \mnras, \href
+  {http://adsabs.harvard.edu/abs/1993MNRAS.261..522R} {261, 522}
 
 \bibitem[\protect\citeauthoryear{{Sarangi} \& {Cherchneff}}{{Sarangi} \&
   {Cherchneff}}{2013}]{Sarangi2013}
@@ -523,6 +636,17 @@ Wang L.,  et~al., 1996, \mn@doi [\apj] {10.1086/177570}, 466, 998
   Gallazzi  \& Michałowski}{Watson et~al.}{2015}]{Watson2015}
 Watson D.,  Christensen L.,  Knudsen K.~K.,  Richard J.,  Gallazzi A.,
   Michałowski M.~J.,  2015, \mn@doi [\nat] {10.1038/nature14164}, 519, 327
+
+\bibitem[\protect\citeauthoryear{Wesson, Barlow, Matsuura  \& Ercolano}{Wesson
+  et~al.}{2015}]{Wesson2015}
+Wesson R.,  Barlow M.~J.,  Matsuura M.,   Ercolano B.,  2015, \mnras, 446, 2089
+  (W15)
+
+\bibitem[\protect\citeauthoryear{{Whitelock}, {Menzies}  \&
+  {Caldwell}}{{Whitelock} et~al.}{1991}]{Whitelock1991}
+{Whitelock} P.,  {Menzies} J.,   {Caldwell} J.~A.~R.,  1991, Proceedings of the
+  Astronomical Society of Australia, \href
+  {http://adsabs.harvard.edu/abs/1991PASAu...9..105W} {9, 105}
 
 \bibitem[\protect\citeauthoryear{{Wilson} et~al.,}{{Wilson}
   et~al.}{2012}]{Wilson2012}
