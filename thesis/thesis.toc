@@ -107,19 +107,19 @@
 \contentsline {section}{\numberline {3.3}Conclusions}{92}{section.3.3}
 \contentsline {chapter}{\numberline {4}The Evolution of Dust Formation in SN\nobreakspace {}1987A}{94}{chapter.4}
 \contentsline {section}{\numberline {4.1}10,000 Days of Dust}{98}{section.4.1}
-\contentsline {section}{\numberline {4.2}Spectral Observations of SN\nobreakspace {}1987A}{100}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Contamination of the H$\alpha $ profiles}{104}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{104}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{105}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{109}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.2}Spectral Observations of SN\nobreakspace {}1987A}{102}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Contamination of the H$\alpha $ profiles}{103}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{105}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{106}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{111}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{115}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{117}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{120}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{120}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}More complex models}{125}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}The effect of a grain size distribution}{127}{subsection.4.3.6}
 \contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{128}{subsection.4.3.7}
-\contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{130}{subsection.4.3.8}
-\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{135}{subsection.4.3.9}
+\contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{129}{subsection.4.3.8}
+\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{134}{subsection.4.3.9}
 \contentsline {section}{\numberline {4.4}Discussion}{136}{section.4.4}
 \contentsline {section}{\numberline {4.5}Conclusions}{140}{section.4.5}
 \contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{142}{chapter.5}

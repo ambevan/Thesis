@@ -284,6 +284,11 @@ Hanuschik R.~W.,  Spyromilio J.,  Stathakis R.,  Kimeswenger S.,  Gochermann
 \bibitem[\protect\citeauthoryear{Hastings}{Hastings}{1970}]{Hastings1970}
 Hastings W.,  1970, \mn@doi [Biometrika] {10.1093/biomet/57.1.97}, 57, 97
 
+\bibitem[\protect\citeauthoryear{{Helder} et~al.,}{{Helder}
+  et~al.}{2013}]{Helder2013}
+{Helder} E.~A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/764/1/11},
+  \href {http://adsabs.harvard.edu/abs/2013ApJ...764...11H} {764, 11}
+
 \bibitem[\protect\citeauthoryear{Hillier}{Hillier}{1991}]{Hillier1991}
 Hillier D.~J.,  1991, \aap, 247, 455
 
@@ -356,6 +361,11 @@ Kozma C.,  Fransson C.,  1998b, \mn@doi [\apj] {10.1086/305452}, 497, 431
   et~al.}{1987}]{Kunkel1987}
 {Kunkel} W.,  et~al., 1987, IAU Circ., \href
   {http://adsabs.harvard.edu/abs/1987IAUC.4316....1K} {4316, 1}
+
+\bibitem[\protect\citeauthoryear{{Larsson} et~al.,}{{Larsson}
+  et~al.}{2013}]{Larsson2013}
+{Larsson} J.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/768/1/89}, \href
+  {http://adsabs.harvard.edu/abs/2013ApJ...768...89L} {768, 89}
 
 \bibitem[\protect\citeauthoryear{{Li} \& {Greenberg}}{{Li} \&
   {Greenberg}}{2003}]{Li2003}
