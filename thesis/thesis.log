@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  4 NOV 2015 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  5 NOV 2015 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1172,44 +1172,44 @@ verted-to.pdf used on input line 236.
 <./chapters/chapter4/images/params/opt_thick_w0_6-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 277.
+(hyperref)                removing `math shift' on input line 278.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 277.
+(hyperref)                removing `subscript' on input line 278.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 277.
+(hyperref)                removing `math shift' on input line 278.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 302.
+(hyperref)                removing `math shift' on input line 303.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 302.
+(hyperref)                removing `subscript' on input line 303.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 302.
+(hyperref)                removing `subscript' on input line 303.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 302.
+(hyperref)                removing `math shift' on input line 303.
 
 [79]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 331.
+(hyperref)                removing `math shift' on input line 332.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tau' on input line 331.
+(hyperref)                removing `\tau' on input line 332.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 331.
+(hyperref)                removing `math shift' on input line 332.
 
 [80]
 Package epstopdf Info: Source file: <chapters/chapter4/images/params/D/D_all2.e
@@ -1223,7 +1223,7 @@ ps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter4/images/p
 arams/D/D_all2-eps-converted-to.pdf chapters/chapter4/images/params/D/D_all2.ep
 s>
-(epstopdf)             \includegraphics on input line 363.
+(epstopdf)             \includegraphics on input line 364.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/params/D/D_all2-eps-converted-to.pdf, id=1761, 1061.9
@@ -1233,10 +1233,10 @@ e (type pdf)
 
 <use chapters/chapter4/images/params/D/D_all2-eps-converted-to.pdf>
 Package pdftex.def Info: chapters/chapter4/images/params/D/D_all2-eps-converted
--to.pdf used on input line 363.
+-to.pdf used on input line 364.
 (pdftex.def)             Requested size: 430.60999pt x 346.6963pt.
 
-Overfull \hbox (3.81863pt too wide) in paragraph at lines 363--366
+Overfull \hbox (3.81863pt too wide) in paragraph at lines 364--367
  [][] 
  []
 
@@ -1251,7 +1251,7 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter4/images/p
 arams/C/C_all-eps-converted-to.pdf chapters/chapter4/images/params/C/C_all.eps>
 
-(epstopdf)             \includegraphics on input line 388.
+(epstopdf)             \includegraphics on input line 389.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/params/C/C_all-eps-converted-to.pdf, id=1765, 1098.10
@@ -1261,46 +1261,46 @@ File: chapters/chapter4/images/params/C/C_all-eps-converted-to.pdf Graphic file
 
 <use chapters/chapter4/images/params/C/C_all-eps-converted-to.pdf>
 Package pdftex.def Info: chapters/chapter4/images/params/C/C_all-eps-converted-
-to.pdf used on input line 388.
+to.pdf used on input line 389.
 (pdftex.def)             Requested size: 424.6983pt x 321.545pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 396.
+(hyperref)                removing `math shift' on input line 397.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\omega' on input line 396.
+(hyperref)                removing `\omega' on input line 397.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 396.
+(hyperref)                removing `math shift' on input line 397.
 
 [81 <./chapters/chapter4/images/params/D/D_all2-eps-converted-to.pdf>] [82 <./c
 hapters/chapter4/images/params/C/C_all-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 440.
+(hyperref)                removing `math shift' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 440.
+(hyperref)                removing `\rho' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\propto' on input line 440.
+(hyperref)                removing `\propto' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 440.
+(hyperref)                removing `superscript' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 440.
+(hyperref)                removing `\beta' on input line 441.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 440.
+(hyperref)                removing `math shift' on input line 441.
 
 Package epstopdf Info: Source file: <chapters/chapter4/images/Qext_grainsize_up
 to4.eps>
@@ -1313,7 +1313,7 @@ to4-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter4/images/Q
 ext_grainsize_upto4-eps-converted-to.pdf chapters/chapter4/images/Qext_grainsiz
 e_upto4.eps>
-(epstopdf)             \includegraphics on input line 458.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/Qext_grainsize_upto4-eps-converted-to.pdf, id=1808, 5
@@ -1323,7 +1323,7 @@ c file (type pdf)
 
 <use chapters/chapter4/images/Qext_grainsize_upto4-eps-converted-to.pdf>
 Package pdftex.def Info: chapters/chapter4/images/Qext_grainsize_upto4-eps-conv
-erted-to.pdf used on input line 458.
+erted-to.pdf used on input line 459.
 (pdftex.def)             Requested size: 347.7969pt x 284.56116pt.
 Package epstopdf Info: Source file: <chapters/chapter4/images/Qext_grainsize_up
 to4_log.eps>
@@ -1336,7 +1336,7 @@ to4_log-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter4/images/Q
 ext_grainsize_upto4_log-eps-converted-to.pdf chapters/chapter4/images/Qext_grai
 nsize_upto4_log.eps>
-(epstopdf)             \includegraphics on input line 462.
+(epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/Qext_grainsize_upto4_log-eps-converted-to.pdf, id=181
@@ -1346,7 +1346,7 @@ aphic file (type pdf)
 
 <use chapters/chapter4/images/Qext_grainsize_upto4_log-eps-converted-to.pdf>
 Package pdftex.def Info: chapters/chapter4/images/Qext_grainsize_upto4_log-eps-
-converted-to.pdf used on input line 462.
+converted-to.pdf used on input line 463.
 (pdftex.def)             Requested size: 347.7969pt x 284.56116pt.
 Package epstopdf Info: Source file: <chapters/chapter4/images/albedo_grainsize_
 upto4.eps>
@@ -1359,7 +1359,7 @@ upto4-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter4/images/a
 lbedo_grainsize_upto4-eps-converted-to.pdf chapters/chapter4/images/albedo_grai
 nsize_upto4.eps>
-(epstopdf)             \includegraphics on input line 475.
+(epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/albedo_grainsize_upto4-eps-converted-to.pdf, id=1828,
@@ -1369,7 +1369,7 @@ hic file (type pdf)
 
 <use chapters/chapter4/images/albedo_grainsize_upto4-eps-converted-to.pdf>
 Package pdftex.def Info: chapters/chapter4/images/albedo_grainsize_upto4-eps-co
-nverted-to.pdf used on input line 475.
+nverted-to.pdf used on input line 476.
 (pdftex.def)             Requested size: 347.7969pt x 284.56116pt.
 Package epstopdf Info: Source file: <chapters/chapter4/images/albedo_grainsize_
 upto4_log.eps>
@@ -1382,7 +1382,7 @@ upto4_log-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter4/images/a
 lbedo_grainsize_upto4_log-eps-converted-to.pdf chapters/chapter4/images/albedo_
 grainsize_upto4_log.eps>
-(epstopdf)             \includegraphics on input line 479.
+(epstopdf)             \includegraphics on input line 480.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/albedo_grainsize_upto4_log-eps-converted-to.pdf, id=1
@@ -1392,7 +1392,7 @@ Graphic file (type pdf)
 
 <use chapters/chapter4/images/albedo_grainsize_upto4_log-eps-converted-to.pdf>
 Package pdftex.def Info: chapters/chapter4/images/albedo_grainsize_upto4_log-ep
-s-converted-to.pdf used on input line 479.
+s-converted-to.pdf used on input line 480.
 (pdftex.def)             Requested size: 347.7969pt x 284.56116pt.
 
 [83] [84 <./chapters/chapter4/images/Qext_grainsize_upto4-eps-converted-to.pdf>
@@ -1414,7 +1414,7 @@ stdep/a0_001_opt_thin_HaHbPad.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/dustdep/a0_001_opt_thin_HaHbPad-eps-converted-to.pdf,
- id=1938, 562.1pt x 421.575pt>
+ id=1939, 562.1pt x 421.575pt>
 File: chapters/chapter4/images/dustdep/a0_001_opt_thin_HaHbPad-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -1443,7 +1443,7 @@ ustdep/a0_001_opt_thick_HaHbPad.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/dustdep/a0_001_opt_thick_HaHbPad-eps-converted-to.pdf
-, id=1940, 562.1pt x 421.575pt>
+, id=1941, 562.1pt x 421.575pt>
 File: chapters/chapter4/images/dustdep/a0_001_opt_thick_HaHbPad-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -1477,7 +1477,7 @@ dep/a0_1_opt_thin_HaHbPad.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/dustdep/a0_1_opt_thin_HaHbPad-eps-converted-to.pdf, i
-d=1942, 562.1pt x 421.575pt>
+d=1943, 562.1pt x 421.575pt>
 File: chapters/chapter4/images/dustdep/a0_1_opt_thin_HaHbPad-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -1506,7 +1506,7 @@ tdep/a0_1_opt_thick_HaHbPad.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/dustdep/a0_1_opt_thick_HaHbPad-eps-converted-to.pdf, 
-id=1944, 562.1pt x 421.575pt>
+id=1945, 562.1pt x 421.575pt>
 File: chapters/chapter4/images/dustdep/a0_1_opt_thick_HaHbPad-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -1540,7 +1540,7 @@ p/a1_opt_thin_HaHbPad.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/dustdep/a1_opt_thin_HaHbPad-eps-converted-to.pdf, id=
-1946, 562.1pt x 421.575pt>
+1947, 562.1pt x 421.575pt>
 File: chapters/chapter4/images/dustdep/a1_opt_thin_HaHbPad-eps-converted-to.pdf
  Graphic file (type pdf)
 
@@ -1568,7 +1568,7 @@ ep/a1_opt_thick_HaHbPad.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter4/images/dustdep/a1_opt_thick_HaHbPad-eps-converted-to.pdf, id
-=1948, 562.1pt x 421.575pt>
+=1949, 562.1pt x 421.575pt>
 File: chapters/chapter4/images/dustdep/a1_opt_thick_HaHbPad-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -1594,7 +1594,7 @@ abs_a0_001-eps-converted-to.pdf chapters/chapter4/images/Qabs_a0_001.eps>
 (epstopdf)             \includegraphics on input line 572.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter4/images/Qabs_a0_001-eps-converted-to.pdf, id=1950, 562.1pt x 
+<chapters/chapter4/images/Qabs_a0_001-eps-converted-to.pdf, id=1951, 562.1pt x 
 421.575pt>
 File: chapters/chapter4/images/Qabs_a0_001-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1619,7 +1619,7 @@ abs_a0_1-eps-converted-to.pdf chapters/chapter4/images/Qabs_a0_1.eps>
 (epstopdf)             \includegraphics on input line 578.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter4/images/Qabs_a0_1-eps-converted-to.pdf, id=1952, 562.1pt x 42
+<chapters/chapter4/images/Qabs_a0_1-eps-converted-to.pdf, id=1953, 562.1pt x 42
 1.575pt>
 File: chapters/chapter4/images/Qabs_a0_1-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1644,7 +1644,7 @@ abs_a1_0-eps-converted-to.pdf chapters/chapter4/images/Qabs_a1_0.eps>
 (epstopdf)             \includegraphics on input line 583.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter4/images/Qabs_a1_0-eps-converted-to.pdf, id=1954, 562.1pt x 42
+<chapters/chapter4/images/Qabs_a1_0-eps-converted-to.pdf, id=1955, 562.1pt x 42
 1.575pt>
 File: chapters/chapter4/images/Qabs_a1_0-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1668,7 +1668,7 @@ r4/images/Qabs_a1_0-eps-converted-to.pdf>] [89] [90] [91] [92]) [93]
 
 (./chapters/chapter5/chapter5.tex
 Chapter 4.
-<chapters/chapter5/images/87A_image.jpg, id=2223, 578.16pt x 722.7pt>
+<chapters/chapter5/images/87A_image.jpg, id=2227, 578.16pt x 722.7pt>
 File: chapters/chapter5/images/87A_image.jpg Graphic file (type jpg)
 
 <use chapters/chapter5/images/87A_image.jpg>
@@ -1681,7 +1681,7 @@ ine 20.
 
 
 ]
-<chapters/chapter5/images/HST_ring.png, id=2234, 1057.9525pt x 851.18pt>
+<chapters/chapter5/images/HST_ring.png, id=2238, 1057.9525pt x 851.18pt>
 File: chapters/chapter5/images/HST_ring.png Graphic file (type png)
 
 <use chapters/chapter5/images/HST_ring.png>
@@ -1690,14 +1690,14 @@ ne 29.
 (pdftex.def)             Requested size: 423.17351pt x 340.46596pt.
  [95 <./chapters/chapter5/images/87A_image.jpg>] [96 <./chapters/chapter5/image
 s/HST_ring.png>]
-<chapters/chapter5/images/Herschel_img.png, id=2283, 1162.3425pt x 860.21375pt>
+<chapters/chapter5/images/Herschel_img.png, id=2291, 1162.3425pt x 860.21375pt>
 File: chapters/chapter5/images/Herschel_img.png Graphic file (type png)
 <use chapters/chapter5/images/Herschel_img.png>
 Package pdftex.def Info: chapters/chapter5/images/Herschel_img.png used on inpu
 t line 45.
 (pdftex.def)             Requested size: 406.82597pt x 301.07932pt.
  [97]
-<chapters/chapter5/images/ALMA_imgs.png, id=2306, 1367.1075pt x 732.7375pt>
+<chapters/chapter5/images/ALMA_imgs.png, id=2317, 1367.1075pt x 732.7375pt>
 File: chapters/chapter5/images/ALMA_imgs.png Graphic file (type png)
 
 <use chapters/chapter5/images/ALMA_imgs.png>
@@ -1706,7 +1706,7 @@ ine 55.
 (pdftex.def)             Requested size: 423.79895pt x 227.14627pt.
  [98 <./chapters/chapter5/images/Herschel_img.png>] [99 <./chapters/chapter5/im
 ages/ALMA_imgs.png>] [100]
-<chapters/chapter5/images/Ha_evol_early_1col2.pdf, id=2400, 562.1pt x 421.575pt
+<chapters/chapter5/images/Ha_evol_early_1col2.pdf, id=2411, 562.1pt x 421.575pt
 >
 File: chapters/chapter5/images/Ha_evol_early_1col2.pdf Graphic file (type pdf)
  <use chapters/chapter5/images/Ha_evol_early_1col2.pdf>
@@ -1714,7 +1714,7 @@ Package pdftex.def Info: chapters/chapter5/images/Ha_evol_early_1col2.pdf used
 on input line 75.
 (pdftex.def)             Requested size: 334.44708pt x 277.53494pt.
  [101 <./chapters/chapter5/images/Ha_evol_early_1col2.pdf>]
-<chapters/chapter5/images/Ha_evol_late_1col.pdf, id=2430, 562.1pt x 421.575pt>
+<chapters/chapter5/images/Ha_evol_late_1col.pdf, id=2441, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/Ha_evol_late_1col.pdf Graphic file (type pdf)
 
 <use chapters/chapter5/images/Ha_evol_late_1col.pdf>
@@ -1738,7 +1738,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 ]
-<chapters/chapter5/images/smooth/d714Ha_smooth_amC_MRN.pdf, id=2549, 562.1pt x 
+<chapters/chapter5/images/smooth/d714Ha_smooth_amC_MRN.pdf, id=2557, 562.1pt x 
 421.575pt>
 File: chapters/chapter5/images/smooth/d714Ha_smooth_amC_MRN.pdf Graphic file (t
 ype pdf)
@@ -1747,15 +1747,8 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/d714Ha_smooth_amC_MRN.
 pdf used on input line 302.
 (pdftex.def)             Requested size: 320.99535pt x 264.23402pt.
 
-
-LaTeX Warning: Reference `ps' on page 106 undefined on input line 327.
-
-[106 <./chapters/chapter5/images/smooth/d714Ha_smooth_amC_MRN.pdf>]
-
-LaTeX Warning: Reference `params' on page 107 undefined on input line 393.
-
-[107]
-<chapters/chapter5/images/smooth/best_fit/d714Ha_new.pdf, id=2596, 562.1pt x 46
+[106 <./chapters/chapter5/images/smooth/d714Ha_smooth_amC_MRN.pdf>] [107]
+<chapters/chapter5/images/smooth/best_fit/d714Ha_new.pdf, id=2608, 562.1pt x 46
 7.7475pt>
 File: chapters/chapter5/images/smooth/best_fit/d714Ha_new.pdf Graphic file (typ
 e pdf)
@@ -1764,7 +1757,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d714Ha_new.pd
 f used on input line 420.
 (pdftex.def)             Requested size: 207.97374pt x 158.95132pt.
 
-<chapters/chapter5/images/smooth/best_fit/d806Ha_new.pdf, id=2598, 562.1pt x 46
+<chapters/chapter5/images/smooth/best_fit/d806Ha_new.pdf, id=2610, 562.1pt x 46
 6.74374pt>
 File: chapters/chapter5/images/smooth/best_fit/d806Ha_new.pdf Graphic file (typ
 e pdf)
@@ -1773,7 +1766,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d806Ha_new.pd
 f used on input line 421.
 (pdftex.def)             Requested size: 207.97374pt x 158.57994pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d714Ha_new.pdf, id=2600, 562.1pt x 4
+<chapters/chapter5/images/clump_1/best_fit/d714Ha_new.pdf, id=2612, 562.1pt x 4
 66.74374pt>
 File: chapters/chapter5/images/clump_1/best_fit/d714Ha_new.pdf Graphic file (ty
 pe pdf)
@@ -1782,7 +1775,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d714Ha_new.p
 df used on input line 423.
 (pdftex.def)             Requested size: 207.97374pt x 172.69247pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d806Ha_new.pdf, id=2602, 562.1pt x 4
+<chapters/chapter5/images/clump_1/best_fit/d806Ha_new.pdf, id=2614, 562.1pt x 4
 66.74374pt>
 File: chapters/chapter5/images/clump_1/best_fit/d806Ha_new.pdf Graphic file (ty
 pe pdf)
@@ -1791,8 +1784,11 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d806Ha_new.p
 df used on input line 424.
 (pdftex.def)             Requested size: 207.97374pt x 172.69247pt.
 
-[108]
-<chapters/chapter5/images/smooth/best_fit/d1862Ha.pdf, id=2621, 562.1pt x 421.5
+[108] [109 <./chapters/chapter5/images/smooth/best_fit/d714Ha_new.pdf> <./chapt
+ers/chapter5/images/smooth/best_fit/d806Ha_new.pdf> <./chapters/chapter5/images
+/clump_1/best_fit/d714Ha_new.pdf> <./chapters/chapter5/images/clump_1/best_fit/
+d806Ha_new.pdf>]
+<chapters/chapter5/images/smooth/best_fit/d1862Ha.pdf, id=2707, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/smooth/best_fit/d1862Ha.pdf Graphic file (type p
 df)
@@ -1801,7 +1797,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d1862Ha.pdf u
 sed on input line 455.
 (pdftex.def)             Requested size: 207.97374pt x 155.9803pt.
 
-<chapters/chapter5/images/smooth/best_fit/d2875Ha.pdf, id=2623, 562.1pt x 421.5
+<chapters/chapter5/images/smooth/best_fit/d2875Ha.pdf, id=2709, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/smooth/best_fit/d2875Ha.pdf Graphic file (type p
 df)
@@ -1810,7 +1806,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d2875Ha.pdf u
 sed on input line 457.
 (pdftex.def)             Requested size: 207.97374pt x 155.9803pt.
 
-<chapters/chapter5/images/smooth/best_fit/d3604Ha.pdf, id=2625, 562.1pt x 421.5
+<chapters/chapter5/images/smooth/best_fit/d3604Ha.pdf, id=2711, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/smooth/best_fit/d3604Ha.pdf Graphic file (type p
 df)
@@ -1818,11 +1814,10 @@ df)
 Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d3604Ha.pdf u
 sed on input line 459.
 (pdftex.def)             Requested size: 207.97374pt x 167.12178pt.
- [109 <./chapters/chapter5/images/smooth/best_fit/d714Ha_new.pdf> <./chapters/c
-hapter5/images/smooth/best_fit/d806Ha_new.pdf> <./chapters/chapter5/images/clum
-p_1/best_fit/d714Ha_new.pdf> <./chapters/chapter5/images/clump_1/best_fit/d806H
-a_new.pdf>]
-<chapters/chapter5/images/smooth/best_fit/d714OI.pdf, id=2706, 562.1pt x 421.57
+ [110 <./chapters/chapter5/images/smooth/best_fit/d1862Ha.pdf> <./chapters/chap
+ter5/images/smooth/best_fit/d2875Ha.pdf> <./chapters/chapter5/images/smooth/bes
+t_fit/d3604Ha.pdf>]
+<chapters/chapter5/images/smooth/best_fit/d714OI.pdf, id=2773, 562.1pt x 421.57
 5pt>
 File: chapters/chapter5/images/smooth/best_fit/d714OI.pdf Graphic file (type pd
 f)
@@ -1831,7 +1826,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d714OI.pdf us
 ed on input line 496.
 (pdftex.def)             Requested size: 207.97374pt x 143.72467pt.
 
-<chapters/chapter5/images/smooth/best_fit/d806OI_ext.pdf, id=2708, 563.10374pt 
+<chapters/chapter5/images/smooth/best_fit/d806OI_ext.pdf, id=2775, 563.10374pt 
 x 421.575pt>
 File: chapters/chapter5/images/smooth/best_fit/d806OI_ext.pdf Graphic file (typ
 e pdf)
@@ -1840,7 +1835,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d806OI_ext.pd
 f used on input line 498.
 (pdftex.def)             Requested size: 208.34512pt x 143.72467pt.
 
-<chapters/chapter5/images/smooth/best_fit/d1054OI.pdf, id=2710, 563.10374pt x 4
+<chapters/chapter5/images/smooth/best_fit/d1054OI.pdf, id=2777, 563.10374pt x 4
 21.575pt>
 File: chapters/chapter5/images/smooth/best_fit/d1054OI.pdf Graphic file (type p
 df)
@@ -1849,7 +1844,7 @@ Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d1054OI.pdf u
 sed on input line 500.
 (pdftex.def)             Requested size: 208.34512pt x 163.40796pt.
 
-<chapters/chapter5/images/smooth/best_fit/d1478OI.pdf, id=2712, 562.1pt x 421.5
+<chapters/chapter5/images/smooth/best_fit/d1478OI.pdf, id=2779, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/smooth/best_fit/d1478OI.pdf Graphic file (type p
 df)
@@ -1857,13 +1852,10 @@ df)
 Package pdftex.def Info: chapters/chapter5/images/smooth/best_fit/d1478OI.pdf u
 sed on input line 502.
 (pdftex.def)             Requested size: 207.97374pt x 163.40796pt.
- [110 <./chapters/chapter5/images/smooth/best_fit/d1862Ha.pdf> <./chapters/chap
-ter5/images/smooth/best_fit/d2875Ha.pdf> <./chapters/chapter5/images/smooth/bes
-t_fit/d3604Ha.pdf>] [111 <./chapters/chapter5/images/smooth/best_fit/d714OI.pdf
-> <./chapters/chapter5/images/smooth/best_fit/d806OI_ext.pdf> <./chapters/chapt
-er5/images/smooth/best_fit/d1054OI.pdf> <./chapters/chapter5/images/smooth/best
-_fit/d1478OI.pdf>] [112] [113] [114]
-<chapters/chapter5/images/clump_1/best_fit/d1862Ha.pdf, id=2876, 562.1pt x 421.
+ [111 <./chapters/chapter5/images/smooth/best_fit/d714OI.pdf> <./chapters/chapt
+er5/images/smooth/best_fit/d806OI_ext.pdf> <./chapters/chapter5/images/smooth/b
+est_fit/d1054OI.pdf> <./chapters/chapter5/images/smooth/best_fit/d1478OI.pdf>]
+<chapters/chapter5/images/clump_1/best_fit/d1862Ha.pdf, id=2875, 562.1pt x 421.
 575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d1862Ha.pdf Graphic file (type 
 pdf)
@@ -1872,7 +1864,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d1862Ha.pdf
 used on input line 667.
 (pdftex.def)             Requested size: 211.38889pt x 150.71242pt.
 
-<chapters/chapter5/images/clump_1/maximum/d1862Ha.pdf, id=2878, 562.1pt x 421.5
+<chapters/chapter5/images/clump_1/maximum/d1862Ha.pdf, id=2877, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/clump_1/maximum/d1862Ha.pdf Graphic file (type p
 df)
@@ -1881,7 +1873,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/maximum/d1862Ha.pdf u
 sed on input line 668.
 (pdftex.def)             Requested size: 207.47426pt x 150.71242pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d2875Ha.pdf, id=2880, 562.1pt x 421.
+<chapters/chapter5/images/clump_1/best_fit/d2875Ha.pdf, id=2879, 562.1pt x 421.
 575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d2875Ha.pdf Graphic file (type 
 pdf)
@@ -1890,7 +1882,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d2875Ha.pdf
 used on input line 670.
 (pdftex.def)             Requested size: 211.38889pt x 150.71242pt.
 
-<chapters/chapter5/images/clump_1/maximum/d2875Ha.pdf, id=2882, 562.1pt x 421.5
+<chapters/chapter5/images/clump_1/maximum/d2875Ha.pdf, id=2881, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/clump_1/maximum/d2875Ha.pdf Graphic file (type p
 df)
@@ -1899,7 +1891,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/maximum/d2875Ha.pdf u
 sed on input line 671.
 (pdftex.def)             Requested size: 207.47426pt x 150.71242pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d3604Ha.pdf, id=2884, 562.1pt x 421.
+<chapters/chapter5/images/clump_1/best_fit/d3604Ha.pdf, id=2883, 562.1pt x 421.
 575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d3604Ha.pdf Graphic file (type 
 pdf)
@@ -1908,7 +1900,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d3604Ha.pdf
 used on input line 673.
 (pdftex.def)             Requested size: 211.38889pt x 164.41357pt.
 
-<chapters/chapter5/images/clump_1/maximum/d3604Ha.pdf, id=2886, 562.1pt x 421.5
+<chapters/chapter5/images/clump_1/maximum/d3604Ha.pdf, id=2885, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/clump_1/maximum/d3604Ha.pdf Graphic file (type p
 df)
@@ -1916,15 +1908,15 @@ df)
 Package pdftex.def Info: chapters/chapter5/images/clump_1/maximum/d3604Ha.pdf u
 sed on input line 674.
 (pdftex.def)             Requested size: 207.47426pt x 164.41357pt.
- [115
+ [112] [113 <./chapters/chapter5/images/clump_1/best_fit/d1862Ha.pdf> <./chapte
+rs/chapter5/images/clump_1/maximum/d1862Ha.pdf> <./chapters/chapter5/images/clu
+mp_1/best_fit/d2875Ha.pdf> <./chapters/chapter5/images/clump_1/maximum/d2875Ha.
+pdf> <./chapters/chapter5/images/clump_1/best_fit/d3604Ha.pdf> <./chapters/chap
+ter5/images/clump_1/maximum/d3604Ha.pdf>] [114] [115] [116] [117
 
 
-] [116 <./chapters/chapter5/images/clump_1/best_fit/d1862Ha.pdf> <./chapters/ch
-apter5/images/clump_1/maximum/d1862Ha.pdf> <./chapters/chapter5/images/clump_1/
-best_fit/d2875Ha.pdf> <./chapters/chapter5/images/clump_1/maximum/d2875Ha.pdf> 
-<./chapters/chapter5/images/clump_1/best_fit/d3604Ha.pdf> <./chapters/chapter5/
-images/clump_1/maximum/d3604Ha.pdf>]
-<chapters/chapter5/images/clump_1/best_fit/d714OI_ext.pdf, id=3022, 562.1pt x 4
+]
+<chapters/chapter5/images/clump_1/best_fit/d714OI_ext.pdf, id=3038, 562.1pt x 4
 21.575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d714OI_ext.pdf Graphic file (ty
 pe pdf)
@@ -1933,7 +1925,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d714OI_ext.p
 df used on input line 743.
 (pdftex.def)             Requested size: 207.97374pt x 142.98192pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d806OI_ext.pdf, id=3024, 562.1pt x 4
+<chapters/chapter5/images/clump_1/best_fit/d806OI_ext.pdf, id=3040, 562.1pt x 4
 21.575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d806OI_ext.pdf Graphic file (ty
 pe pdf)
@@ -1942,7 +1934,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d806OI_ext.p
 df used on input line 745.
 (pdftex.def)             Requested size: 207.97374pt x 142.98192pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d1054OI.pdf, id=3026, 562.1pt x 421.
+<chapters/chapter5/images/clump_1/best_fit/d1054OI.pdf, id=3042, 562.1pt x 421.
 575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d1054OI.pdf Graphic file (type 
 pdf)
@@ -1951,7 +1943,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d1054OI.pdf
 used on input line 747.
 (pdftex.def)             Requested size: 207.97374pt x 142.98192pt.
 
-<chapters/chapter5/images/clump_1/best_fit/d1478OI.pdf, id=3028, 563.10374pt x 
+<chapters/chapter5/images/clump_1/best_fit/d1478OI.pdf, id=3044, 563.10374pt x 
 421.575pt>
 File: chapters/chapter5/images/clump_1/best_fit/d1478OI.pdf Graphic file (type 
 pdf)
@@ -1960,7 +1952,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/best_fit/d1478OI.pdf
 used on input line 749.
 (pdftex.def)             Requested size: 208.34512pt x 142.98192pt.
 
-<chapters/chapter5/images/clump_1/maximum/d714OI_ext.pdf, id=3030, 562.1pt x 42
+<chapters/chapter5/images/clump_1/maximum/d714OI_ext.pdf, id=3046, 562.1pt x 42
 1.575pt>
 File: chapters/chapter5/images/clump_1/maximum/d714OI_ext.pdf Graphic file (typ
 e pdf)
@@ -1969,7 +1961,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/maximum/d714OI_ext.pd
 f used on input line 751.
 (pdftex.def)             Requested size: 207.97374pt x 142.98192pt.
 
-<chapters/chapter5/images/clump_1/maximum/d806OI_ext.pdf, id=3032, 562.1pt x 42
+<chapters/chapter5/images/clump_1/maximum/d806OI_ext.pdf, id=3048, 562.1pt x 42
 1.575pt>
 File: chapters/chapter5/images/clump_1/maximum/d806OI_ext.pdf Graphic file (typ
 e pdf)
@@ -1978,7 +1970,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/maximum/d806OI_ext.pd
 f used on input line 753.
 (pdftex.def)             Requested size: 207.97374pt x 142.98192pt.
 
-<chapters/chapter5/images/clump_1/maximum/d1054OI.pdf, id=3034, 562.1pt x 421.5
+<chapters/chapter5/images/clump_1/maximum/d1054OI.pdf, id=3050, 562.1pt x 421.5
 75pt>
 File: chapters/chapter5/images/clump_1/maximum/d1054OI.pdf Graphic file (type p
 df)
@@ -1987,7 +1979,7 @@ Package pdftex.def Info: chapters/chapter5/images/clump_1/maximum/d1054OI.pdf u
 sed on input line 755.
 (pdftex.def)             Requested size: 207.97374pt x 155.9803pt.
 
-<chapters/chapter5/images/clump_1/maximum/d1478OI_new.pdf, id=3036, 562.1pt x 4
+<chapters/chapter5/images/clump_1/maximum/d1478OI_new.pdf, id=3052, 562.1pt x 4
 21.575pt>
 File: chapters/chapter5/images/clump_1/maximum/d1478OI_new.pdf Graphic file (ty
 pe pdf)
@@ -1999,13 +1991,6 @@ df used on input line 757.
 
 LaTeX Warning: Float too large for page by 10.35565pt on input line 763.
 
-[117] [118 <./chapters/chapter5/images/clump_1/best_fit/d714OI_ext.pdf> <./chap
-ters/chapter5/images/clump_1/best_fit/d806OI_ext.pdf> <./chapters/chapter5/imag
-es/clump_1/best_fit/d1054OI.pdf> <./chapters/chapter5/images/clump_1/best_fit/d
-1478OI.pdf> <./chapters/chapter5/images/clump_1/maximum/d714OI_ext.pdf> <./chap
-ters/chapter5/images/clump_1/maximum/d806OI_ext.pdf> <./chapters/chapter5/image
-s/clump_1/maximum/d1054OI.pdf> <./chapters/chapter5/images/clump_1/maximum/d147
-8OI_new.pdf>] [119]
 Package epstopdf Info: Source file: <chapters/chapter5/images/MSE/d714_M/d714_M
 0.eps>
 (epstopdf)                    date: 2015-11-02 18:58:05
@@ -2020,7 +2005,7 @@ _M0.eps>
 (epstopdf)             \includegraphics on input line 823.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_M/d714_M0-eps-converted-to.pdf, id=3201, 562
+<chapters/chapter5/images/MSE/d714_M/d714_M0-eps-converted-to.pdf, id=3064, 562
 .1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_M/d714_M0-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2043,7 +2028,7 @@ SE/d714_M/d714_M0_1-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_M/d7
 (epstopdf)             \includegraphics on input line 824.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_M/d714_M0_1-eps-converted-to.pdf, id=3203, 5
+<chapters/chapter5/images/MSE/d714_M/d714_M0_1-eps-converted-to.pdf, id=3066, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_M/d714_M0_1-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2066,7 +2051,7 @@ SE/d714_M/d714_M0_5-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_M/d7
 (epstopdf)             \includegraphics on input line 826.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_M/d714_M0_5-eps-converted-to.pdf, id=3205, 5
+<chapters/chapter5/images/MSE/d714_M/d714_M0_5-eps-converted-to.pdf, id=3068, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_M/d714_M0_5-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2089,7 +2074,7 @@ _M1.eps>
 (epstopdf)             \includegraphics on input line 827.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_M/d714_M1-eps-converted-to.pdf, id=3207, 562
+<chapters/chapter5/images/MSE/d714_M/d714_M1-eps-converted-to.pdf, id=3070, 562
 .1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_M/d714_M1-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2112,7 +2097,7 @@ _M2.eps>
 (epstopdf)             \includegraphics on input line 829.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_M/d714_M2-eps-converted-to.pdf, id=3209, 562
+<chapters/chapter5/images/MSE/d714_M/d714_M2-eps-converted-to.pdf, id=3072, 562
 .1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_M/d714_M2-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2135,7 +2120,7 @@ SE/d714_M/d714_M10-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_M/d71
 (epstopdf)             \includegraphics on input line 830.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_M/d714_M10-eps-converted-to.pdf, id=3211, 56
+<chapters/chapter5/images/MSE/d714_M/d714_M10-eps-converted-to.pdf, id=3074, 56
 2.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_M/d714_M10-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2158,7 +2143,7 @@ SE/d2875_M/d2875_M0-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_M/d
 (epstopdf)             \includegraphics on input line 838.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_M/d2875_M0-eps-converted-to.pdf, id=3215, 5
+<chapters/chapter5/images/MSE/d2875_M/d2875_M0-eps-converted-to.pdf, id=3078, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_M/d2875_M0-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2181,7 +2166,7 @@ SE/d2875_M/d2875_M0_1-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_M
 (epstopdf)             \includegraphics on input line 839.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_M/d2875_M0_1-eps-converted-to.pdf, id=3217,
+<chapters/chapter5/images/MSE/d2875_M/d2875_M0_1-eps-converted-to.pdf, id=3080,
  562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_M/d2875_M0_1-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2204,7 +2189,7 @@ SE/d2875_M/d2875_M0_5-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_M
 (epstopdf)             \includegraphics on input line 841.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_M/d2875_M0_5-eps-converted-to.pdf, id=3219,
+<chapters/chapter5/images/MSE/d2875_M/d2875_M0_5-eps-converted-to.pdf, id=3082,
  562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_M/d2875_M0_5-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2227,7 +2212,7 @@ SE/d2875_M/d2875_M1-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_M/d
 (epstopdf)             \includegraphics on input line 842.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_M/d2875_M1-eps-converted-to.pdf, id=3221, 5
+<chapters/chapter5/images/MSE/d2875_M/d2875_M1-eps-converted-to.pdf, id=3084, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_M/d2875_M1-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2250,7 +2235,7 @@ SE/d2875_M/d2875_M2-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_M/d
 (epstopdf)             \includegraphics on input line 844.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_M/d2875_M2-eps-converted-to.pdf, id=3223, 5
+<chapters/chapter5/images/MSE/d2875_M/d2875_M2-eps-converted-to.pdf, id=3086, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_M/d2875_M2-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2273,7 +2258,7 @@ d2875_M10.eps>
 (epstopdf)             \includegraphics on input line 845.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_M/d2875_M10-eps-converted-to.pdf, id=3225, 
+<chapters/chapter5/images/MSE/d2875_M/d2875_M10-eps-converted-to.pdf, id=3088, 
 562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_M/d2875_M10-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2296,7 +2281,7 @@ SE/d714_B/d714_B1_0-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_B/d7
 (epstopdf)             \includegraphics on input line 852.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_B/d714_B1_0-eps-converted-to.pdf, id=3229, 5
+<chapters/chapter5/images/MSE/d714_B/d714_B1_0-eps-converted-to.pdf, id=3092, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_B/d714_B1_0-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2319,7 +2304,7 @@ SE/d714_B/d714_B1_2-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_B/d7
 (epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_B/d714_B1_2-eps-converted-to.pdf, id=3231, 5
+<chapters/chapter5/images/MSE/d714_B/d714_B1_2-eps-converted-to.pdf, id=3094, 5
 63.10374pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_B/d714_B1_2-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2342,7 +2327,7 @@ SE/d714_B/d714_B1_4-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_B/d7
 (epstopdf)             \includegraphics on input line 855.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_B/d714_B1_4-eps-converted-to.pdf, id=3233, 5
+<chapters/chapter5/images/MSE/d714_B/d714_B1_4-eps-converted-to.pdf, id=3096, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_B/d714_B1_4-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2365,7 +2350,7 @@ SE/d714_B/d714_B1_6-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_B/d7
 (epstopdf)             \includegraphics on input line 856.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_B/d714_B1_6-eps-converted-to.pdf, id=3235, 5
+<chapters/chapter5/images/MSE/d714_B/d714_B1_6-eps-converted-to.pdf, id=3098, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_B/d714_B1_6-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2388,7 +2373,7 @@ SE/d714_B/d714_B1_8-eps-converted-to.pdf chapters/chapter5/images/MSE/d714_B/d7
 (epstopdf)             \includegraphics on input line 858.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d714_B/d714_B1_8-eps-converted-to.pdf, id=3237, 5
+<chapters/chapter5/images/MSE/d714_B/d714_B1_8-eps-converted-to.pdf, id=3100, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d714_B/d714_B1_8-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2411,7 +2396,7 @@ SE/d2875_B/d2875_B1_6-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_B
 (epstopdf)             \includegraphics on input line 866.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_B/d2875_B1_6-eps-converted-to.pdf, id=3241,
+<chapters/chapter5/images/MSE/d2875_B/d2875_B1_6-eps-converted-to.pdf, id=3104,
  562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_B/d2875_B1_6-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2434,7 +2419,7 @@ SE/d2875_B/d2875_B1_8-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_B
 (epstopdf)             \includegraphics on input line 867.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_B/d2875_B1_8-eps-converted-to.pdf, id=3243,
+<chapters/chapter5/images/MSE/d2875_B/d2875_B1_8-eps-converted-to.pdf, id=3106,
  562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_B/d2875_B1_8-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2457,7 +2442,7 @@ SE/d2875_B/d2875_B2-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_B/d
 (epstopdf)             \includegraphics on input line 869.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_B/d2875_B2-eps-converted-to.pdf, id=3245, 5
+<chapters/chapter5/images/MSE/d2875_B/d2875_B2-eps-converted-to.pdf, id=3108, 5
 62.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_B/d2875_B2-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2480,7 +2465,7 @@ SE/d2875_B/d2875_B2_2-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_B
 (epstopdf)             \includegraphics on input line 870.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_B/d2875_B2_2-eps-converted-to.pdf, id=3247,
+<chapters/chapter5/images/MSE/d2875_B/d2875_B2_2-eps-converted-to.pdf, id=3110,
  562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_B/d2875_B2_2-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2503,7 +2488,7 @@ SE/d2875_B/d2875_B2_4-eps-converted-to.pdf chapters/chapter5/images/MSE/d2875_B
 (epstopdf)             \includegraphics on input line 872.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/MSE/d2875_B/d2875_B2_4-eps-converted-to.pdf, id=3249,
+<chapters/chapter5/images/MSE/d2875_B/d2875_B2_4-eps-converted-to.pdf, id=3112,
  562.1pt x 421.575pt>
 File: chapters/chapter5/images/MSE/d2875_B/d2875_B2_4-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2513,31 +2498,37 @@ Package pdftex.def Info: chapters/chapter5/images/MSE/d2875_B/d2875_B2_4-eps-co
 nverted-to.pdf used on input line 872.
 (pdftex.def)             Requested size: 214.93878pt x 181.27371pt.
 
-[120
+[118] [119 <./chapters/chapter5/images/clump_1/best_fit/d714OI_ext.pdf> <./chap
+ters/chapter5/images/clump_1/best_fit/d806OI_ext.pdf> <./chapters/chapter5/imag
+es/clump_1/best_fit/d1054OI.pdf> <./chapters/chapter5/images/clump_1/best_fit/d
+1478OI.pdf> <./chapters/chapter5/images/clump_1/maximum/d714OI_ext.pdf> <./chap
+ters/chapter5/images/clump_1/maximum/d806OI_ext.pdf> <./chapters/chapter5/image
+s/clump_1/maximum/d1054OI.pdf> <./chapters/chapter5/images/clump_1/maximum/d147
+8OI_new.pdf>] [120 <./chapters/chapter5/images/MSE/d714_M/d714_M0-eps-converted
+-to.pdf> <./chapters/chapter5/images/MSE/d714_M/d714_M0_1-eps-converted-to.pdf>
+ <./chapters/chapter5/images/MSE/d714_M/d714_M0_5-eps-converted-to.pdf> <./chap
+ters/chapter5/images/MSE/d714_M/d714_M1-eps-converted-to.pdf> <./chapters/chapt
+er5/images/MSE/d714_M/d714_M2-eps-converted-to.pdf> <./chapters/chapter5/images
+/MSE/d714_M/d714_M10-eps-converted-to.pdf>] [121 <./chapters/chapter5/images/MS
+E/d2875_M/d2875_M0-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_
+M/d2875_M0_1-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d287
+5_M0_5-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M1-e
+ps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M2-eps-conve
+rted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M10-eps-converted-to
+.pdf>] [122 <./chapters/chapter5/images/MSE/d714_B/d714_B1_0-eps-converted-to.p
+df> <./chapters/chapter5/images/MSE/d714_B/d714_B1_2-eps-converted-to.pdf> <./c
+hapters/chapter5/images/MSE/d714_B/d714_B1_4-eps-converted-to.pdf> <./chapters/
+chapter5/images/MSE/d714_B/d714_B1_6-eps-converted-to.pdf> <./chapters/chapter5
+/images/MSE/d714_B/d714_B1_8-eps-converted-to.pdf>] [123 <./chapters/chapter5/i
+mages/MSE/d2875_B/d2875_B1_6-eps-converted-to.pdf> <./chapters/chapter5/images/
+MSE/d2875_B/d2875_B1_8-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2
+875_B/d2875_B2-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_B/d2
+875_B2_2-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_B/d2875_B2
+_4-eps-converted-to.pdf>] [124] [125
 
 
-] [121 <./chapters/chapter5/images/MSE/d714_M/d714_M0-eps-converted-to.pdf> <./
-chapters/chapter5/images/MSE/d714_M/d714_M0_1-eps-converted-to.pdf> <./chapters
-/chapter5/images/MSE/d714_M/d714_M0_5-eps-converted-to.pdf> <./chapters/chapter
-5/images/MSE/d714_M/d714_M1-eps-converted-to.pdf> <./chapters/chapter5/images/M
-SE/d714_M/d714_M2-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d714_M/
-d714_M10-eps-converted-to.pdf>] [122 <./chapters/chapter5/images/MSE/d2875_M/d2
-875_M0-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M0_1
--eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M0_5-eps-c
-onverted-to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M1-eps-converted
--to.pdf> <./chapters/chapter5/images/MSE/d2875_M/d2875_M2-eps-converted-to.pdf>
- <./chapters/chapter5/images/MSE/d2875_M/d2875_M10-eps-converted-to.pdf>]
-[123 <./chapters/chapter5/images/MSE/d714_B/d714_B1_0-eps-converted-to.pdf> <./
-chapters/chapter5/images/MSE/d714_B/d714_B1_2-eps-converted-to.pdf> <./chapters
-/chapter5/images/MSE/d714_B/d714_B1_4-eps-converted-to.pdf> <./chapters/chapter
-5/images/MSE/d714_B/d714_B1_6-eps-converted-to.pdf> <./chapters/chapter5/images
-/MSE/d714_B/d714_B1_8-eps-converted-to.pdf>] [124 <./chapters/chapter5/images/M
-SE/d2875_B/d2875_B1_6-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d28
-75_B/d2875_B1_8-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_B/d
-2875_B2-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_B/d2875_B2_
-2-eps-converted-to.pdf> <./chapters/chapter5/images/MSE/d2875_B/d2875_B2_4-eps-
-converted-to.pdf>] [125]
-<chapters/chapter5/images/HaOImod_Ha.pdf, id=3789, 562.1pt x 421.575pt>
+]
+<chapters/chapter5/images/HaOImod_Ha.pdf, id=3801, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/HaOImod_Ha.pdf Graphic file (type pdf)
 
 <use chapters/chapter5/images/HaOImod_Ha.pdf>
@@ -2545,15 +2536,15 @@ Package pdftex.def Info: chapters/chapter5/images/HaOImod_Ha.pdf used on input
 line 905.
 (pdftex.def)             Requested size: 203.55963pt x 156.58434pt.
 
-<chapters/chapter5/images/HaOImod_OI.pdf, id=3791, 562.1pt x 421.575pt>
+<chapters/chapter5/images/HaOImod_OI.pdf, id=3803, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/HaOImod_OI.pdf Graphic file (type pdf)
 
 <use chapters/chapter5/images/HaOImod_OI.pdf>
 Package pdftex.def Info: chapters/chapter5/images/HaOImod_OI.pdf used on input 
 line 906.
 (pdftex.def)             Requested size: 203.55963pt x 156.58434pt.
- [126 <./chapters/chapter5/images/HaOImod_Ha.pdf> <./chapters/chapter5/images/H
-aOImod_OI.pdf>] [127] [128]
+ [126] [127 <./chapters/chapter5/images/HaOImod_Ha.pdf> <./chapters/chapter5/im
+ages/HaOImod_OI.pdf>] [128]
 Package epstopdf Info: Source file: <chapters/chapter5/images/silicates_take2/c
 omposite_Dwek_Ha2.eps>
 (epstopdf)                    date: 2015-11-04 19:06:46
@@ -2569,7 +2560,7 @@ ilicates_take2/composite_Dwek_Ha2-eps-converted-to.pdf chapters/chapter5/images
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter5/images/silicates_take2/composite_Dwek_Ha2-eps-converted-to.p
-df, id=3864, 562.1pt x 421.575pt>
+df, id=3876, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/silicates_take2/composite_Dwek_Ha2-eps-converted
 -to.pdf Graphic file (type pdf)
 
@@ -2593,7 +2584,7 @@ ges/silicates_take2/composite_bestfit_Ha2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter5/images/silicates_take2/composite_bestfit_Ha2-eps-converted-t
-o.pdf, id=3866, 562.1pt x 421.575pt>
+o.pdf, id=3878, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/silicates_take2/composite_bestfit_Ha2-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -2603,7 +2594,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/composite_bes
 tfit_Ha2-eps-converted-to.pdf used on input line 1077.
 (pdftex.def)             Requested size: 190.41422pt x 140.52708pt.
 
-<chapters/chapter5/images/silicates_take2/MgSiO3_Dwek_Ha.pdf, id=3868, 503.8825
+<chapters/chapter5/images/silicates_take2/MgSiO3_Dwek_Ha.pdf, id=3880, 503.8825
 pt x 412.54124pt>
 File: chapters/chapter5/images/silicates_take2/MgSiO3_Dwek_Ha.pdf Graphic file 
 (type pdf)
@@ -2613,7 +2604,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/MgSiO3_Dwek_H
 a.pdf used on input line 1079.
 (pdftex.def)             Requested size: 171.31778pt x 130.02403pt.
 
-<chapters/chapter5/images/silicates_take2/MgSiO3_bestfit_Ha.pdf, id=3870, 503.8
+<chapters/chapter5/images/silicates_take2/MgSiO3_bestfit_Ha.pdf, id=3882, 503.8
 825pt x 413.545pt>
 File: chapters/chapter5/images/silicates_take2/MgSiO3_bestfit_Ha.pdf Graphic fi
 le (type pdf)
@@ -2623,7 +2614,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/MgSiO3_bestfi
 t_Ha.pdf used on input line 1081.
 (pdftex.def)             Requested size: 171.31778pt x 133.77802pt.
 
-<chapters/chapter5/images/silicates_take2/AmC_Dwek_Ha.pdf, id=3872, 503.8825pt 
+<chapters/chapter5/images/silicates_take2/AmC_Dwek_Ha.pdf, id=3884, 503.8825pt 
 x 413.545pt>
 File: chapters/chapter5/images/silicates_take2/AmC_Dwek_Ha.pdf Graphic file (ty
 pe pdf)
@@ -2632,7 +2623,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/AmC_Dwek_Ha.p
 df used on input line 1083.
 (pdftex.def)             Requested size: 171.31778pt x 130.3653pt.
 
-<chapters/chapter5/images/silicates_take2/AmC_bestfit_Ha.pdf, id=3874, 503.8825
+<chapters/chapter5/images/silicates_take2/AmC_bestfit_Ha.pdf, id=3886, 503.8825
 pt x 411.5375pt>
 File: chapters/chapter5/images/silicates_take2/AmC_bestfit_Ha.pdf Graphic file 
 (type pdf)
@@ -2642,7 +2633,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/AmC_bestfit_H
 a.pdf used on input line 1085.
 (pdftex.def)             Requested size: 171.31778pt x 133.09547pt.
 
-<chapters/chapter5/images/silicates_take2/MgFeSiO4_Dwek_Ha.pdf, id=3876, 503.88
+<chapters/chapter5/images/silicates_take2/MgFeSiO4_Dwek_Ha.pdf, id=3888, 503.88
 25pt x 409.53pt>
 File: chapters/chapter5/images/silicates_take2/MgFeSiO4_Dwek_Ha.pdf Graphic fil
 e (type pdf)
@@ -2652,7 +2643,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/MgFeSiO4_Dwek
 _Ha.pdf used on input line 1087.
 (pdftex.def)             Requested size: 171.31778pt x 139.23834pt.
 
-<chapters/chapter5/images/silicates_take2/MgFeSiO4_bestfit_Ha.pdf, id=3878, 503
+<chapters/chapter5/images/silicates_take2/MgFeSiO4_bestfit_Ha.pdf, id=3890, 503
 .8825pt x 411.5375pt>
 File: chapters/chapter5/images/silicates_take2/MgFeSiO4_bestfit_Ha.pdf Graphic 
 file (type pdf)
@@ -2708,7 +2699,7 @@ silicates_take2/OI/composit_Dwek2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter5/images/silicates_take2/OI/composit_Dwek2-eps-converted-to.pd
-f, id=3894, 562.1pt x 421.575pt>
+f, id=3906, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/silicates_take2/OI/composit_Dwek2-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -2732,7 +2723,7 @@ es/silicates_take2/OI/composit_bestfit2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter5/images/silicates_take2/OI/composit_bestfit2-eps-converted-to
-.pdf, id=3896, 562.1pt x 421.575pt>
+.pdf, id=3908, 562.1pt x 421.575pt>
 File: chapters/chapter5/images/silicates_take2/OI/composit_bestfit2-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -2742,7 +2733,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/OI/composit_b
 estfit2-eps-converted-to.pdf used on input line 1122.
 (pdftex.def)             Requested size: 185.49358pt x 137.46397pt.
 
-<chapters/chapter5/images/silicates_take2/OI/MgSiO3_Dwek.pdf, id=3898, 522.9537
+<chapters/chapter5/images/silicates_take2/OI/MgSiO3_Dwek.pdf, id=3910, 522.9537
 5pt x 403.5075pt>
 File: chapters/chapter5/images/silicates_take2/OI/MgSiO3_Dwek.pdf Graphic file 
 (type pdf)
@@ -2752,7 +2743,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/OI/MgSiO3_Dwe
 k.pdf used on input line 1124.
 (pdftex.def)             Requested size: 171.58904pt x 121.35191pt.
 
-<chapters/chapter5/images/silicates_take2/OI/MgSiO3_bestfit.pdf, id=3900, 522.9
+<chapters/chapter5/images/silicates_take2/OI/MgSiO3_bestfit.pdf, id=3912, 522.9
 5375pt x 403.5075pt>
 File: chapters/chapter5/images/silicates_take2/OI/MgSiO3_bestfit.pdf Graphic fi
 le (type pdf)
@@ -2762,7 +2753,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/OI/MgSiO3_bes
 tfit.pdf used on input line 1126.
 (pdftex.def)             Requested size: 178.11334pt x 129.50731pt.
 
-<chapters/chapter5/images/silicates_take2/OI/AmC_Dwek.pdf, id=3902, 522.95375pt
+<chapters/chapter5/images/silicates_take2/OI/AmC_Dwek.pdf, id=3914, 522.95375pt
  x 403.5075pt>
 File: chapters/chapter5/images/silicates_take2/OI/AmC_Dwek.pdf Graphic file (ty
 pe pdf)
@@ -2771,7 +2762,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/OI/AmC_Dwek.p
 df used on input line 1128.
 (pdftex.def)             Requested size: 180.85625pt x 123.2207pt.
 
-<chapters/chapter5/images/silicates_take2/OI/AmC_bestfit.pdf, id=3904, 562.1pt 
+<chapters/chapter5/images/silicates_take2/OI/AmC_bestfit.pdf, id=3916, 562.1pt 
 x 421.575pt>
 File: chapters/chapter5/images/silicates_take2/OI/AmC_bestfit.pdf Graphic file 
 (type pdf)
@@ -2780,7 +2771,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/OI/AmC_bestfi
 t.pdf used on input line 1130.
 (pdftex.def)             Requested size: 185.49358pt x 137.46397pt.
 
-<chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_Dwek.pdf, id=3906, 522.95
+<chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_Dwek.pdf, id=3918, 522.95
 375pt x 403.5075pt>
 File: chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_Dwek.pdf Graphic fil
 e (type pdf)
@@ -2790,7 +2781,7 @@ Package pdftex.def Info: chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_D
 wek.pdf used on input line 1132.
 (pdftex.def)             Requested size: 180.85625pt x 133.15788pt.
 
-<chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_bestfit.pdf, id=3908, 562
+<chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_bestfit.pdf, id=3920, 562
 .1pt x 421.575pt>
 File: chapters/chapter5/images/silicates_take2/OI/MgFeSiO4_bestfit.pdf Graphic 
 file (type pdf)
@@ -2818,14 +2809,14 @@ _bestfit.pdf> <./chapters/chapter5/images/silicates_take2/OI/AmC_Dwek.pdf> <./c
 hapters/chapter5/images/silicates_take2/OI/AmC_bestfit.pdf> <./chapters/chapter
 5/images/silicates_take2/OI/MgFeSiO4_Dwek.pdf> <./chapters/chapter5/images/sili
 cates_take2/OI/MgFeSiO4_bestfit.pdf>] [132] [133]
-<chapters/chapter5/images/undep_fluxes_Ha.pdf, id=4373, 590.205pt x 487.8225pt>
+<chapters/chapter5/images/undep_fluxes_Ha.pdf, id=4386, 590.205pt x 487.8225pt>
 File: chapters/chapter5/images/undep_fluxes_Ha.pdf Graphic file (type pdf)
 <use chapters/chapter5/images/undep_fluxes_Ha.pdf>
 Package pdftex.def Info: chapters/chapter5/images/undep_fluxes_Ha.pdf used on i
 nput line 1252.
 (pdftex.def)             Requested size: 354.12573pt x 292.69576pt.
 
-<chapters/chapter5/images/undep_lum_OI.pdf, id=4375, 571.13374pt x 481.8pt>
+<chapters/chapter5/images/undep_lum_OI.pdf, id=4388, 571.13374pt x 481.8pt>
 File: chapters/chapter5/images/undep_lum_OI.pdf Graphic file (type pdf)
 
 <use chapters/chapter5/images/undep_lum_OI.pdf>
@@ -2847,7 +2838,7 @@ dust_evol7-eps-converted-to.pdf chapters/chapter5/images/Mdust_evol7.eps>
 (epstopdf)             \includegraphics on input line 1369.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter5/images/Mdust_evol7-eps-converted-to.pdf, id=4464, 1078.0275p
+<chapters/chapter5/images/Mdust_evol7-eps-converted-to.pdf, id=4476, 1078.0275p
 t x 692.5875pt>
 File: chapters/chapter5/images/Mdust_evol7-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2856,9 +2847,9 @@ ype pdf)
 Package pdftex.def Info: chapters/chapter5/images/Mdust_evol7-eps-converted-to.
 pdf used on input line 1369.
 (pdftex.def)             Requested size: 424.33025pt x 300.12485pt.
- [137 <./chapters/chapter5/images/Mdust_evol7-eps-converted-to.pdf>] [138] [139
+ [137] [138 <./chapters/chapter5/images/Mdust_evol7-eps-converted-to.pdf>] [139
 ] [140])
-[141]
+[141] [142]
 :<-
 :<+ chapters/chapter6/chapter6.tex
 \openout2 = `chapters/chapter6/chapter6.aux'.
@@ -2877,7 +2868,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter6/figs/80K/Ha_31y-eps-converted-to.pdf, id=4545, 562.1pt x 421
+<chapters/chapter6/figs/80K/Ha_31y-eps-converted-to.pdf, id=4560, 562.1pt x 421
 .575pt>
 File: chapters/chapter6/figs/80K/Ha_31y-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2897,7 +2888,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter6/figs/80K/OI_31y-eps-converted-to.pdf, id=4547, 562.1pt x 421
+<chapters/chapter6/figs/80K/OI_31y-eps-converted-to.pdf, id=4562, 562.1pt x 421
 .575pt>
 File: chapters/chapter6/figs/80K/OI_31y-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2923,7 +2914,7 @@ us/Ha_31y.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter6/figs/80K/simultaneous/Ha_31y-eps-converted-to.pdf, id=4549, 
+<chapters/chapter6/figs/80K/simultaneous/Ha_31y-eps-converted-to.pdf, id=4564, 
 563.10374pt x 421.575pt>
 File: chapters/chapter6/figs/80K/simultaneous/Ha_31y-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2946,7 +2937,7 @@ us/OI_31y.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter6/figs/80K/simultaneous/OI_31y-eps-converted-to.pdf, id=4551, 
+<chapters/chapter6/figs/80K/simultaneous/OI_31y-eps-converted-to.pdf, id=4566, 
 563.10374pt x 421.575pt>
 File: chapters/chapter6/figs/80K/simultaneous/OI_31y-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -2959,13 +2950,13 @@ verted-to.pdf used on input line 30.
 
 LaTeX Warning: Float too large for page by 6.46017pt on input line 33.
 
-) [142
+) [143
 
 
 
 
-] [143 <./chapters/chapter6/figs/80K/Ha_31y-eps-converted-to.pdf> <./chapters/c
-hapter6/figs/80K/OI_31y-eps-converted-to.pdf>] [144 <./chapters/chapter6/figs/8
+] [144 <./chapters/chapter6/figs/80K/Ha_31y-eps-converted-to.pdf> <./chapters/c
+hapter6/figs/80K/OI_31y-eps-converted-to.pdf>] [145 <./chapters/chapter6/figs/8
 0K/simultaneous/Ha_31y-eps-converted-to.pdf> <./chapters/chapter6/figs/80K/simu
 ltaneous/OI_31y-eps-converted-to.pdf>]
 :<-
@@ -2974,7 +2965,7 @@ ltaneous/OI_31y-eps-converted-to.pdf>]
 
 (./chapters/chapter7/chapter7.tex
 Chapter 6.
-) [145
+) [146
 
 
 
@@ -2982,26 +2973,26 @@ Chapter 6.
 ]
 :<-
 :<+ thesis.bbl
-(./thesis.bbl [146
+(./thesis.bbl [147
 
 
-] [147]
+] [148]
 Missing character: There is no í in font cmr10!
 Missing character: There is no í in font cmr10!
- [148] [149] [150] [151]
+ [149] [150] [151] [152]
 Missing character: There is no Å in font cmr10!
 Missing character: There is no ‚ in font cmr10!
+ [153]
 
+Package hyperref Warning: Suppressing empty link on input line 675.
 
-Package hyperref Warning: Suppressing empty link on input line 664.
-
-[152])
+)
 :<-
-[153]
+[154]
 :<+ back/backquote.tex
 \openout2 = `back/backquote.aux'.
 
-(./back/backquote.tex) [154
+(./back/backquote.tex) [155
 
 
 
@@ -3018,7 +3009,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 328.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 328.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 328.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6CCDC5413041FFF250961C8055D988B7;5854.
+(rerunfilecheck)             Checksum: B068C268A18A0977B6939686608FEAF4;5856.
 
 
 LaTeX Warning: There were undefined references.
@@ -3029,13 +3020,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 328.
  ) 
 Here is how much of TeX's memory you used:
- 11301 strings out of 493117
- 186060 string characters out of 6135433
- 322828 words of memory out of 5000000
- 13814 multiletter control sequences out of 15000+600000
+ 11309 strings out of 493117
+ 186235 string characters out of 6135433
+ 323422 words of memory out of 5000000
+ 13819 multiletter control sequences out of 15000+600000
  18797 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,45p,2315b,705s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,45p,2317b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy
 8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -3059,10 +3050,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (155 pages, 13318348 bytes).
+Output written on thesis.pdf (156 pages, 13319443 bytes).
 PDF statistics:
- 5018 PDF objects out of 5155 (max. 8388607)
- 4010 compressed objects within 41 object streams
- 536 named destinations out of 1000 (max. 500000)
+ 5032 PDF objects out of 5155 (max. 8388607)
+ 4023 compressed objects within 41 object streams
+ 539 named destinations out of 1000 (max. 500000)
  1846 words of extra memory for PDF output out of 10000 (max. 10000000)
 

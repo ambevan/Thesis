@@ -21,8 +21,7 @@
   et~al.}{2002}]{Manuel2002}
 Ahmad I.,  Greene J.,  Kutschera W.,   Paul M.,  2002, in Manuel O.,  ed., ,
   Origin of Elements in the Solar System.
-Springer US, pp 203--210, \mn@doi{10.1007/0-306-46927-8_17}, \url
-  {http://dx.doi.org/10.1007/0-306-46927-8_17}
+Springer US, pp 203--210, \mn@doi{10.1007/0-306-46927-8_17}
 
 \bibitem[\protect\citeauthoryear{Andrews et~al.,}{Andrews
   et~al.}{2010}]{Andrews2010}
@@ -205,6 +204,11 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
   et~al.}{2013}]{Ferland2013}
 {Ferland} G.~J.,  et~al., 2013, Revista Mexicana de Astronomía y Astrofísica,
   \href {http://adsabs.harvard.edu/abs/2013RMxAA..49..137F} {49, 137}
+
+\bibitem[\protect\citeauthoryear{Fitzpatrick, Morris  \&
+  Podsiadlowski}{Fitzpatrick et~al.}{2013}]{Fitzpatrick2013}
+Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
+  Environmental Impacts. pp 328--329, \mn@doi{10.1017/S1743921313009666}
 
 \bibitem[\protect\citeauthoryear{Fransson \& Kozma}{Fransson \&
   Kozma}{1993}]{Fransson1993}
@@ -493,6 +497,13 @@ Milisavljevic D.,  Fesen R.~A.,  Chevalier R.~A.,  Kirshner R.~P.,  Challis P.,
   Edmunds}{2003}]{Morgan2003}
 Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
   {10.1046/j.1365-8711.2003.06681.x}, 343, 427
+
+\bibitem[\protect\citeauthoryear{{Morris} \& {Podsiadlowski}}{{Morris} \&
+  {Podsiadlowski}}{2005}]{Morris2005}
+{Morris} T.,  {Podsiadlowski} P.,  2005, in {Turatto} M.,  {Benetti} S.,
+  {Zampieri} L.,   {Shea} W.,  eds,  Astronomical Society of the Pacific
+  Conference Series Vol. 342, 1604-2004: Supernovae as Cosmological
+  Lighthouses. p.~194
 
 \bibitem[\protect\citeauthoryear{{Nozawa}, {Kozasa}, {Umeda}, {Maeda}  \&
   {Nomoto}}{{Nozawa} et~al.}{2003}]{Nozawa2003}

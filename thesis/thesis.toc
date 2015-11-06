@@ -96,7 +96,7 @@
 \contentsline {subsection}{\numberline {3.2.1}The maximum line velocity, $V_{max}$}{79}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}The ejecta radius ratio, $R_{in}/R_{out}$}{79}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}The dust optical depth, $\tau $}{80}{subsection.3.2.3}
-\contentsline {subsubsection}{The complete nebula case}{81}{section*.72}
+\contentsline {subsubsection}{The completely filled nebula case}{81}{section*.72}
 \contentsline {subsection}{\numberline {3.2.4}The dust albedo, $\omega $}{82}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}The dust density profile, $\rho \propto r^{-2\beta }$}{83}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {3.2.6}Inferring properties of the dust from the models}{86}{subsection.3.2.6}
@@ -112,19 +112,19 @@
 \contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{105}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{106}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{111}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{115}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{120}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{120}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{112}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{118}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{125}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}More complex models}{125}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}The effect of a grain size distribution}{127}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}The effect of a grain radius distribution}{127}{subsection.4.3.6}
 \contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{128}{subsection.4.3.7}
 \contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{129}{subsection.4.3.8}
 \contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{134}{subsection.4.3.9}
 \contentsline {section}{\numberline {4.4}Discussion}{136}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusions}{140}{section.4.5}
-\contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{142}{chapter.5}
-\contentsline {section}{\numberline {5.1}SN 1980K}{142}{section.5.1}
-\contentsline {section}{\numberline {5.2}SN 1993J}{142}{section.5.2}
-\contentsline {section}{\numberline {5.3}Cassiopeia A}{142}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{145}{chapter.6}
-\contentsline {chapter}{Bibliography}{146}{chapter.6}
+\contentsline {section}{\numberline {4.5}Conclusions}{141}{section.4.5}
+\contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{143}{chapter.5}
+\contentsline {section}{\numberline {5.1}SN 1980K}{143}{section.5.1}
+\contentsline {section}{\numberline {5.2}SN 1993J}{143}{section.5.2}
+\contentsline {section}{\numberline {5.3}Cassiopeia A}{143}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{146}{chapter.6}
+\contentsline {chapter}{Bibliography}{147}{chapter.6}
