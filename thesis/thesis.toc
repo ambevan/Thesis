@@ -88,43 +88,43 @@
 \contentsline {subsubsection}{dustfile}{67}{section*.64}
 \contentsline {subsection}{\numberline {2.3.4}Output, Post-Processing and Visualisation}{67}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Further Developments}{69}{section.2.4}
-\contentsline {chapter}{\numberline {3}Probing DAMOCLES: Testing and a Parameter Sensitivity Analysis}{70}{chapter.3}
-\contentsline {section}{\numberline {3.1}Testing and benchmarking the code}{70}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Theoretical line profiles from first principles}{71}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Benchmarking against numerical models}{77}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}A Parameter Sensitivity Analysis}{78}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The maximum line velocity, $V_{max}$}{80}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The ejecta radius ratio, $R_{in}/R_{out}$}{80}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The dust optical depth, $\tau $}{81}{subsection.3.2.3}
-\contentsline {subsubsection}{The completely filled nebula case}{82}{section*.72}
-\contentsline {subsection}{\numberline {3.2.4}The dust albedo, $\omega $}{83}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}The dust density profile, $\rho \propto r^{-2\beta }$}{84}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Inferring properties of the dust from the models}{87}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}The wavelength dependence of dust absorption}{90}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}The effect of a grain radius distribution}{91}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}The effect of different species}{92}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}The velocity distribution}{93}{subsection.3.2.10}
-\contentsline {section}{\numberline {3.3}Conclusions}{93}{section.3.3}
-\contentsline {chapter}{\numberline {4}The Evolution of Dust Formation in SN\nobreakspace {}1987A}{95}{chapter.4}
-\contentsline {section}{\numberline {4.1}10,000 Days of Dust}{99}{section.4.1}
-\contentsline {section}{\numberline {4.2}Spectral Observations of SN\nobreakspace {}1987A}{103}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Contamination of the H$\alpha $ profiles}{105}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{106}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{107}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{112}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{117}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{119}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{122}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}More complex models}{122}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}The effect of a grain radius distribution}{129}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{129}{subsection.4.3.7}
-\contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{132}{subsection.4.3.8}
-\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{137}{subsection.4.3.9}
-\contentsline {section}{\numberline {4.4}Discussion}{138}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusions}{142}{section.4.5}
-\contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{144}{chapter.5}
-\contentsline {section}{\numberline {5.1}SN 1980K}{144}{section.5.1}
-\contentsline {section}{\numberline {5.2}SN 1993J}{144}{section.5.2}
-\contentsline {section}{\numberline {5.3}Cassiopeia A}{144}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{147}{chapter.6}
-\contentsline {chapter}{Bibliography}{148}{chapter.6}
+\contentsline {chapter}{\numberline {3}Probing DAMOCLES: Testing and a Parameter Sensitivity Analysis}{71}{chapter.3}
+\contentsline {section}{\numberline {3.1}Testing and benchmarking the code}{71}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Theoretical line profiles from first principles}{72}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Benchmarking against numerical models}{78}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}A Parameter Sensitivity Analysis}{79}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The maximum line velocity, $V_{max}$}{81}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The ejecta radius ratio, $R_{in}/R_{out}$}{81}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The dust optical depth, $\tau $}{82}{subsection.3.2.3}
+\contentsline {subsubsection}{The completely filled nebula case}{83}{section*.72}
+\contentsline {subsection}{\numberline {3.2.4}The dust albedo, $\omega $}{84}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}The dust density profile, $\rho \propto r^{-2\beta }$}{85}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Inferring properties of the dust from the models}{88}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}The wavelength dependence of dust absorption}{91}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}The effect of a grain radius distribution}{92}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}The effect of different species}{93}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}The velocity distribution}{94}{subsection.3.2.10}
+\contentsline {section}{\numberline {3.3}Conclusions}{94}{section.3.3}
+\contentsline {chapter}{\numberline {4}The Evolution of Dust Formation in SN\nobreakspace {}1987A}{96}{chapter.4}
+\contentsline {section}{\numberline {4.1}10,000 Days of Dust}{100}{section.4.1}
+\contentsline {section}{\numberline {4.2}Spectral Observations of SN\nobreakspace {}1987A}{104}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Contamination of the H$\alpha $ profiles}{106}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{107}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{108}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{113}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{118}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{120}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{123}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}More complex models}{123}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}The effect of a grain radius distribution}{130}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{130}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{133}{subsection.4.3.8}
+\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{138}{subsection.4.3.9}
+\contentsline {section}{\numberline {4.4}Discussion}{139}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusions}{143}{section.4.5}
+\contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{145}{chapter.5}
+\contentsline {section}{\numberline {5.1}SN 1980K}{145}{section.5.1}
+\contentsline {section}{\numberline {5.2}SN 1993J}{145}{section.5.2}
+\contentsline {section}{\numberline {5.3}Cassiopeia A}{145}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{148}{chapter.6}
+\contentsline {chapter}{Bibliography}{149}{chapter.6}

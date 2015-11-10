@@ -112,6 +112,12 @@ Buslenko N.~P.,  Golenko D.~I.,  Shreider Y.~A.,  Sobol' I.~M.,   Sragovich
 {Cernuschi} F.,  {Marsicano} F.,   {Codina} S.,  1967, Annales d'Astrophysique,
   \href {http://adsabs.harvard.edu/abs/1967AnAp...30.1039C} {30, 1039}
 
+\bibitem[\protect\citeauthoryear{Chapman, Jost  \& Pas}{Chapman
+  et~al.}{2007}]{Chapman2007}
+Chapman B.,  Jost G.,   Pas R. v.~d.,  2007, Using OpenMP: Portable Shared
+  Memory Parallel Programming (Scientific and Engineering Computation).
+The MIT Press
+
 \bibitem[\protect\citeauthoryear{{Cherchneff} \& {Dwek}}{{Cherchneff} \&
   {Dwek}}{2009}]{Cherchneff2009}
 {Cherchneff} I.,  {Dwek} E.,  2009, \mn@doi [\apj]
@@ -292,6 +298,11 @@ Hastings W.,  1970, \mn@doi [Biometrika] {10.1093/biomet/57.1.97}, 57, 97
   et~al.}{2013}]{Helder2013}
 {Helder} E.~A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/764/1/11},
   \href {http://adsabs.harvard.edu/abs/2013ApJ...764...11H} {764, 11}
+
+\bibitem[\protect\citeauthoryear{{Henyey} \& {Greenstein}}{{Henyey} \&
+  {Greenstein}}{1941}]{Henyey1941}
+{Henyey} L.~G.,  {Greenstein} J.~L.,  1941, \mn@doi [\apj] {10.1086/144246},
+  \href {http://adsabs.harvard.edu/abs/1941ApJ....93...70H} {93, 70}
 
 \bibitem[\protect\citeauthoryear{Hillier}{Hillier}{1991}]{Hillier1991}
 Hillier D.~J.,  1991, \aap, 247, 455

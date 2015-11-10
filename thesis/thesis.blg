@@ -30,45 +30,45 @@ while executing---line 3643 of file mnras.bst
 `series' is a missing field, not a string, for entry Baron2005
 while executing---line 3643 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
-You've used 137 entries,
+You've used 139 entries,
             2881 wiz_defined-function locations,
-            1864 strings with 44754 characters,
-and the built_in function-call counts, 66619 in all, are:
-= -- 5307
-> -- 4895
-< -- 369
-+ -- 2134
-- -- 726
-* -- 7991
-:= -- 10487
+            1878 strings with 45109 characters,
+and the built_in function-call counts, 67557 in all, are:
+= -- 5367
+> -- 4972
+< -- 375
++ -- 2171
+- -- 736
+* -- 8102
+:= -- 10640
 add.period$ -- 0
-call.type$ -- 137
-change.case$ -- 276
-chr.to.int$ -- 134
-cite$ -- 138
-duplicate$ -- 3299
-empty$ -- 3406
-format.name$ -- 1170
-if$ -- 11673
+call.type$ -- 139
+change.case$ -- 280
+chr.to.int$ -- 136
+cite$ -- 140
+duplicate$ -- 3349
+empty$ -- 3460
+format.name$ -- 1188
+if$ -- 11830
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 145
-newline$ -- 434
-num.names$ -- 1006
-pop$ -- 774
+missing$ -- 148
+newline$ -- 441
+num.names$ -- 1022
+pop$ -- 791
 preamble$ -- 1
-purify$ -- 548
+purify$ -- 556
 quote$ -- 0
-skip$ -- 1977
+skip$ -- 2004
 stack$ -- 0
-substring$ -- 3584
-swap$ -- 1771
-text.length$ -- 579
+substring$ -- 3614
+swap$ -- 1801
+text.length$ -- 587
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1209
+type$ -- 1224
 warning$ -- 1
-while$ -- 1046
+while$ -- 1060
 width$ -- 0
-write$ -- 1398
+write$ -- 1418
 (There were 6 error messages)
