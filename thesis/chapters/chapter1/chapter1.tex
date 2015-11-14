@@ -69,6 +69,75 @@ Dust grains are generally assumed to be spherical in order to make their simulat
 
 Dust in the universe follows a cycle.  From its stellar birthplace, it is ejected and slowly integrates itself with the ISM before condensing into molecular clouds and ultimately once again returning to stars.  Most of the knowledge of the properties of dust applies only to grains in the ISM, which are found to follow a grain radius distribution $n(a) \propto a^{-3.5}$ as described by \citeauthor{Mathis1977} in 1977.  This distribution does not necessarily apply immediately after their formation, however, as grains are subject to numerous forces that can result in their destruction, sputtering or evaporation.  The grain size distribution and relative abundances of species of newly-formed grains are still topics in dispute and are issues that I attempt to address in my models.  The issue of dust grain shape will hopefully be addressed in future versions of DAMOCLES (see Section \ref{limitations}).
 
+%\section{The Physics of Dust}
+
+
+\subsection{Optical Properties of Dust}
+%This paragraph used to introduce the physics of dust section
+In order to quantitatively model the effects of dust on line emission in an expanding atmosphere, the physics of how dust particles scatter, absorb and re-emit radiation must be understood. In this section, I will review the physical facets of dust grains that allow for their detection via emission in the IR and absorption and scattering in the UV and optical.  I will also review the mathematics of Mie theory \citep{Mie1908} that allows for the calculation of the scattering and absorption efficiencies that are crucial for modelling the effects of dust on electromagnetic radiation.  Much of this mathematics is somewhat dense and I will restrict my discussion to the most relevant points omitting extraneous algebra.  I give an outline of the derivation in Appendix \ref{append:appendA}.  For further details and an unusually lyrical description of the relevant physics and mathematics please see \citet{Bohren1983}, on which the majority of this section is based.  
+
+
+In order to be able to model the effects of a medium of dust grains on a dynamic radiation field, we must first be able to describe the manner in which a single grain scatters an incident photon and with what probability it will absorb rather than scatter that photon. These properties are defined via the scattering and absorption cross-sections of interaction ($C_{sca}$ and $C_{abs}$ respectively).  In combination with the scattering anisotropy parameter $g$, they are used to define the angular distribution and amount of  light that is scattered by the particle.  The aim is to calculate these quantities for a beam of radiation of given wavelength, incident on a particle of given size and shape, and composed of a given material.   
+
+Calculation of these quantities is not straightforward.  In order to determine the above properties, we must take a step back to first principles, away from dust, and consider what is meant by `scattering' and `absorption'.  Matter, regardless of its superficial composition, is intrinsically composed of fundamental, charged particles: electrons and protons.  When an electromagnetic field is induced in the presence of these particles, such as when a beam of radiation illuminates an obstacle, which could be a liquid or an atom or a dust grain or a solid, the fundamental particles that make up that object are set into oscillatory motion.  These motions cause the radiation of electromagnetic energy and it is this secondary radiation that we refer to as scattered light.  Similarly, the excited charges may transform some of the incident energy into other forms such as thermal energy.  This is the process that is referred to as absorption.
+
+Returning now to the concept of scattering and absorption by a single particle, derivation of the quantities of interest, namely $C_{sca}$ and $C_{abs}$, therefore requires us to be able to describe the electromagnetic field at all points interior and exterior to the particle.  In order to perform this calculation, we imagine that the particle is made up of infinitesimally small regions each of which is approximated as a dipole in the presence of an applied oscillating field (i.e. an incident electromagnetic photon).  The strength of the applied electromagnetic field affects that strength of the response by each of the dipoles and thus of the dust grain as a whole.  The relationship between this response and the induced field is determined by the material, which is described for this purpose by the complex refractive index 
+\begin{equation}
+m(\lambda)=n(\lambda)+ik(\lambda)
+\end{equation}
+
+\noindent where $n(\lambda)$ and $k(\lambda)$ are the real and the imaginary parts of the complex refractive index.  We have already mentioned these optical properties earlier in Section \ref{opt_prop}.  They are typically determined in a laboratory for a given species and there is a large database of different optical constants.  As previously discussed, issues in their accurate determination can cause problems for modelling.  Broadly speaking, $n$ may be considered to describe the scattering component of the complex refractive index and $k$ the absorptive component.  These optical properties are the starting point to solving Maxwell's equations inside and outside of the particle and thus calculating the scattering and absorption cross-sections.
+
+\subsection{Mie Theory}
+\label{scn:mie_theory}
+
+Whilst relatively simple approximations to this calculation exist in the regime where the scattering particle is substantially smaller than the wavelength (the Rayleigh regime), for particles which are of a similar size to the wavelength of the incident radiation, the calculation is a complex one.  The full solution to Maxwell's equation in this case were first described by Gustav Mie in 1908 \citep{Mie1908}.  The Mie solution has wide application to a number of fields from the study of interstellar dust to plasmonics.  Mie developed his approach in order to better understand the colourful effects of a colloidal gold solution.  The nature of Mie's solution meant that it was not widely used until computing power had reached a stage capable of computing the infinite series expansions on which the solution depends.
+
+The Mie solution to Maxwell's equations applies only to spherical particles although there are extensions to more complex morphological distributions such as the ``T-matrix method" and the ``Discrete Dipole Approximation" \citep{Mishchenko2002,Draine2004}).  For my models, the wavelength of the monochromatic line to be modelled is very often of a similar order of magnitude to the grain radius and as such the full Mie solution must be implemented.  I describe the approach to this solution in some detail (although the rather laborious algebra is largely omitted) in Appendix \ref{append:appendA}.  
+
+For a single spherical particle, the scattering cross-section of interaction is defined to be the net rate at which electromagnetic energy is scattered across the surface of the particle divided by the total irradiance of the incident beam (i.e. the rate at which energy falls onto the surface).  The extinction cross-section is similarly defined.  
+
+For a spherical particle of radius $a$ and an incident beam of wavelength $\lambda$, we may define the size parameter
+\begin{equation}
+x=\frac{2\pi N a}{\lambda}
+\end{equation}
+
+\noindent where $N$ is the complex refractive index of the surrounding medium.  Assuming the particle to be surrounded by a vacuum such that $N=1$, we can show that the scattering coefficients are given by 
+\begin{align}
+a_n &= \frac{m\psi_n(mx)\psi_n'(x)-\psi_n(x)\psi_n'(mx)}{m\psi_n(mx)\xi'_n(x)-\xi_n(x)\psi'_n(mx)} \\[2ex]
+b_n &= \frac{\psi_n(mx)\psi_n'(x)-m\psi_n(x)\psi_n'(mx)}{\psi_n(mx)\xi'_n(x)-m\xi_n(x)\psi'_n(mx)}
+\end{align}
+
+
+\noindent where $m$ is the complex refractive index of the particle and a prime denotes differentiation with respect to the argument in parentheses. The scalar functions $\psi_n$ and $\xi_n$ are the Ricatti-Bessel functions and are given by
+\begin{equation}
+\psi_n(\rho) = \rho j_n(\rho) \, , \quad \quad \xi_n(\rho)=\rho h_n^{(1)}(\rho)
+\end{equation}
+
+\noindent where $j_n$ and $h_n^{(1)}$ are the spherical Bessel functions of the first and second kind.  The scattering coefficients can then be used to calculate the scattering and extinction cross-sections of interaction:
+\begin{align}
+C_{sca}&=\frac{2\pi}{k^2}\sum_{n=1}^{\infty} (2n+1)(|a_n|^2+|b_n|^2) \\
+C_{ext}&=\frac{2\pi}{k^2}\sum_{n=1}^{\infty} (2n+1)\textnormal{Re}\{a_n+b_n\} 
+\end{align}
+
+For a single spherical particle of radius $a$, the scattering and extinction efficiencies are related to the above quantities via
+\begin{equation}
+Q_{ext}=\frac{C_{ext}}{\pi a^2}\, , \quad \quad Q_{sca}=\frac{C_{sca}}{\pi a^2}
+\end{equation}
+
+The above solution has the primary drawback of only being applicable to spherical particles.  Obviously, the adoption of this solution presents a potential issue for a medium of dust grains that may well be crystalline, fluffy or extremely amorphous.  However, despite its limitations, Mie theory does provide a first-order description of the optical effects of non-spherical particles.  DAMOCLES adopts the Mie theory solution to Maxwell's equations in order to calculate scattering and absorption efficiencies.  In the future, when alternative morphologies may be considered, the algorithm may be extended to alternative solutions  in order to address this limitation (e.g. the Discrete Dipole Approximation and the T-matrix method mentioned above).  Similarly, the above solution applies only to a single particle.  Various weighted summations must be performed over the scattering and extinction cross-sections in order to treat a medium of multiple different grain sizes and species.  This is discussed in further depth in Sections \ref{scn:grainsize} and \ref{gs_distn}.
+
+\subsection{Dust in Absorption}
+
+
+\subsection{Dust in Emission}
+\subsection{Dust as a Scatterer}
+\subsection{Radiative Transfer}
+raditaive transfer and independence of optical properties and temp meaning do not need to fully solve rad tran problem
+ 
+
+
+\section{Core-Collapse Supernovae as Dust Factories}
 
 \subsection{Origins of Dust in the Universe}
 In an effort to explicate the motivations behind studying dust, I have so far mostly limited my discussion to the evolution and properties of dust after the initial stages of its formation.  The most current and contentious debate, however, is over the natal environment of dust grains.  
@@ -86,15 +155,9 @@ CCSNe are one of the few potential sources that could contribute large quantitie
 \label{intro:fig:sn_class}
 \end{figure}
 
-\section{Core-Collapse Supernovae as Dust Factories}
+\subsection{Types of Supernovae}
 
 Supernovae are the violent explosions that are the death of stars.  They evolve very quickly and create extreme conditions.  Focus on supernovae as a possible source of dust in the universe has been motivated by the physical conditions that they produce shortly after their outbreak and by the presence of large quantities of heavy elements that constitute the integrant ingredients of dust grains.
-
-% are thought to be a possible source of dust in the universe since they produce large quantities of heavy elements and have physical conditions that are potentially suitable for the growth of dust grains.  
-
-
-
-\subsection{Types of Supernovae}
 
 Supernovae may be classified into a number of different types.  They are bisected initially into Types I and II according respectively to the absence or presence of hydrogen in their early spectra.  Further sub-classifications depend on  other features in the early spectra, properties of later spectra and the evolution of the  light curve after maximum light.  A summary of the supernova classification scheme is presented in Figure \ref{intro:fig:sn_class}.  
 
@@ -220,42 +283,6 @@ As discussed in Section \ref{three_sigs}, there is more than one way of tracing 
 
 Quantitative modelling of the extent of this asymmetry and other aspects of the shape of the line profile allow for dust in the ejecta of supernovae to be traced via an alternative method to SED-fitting.  
 
-\section{The Physics of Dust}
-
-In order to quantitatively model the effects of dust on line emission in an expanding atmosphere, the physics of how dust particles scatter, absorb and re-emit radiation must be understood. In this section, I will review the physical facets of dust grains that allow for their detection via emission in the IR and absorption and scattering in the UV and optical.  I will also review the mathematics of Mie theory \citep{Mie1908} that allows for the calculation of the scattering and absorption efficiencies that are crucial for modelling the effects of dust on electromagnetic radiation.  Much of this mathematics is somewhat dense and I will restrict my discussion to the most relevant points omitting extraneous algebra.  For further details and an unusually lyrical description of the relevant physics and mathematics, please see \citet{Bohren1983}, on which the majority of this section is based.  
-
-\subsection{Optical Properties of Dust}
-
-In order to be able to model the effects of a medium of dust grains on a dynamic radiation field, we must first be able to describe the manner in which a single grain scatters an incident photon and with what probability it will absorb rather than scatter that photon. These properties are defined via the scattering and absorption cross-sections of interaction ($\sigma_{sca}$ and $\sigma_{abs}$ respectively).  In combination with the scattering anisotropy parameter $g$, they are used to define the angular distribution and amount of  light that is scattered by the particle.  The aim is to calculate these quantities for a beam of radiation of given wavelength, incident on a particle of given size and shape, and composed of a given material.   
-
-Calculation of these quantities is not straightforward.  In order to determine the above properties, we must take a step back to first principles, away from dust, and consider what is meant by `scattering' and `absorption'.  Matter, regardless of its superficial composition, is intrinsically composed of fundamental, charged particles: electrons and protons.  When an electromagnetic field is induced in the presence of these particles, such as when a beam of radiation illuminates an obstacle, which could be a liquid or an atom or a dust grain or a solid, the fundamental particles that make up that object are set into oscillatory motion.  These motions cause the radiation of electromagnetic energy and it is this secondary radiation that we refer to as \textit{scattered} light.  Similarly, the excited charges may transform some of the incident energy into other forms such as thermal energy.  This is the process that is referred to as \textit{absorption}.
-
-Returning now to the concept of scattering and absorption by a single particle, derivation of the quantities of interest, names $\sigma_{sca}$ and $\sigma_{abs}$, therefore requires us to be able to describe the electromagnetic field at all points interior and exterior to the particle.  In order to perform this calculation, we imagine that the particle is made up of infinitesimally small regions each of which is approximated as a dipole in the presence of an applied oscillating field (i.e. an incident electromagnetic photon).  The strength of the applied electromagnetic field affects that strength of the response by each of the dipoles and thus of the dust grain as a whole.  The relationship between this response and the induced field is determined by the material, which is described for this purpose by the complex refractive index 
-\begin{equation}
-m(\lambda)=n(\lambda)+ik(\lambda)
-\end{equation}
-
-\noindent where $n(\lambda)$ and $k(\lambda)$ are the real and the imaginary parts of the complex refractive index.  We have already mentioned these optical properties earlier in Section \ref{opt_prop}.  They are typically determined in a laboratory for a given species and there is a large database of different optical constants.  As previously discussed, issues in their accurate determination can cause problems for modelling.  Broadly speaking, $n$ may be considered to describe the scattering component of the complex refractive index and $k$ the absorptive component.  These optical properties are the starting point to solving Maxwell's equations inside and outside of the particle and thus calculating the scattering and absorption cross-sections.
-
-\subsection{Mie Theory}
-\label{scn:mie_theory}
-
-Whilst relatively simple approximations to this calculation exist in the regime where the scattering particle is substantially smaller than the wavelength (the Rayleigh regime), for particles which are of a similar size to the wavelength of the incident radiation, the calculation is a complex one.  The full solution to Maxwell's equation in this case were first described by Gustav Mie in 1908 \citep{Mie1908}.  The Mie solution has wide application to a number of areas from the study of interstellar dust to plasmonics.  Mie developed his approach in order to better understand the colourful effects of a colloidal gold solution.  The nature of Mie's solution, being dependent on infinite series expansions, meant that it was not used widely, or even at all, until computing power had reached a stage capable of computing the Riccatti-Bessel functions on which the solution depends.
-
-The Mie solution to Maxwell's equations applies only to spherical particles although there are extensions to more complex morphological distributions such as the ``T-matrix method" and the ``Discrete Dipole Approximation".  For my models, the wavelength of the monochromatic line to be modelled is very often of a similar order of magnitude to the grain radius and as such the full Mie solution must be implemented.  I describe the approach to this solution rather than giving the full derivation (see \citet{Bohren1983} for the full algebraic derivation).
-
-Consider a spherical particle with complex refractive index $m$ and radius $a$ that is illuminated by a monochromatic electromagnetic plane wave of wavelength $\lambda$.  We must determine the electromagnetic field at all points within the particles and in the homogeneous medium in which it is embedded.
-
-
-The above solution has the primary drawback of only being applicable to spherical particles.  Obviously, the adoption of this solution presents a potential issue for a medium of dust grains that may well be crystalline, fluffy or extremely amorphous.  However, despite its limitations, Mie theory does provide a first-order description of the optical effects of non-spherical particles.  DAMOCLES adopts the Mie theory solution to Maxwell's equations in order to calculate scattering and absorption efficiencies.  In the future, when alternative morphologies may be considered, the algorithm may be extended to alternative solutions in order to address this limitation.
-
-
-
-%Dust grain radii are often of a similar order of magnitude to the wavelength of that incident radiation and so may be analysed from an optical perspective using Mie Theory.  Mie Theory is a mathematical solution to Maxwell's equation that describe how light is scattered off a small particle.  In combination with the optical properties of the medium, this allows for a precise determination of the extinction and scattering efficiencies of a given environment.  Conveniently, this allows for the straightforward modelling of a dusty medium and it is this calculation that I exploit in my models.  Mie Theory assumes particles to be spherical, an assumption which i.  This issue is addressed later in this thesis.
-
-\subsection{Radiative Transfer}
-raditaive transfer and independence of optical properties and temp meaning do not need to fully solve rad tran problem
- 
 
 \section{Content Of This Thesis}
 The purpose of my work has been to develop a new approach to determining dust masses in supernovae, with the aim of providing an alternative to SED fitting for the future and of providing corroborating or contradicting evidence of past results.  I looked to exploit the dust-forming signature of characteristically asymmetric line profiles.  Though this feature has been discussed at length by numerous authors, it has very rarely been quantitatively measured or modelled.

@@ -1,2 +1,172 @@
 \appendix %% Must go in first Appendix file only
-\chapter{Appendix A}\label{append:appendA}
+\chapter{Mie Theory}\label{append:appendA}
+The aim is to understand the nature of the scattered electromagnetic field given a field incident on a single spherical particle.  In order to calculate this, Maxwell's equations must be solved inside and outside of the sphere, using boundary conditions at the surface to determine the amount and angular distribution of the scattered wave.  Beginning with Maxwell's equations, I will formulate the problem, derive the vector wave equation, illustrate its reduction to the scalar wave equation and solve this to produce the scattering coefficients that may be used to calculate the desired scattering and extinction cross-sections of interaction.
+
+The derivation given here follows the theory as described by \citet{Bohren1983}.
+
+\section{Formulating the Problem}
+
+Consider a spherical particle with complex refractive index $m$ and radius $a$ that is illuminated by a monochromatic electromagnetic plane wave of wavelength $\lambda$.  We must determine the electromagnetic field at all points within the particle and in the homogeneous medium in which it is embedded.
+
+The field inside the particle is defined by $(\mathbf{E}_1,\mathbf{H}_1)$ and the field outside of the particle in the surrounding medium by $(\mathbf{E}_2,\mathbf{H}_2)$.  Similarly the incident field is defined by $(\mathbf{E}_i,\mathbf{H}_i)$ and the scattered field by $(\mathbf{E}_s,\mathbf{H}_s)$.  The field outside of the particle is a superposition of the incident and scattered fields and we therefore have the relation
+\begin{equation}
+\mathbf{E}_2=\mathbf{E}_i+\mathbf{E}_s\,, \quad \quad \mathbf{H}_2=\mathbf{H}_i+\mathbf{H}_s
+\end{equation}
+
+\noindent For a plane wave we may set
+\begin{equation}
+\mathbf{E}_i=\mathbf{E}_0 \exp (i \mathbf{k}\cdot\mathbf{x}-i\omega t) \, , \quad \quad \mathbf{H}_i=\mathbf{H}_0 \exp (i \mathbf{k}\cdot\mathbf{x}-i\omega t)
+\end{equation}
+
+\noindent where $\omega$ is the frequency of the incident wave and $\mathbf{k}$ is the wave vector appropriate to the surrounding medium.  The fields defined above must satisfy Maxwell's equations:
+\begin{equation}
+\label{eqn:max1}
+\nabla \cdot \mathbf{E}=0 \quad \quad \nabla \cdot \mathbf{H}=0
+\end{equation}
+\noindent and
+\begin{equation}
+\label{eqn:max2}
+\nabla \times \mathbf{E} = i\omega \mu \mathbf{H} \, , \quad \quad \nabla \times \mathbf{H} = -i\omega \epsilon \mathbf{E}
+\end{equation}
+
+\noindent Taking the curl of Equation \ref{eqn:max2}  gives the vector wave equation 
+\begin{equation}
+\label{eqn:vwe}
+\nabla^2\mathbf{E}+k^2\mathbf{E}=0 \, , \quad \quad \nabla^2\mathbf{H}+k^2\mathbf{H}=0
+\end{equation}
+
+\noindent where $k^2=\omega^2\epsilon \mu$ and $\epsilon$ is the complex permittivity of the medium and $\mu$ the permeability.  Note that the use of $k$ throughout this derivation refers to the wave number as just defined rather than the imaginary part of the complex refractive index (which we will introduce later).    
+
+\section{Solving the Vector Wave Equations}
+
+It transpires that the easiest wave to solve the vector wave equations is to define a vector
+\begin{equation}
+\label{eqn:Mdef}
+\mathbf{M}=\nabla \times (\mathbf{c}\psi)
+\end{equation}
+
+\noindent where $\psi$ is a scalar function and $\mathbf{c}$ is an arbitrary constant vector. Since $\mathbf{M}$ is the curl of a vector, the divergence of $\mathbf{M}$ is zero ($\nabla \cdot \mathbf{M} =0$).  By applying some vector identities to $\mathbf{M}$ we derive
+\begin{equation}
+\nabla^2\mathbf{M}+k^2\mathbf{M}=\nabla \times [\mathbf{c}(\nabla^2\psi+k^2\psi)]
+\end{equation}
+
+\noindent $\mathbf{M}$ therefore satisfies the vector wave equation (Equation \ref{eqn:vwe}) if $\psi$ satisfies the scalar wave equation:
+\begin{equation}
+\label{eqn:swe}
+\nabla^2\psi+k^2\psi=0
+\end{equation}
+
+\noindent We will use $\mathbf{M}$ to construct another vector which we define as 
+\begin{equation}
+\label{eqn:Ndef}
+\mathbf{N}=\frac{\nabla \times \mathbf{M}}{k}
+\end{equation}
+
+\noindent $\mathbf{N}$ also has zero divergence and satisfies the vectore wave equation ($\nabla^2\mathbf{N}+k^2\mathbf{N}=0$).  We also have $\nabla \times \mathbf{N} = k\mathbf{M}$ ensuring that $\mathbf{M}$ and $\mathbf{N}$ have all of the required properties of an electromagnetic field (i.e. they satisfy Equations \ref{eqn:max1} and \ref{eqn:max2}).  If we can now find solutions to the scalar wave equation ({Equation \ref{eqn:swe}) then we have solutions to the vector wave equation (Equation \ref{eqn:vwe}) via Equations \ref{eqn:Mdef} and \ref{eqn:Ndef}.    Since we are interested in scattering by a sphere, we work in spherical polar coordinates and set $\mathbf{c}=\mathbf{r}$, where $\mathbf{r}$ is the radius vector.
+
+The scalar wave equation may be expanded in spherical polar coordinates as
+\begin{equation}
+\label{eqn:sph_swe}
+\frac{1}{r^2}\frac{\partial}{\partial r}\Big(r^2\frac{\partial \psi}{\partial r} \Big) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial \theta}\Big(\sin\theta\frac{\partial \psi}{\partial \theta}\Big) + \frac{1}{r^2\sin\theta}\frac{\partial^2\psi}{\partial\phi^2}+k^2\psi=0
+\end{equation}
+
+
+\noindent Solutions of the form $\psi(r,\theta,\phi)=R(r)\Theta(\theta)\Phi(\phi)$ are sought such that Equation \ref{eqn:sph_swe} divides into three separate equations.  Each of these equations may then be solved to derive a complete solution for $\psi(r,\theta,\phi)$.  These solutions are standard solutions to the spherical wave equation in spherical polar coordinates and so I will not go into detail here.  Solving each of the three equations yields the final result
+%\begin{equation}
+%\frac{d^2\Phi}{d\phi^2}+m^2\Phi=0
+%\end{equation}
+%\begin{equation}
+%\frac{1}{\sin\theta}\frac{d}{d\theta}\Big(\sin\theta\frac{d\Theta}{d\theta}\Big) = \Big[n(n-1)-\frac{m^2}
+%\end{equation}
+\begin{align}
+\label{eqn:e_soln}
+\psi_{emn}&=\cos m\phi P_n^m(\cos\theta)z_n(kr) \\
+\label{eqn:o_soln}
+\psi_{omn}&=\sin m\phi P_n^m(\cos\theta)z_n(kr) 
+\end{align}
+
+\noindent $m$ and $n$ are constants that are introduced that relate the three equations.  Requiring $\psi$ to be a single-valued function determines that $m$ and $n$ are integers where $m\geqslant0$.   $P_n^m(\cos\theta)$ are the Legendre functions of the first kind of degree $n$ and order $m$ where $n=m,m+1,...$.  $z_n$ represents any of the four Bessel functions $j_n$, $y_n$, $h_n^{(1)}$ or $h_n^{(2)}$.  Definitions of these functions and their derivation from the scalar wave equation may be found in any number of textbooks (for example see \citet{Riley2006}).  The subscripts $e$ and $o$ simply differentiate between the odd and even solutions.  The nature of the above solutions is such that any solution to the scalar wave equation in spherical polar coordinates may be expanded as an infinite series in Equations \ref{eqn:e_soln} and \ref{eqn:o_soln}. 
+
+The solutions for the desired vector fields $\mathbf{M}$ and $\mathbf{N}$ are therefore given by 
+\begin{align}
+\label{eqn:vsh1}
+\mathbf{M}_{emn}&=\nabla \times (\mathbf{r}\psi_{emn}) \, ,   &\mathbf{M}_{omn}&=\nabla \times (\mathbf{r}\psi_{omn}) \\
+\label{eqn:vsh2}
+\mathbf{N}_{emn}&=\frac{\nabla \times \mathbf{M}_{emn}}{k} \, ,   &\mathbf{N}_{omn}&=\frac{\nabla \times \mathbf{M}_{omn}}{k}
+\end{align}
+
+\noindent These functions are known as the ``vector spherical harmonics".  They may be expanded as an infinite series to solve the vector wave equation (Equation \ref{eqn:vwe}), which is now our task.
+
+\section{Calculating the Incident and Scattered Fields}
+
+The issue is now to consider the scattering of an incident plane wave $\mathbf{E}_i$.  Based on the above, $\mathbf{E}_i$ may be expanded as an infinite series sum of the four vector spherical harmonics described by Equations \ref{eqn:vsh1} and \ref{eqn:vsh2},
+\begin{equation}
+\label{eqn:E-series}
+\mathbf{E}_i = \sum _{m=0} ^{\infty}  \sum _{n=m} ^{\infty} (B_{emn}\mathbf{M}_{emn} + B_{omn}\mathbf{M}_{omn} + A_{emn}\mathbf{N}_{emn} + A_{omn}\mathbf{N}_{omn})
+\end{equation}
+\noindent with coefficients $A_{emn}$, $A_{omn}$, $B_{emn}$ and $B_{omn}$ that must be determined.  The above expansion can be simplified by considering various orthogonality properties of the vector harmonics.  It can be shown (though I omit the proofs here for reasons of brevity) that all of the vector spherical harmonics are orthogonal.  This determines the form of each of the four coefficients and, in combination with the orthogonality of sine and cosine, we find that $B_{emn}=A_{omn}=0$ for all $m$ and $n$ (see \citet{Bohren1983}).  Similarly, we find that all the remaining coefficients vanish unless $m=1$.  In this case, we may also adopt the Bessel function $z_n=j_n$ based on the requirement that the field must be finite at the origin (the other functions misbehave at the origin under these circumstances).  I adopt the superscript (1) to illustrate that the radial dependence of the solution is specific by $j_n$.  Equation \ref{eqn:E-series} therefore reduces to
+\begin{equation}
+\mathbf{E}_i = \sum _{n=1} ^{\infty} (B_{o1n}\mathbf{M}_{o1n}^{(1)} + A_{e1n}\mathbf{N}_{e1n}^{(1)})
+\end{equation}
+Evaluating the forms of $A_{e1n}$ and $B_{o1n}$ via some rather unpleasant integrals and a lot of algebraic manipulation yields
+\begin{equation}
+\label{eqn:E}
+\mathbf{E}_i = E_0 \sum _{n=1} ^{\infty} i^n \frac{2n+1}{n(n+1)}(\mathbf{M}_{o1n}^{(1)} - \mathbf{N}_{e1n}^{(1)})
+\end{equation}
+The corresponding magnetic field may be calculated via the curl of Equation \ref{eqn:E} and is found to be
+\begin{equation}
+\label{eqn:H}
+\mathbf{H}_i = \frac{-k}{\omega\mu}E_0 \sum _{n=1} ^{\infty} i^n \frac{2n+1}{n(n+1)}(\mathbf{M}_{e1n}^{(1)} - \mathbf{N}_{o1n}^{(1)})
+\end{equation}
+
+\noindent Finally, all that remains is to determine the scattered electromagnetic field $(\mathbf{E}_s,\mathbf{H}_s)$.  This may done by imposing the boundary condition that the tangential component of the fields must be continuous across the boundary of the two materials, i.e.
+\begin{equation}
+(\mathbf{E}_i+\mathbf{E}_s-\mathbf{E}_1)\times \mathbf{\hat{e}}_r=(\mathbf{H}_i+\mathbf{H}_s-\mathbf{H}_1)\times \mathbf{\hat{e}}_r=0
+\end{equation}
+ 
+Applying this boundary condition and once again applying various orthogonality relationships and the condition of finiteness at the origin gives the expansions of the field inside the sphere and the scattered field as:
+\begin{align}
+\label{eqn:1}
+\mathbf{E}_1 &= \sum _{n=1} ^{\infty} E_n (c_n\mathbf{M}_{o1n}^{(1)} - id_n\mathbf{N}_{e1n}^{(1)}) \, , &\mathbf{H}_1 &= \frac{-k_1}{\omega\mu_1} \sum _{n=1} ^{\infty}E_n(d_n\mathbf{M}_{e1n}^{(1)} - ic_n\mathbf{N}_{o1n}^{(1)}) \\
+\label{eqn:s}
+\mathbf{E}_s &= \sum _{n=1} ^{\infty} E_n (-b_n\mathbf{M}_{o1n}^{(3)} + ia_n\mathbf{N}_{e1n}^{(3)}) \,
+ , &\mathbf{H}_s &= \frac{k}{\omega\mu} \sum _{n=1} ^{\infty}E_n(a_n\mathbf{M}_{e1n}^{(3)} + ib_n\mathbf{N}_{o1n}^{(3)}) 
+\end{align}
+
+\noindent where $E_n=i^n E_0  \frac{2n+1}{n(n+1)}$ and the superscript (3) denotes radial dependence on the Bessel function $h_n^{(1)}$ for unknown coefficients $a_n$, $b_n$, $c_n$ and $d_n$.
+
+\section{Determining the Scattering Coefficients}
+
+The formal theory is lengthy and still has yet to yield any real physical insight.  At this point we may now turn our attention to actually deriving the scattering coefficients $a_n$ and $b_n$ that we will then use to determine the scattering efficiencies.   We consider a spherical particle of radius $a$ and consider the boundary conditions at the surface where $r=a$.  In component form these are 
+\begin{align}
+E_{i\theta}+E_{s\theta}&=E_{1\theta}\, , & E_{i\phi}+E_{s\phi}&=E_{1\phi} \\
+H_{i\theta}+H_{s\theta}&=H_{1\theta} \, , &H_{i\phi}+H_{s\phi}&=H_{1\phi} 
+\end{align}
+
+\noindent Substituting in all relevant equations (boundary conditions, orthogonality relations, and the expansions of Equations \ref{eqn:E}, \ref{eqn:H}, \ref{eqn:1} and \ref{eqn:s}) eventually gives
+\begin{align}
+j_n(mx)c_n+h^{(1)}_n(x)b_n&=j_n(x) \\
+\mu[mxj_n(mx)]'c_n+\mu_1[xh_n^{(1)}(x)]'b_n&=\mu_1[xj_n(x)]' \\
+\mu mj_n(mx)d_n+\mu_1h^{(1)}_n(x)a_n&=\mu_1j_n(x) \\
+[mxj_n(mx)]'d_n+m[xh_n^{(1)}(x)]'a_n&=m[xj_n(x)]'
+\end{align}
+
+\noindent where the prime denotes differentiation with respect to the argument in parentheses, $x=ka=\frac{2\pi N a}{\lambda}$ is the size parameter and $m=\frac{k_1}{k}=\frac{N_1}{N}$ is the relative complex refractive index of the two materials with $N_1$ the refractive index of the particles and $N$ the refractive index of the medium.  Solving the above system of equations, assuming that the permeability of the particle and the surrounding medium are the same, and substituting in the Ricatti-Bessel functions $\psi_n(\rho) = \rho j_n(\rho)$ and $\xi_n(\rho)=\rho h_n^{(1)}(\rho)$ finally gives the scattering coefficients:
+\begin{align}
+a_n &= \frac{m\psi_n(mx)\psi_n'(x)-\psi_n(x)\psi_n'(mx)}{m\psi_n(mx)\xi'_n(x)-\xi_n(x)\psi'_n(mx)} \\[2ex]
+b_n &= \frac{\psi_n(mx)\psi_n'(x)-m\psi_n(x)\psi_n'(mx)}{\psi_n(mx)\xi'_n(x)-m\xi_n(x)\psi'_n(mx)}
+\end{align}
+
+\section{The Scattering and Extinction Cross-Sections}
+
+And last but not least, we must use these scattering coefficients to calculate the scattering cross-section of the particle.  We define $W_a$ to be the net rate at which electromagnetic energy cross the surface A of the particle and $W_s$ to be the rate at which energy is scattered across the surface A.  For a beam of incident irradiance $I_i$, we write $W_{ext}=W_a+W_s$ and define the extinction, absorption and scattering cross-sections to be 
+\begin{align}
+C_{ext}&=\frac{W_{ext}}{I_i}\, , &C_{abs}&=\frac{W_{abs}}{I_i}\, , &C_{sca}&=\frac{W_{sca}}{I_i}
+\end{align}
+\noindent and note that we therefore also have $C_{ext}=C_{sca}+C_{abs}$.
+
+$W_{ext}$ and $W_s$ may be expressed in terms of the components of the scattered and incident fields defined above in Equations \ref{eqn:E}, \ref{eqn:H} and \ref{eqn:s}.  Doing so and manipulating the algebra at length eventually yields the desired relationship between the scalar wave function and the scattering cross-section via the scattering coefficients:
+\begin{align}
+C_{sca}&=\frac{2\pi}{k^2}\sum_{n=1}^{\infty} (2n+1)(|a_n|^2+|b_n|^2) \\
+C_{ext}&=\frac{2\pi}{k^2}\sum_{n=1}^{\infty} (2n+1)\textnormal{Re}\{a_n+b_n\}. 
+\end{align}

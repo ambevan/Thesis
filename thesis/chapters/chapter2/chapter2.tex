@@ -136,7 +136,6 @@ A grid of cubic cells of varying dust and gas densities is thus produced in read
 \subsection{Properties of the Dusty Medium}
 \label{scn:grainsize}
 Dust of any composition may be used for which optical data are available.  The relative abundances of the species must be declared in an input file accompanied by a grain radius distribution (specified as a grain radius range and power-law) for each species.  Files detailing the optical data ($n$ and $k$ values) for the chosen dust species are also declared at the start of the code.  For each pairing of wavelength $\lambda$ and grain radius $a$, a Mie scattering routine is employed to calculate $Q_{abs}(\lambda,a)$ and $Q_{sca}(\lambda,a)$ from the refractive index $n+ik$.  These values are calculated for every species across the wavelength and grain radius ranges of interest.  I have described the mathematics of converting the refractive index into scattering and absorption efficiencies using Mie theory in detail in the introduction to this thesis (see Section \ref{scn:mie_theory}).
-%ADD SECTION HERE!!!!
 
 
 Ultimately, the overall scattering and absorption opacities in each grid cell must be known and so a weighted summation over $Q_{abs}(\lambda,a)$ and $Q_{sca}(\lambda,a)$ is performed.  The number density in each cell must first be calculated as 

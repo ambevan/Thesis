@@ -188,6 +188,11 @@ Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
 Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
   \aap, 300, 503
 
+\bibitem[\protect\citeauthoryear{{Draine} \& {Flatau}}{{Draine} \&
+  {Flatau}}{2004}]{Draine2004}
+{Draine} B.~T.,  {Flatau} P.~J.,  2004, ArXiv Astrophysics e-prints, \href
+  {http://adsabs.harvard.edu/abs/2004astro.ph..9262D} {}
+
 \bibitem[\protect\citeauthoryear{Draine \& Lee}{Draine \&
   Lee}{1984}]{Draine1984}
 Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
@@ -617,6 +622,12 @@ Metropolis N.,  Rosenbluth A.~W.,  Rosenbluth M.~N.,  Teller A.~H.,   Teller
 Milisavljevic D.,  Fesen R.~A.,  Chevalier R.~A.,  Kirshner R.~P.,  Challis P.,
     Turatto M.,  2012, \mn@doi [\apj] {10.1088/0004-637X/751/1/25}, 751, 25
 
+\bibitem[\protect\citeauthoryear{Mishchenko, Travis  \& Lacis}{Mishchenko
+  et~al.}{2002}]{Mishchenko2002}
+Mishchenko M.,  Travis L.,   Lacis A.,  2002, Scattering, Absorption, and
+  Emission of Light by Small Particles.
+Cambridge University Press
+
 \bibitem[\protect\citeauthoryear{Morgan \& Edmunds}{Morgan \&
   Edmunds}{2003}]{Morgan2003}
 Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
@@ -678,6 +689,12 @@ Cambridge University Press
 {Riebel} D.,  {Srinivasan} S.,  {Sargent} B.,   {Meixner} M.,  2012, \mn@doi
   [\apj] {10.1088/0004-637X/753/1/71}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...753...71R} {753, 71}
+
+\bibitem[\protect\citeauthoryear{Riley, Hobson  \& Bence}{Riley
+  et~al.}{2006}]{Riley2006}
+Riley K.,  Hobson M.,   Bence S.,  2006, Mathematical Methods for Physics and
+  Engineering: A Comprehensive Guide.
+Cambridge University Press
 
 \bibitem[\protect\citeauthoryear{{Robitaille}}{{Robitaille}}{2011}]{Robitaille2011}
 {Robitaille} T.~P.,  2011, \mn@doi [\aap] {10.1051/0004-6361/201117150}, \href
