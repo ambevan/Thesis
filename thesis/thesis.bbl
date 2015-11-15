@@ -44,6 +44,11 @@ Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
 {Baes} M.,  et~al., 2003, \mn@doi [\mnras] {10.1046/j.1365-8711.2003.06770.x},
   \href {http://adsabs.harvard.edu/abs/2003MNRAS.343.1081B} {343, 1081}
 
+\bibitem[\protect\citeauthoryear{{Barlow} \& {Silk}}{{Barlow} \&
+  {Silk}}{1977}]{Barlow1977}
+{Barlow} M.~J.,  {Silk} J.,  1977, \mn@doi [\apjl] {10.1086/182346}, \href
+  {http://adsabs.harvard.edu/abs/1977ApJ...211L..83B} {211, L83}
+
 \bibitem[\protect\citeauthoryear{Barlow et~al.,}{Barlow
   et~al.}{2010}]{Barlow2010}
 Barlow M.~J.,  et~al., 2010, \mn@doi [\aap] {10.1051/0004-6361/201014585}, 518,
@@ -86,6 +91,11 @@ Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
 {Bionta} R.~M.,  {Blewitt} G.,  {Bratton} C.~B.,  {Casper} D.,   {Ciocio} A.,
   1987, \mn@doi [Physical Review Letters] {10.1103/PhysRevLett.58.1494}, \href
   {http://adsabs.harvard.edu/abs/1987PhRvL..58.1494B} {58, 1494}
+
+\bibitem[\protect\citeauthoryear{{Bless} \& {Savage}}{{Bless} \&
+  {Savage}}{1972}]{Bless1972}
+{Bless} R.~C.,  {Savage} B.~D.,  1972, \mn@doi [\apj] {10.1086/151282}, \href
+  {http://adsabs.harvard.edu/abs/1972ApJ...171..293B} {171, 293}
 
 \bibitem[\protect\citeauthoryear{Bohren \& Huffman}{Bohren \&
   Huffman}{1983}]{Bohren1983}
@@ -134,6 +144,12 @@ Buslenko N.~P.,  Golenko D.~I.,  Shreider Y.~A.,  Sobol' I.~M.,   Sragovich
   V.~G.,  1966, The Monte Carlo Method: The Method of Statistical Trials.
  International Series of Monographs in Pure and Applied Mathematics Vol. 87,
   Pergamon Press
+
+\bibitem[\protect\citeauthoryear{{Cardelli}, {Clayton}  \& {Mathis}}{{Cardelli}
+  et~al.}{1989}]{Cardelli1989}
+{Cardelli} J.~A.,  {Clayton} G.~C.,   {Mathis} J.~S.,  1989, \mn@doi [\apj]
+  {10.1086/167900}, \href {http://adsabs.harvard.edu/abs/1989ApJ...345..245C}
+  {345, 245}
 
 \bibitem[\protect\citeauthoryear{{Carilli} et~al.,}{{Carilli}
   et~al.}{2001}]{Carilli2001}
@@ -187,6 +203,11 @@ Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
   Mutschke}{Dorschner et~al.}{1995}]{Dorschner1995}
 Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
   \aap, 300, 503
+
+\bibitem[\protect\citeauthoryear{{Draine}}{{Draine}}{2003}]{Draine2003}
+{Draine} B.~T.,  2003, \mn@doi [\araa]
+  {10.1146/annurev.astro.41.011802.094840}, \href
+  {http://adsabs.harvard.edu/abs/2003ARA%26A..41..241D} {41, 241}
 
 \bibitem[\protect\citeauthoryear{{Draine} \& {Flatau}}{{Draine} \&
   {Flatau}}{2004}]{Draine2004}
@@ -323,6 +344,11 @@ Gilks W.~R.,  Richardson S.,   Spiegelhalter D.~J.,  1996, {M}arkov chain
   {M}onte-{C}arlo in practice.
 London: Chapman and Hall
 
+\bibitem[\protect\citeauthoryear{{Gomez}}{{Gomez}}{2013}]{Gomez2013}
+{Gomez} H.,  2013, in Andersen A.,  Baes M.,  Gomez H.,  Kemper C.,   Watson
+  D.,  eds, Proceedings of The Life Cycle of Dust in the Universe:
+  Observations, Theory, and Laboratory Experiments. p.~146
+
 \bibitem[\protect\citeauthoryear{{Gomez} et~al.,}{{Gomez}
   et~al.}{2012}]{Gomez2012}
 {Gomez} H.~L.,  et~al., 2012, \mn@doi [\apj] {10.1088/0004-637X/760/1/96},
@@ -386,6 +412,10 @@ Hastings W.,  1970, \mn@doi [Biometrika] {10.1093/biomet/57.1.97}, 57, 97
   {Greenstein}}{1941}]{Henyey1941}
 {Henyey} L.~G.,  {Greenstein} J.~L.,  1941, \mn@doi [\apj] {10.1086/144246},
   \href {http://adsabs.harvard.edu/abs/1941ApJ....93...70H} {93, 70}
+
+\bibitem[\protect\citeauthoryear{{Hildebrand}}{{Hildebrand}}{1983}]{Hildebrand1983}
+{Hildebrand} R.~H.,  1983, Quarterly Journal of the Royal Astronomical Society,
+  \href {http://adsabs.harvard.edu/abs/1983QJRAS..24..267H} {24, 267}
 
 \bibitem[\protect\citeauthoryear{Hillier}{Hillier}{1991}]{Hillier1991}
 Hillier D.~J.,  1991, \aap, 247, 455
@@ -454,6 +484,13 @@ Kozma C.,  Fransson C.,  1998b, \mn@doi [\apj] {10.1086/305452}, 497, 431
 {Krause} O.,  {Birkmann} S.~M.,  {Rieke} G.~H.,  {Lemke} D.,  {Klaas} U.,
   {Hines} D.~C.,   {Gordon} K.~D.,  2004, \mn@doi [\nat] {10.1038/nature03110},
   \href {http://adsabs.harvard.edu/abs/2004Natur.432..596K} {432, 596}
+
+\bibitem[\protect\citeauthoryear{{Krause}, {Birkmann}, {Usuda}, {Hattori},
+  {Goto}, {Rieke}  \& {Misselt}}{{Krause} et~al.}{2008}]{Krause2008}
+{Krause} O.,  {Birkmann} S.~M.,  {Usuda} T.,  {Hattori} T.,  {Goto} M.,
+  {Rieke} G.~H.,   {Misselt} K.~A.,  2008, \mn@doi [Science]
+  {10.1126/science.1155788}, \href
+  {http://adsabs.harvard.edu/abs/2008Sci...320.1195K} {320, 1195}
 
 \bibitem[\protect\citeauthoryear{{Kromer} \& {Sim}}{{Kromer} \&
   {Sim}}{2009}]{Kromer2009}
@@ -690,6 +727,11 @@ Cambridge University Press
   [\apj] {10.1088/0004-637X/753/1/71}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...753...71R} {753, 71}
 
+\bibitem[\protect\citeauthoryear{{Rieke} \& {Lebofsky}}{{Rieke} \&
+  {Lebofsky}}{1985}]{Rieke1985}
+{Rieke} G.~H.,  {Lebofsky} M.~J.,  1985, \mn@doi [\apj] {10.1086/162827}, \href
+  {http://adsabs.harvard.edu/abs/1985ApJ...288..618R} {288, 618}
+
 \bibitem[\protect\citeauthoryear{Riley, Hobson  \& Bence}{Riley
   et~al.}{2006}]{Riley2006}
 Riley K.,  Hobson M.,   Bence S.,  2006, Mathematical Methods for Physics and
@@ -793,6 +835,12 @@ Spyromilio J.,  Stathakis R.~a.,   Meurer G.~R.,  1993, \mnras, 263, 530
   Zeippen}{2000}]{Storey2000}
 Storey P.~J.,  Zeippen C.~J.,  2000, \mn@doi [\mnras]
   {10.1046/j.1365-8711.2000.03184.x}, 312, 813
+
+\bibitem[\protect\citeauthoryear{{Sugerman}, {Crotts}, {Kunkel}, {Heathcote}
+  \& {Lawrence}}{{Sugerman} et~al.}{2005}]{Sugerman2005}
+{Sugerman} B.~E.~K.,  {Crotts} A.~P.~S.,  {Kunkel} W.~E.,  {Heathcote} S.~R.,
+  {Lawrence} S.~S.,  2005, \mn@doi [\apjs] {10.1086/430408}, \href
+  {http://adsabs.harvard.edu/abs/2005ApJS..159...60S} {159, 60}
 
 \bibitem[\protect\citeauthoryear{Sugerman et~al.,}{Sugerman
   et~al.}{2006}]{Sugerman2006}
