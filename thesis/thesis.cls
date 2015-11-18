@@ -346,45 +346,67 @@
     \hspace{-4.7cm}
     \includegraphics[scale=1]{./front/ucllogo}
   \begin{center}
-  \begin{huge}
-    \@university
-    \end{huge}\\
-  \rule{9cm}{.4pt}\\
-  \smallskip 
-  \@faculty \\
-  \medskip
-  \@department \\
-  \bigskip\bigskip\bigskip
-  {\vfil
+%  \begin{huge}
+%    \@university
+%    \end{huge}\\
+%  \rule{9cm}{.4pt}\\
+%%  \smallskip 
+%%  \@faculty \\
+% % \medskip
+%  \@department \\
+  \bigskip\bigskip\bigskip\bigskip\bigskip\bigskip
+  \begin{Large}
+  Thesis submitted for the degree of 
+
+  Doctor of Philosophy
+  \end{Large}
+  
+  \vspace{3.5cm}
+  {%\vfill
     \begin{Huge}
     \begin{minipage}[b]{15cm}
      \centering \@thesistitle
     \end{minipage}
     \end{Huge}}
-  \bigskip
-  \bigskip\bigskip\vfill
-  {\vfil
+%  \bigskip
+%  \bigskip\bigskip\vfill
+  {%\vfil
     \begin{Large}
-    \begin{minipage}[b]{12cm}
-     \centering Thesis submitted for the Degree of 
-      Doctor of Philosophy of the University of London
+    \begin{minipage}[b]{1cm}
+%     \centering Thesis submitted for the degree of 
+
+%      Doctor of Philosophy
     \end{minipage}
     \end{Large}}
-   \vspace{6.2mm} \\
-     by \\ \vspace{1.0mm} 
+   \vspace{1cm} \\
+%     {\Large by} \\ \vspace{1.0mm} 
   \begin{LARGE}\@thesisauthor\end{LARGE} \\
   \bigskip\vfill
+  \vspace{1cm}
   \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}l@{}}
-    Supervisors: & Examiners: \\
-     \vtop{\halign{\strut\hfil##\hfil\cr
-       \@supervisorone\cr}}&%
-     \vtop{\halign{\strut\hfil##\hfil\cr
-       \@examinerone\cr}} \\% 
-     \vtop{\halign{\strut\hfil##\hfil\cr
-       \@supervisortwo\cr}}&%
-     \vtop{\halign{\strut\hfil##\hfil\cr
-       \@examinertwo\cr}}%
+%    Supervisors: & Examiners: \\
+ %    \vtop{\halign{\strut\hfil##\hfil\cr
+ %      \@supervisorone\cr}}&%
+ %    \vtop{\halign{\strut\hfil##\hfil\cr
+ %      \@examinerone\cr}} \\% 
+ %    \vtop{\halign{\strut\hfil##\hfil\cr
+ %      \@supervisortwo\cr}}&%
+ %    \vtop{\halign{\strut\hfil##\hfil\cr
+ %      \@examinertwo\cr}}%
   \end{tabular*}\end{center}
+
+%NEW HERE
+\begin{center}
+ \rule{7cm}{.4pt}\\
+  \@department \\
+    \@university \\
+ % \rule{9cm}{.4pt}\\
+%  \smallskip 
+%  \@faculty \\
+ % \medskip
+ \rule{7cm}{.4pt}\\
+\end{center}
+%END NEW HERE
 
 % \begin{center}\scriptsize
 %   \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{1cm}}l@{}}
@@ -400,7 +422,7 @@
 
   \begin{center}
   \vfill
-  \rule{9cm}{.4pt}\\
+%  \rule{9cm}{.4pt}\\
   \medskip
   \today\\
   \end{center}
