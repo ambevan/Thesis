@@ -130,21 +130,22 @@
 \contentsline {section}{\numberline {4.4}Discussion}{156}{section.4.4}
 \contentsline {section}{\numberline {4.5}Conclusions}{160}{section.4.5}
 \contentsline {chapter}{\numberline {5}A Wider View: Models of Other Supernova Remnants}{162}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{166}{section.5.1}
-\contentsline {section}{\numberline {5.2}SN\nobreakspace {}1980K}{166}{section.5.2}
-\contentsline {section}{\numberline {5.3}SN\nobreakspace {}1993J}{166}{section.5.3}
-\contentsline {section}{\numberline {5.4}Cassiopeia A}{166}{section.5.4}
-\contentsline {section}{\numberline {5.5}Models of Late-Time Line Profiles from Core-Collapse Supernovae}{166}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Smooth Models}{166}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Clumped Models}{166}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Velocity-Shifted Line Profile Models}{166}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Discussion}{166}{section.5.6}
-\contentsline {section}{\numberline {5.7}Conclusions}{166}{section.5.7}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{167}{chapter.6}
-\contentsline {chapter}{\numberline {A}Mie Theory}{168}{appendix.A}
-\contentsline {section}{\numberline {A.1}Formulating the Problem}{168}{section.A.1}
-\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{169}{section.A.2}
-\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{171}{section.A.3}
-\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{172}{section.A.4}
-\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{173}{section.A.5}
-\contentsline {chapter}{Bibliography}{175}{equation.A.5.32}
+\contentsline {section}{\numberline {5.1}Introduction}{162}{section.5.1}
+\contentsline {section}{\numberline {5.2}SN\nobreakspace {}1980K}{162}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Smooth Models}{162}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}SN\nobreakspace {}1993J}{162}{section.5.3}
+\contentsline {section}{\numberline {5.4}Cassiopeia A}{162}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Smooth Models}{162}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Clumped Models of Cas A}{166}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Clumped Models}{167}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Velocity-Shifted Line Profile Models}{167}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Discussion}{167}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{167}{section.5.6}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{168}{chapter.6}
+\contentsline {chapter}{\numberline {A}Mie Theory}{169}{appendix.A}
+\contentsline {section}{\numberline {A.1}Formulating the Problem}{169}{section.A.1}
+\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{170}{section.A.2}
+\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{172}{section.A.3}
+\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{173}{section.A.4}
+\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{174}{section.A.5}
+\contentsline {chapter}{Bibliography}{176}{equation.A.5.32}
