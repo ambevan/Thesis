@@ -15,6 +15,7 @@ A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 A level-1 auxiliary file: back/appendices/appendA.aux
 The style file: mnras.bst
 A level-1 auxiliary file: back/backquote.aux
+Reallocated field_info (elt_size=4) to 10049 items from 5000.
 Database file #1: thesis.bib.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,45 +32,45 @@ while executing---line 3643 of file mnras.bst
 `series' is a missing field, not a string, for entry Baron2005
 while executing---line 3643 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
-You've used 183 entries,
+You've used 187 entries,
             2881 wiz_defined-function locations,
-            2233 strings with 57450 characters,
-and the built_in function-call counts, 88550 in all, are:
-= -- 7012
-> -- 6547
-< -- 492
-+ -- 2874
-- -- 964
-* -- 10754
-:= -- 13952
+            2264 strings with 58760 characters,
+and the built_in function-call counts, 90316 in all, are:
+= -- 7152
+> -- 6674
+< -- 502
++ -- 2933
+- -- 980
+* -- 10983
+:= -- 14231
 add.period$ -- 0
-call.type$ -- 183
-change.case$ -- 369
-chr.to.int$ -- 179
-cite$ -- 184
-duplicate$ -- 4372
-empty$ -- 4494
-format.name$ -- 1572
-if$ -- 15419
+call.type$ -- 187
+change.case$ -- 377
+chr.to.int$ -- 183
+cite$ -- 188
+duplicate$ -- 4460
+empty$ -- 4582
+format.name$ -- 1602
+if$ -- 15715
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 195
-newline$ -- 576
-num.names$ -- 1337
-pop$ -- 1032
+missing$ -- 199
+newline$ -- 588
+num.names$ -- 1363
+pop$ -- 1050
 preamble$ -- 1
-purify$ -- 732
+purify$ -- 748
 quote$ -- 0
-skip$ -- 2599
+skip$ -- 2651
 stack$ -- 0
-substring$ -- 4688
-swap$ -- 2388
-text.length$ -- 768
+substring$ -- 4776
+swap$ -- 2434
+text.length$ -- 784
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1611
+type$ -- 1647
 warning$ -- 1
-while$ -- 1390
+while$ -- 1420
 width$ -- 0
-write$ -- 1860
+write$ -- 1900
 (There were 6 error messages)
