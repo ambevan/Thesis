@@ -309,6 +309,12 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
   {10.1051/0004-6361:20041198}, \href
   {http://adsabs.harvard.edu/abs/2006A\%26A...447..553F} {447, 553}
 
+\bibitem[\protect\citeauthoryear{{Fesen}, {Pavlov}  \& {Sanwal}}{{Fesen}
+  et~al.}{2006}]{Fesen2006a}
+{Fesen} R.~A.,  {Pavlov} G.~G.,   {Sanwal} D.,  2006, \mn@doi [\apj]
+  {10.1086/498087}, \href {http://adsabs.harvard.edu/abs/2006ApJ...636..848F}
+  {636, 848}
+
 \bibitem[\protect\citeauthoryear{Fitzpatrick, Morris  \&
   Podsiadlowski}{Fitzpatrick et~al.}{2013}]{Fitzpatrick2013}
 Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
@@ -462,6 +468,9 @@ J\"{a}ger C.,  Mutschke H.,  Begemann B.,  Dorschner J.,   Henning T.,  1994,
   Henning}{J\"{a}ger et~al.}{2003}]{Jager2003}
 J\"{a}ger C.,  Dorshner J.,  Mutschke H.,  Posch T.,   Henning T.,  2003,
   \mn@doi [\aap] {10.1051/0004-6361:20030916}, 408, 193
+
+\bibitem[\protect\citeauthoryear{{Kirshner}}{{Kirshner}}{1990}]{Kirshner1990}
+{Kirshner} R.~P.,  1990, in {Petschek} A.~G.,  ed., Supernovae. pp 59--75
 
 \bibitem[\protect\citeauthoryear{{Kirshner}, {Sonneborn}, {Crenshaw}  \&
   {Nassiopoulos}}{{Kirshner} et~al.}{1987}]{Kirshner1987}
@@ -666,6 +675,10 @@ Metropolis N.,  Rosenbluth A.~W.,  Rosenbluth M.~N.,  Teller A.~H.,   Teller
 \bibitem[\protect\citeauthoryear{{Mie}}{{Mie}}{1908}]{Mie1908}
 {Mie} G.,  1908, Annalen der Physik, 330, 377
 
+\bibitem[\protect\citeauthoryear{Milisavljevic \& Fesen}{Milisavljevic \&
+  Fesen}{2013}]{Milisavljevic2013}
+Milisavljevic D.,  Fesen R.~A.,  2013, The Astrophysical Journal, 772, 134
+
 \bibitem[\protect\citeauthoryear{Milisavljevic, Fesen, Chevalier, Kirshner,
   Challis  \& Turatto}{Milisavljevic et~al.}{2012}]{Milisavljevic2012}
 Milisavljevic D.,  Fesen R.~A.,  Chevalier R.~A.,  Kirshner R.~P.,  Challis P.,
@@ -716,6 +729,12 @@ University Science Books
   Barlow}{2015}]{Owen2015}
 Owen P.~J.,  Barlow M.~J.,  2015, \mn@doi [\apj] {10.1088/0004-637X/801/2/141},
   801, 141
+
+\bibitem[\protect\citeauthoryear{{Patnaude}, {Fesen}, {Raymond}, {Levenson}  \&
+  {Graham}}{{Patnaude} et~al.}{2001}]{Patnaude2001}
+{Patnaude} D.~J.,  {Fesen} R.~A.,  {Raymond} J.~C.,  {Levenson} N.~A.,
+  {Graham} J.~R.,  2001, in American Astronomical Society Meeting Abstracts.
+  p.~126
 
 \bibitem[\protect\citeauthoryear{{Phillips}, {Hamuy}, {Heathcote}, {Suntzeff}
   \& {Kirhakos}}{{Phillips} et~al.}{1990}]{Phillips1990}
@@ -965,6 +984,10 @@ Wongwathanarat A.,  M\"{u}ller E.,   Janka H.-T.,  2015, \mn@doi [\aap]
 Wooden D.~H.,  Rank D.~M.,  Bregman J.~D.,  Witteborn F.~C.,  Tielens A. G.
   G.~M.,  Cohen M.,  Pinto P.~A.,   Axelrod T.~S.,  1993, \mn@doi [\apjs]
   {10.1086/191830}, 88, 477
+
+\bibitem[\protect\citeauthoryear{{Woosley}}{{Woosley}}{2010}]{Woosley2010}
+{Woosley} S.~E.,  2010, \mn@doi [\apjl] {10.1088/2041-8205/719/2/L204}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...719L.204W} {719, L204}
 
 \bibitem[\protect\citeauthoryear{Xu, McCray, Oliva  \& Randich}{Xu
   et~al.}{1992}]{Xu1992}

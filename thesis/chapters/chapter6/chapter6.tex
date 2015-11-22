@@ -1,4 +1,4 @@
-\chapter{A Wider View: Models of Other Supernova Remnants}\label{chp:chp6}
+\chapter{Dust Masses in Other Supernova Remnants}\label{chp:chp6}
 
 %\begin{flushright}
 %  {\em QUOTE GOES HERE }\\
@@ -10,73 +10,50 @@
 %\end{flushright}
 
 
-\noindent{FIRST PARAGRAPH}
-
 \section{Introduction}
+\noindent{SN~1987A has provided a rare opportunity to follow the evolution of a CCSN in close detail.  It is now well established that there is a significant mass of dust forming in the ejecta.  However, the question of the dust  budget problem in the early universe cannot be solved by considering SN~1987A alone.  If CCSNe are indeed the primary source of the dust seen at high redshifts, it is necessary to establish that the majority of CCSNe do indeed produce sizeable quantities of dust.  This motivates the study of other CCSN remnants with the aim of determining the masses of dust that have formed in their ejecta.}
 
-\setlength{\tabcolsep}{7pt}
-\begin{table}
-%	\begin{minipage}{180mm}
-	\centering
-	\caption{Details of the archival data for SN~1980K, SN~1993J and Cas~A.}
-	\label{tb:data}
-  	\begin{tabular}{@{} ccccccccl @{}}
-    	\hline
-	Date & Age & Telescope  & Inst & $\lambda_{min}$ & $\lambda_{max}$ & Res. & Res. & Reference \\
-	& (days) & & &(\AA) & (\AA)& (\AA) & Power\\
-	\hline
-31 Jul 1988 & 524 & AAT & FORS & 5500 & 10190 & 20 & & \citet{Spyromilio1991} \\
+Blue-shifted line emission is a common and long-lasting feature of the late-time spectra of CCSNe.  In particular the emission lines of oxygen and hydrogen are often visible and often exhibit asymmetries and significant substructure.  If these lines can be modelled then it may be possible to determine the dust masses in SNRs at later times.
 
-    \hline
-  \end{tabular}
-%\end{minipage}
-\end{table}
+There are only a few objects that lend themselves to this sort of modelling however.  The primary obstacle to assessing a large number of late-time spectra from CCSNe is that the majority fade rapidly,  with their brightness decreasing by eight magnitudes after maximum light within the first two years \citep{Kirshner1990}.  They are also frequently further than $\sim$10 Mpc from us and detections are relatively infrequent in the first place.  As a result, the optical spectra are rarely visible after approximately 700 days \citep{Milisavljevic2012}.  
 
-
-\setlength{\tabcolsep}{12pt}
-
-\section{SN~1980K}
-
-\subsection{Smooth Models}
-\begin{figure}
-\centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha_amC}
-
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
-\caption{Smooth fits to SN 1980K}
-\label{80K_smooth}
-\end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha_amC}
-
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI_amC}
-\caption{clumped fits to SN 1980K}
-\label{80K_clumped}
+\includegraphics[clip=true,scale=0.6, trim=30 0 50 20]{chapters/chapter6/figs/CasA/spectrum}
+\caption{The integrated spectrum of Cas A \citep{Milisavljevic2013}.}
+\label{CasA_spectrum}
 \end{figure}
 
-\clearpage
+However, there are a few unusual objects that, for various reasons, we may still be able to see many years or even decades after maximum light.  This could be because they are unusually close, like SN~1987A, or more usually because some late-time energy source is illuminating the ejecta.  The most obvious of these energy sources is the interaction between the forward shock and the surrounding circumstellar material.  This interaction is known to emit across a wide range of wavelengths from radio to X-rays and cases a reverse shock to propagate inwards through the ejecta heating and ionising the material it passes through.  Other postulated energy sources include interaction between a central pulsar or magnetar and the expanding debris \citep{Woosley2010}, or accretion onto a black hole \citep{Patnaude2001}.
 
-\section{SN~1993J}
+Recent work by \citep{Milisavljevic2012} identified a number of CCSNe that were still visible in the optical despite being more than 20 years old.  These included SN~1957D, SN~1970G, SN~1979C, SN~1980K, SN~1986E, SN~1986J, SN~1987A, SN~1993J and SN~1996cr.  Many of these SNe exhibited strong asymmetries and blue-shifting in their profiles in the optical, particularly in the oxygen and hydrogen lines.  In this chapter I present models of two of these objects, namely SN~1980K and SN~1993J.  I select these as both exhibit at least two blue-shifted line profiles and the lines of interest are largely uncontaminated by other lines with wings that do not overlap with other lines.  
+
+In addition to these SNRs, I also present models of the oxygen lines of Cassiopeia~A (Cas~A).  Cas~A is a very well studied object and at $\sim$300 years old is easily the oldest observable remnant to have detectable line emission in the optical.  I will discuss why this is possible along with some other  interesting facts about Cas~A at the start of the Section \ref{CasA_intro}.  
+
+By modelling these three objects, and from my models of SN~1987A presented in the previous chapter, I hope to be able to determine the order of magnitude of the mass of dust that forms in the ejecta of CCSNe.
+
 \begin{figure}
 \centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII_amC}
-
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OII}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OII_amC}
-\caption{smooth fits to SN 1993J}
-\label{93J_smooth}
+\includegraphics[clip=true,scale=0.3, trim=0 0 0 0]{chapters/chapter6/figs/CasA/slit_positions.png}
+\caption{Finding charts of the long-slit positions used to compose the integrated spectrum of the main shell of Cas~A.  The background image is a mosaic created from 2004 HST/ACS observations \citep{Fesen2006a}.  Image is taken from \citet{Milisavljevic2013}.}
+\label{CasA_slit_positions}
 \end{figure}
-
-\clearpage
 
 \section{Cassiopeia A}
+\label{CasA_intro}
+
+
+\subsection{Integrated Spectrum of Cas A}
+
+The integrated spectrum presented in Figure \ref{CasA_spectrum} is from \citet{Milisavljevic2013}.  It is composed of observations from a series of observing runs between September 2007 and November 2010 that were conducted in order to obtain low-dipsersion optical spectra across the remnant.  The majority of observations were carried out at the MDM Observatory at Kitt Peak, Arizona using the 2.4m Hiltner telescope and the Mayall 4m telescope.  The MDM Modular Spectrograph was used with an `Echelle' detector.  A long slit of dimensions 2"$\times$5' was used oriented North-South.  Exposure times were generally 2$\times$500s.  The wavelength range covered was 4500-7000\AA\ with a spectral resolution of 6\AA.  
+%A few of the observations of the main shell of Cas~A used alternative spectrographs (the Mark III Spectrograph and the Chivens CCD Spectrograph).  The lowest spectral resolution of any spectrum observed was 12\AA.  
+
+The integrated spectrum was ultimately composed of 80 long slit spectra spaced 3" apart across the entire main shell which is approximately 4' in diameter.  The slit positions are shown in Figure \ref{CasA_slit_positions}.
+
+
+
+
 
 \begin{figure}
 \centering
@@ -89,7 +66,7 @@
 
 \subsection{Smooth Models}
 
-My modelling of the Cas~A spectrum was initially focussed on the [O {\sc iii}] line, which exhibits a pronounced asymmetry.  I managed to produce a reasonable fit to the data using the parameters listed in the first row of Table \ref{CasA_smooth_params}.  The profile is presented in the left pane of Figure \ref{CasA_OIII}.  As can be seen,  the modelled line profile generally fits the observed line profile quite well, although it fails to fit the red side of the profile adequately.  A thorough, manual investigation of parameter space resulted in the conclusion that the profile was much better fitted if the entire observed profile was shifted to the blue by $-700$~km~s$^{-1}$.  This might well be a reasonable assumption.  The integrated spectrum does not sample the entire ejecta.  Additionally, Cas~A is known to be significantly asymmetrical \citep{Rest2011}.  The integrated profile may well sample regions with different line-of-sight velocities, the sum of which could result in a net line-of-sight velocity shift.  This was also found to be the case with the [O {\sc ii}] and [O {\sc i}] lines.  Throughout the remainder of my modelling I therefore allowed the profiles to be shifted in velocity space to better fit the data based on the possibility that the sampled emitting regions had an overall net velocity towards the observer.  Fits to the line profiles were significantly improved following this translation (see Figures \ref{CasA_OIII} to \ref{CasA_clumped_models}).
+My modelling of the Cas~A spectrum was initially focussed on the [O {\sc iii}] line, which exhibits a pronounced asymmetry.  I managed to produce a reasonable fit to the data using the parameters listed in the first row of Table \ref{CasA_smooth_params}.  The profile is presented in the left pane of Figure \ref{CasA_OIII}.  As can be seen,  the modelled line profile generally fits the observed line profile quite well, although it fails to fit the red side of the profile adequately.  A thorough, manual investigation of parameter space resulted in the conclusion that the profile was much better fitted if the entire observed profile was shifted to the blue by $-700$~km~s$^{-1}$.  This might well be a reasonable assumption.  The integrated spectrum does not sample the entire ejecta.  Additionally, Cas~A is known to be significantly asymmetrical \citep{Rest2011}.  The integrated profile may well sample regions with different line-of-sight velocities, the sum of which could result in a net line-of-sight velocity shift.  This was also found to be the case with the [O {\sc ii}] and [O {\sc i}] lines.  Throughout the remainder of my modelling I therefore allowed the profiles to be shifted in velocity space to better fit the data based on the possibility that the sampled emitting regions had an overall net velocity towards the observer.  Fits to the line profiles were significantly improved following this translation (see Figures \ref{CasA_OIII} to \ref{CasA_OIII_clumped}).
 
 A model of the shifted [O {\sc iii}] line is presented in Figure \ref{CasA_OIII} and the parameters used for this model are presented in the second row of Table \ref{CasA_smooth_params}.  The line profile was shifted by $-700$~km~s$^{-1}$.  A total dust optical depth of $\tau=0.49$ at 5007\AA\ between $R_{in}$ and $R_{out}$ was found to best fit the profile.  An albedo of $\omega\approx0.15$ at 5007\AA\ was also necessary.
 
@@ -192,9 +169,60 @@ $R_{out}/25$ & 1.6 & 1.0 & 1.0 \\
 \label{CasA_clumped_dust_masses}
 \end{table}
 
+\subsection{The Geometry of Cas~A}
+
+Consider section 2 of conclusions of DAN and FESEN - talk about overall velocity of optical emitting regions being towards us
+
+\subsection{The Chemistry of Cas~A}
+
+Compare to the biscaro paper and the other species paper
+
+\subsection{The Dust Mass in Cas~A}
+
+Mike's paper and others.  Need a reason why my estimate is higher.
 
 
 
+\clearpage
+
+\section{SN~1980K}
+
+\subsection{Smooth Models}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
+\caption{Smooth fits to SN 1980K}
+\label{80K_smooth}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI_amC}
+\caption{clumped fits to SN 1980K}
+\label{80K_clumped}
+\end{figure}
+
+\clearpage
+
+\section{SN~1993J}
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OII}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OII_amC}
+\caption{smooth fits to SN 1993J}
+\label{93J_smooth}
+\end{figure}
 
 
 
