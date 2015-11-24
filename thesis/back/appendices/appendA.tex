@@ -1,8 +1,6 @@
 \appendix %% Must go in first Appendix file only
 \chapter{Mie Theory}\label{append:appendA}
-The aim is to understand the nature of the scattered electromagnetic field given a field incident on a single spherical particle.  In order to calculate this, Maxwell's equations must be solved inside and outside of the sphere, using boundary conditions at the surface to determine the amount and angular distribution of the scattered wave.  Beginning with Maxwell's equations, I will formulate the problem, derive the vector wave equation, illustrate its reduction to the scalar wave equation and solve this to produce the scattering coefficients that may be used to calculate the desired scattering and extinction cross-sections of interaction.
-
-The derivation given here follows the theory as described by \citet{Bohren1983}.
+The aim is to understand the nature of the scattered electromagnetic field given a field incident on a single spherical particle.  In order to calculate this, Maxwell's equations must be solved inside and outside of the sphere, using boundary conditions at the surface to determine the amount and angular distribution of the scattered wave.  Beginning with Maxwell's equations, I will formulate the problem, derive the vector wave equation, illustrate its reduction to the scalar wave equation and solve this to produce the scattering coefficients that may be used to calculate the desired scattering and extinction cross-sections of interaction. The derivation given here follows the theory as described by \citet{Bohren1983}.
 
 \section{Formulating the Problem}
 
@@ -124,7 +122,7 @@ The corresponding magnetic field may be calculated via the curl of Equation \ref
 (\mathbf{E}_i+\mathbf{E}_s-\mathbf{E}_1)\times \mathbf{\hat{e}}_r=(\mathbf{H}_i+\mathbf{H}_s-\mathbf{H}_1)\times \mathbf{\hat{e}}_r=0
 \end{equation}
  
-Applying this boundary condition and once again applying various orthogonality relationships and the condition of finiteness at the origin gives the expansions of the field inside the sphere and the scattered field as:
+\noindent Applying this boundary condition and once again applying various orthogonality relationships and the condition of finiteness at the origin gives the expansions of the field inside the sphere and the scattered field as:
 \begin{align}
 \label{eqn:1}
 \mathbf{E}_1 &= \sum _{n=1} ^{\infty} E_n (c_n\mathbf{M}_{o1n}^{(1)} - id_n\mathbf{N}_{e1n}^{(1)}) \, , &\mathbf{H}_1 &= \frac{-k_1}{\omega\mu_1} \sum _{n=1} ^{\infty}E_n(d_n\mathbf{M}_{e1n}^{(1)} - ic_n\mathbf{N}_{o1n}^{(1)}) \\

@@ -28,6 +28,12 @@ Springer US, pp 203--210, \mn@doi{10.1007/0-306-46927-8_17}
 Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
   715, 541
 
+\bibitem[\protect\citeauthoryear{{Arendt}, {Dwek}  \& {Moseley}}{{Arendt}
+  et~al.}{1999}]{Arendt1999}
+{Arendt} R.~G.,  {Dwek} E.,   {Moseley} S.~H.,  1999, \mn@doi [\apj]
+  {10.1086/307545}, \href {http://adsabs.harvard.edu/abs/1999ApJ...521..234A}
+  {521, 234}
+
 \bibitem[\protect\citeauthoryear{{Arendt}, {Dwek}, {Kober}, {Rho}  \&
   {Hwang}}{{Arendt} et~al.}{2014}]{Arendt2014}
 {Arendt} R.~G.,  {Dwek} E.,  {Kober} G.,  {Rho} J.,   {Hwang} U.,  2014,
@@ -211,6 +217,10 @@ Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
   Conference and Workshop Proceedings Vol. 37, European Southern Observatory
   Conference and Workshop Proceedings. p.~217
 
+\bibitem[\protect\citeauthoryear{DeLaney et~al.,}{DeLaney
+  et~al.}{2010}]{DeLaney2010}
+DeLaney T.,  et~al., 2010, The Astrophysical Journal, 725, 2038
+
 \bibitem[\protect\citeauthoryear{Dorschner, Begemann, Henning, Jaeger  \&
   Mutschke}{Dorschner et~al.}{1995}]{Dorschner1995}
 Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
@@ -244,6 +254,10 @@ Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
 \bibitem[\protect\citeauthoryear{{Dwek}}{{Dwek}}{1988}]{Dwek1988}
 {Dwek} E.,  1988, \mn@doi [\apj] {10.1086/166425}, \href
   {http://adsabs.harvard.edu/abs/1988ApJ...329..814D} {329, 814}
+
+\bibitem[\protect\citeauthoryear{{Dwek}}{{Dwek}}{2004}]{Dwek2004}
+{Dwek} E.,  2004, \mn@doi [\apj] {10.1086/382653}, \href
+  {http://adsabs.harvard.edu/abs/2004ApJ...607..848D} {607, 848}
 
 \bibitem[\protect\citeauthoryear{{Dwek} \& {Arendt}}{{Dwek} \&
   {Arendt}}{2015}]{Dwek2015}
@@ -310,10 +324,15 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
   {http://adsabs.harvard.edu/abs/2006A\%26A...447..553F} {447, 553}
 
 \bibitem[\protect\citeauthoryear{{Fesen}, {Pavlov}  \& {Sanwal}}{{Fesen}
-  et~al.}{2006}]{Fesen2006a}
-{Fesen} R.~A.,  {Pavlov} G.~G.,   {Sanwal} D.,  2006, \mn@doi [\apj]
+  et~al.}{2006a}]{Fesen2006a}
+{Fesen} R.~A.,  {Pavlov} G.~G.,   {Sanwal} D.,  2006a, \mn@doi [\apj]
   {10.1086/498087}, \href {http://adsabs.harvard.edu/abs/2006ApJ...636..848F}
   {636, 848}
+
+\bibitem[\protect\citeauthoryear{{Fesen} et~al.,}{{Fesen}
+  et~al.}{2006b}]{Fesen2006}
+{Fesen} R.~A.,  et~al., 2006b, \mn@doi [\apj] {10.1086/504254}, \href
+  {http://adsabs.harvard.edu/abs/2006ApJ...645..283F} {645, 283}
 
 \bibitem[\protect\citeauthoryear{Fitzpatrick, Morris  \&
   Podsiadlowski}{Fitzpatrick et~al.}{2013}]{Fitzpatrick2013}
@@ -453,6 +472,11 @@ Hillier D.~J.,  1991, \aap, 247, 455
   Wickramasinghe}{1970}]{Hoyle1970}
 Hoyle F.,  Wickramasinghe N.~C.,  1970, \mn@doi [\nat] {10.1038/226062a0}, 226,
   62
+
+\bibitem[\protect\citeauthoryear{{Hurford} \& {Fesen}}{{Hurford} \&
+  {Fesen}}{1996}]{Hurford1996}
+{Hurford} A.~P.,  {Fesen} R.~A.,  1996, \mn@doi [\apj] {10.1086/177775}, \href
+  {http://adsabs.harvard.edu/abs/1996ApJ...469..246H} {469, 246}
 
 \bibitem[\protect\citeauthoryear{Indebetouw et~al.,}{Indebetouw
   et~al.}{2014}]{Indebetouw2014}
@@ -708,6 +732,12 @@ Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
   \mn@doi [\apj] {10.1086/379011}, \href
   {http://adsabs.harvard.edu/abs/2003ApJ...598..785N} {598, 785}
 
+\bibitem[\protect\citeauthoryear{{Nozawa}, {Kozasa}, {Tominaga}, {Maeda},
+  {Umeda}, {Nomoto}  \& {Krause}}{{Nozawa} et~al.}{2010}]{Nozawa2010}
+{Nozawa} T.,  {Kozasa} T.,  {Tominaga} N.,  {Maeda} K.,  {Umeda} H.,  {Nomoto}
+  K.,   {Krause} O.,  2010, \mn@doi [\apj] {10.1088/0004-637X/713/1/356}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...713..356N} {713, 356}
+
 \bibitem[\protect\citeauthoryear{Omont, Cox, Bertoldi, McMahon, Carilli  \&
   Isaak}{Omont et~al.}{2001}]{Omont2001}
 Omont A.,  Cox P.,  Bertoldi F.,  McMahon R.~G.,  Carilli C.,   Isaak K.~G.,
@@ -747,6 +777,12 @@ Owen P.~J.,  Barlow M.~J.,  2015, \mn@doi [\apj] {10.1088/0004-637X/801/2/141},
 Press W.~H.,  Teukolsky S.~A.,  Vetterlin W.~T.,   Flannery B.~P.,  2007,
   Numerical Recipes: The Art of Scientific Computing, 3 edn.
 Cambridge University Press
+
+\bibitem[\protect\citeauthoryear{{Reed}, {Hester}, {Fabian}  \&
+  {Winkler}}{{Reed} et~al.}{1995}]{Reed1995}
+{Reed} J.~E.,  {Hester} J.~J.,  {Fabian} A.~C.,   {Winkler} P.~F.,  1995,
+  \mn@doi [\apj] {10.1086/175308}, \href
+  {http://adsabs.harvard.edu/abs/1995ApJ...440..706R} {440, 706}
 
 \bibitem[\protect\citeauthoryear{{Rest} et~al.,}{{Rest}
   et~al.}{2011}]{Rest2011}
@@ -816,6 +852,9 @@ Sarangi A.,  Cherchneff I.,  2015, \mn@doi [\aap]
 {Schneider} R.,  {Ferrara} A.,   {Salvaterra} R.,  2004, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2004.07876.x}, \href
   {http://adsabs.harvard.edu/abs/2004MNRAS.351.1379S} {351, 1379}
+
+\bibitem[\protect\citeauthoryear{{Sedov}}{{Sedov}}{1959}]{Sedov1959}
+{Sedov} L.~I.,  1959, {Similarity and Dimensional Methods in Mechanics}
 
 \bibitem[\protect\citeauthoryear{Silvia, Smith  \& {Michael Shull}}{Silvia
   et~al.}{2010}]{Silvia2010}
@@ -894,6 +933,11 @@ Suntzeff N.~B.,  Phillips M.~M.,  Depoy D.~L.,  Elias J.~H.,   Walker A.~R.,
   {10.1088/0004-637X/786/2/83}, \href
   {http://adsabs.harvard.edu/abs/2014ApJ...786...83T} {786, 83}
 
+\bibitem[\protect\citeauthoryear{{Taylor}}{{Taylor}}{1950}]{Taylor1950}
+{Taylor} G.,  1950, \mn@doi [Proceedings of the Royal Society of London Series
+  A] {10.1098/rspa.1950.0049}, \href
+  {http://adsabs.harvard.edu/abs/1950RSPSA.201..159T} {201, 159}
+
 \bibitem[\protect\citeauthoryear{{Temim} \& {Dwek}}{{Temim} \&
   {Dwek}}{2013}]{Temim2013}
 {Temim} T.,  {Dwek} E.,  2013, \mn@doi [\apj] {10.1088/0004-637X/774/1/8},
@@ -944,6 +988,11 @@ Wang L.,  et~al., 1996, \mn@doi [\apj] {10.1086/177570}, 466, 998
   Gallazzi  \& Michałowski}{Watson et~al.}{2015}]{Watson2015}
 Watson D.,  Christensen L.,  Knudsen K.~K.,  Richard J.,  Gallazzi A.,
   Michałowski M.~J.,  2015, \mn@doi [\nat] {10.1038/nature14164}, 519, 327
+
+\bibitem[\protect\citeauthoryear{{Weingartner} \& {Draine}}{{Weingartner} \&
+  {Draine}}{2001}]{Weingartner2001}
+{Weingartner} J.~C.,  {Draine} B.~T.,  2001, \mn@doi [\apj] {10.1086/318651},
+  \href {http://adsabs.harvard.edu/abs/2001ApJ...548..296W} {548, 296}
 
 \bibitem[\protect\citeauthoryear{Wesson, Barlow, Matsuura  \& Ercolano}{Wesson
   et~al.}{2015}]{Wesson2015}

@@ -1,4 +1,4 @@
-\chapter{Dust Masses in Other Supernova Remnants}\label{chp:chp6}
+\chapter[Dust Masses in Other Supernova Remnants]{Dust Masses in Other \\ Supernova Remnants}\label{chp:chp6}
 
 %\begin{flushright}
 %  {\em QUOTE GOES HERE }\\
@@ -11,11 +11,21 @@
 
 
 \section{Introduction}
-\noindent{SN~1987A has provided a rare opportunity to follow the evolution of a CCSN in close detail.  It is now well established that there is a significant mass of dust forming in the ejecta.  However, the question of the dust  budget problem in the early universe cannot be solved by considering SN~1987A alone.  If CCSNe are indeed the primary source of the dust seen at high redshifts, it is necessary to establish that the majority of CCSNe do indeed produce sizeable quantities of dust.  This motivates the study of other CCSN remnants with the aim of determining the masses of dust that have formed in their ejecta.}
+\noindent{SN~1987A has provided a rare opportunity to follow the evolution of a CCSN in close detail and it is now well established that there is a significant mass of dust forming in the ejecta.  However, the question of the dust  budget problem in the early universe cannot be solved by considering SN~1987A alone.  If CCSNe are indeed the primary source of the dust seen at high redshifts, it is necessary to establish that the majority of CCSNe do indeed produce sizeable quantities of dust.  This motivates the study of other CCSN remnants with the aim of determining the masses of dust that have formed in their ejecta.}
 
-Blue-shifted line emission is a common and long-lasting feature of the late-time spectra of CCSNe.  In particular the emission lines of oxygen and hydrogen are often visible and often exhibit asymmetries and significant substructure.  If these lines can be modelled then it may be possible to determine the dust masses in SNRs at later times.
+Blue-shifted line emission is a common and long-lasting feature of the late-time spectra of CCSNe.  In particular the emission lines of oxygen and hydrogen are often visible and often exhibit asymmetries and significant substructure.  If these lines can be modelled then it may be possible to determine the dust masses in SNRs at late times ($>10$ years).
 
 There are only a few objects that lend themselves to this sort of modelling however.  The primary obstacle to assessing a large number of late-time spectra from CCSNe is that the majority fade rapidly,  with their brightness decreasing by eight magnitudes after maximum light within the first two years \citep{Kirshner1990}.  They are also frequently further than $\sim$10 Mpc from us and detections are relatively infrequent in the first place.  As a result, the optical spectra are rarely visible after approximately 700 days \citep{Milisavljevic2012}.  
+
+
+However, there are a few unusual objects that, for various reasons, we may still be able to see many years or even decades after maximum light.  This could be because they are unusually close, like SN~1987A, or more usually because some late-time energy source is illuminating the ejecta.  The most obvious of these energy sources is the interaction between the forward shock and the surrounding circumstellar material.  This interaction is known to stimulate emission across a wide range of wavelengths from radio to X-rays and causes a reverse shock to propagate inwards through the ejecta heating and ionising the material it passes through.  Other postulated energy sources include interaction between a central pulsar or magnetar and the expanding debris \citep{Woosley2010}, or accretion onto a black hole \citep{Patnaude2001}.
+
+Recent work by \citep{Milisavljevic2012} identified a number of CCSNe that were still visible in the optical despite being more than 20 years old.  These included SN~1957D, SN~1970G, SN~1979C, SN~1980K, SN~1986E, SN~1986J, SN~1987A, SN~1993J and SN~1996cr.  Many of these SNe exhibited strong asymmetries and blue-shifting in their profiles in the optical, particularly in the oxygen and hydrogen lines.  In this chapter I present models of two of these objects for which \citet{Milisavljevic2012} presented new late-time optical spectra, namely SN~1980K and SN~1993J.  I selected these since both exhibit a blue-shifted asymmetry in at least two line profiles in their late-time spectra and the lines of interest are largely uncontaminated by other lines.  Unlike SN~1987A, in neither object has the forward shock encountered significant circumstellar material yet and thus the reverse shock has not yet started to propagate back through the ejecta allowing these late-time lines to be modelled.
+
+In addition to these SNRs, I also present models of the oxygen lines of Cassiopeia~A (Cas~A).  Cas~A is a very well studied object.  The combination of its age (it is $\sim300$ years old) and nearby location has provided astronomers with an ideal opportunity to study relatively young supernova remnants.  I included Cas~A in my modelling with the aim of understanding how the dust masses that form in the ejecta of CCSNe in the first few decades after outburst evolve over longer time frames. 
+
+By modelling asymmetries in the oxygen and hydrogen lines of these three objects, and by considering results from my line profile models of SN~1987A presented in the previous chapter, I hope to start to paint a picture of dust formation in CCSNe;  hopefully I will demonstrate that these objects in fact seem to be capable of producing the quantities of dust that are necessary for them to provide the solution to the dust mass dilemma in the early universe.
+
 
 
 \begin{figure}
@@ -25,13 +35,12 @@ There are only a few objects that lend themselves to this sort of modelling howe
 \label{CasA_spectrum}
 \end{figure}
 
-However, there are a few unusual objects that, for various reasons, we may still be able to see many years or even decades after maximum light.  This could be because they are unusually close, like SN~1987A, or more usually because some late-time energy source is illuminating the ejecta.  The most obvious of these energy sources is the interaction between the forward shock and the surrounding circumstellar material.  This interaction is known to emit across a wide range of wavelengths from radio to X-rays and cases a reverse shock to propagate inwards through the ejecta heating and ionising the material it passes through.  Other postulated energy sources include interaction between a central pulsar or magnetar and the expanding debris \citep{Woosley2010}, or accretion onto a black hole \citep{Patnaude2001}.
+\section{Cassiopeia A}
+\label{CasA_intro}
 
-Recent work by \citep{Milisavljevic2012} identified a number of CCSNe that were still visible in the optical despite being more than 20 years old.  These included SN~1957D, SN~1970G, SN~1979C, SN~1980K, SN~1986E, SN~1986J, SN~1987A, SN~1993J and SN~1996cr.  Many of these SNe exhibited strong asymmetries and blue-shifting in their profiles in the optical, particularly in the oxygen and hydrogen lines.  In this chapter I present models of two of these objects, namely SN~1980K and SN~1993J.  I select these as both exhibit at least two blue-shifted line profiles and the lines of interest are largely uncontaminated by other lines with wings that do not overlap with other lines.  
+Cassiopeia~A (Cas~A) is a supernova remnant in the Cassiopeia constellation in the Milky Way and is a fairly unusual object in the night-sky.  It is extremely close at only 3.4 kpc away and  is rather large measuring around 3 pc in diameter \citep{Reed1995}.  There have not been any records found of its detection around the time of its explosion.  However, analysis of its expansion velocities and geometry have allowed its explosion date to be determined to be approximately 1681$\pm$19 \citep{Fesen2006} making the supernova remnant approximately 330 years old.  Cas~A is the strongest radio source in the sky outside of the solar system and was initially observed at radio wavelengths in the 1940s.  Since then, it has been well observed across the entire wavelength range.  Recent observations in the NIR of light echoes caused by the reflection of early light from the supernova off circumstellar dust have allowed the original explosion to be probed.  This work has suggested that Cas~A is the result of a Type IIb supernova explosion with a progenitor stellar mass of $\sim15$M$_{\odot}$ \citep{Krause2008}.
 
-In addition to these SNRs, I also present models of the oxygen lines of Cassiopeia~A (Cas~A).  Cas~A is a very well studied object and at $\sim$300 years old is easily the oldest observable remnant to have detectable line emission in the optical.  I will discuss why this is possible along with some other  interesting facts about Cas~A at the start of the Section \ref{CasA_intro}.  
-
-By modelling these three objects, and from my models of SN~1987A presented in the previous chapter, I hope to be able to determine the order of magnitude of the mass of dust that forms in the ejecta of CCSNe.
+In Chapter \ref{chp:chp1}, I discussed the importance of Cas~A to our understanding of dust formation in supernovae and their remnants.  Recent work on the mass and composition of dust in Cas~A has suggested that the total dust mass present in the ejecta is of the order of $\sim0.1$M$_{\odot}$ \citep{Barlow2010,Nozawa2010,Arendt2014}.  Previous estimates, however, are significantly more wide-ranging from less than $3\times10^{-3}$M$_{\odot}$ to greater than $4$M$_{\odot}$ \citep{Milisavljevic2012}.  
 
 \begin{figure}
 \centering
@@ -40,38 +49,42 @@ By modelling these three objects, and from my models of SN~1987A presented in th
 \label{CasA_slit_positions}
 \end{figure}
 
-\section{Cassiopeia A}
-\label{CasA_intro}
+A late-time spectrum of Cas~A reveals that asymmetries in line profiles in the optical are, slightly surpringily, still visible.  In particular, the oxygen lines [O~{\sc i}]$\lambda$6300,6363~\AA\, [O~{\sc ii}]$\lambda$7319,7330~\AA\ and [O~{\sc iii}]$\lambda$4959,5007~\AA\ still exhibit a blue-shifted asymmetry, with the [O~{\sc iii}] line especially demonstrating a strong blueshift with considerable substructure.  I have modelled all three of these lines focussing on the [O~{\sc iii}] doublet.
 
+\subsection{The Integrated Spectrum}
 
-\subsection{Integrated Spectrum of Cas A}
-
-The integrated spectrum presented in Figure \ref{CasA_spectrum} is from \citet{Milisavljevic2013}.  It is composed of observations from a series of observing runs between September 2007 and November 2010 that were conducted in order to obtain low-dipsersion optical spectra across the remnant.  The majority of observations were carried out at the MDM Observatory at Kitt Peak, Arizona using the 2.4m Hiltner telescope and the Mayall 4m telescope.  The MDM Modular Spectrograph was used with an `Echelle' detector.  A long slit of dimensions 2"$\times$5' was used oriented North-South.  Exposure times were generally 2$\times$500s.  The wavelength range covered was 4500-7000\AA\ with a spectral resolution of 6\AA.  
+The integrated spectrum of Cas~A presented in Figure \ref{CasA_spectrum} is from \citet{Milisavljevic2013} and was kindly provided to me by Dr D. Milisavljevic.  It is composed of observations from a series of observing runs between September 2007 and November 2010 that were conducted in order to obtain low-dispersion optical spectra across the remnant.  The majority of observations were carried out at the MDM Observatory at Kitt Peak, Arizona using the 2.4m Hiltner telescope and the Mayall 4m telescope.  The MDM Modular Spectrograph was used with an `Echelle' detector.  A long slit of dimensions 2"$\times$5' was used oriented North-South.  Exposure times were generally 2$\times$500s.  The wavelength range covered was 4500-7000\AA\ with a spectral resolution of 6\AA.  
 %A few of the observations of the main shell of Cas~A used alternative spectrographs (the Mark III Spectrograph and the Chivens CCD Spectrograph).  The lowest spectral resolution of any spectrum observed was 12\AA.  
-
-The integrated spectrum was ultimately composed of 80 long slit spectra spaced 3" apart across the entire main shell which is approximately 4' in diameter.  The slit positions are shown in Figure \ref{CasA_slit_positions}.
-
-
-
-
+The integrated spectrum was ultimately composed of 80 long slit spectra spaced 3" apart across the entire main shell which is approximately 4' in diameter.  The slit positions are shown in Figure \ref{CasA_slit_positions}.  Assuming an explosion date of 1681, this spectrum of Cas~A is approximately 325 years old.
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/CasA_OIII}
 \includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/CasA_shifted_OIII}
-\caption{smooth fits to Cas~A OIII shifted and unshifted}
+\caption{Best smooth dust fits to the Cas~A [O~{\sc iii}]~$\lambda$4959,5007~\AA\ for the parameters detailed in Table \ref{CasA_smooth_params}.  On the left is the original [O~{\sc iii}] line profile and on the right the observed [O~{\sc iii}] line has been shifted uniformly towards the blue by $-700$~km~s$^{-1}$.}
 \label{CasA_OIII}
 \end{figure}
 
 
-\subsection{Smooth Models}
+\subsection{Smooth Models of the Oxygen Lines}
 
-My modelling of the Cas~A spectrum was initially focussed on the [O {\sc iii}] line, which exhibits a pronounced asymmetry.  I managed to produce a reasonable fit to the data using the parameters listed in the first row of Table \ref{CasA_smooth_params}.  The profile is presented in the left pane of Figure \ref{CasA_OIII}.  As can be seen,  the modelled line profile generally fits the observed line profile quite well, although it fails to fit the red side of the profile adequately.  A thorough, manual investigation of parameter space resulted in the conclusion that the profile was much better fitted if the entire observed profile was shifted to the blue by $-700$~km~s$^{-1}$.  This might well be a reasonable assumption.  The integrated spectrum does not sample the entire ejecta.  Additionally, Cas~A is known to be significantly asymmetrical \citep{Rest2011}.  The integrated profile may well sample regions with different line-of-sight velocities, the sum of which could result in a net line-of-sight velocity shift.  This was also found to be the case with the [O {\sc ii}] and [O {\sc i}] lines.  Throughout the remainder of my modelling I therefore allowed the profiles to be shifted in velocity space to better fit the data based on the possibility that the sampled emitting regions had an overall net velocity towards the observer.  Fits to the line profiles were significantly improved following this translation (see Figures \ref{CasA_OIII} to \ref{CasA_OIII_clumped}).
+My modelling of the Cas~A spectrum was initially focussed on the [O {\sc iii}] line, which exhibits a pronounced asymmetry.  The process of finding a fit to the line profile was the same as described in Section \ref{results}, i.e. the maximum velocity was identified from the point at which flux vanishes on the blue side, the inner to outer radius ratio determined from various inflection points and the density profile determined from the shape of the profile.  The other parameters were then iterated over to find the best fitting profile.  
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.41,clip=true, trim=15 0 40 20]{chapters/chapter6/figs/CasA/CasA_shifted1000_OII}
+\includegraphics[scale=0.41,clip=true, trim=15 0 40 20]{chapters/chapter6/figs/CasA/CasA_OI_shifted1000}
+\caption{Best smooth dust fits to the Cas~A [O~{\sc ii}]~$\lambda$7319,7330~\AA\ ({\em left}) and the [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em right}) for the parameters detailed in Table \ref{CasA_smooth_params}.  Both observed line profiles have been shifted uniformly towards the blue by $-1000$~km~s$^{-1}$.}
+\label{CasA_OI_OII}
+\end{figure}
+
+I managed to produce a reasonable fit to the data using the parameters listed in the first row of Table \ref{CasA_smooth_params}.  The profile is presented in the left pane of Figure \ref{CasA_OIII}.  As can be seen,  the modelled line profile generally fits the observed line profile quite well, although it fails to fit the red side of the profile adequately.  A thorough, manual investigation of parameter space resulted in the conclusion that the profile was much better fitted if the entire observed profile was shifted to the blue by $-700$~km~s$^{-1}$.  This might well be a reasonable assumption.  Cas~A is known to be significantly asymmetrical \citep{Rest2011} with radial velocities spanning -4000 to +6000~km~s$^{-1}$ \citep{Milisavljevic2013}.  The integrated profile may well sample regions with different line-of-sight velocities, the sum of which could result in a net line-of-sight velocity shift towards the observer.   I found that models of the  [O {\sc ii}] and [O {\sc i}] lines were also substantially improved if the entire profile was allowed to be uniformly shifted toward the blue.  Throughout the remainder of my modelling I therefore allowed the profiles to be shifted in velocity space to better fit the data based on the possibility that the sampled emitting regions had an overall net velocity towards the observer.  Fits to the line profiles were significantly improved following this translation (see Figures \ref{CasA_OIII} to \ref{CasA_OIII_clumped}).
 
 A model of the shifted [O {\sc iii}] line is presented in Figure \ref{CasA_OIII} and the parameters used for this model are presented in the second row of Table \ref{CasA_smooth_params}.  The line profile was shifted by $-700$~km~s$^{-1}$.  A total dust optical depth of $\tau=0.49$ at 5007\AA\ between $R_{in}$ and $R_{out}$ was found to best fit the profile.  An albedo of $\omega\approx0.15$ at 5007\AA\ was also necessary.
 
 \afterpage{
 \begin{landscape}
+\centering
 \setlength{\tabcolsep}{10pt}
 \begin{table}
 \centering
@@ -84,7 +97,7 @@ A model of the shifted [O {\sc iii}] line is presented in Figure \ref{CasA_OIII}
   &$v$ shift& $V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$   \\
 	& (km~s$^{-1}) $& (km~s$^{-1} $)& (km~s$^{-1} $) & & & ($M_{\odot}$) & (10$^{18}$cm) & (10$^{18}$cm) & ratio \\
 	\hline
-[O~{\sc iii}]  & 0 & 4500 & 1800 & 0.4  & 2.0 & 1.1 & 4.7 & 1.9 & 2.9 & 0.53  \\ \relax
+[O~{\sc iii}]  & 0 & 4500 & 1800 & 0.4  & 2.0 & 0.9 & 4.7 & 1.9 & 2.9 & 0.53  \\ \relax
 [O~{\sc iii}]  & -700 & 5000 & 2500 & 0.5  & 2.0 & 1.1 & 5.2 & 2.6 & 2.9 & 0.49  \\ \relax
 [O~{\sc ii}]*  & -1000 & 5000 & 3250 & 0.65  & 2.0 & 1.1 & 5.2 & 3.4 & 1.23 & 0.21  \\ \relax
 [O~{\sc i}]*  & -1000 & 5000 & 3250 & 0.65  & 2.0 & 1.1 & 5.2 & 3.4 & 3.1 & 0.30  \\ 
@@ -97,18 +110,9 @@ A model of the shifted [O {\sc iii}] line is presented in Figure \ref{CasA_OIII}
 }
 
 
-The composition of the dust has a significant effect on the overall dust mass for this optical depth and albedo.  A line profile model of the [O {\sc iii}] line profile from Cas~A could not be found using 100\% astronomical silicate dust \citep{Draine1984}.  There is little to no scattering wing seen, hence the relatively low value of $\omega$, and therefore relatively small silicate grains are required to reproduce the red side of the profile.  Silicate grains of this size have extremely low absorption efficiencies and therefore the best-fitting optical depth of $\tau=0.49$ corresponds to an implausibly large mass of dust ($>20$M$_{\odot}$) if it is composed entirely of astronomical silicates.
+The composition of the dust has a significant effect on the overall dust mass for this optical depth and albedo.  A line profile model of the [O {\sc iii}] line profile from Cas~A could not be found using 100\% astronomical silicate dust \citep{Draine1984}.  There is little to no scattering wing seen, hence the relatively low value of $\omega$, and therefore relatively small silicate grains would be required to reproduce the red side of the profile.  Silicate grains of this size have extremely low absorption efficiencies and therefore the best-fitting optical depth of $\tau=0.49$ corresponds to an implausibly large mass of dust ($>20$M$_{\odot}$) if it is composed entirely of astronomical silicates.
 
-The chemical composition of the dust in the eject of Cas~A is known to be extremely complex \citep{Arendt2014}.  There are many different species of dust grain present in the ejecta, and it is known that silicate dust is present based on emission features observed in the IR region of the spectrum.  However, the presence of a variety of other species is also predicted.  I therefore investigate the dust masses required to fit the profile for varying fractions of silicate and amorphous carbon dust.  In Table \ref{CasA_dust_masses}, I detail the dust masses required to fit the [O {\sc iii}] line profile for different fractions of silicates and amorphous carbon grains for a single grain size.  For each composition I determine the grain radius based on the albedo necessary to fit the profile ($\omega\approx0.15$) and then vary the dust mass to achieve the required optical depth.  The calculated dust masses cover a wide range of values between 0.65 - 6.5M$_{\odot}$.   All of the line profile models listed above adopted intrinsic doublet strengths from the theory as detailed by \citet{Zeippen1987} and \citet{Storey2000}.  
-
-
-\begin{figure}
-\centering
-\includegraphics[scale=0.41,clip=true, trim=15 0 40 20]{chapters/chapter6/figs/CasA/CasA_shifted1000_OII}
-\includegraphics[scale=0.41,clip=true, trim=15 0 40 20]{chapters/chapter6/figs/CasA/CasA_OI_shifted1000}
-\caption{Cas~A OI and OII}
-\label{CasA_OI_OII}
-\end{figure}
+The chemical composition of the dust in the ejecta of Cas~A is known to be extremely complex \citep{Arendt2014} with many different species of dust grain present in the ejecta.  The presence of silicate dust has been predicted based on typical silicate emission features observed in the IR region of the spectrum.  However, the presence of a variety of other species is also predicted.  I therefore investigate the dust masses required to fit the profile for varying fractions of silicate and amorphous carbon dust.  In Table \ref{CasA_dust_masses}, I detail the dust masses required to fit the [O {\sc iii}] line profile for different fractions of silicates and amorphous carbon grains for a single grain size.  For each composition I determine the grain radius based on the albedo necessary to fit the profile ($\omega\approx0.15$) and then vary the dust mass to achieve the required optical depth.  The calculated dust masses cover a wide range of values between $0.37 - 6.5$M$_{\odot}$.   
 
 
 \begin{table}
@@ -121,39 +125,21 @@ The chemical composition of the dust in the eject of Cas~A is known to be extrem
     	\hline
 	\% silicate  & \% amorphous & grain radius $a$ &  $M_{dust}$ \\
 	grains& carbon grains&($\mu$m)&(M$_{\odot}$)\\
-		\hline90	&10	&0.035&	6.5 \\75	&25	&0.04	&2.5\\50	&50	&0.045&	1.1\\25	&75	&0.048&	0.6\\0	&100	&0.05&	0.37\\
+		\hline
+90	&10	&0.035&	6.5 \\
+75	&25	&0.04	&2.5\\
+50	&50	&0.045&	1.1\\
+25	&75	&0.048&	0.6\\
+0	&100	&0.05&	0.37\\
     \hline
   \end{tabulary}
 
 
 \end{table}
 
-It might be possible  to approximately determine the composition based on the relative optical depths necessary to fit different blue-shifted lines in the spectrum and the wavelength dependence of dust absorption for different compositions.  I therefore considered fitting the blue-shifted [O {\sc ii}] and [O {\sc i}] lines from Cas~A.  Sadly, at the small grain sizes required, there is not significant variation in the absorption efficiencies of either amorphous carbon or astronomical silicates between 5007\AA\ and 7319\AA\ and I cannot therefore determine the composition via this approach.  Additionally, the [O {\sc ii}] and [O {\sc i}] lines are much less sensitive to variations in both distribution and dust mass, partly due to the high frequency of bumpy features observed in these lines which contaminate the intrinsic broad profile.  The best-fitting models for these lines were therefore quite degenerate i.e. there were multiple sets of parameters that resulted in reasonable fits.  
+It might be possible  to approximately determine the composition based on the relative optical depths necessary to fit different blue-shifted lines in the spectrum and the wavelength dependence of dust absorption for different compositions.  I therefore considered fitting the blue-shifted [O {\sc ii}]$\lambda$7319,7330~\AA\ and [O~{\sc i}]$\lambda$6300,6363~\AA\ lines from Cas~A.  Sadly, at the small grain sizes required, there is not significant variation in the relationship between the absorption efficiencies at 5007\AA\ and 7319\AA\ for different dust compositions and I cannot therefore determine the composition via this approach.  Additionally, the [O {\sc ii}] and [O {\sc i}] lines are much less sensitive to variations in both distribution and dust mass, partly due to the high frequency of bumpy features observed in these lines which contaminate the intrinsic broad profile.  The best-fitting models for these lines were therefore quite degenerate i.e. there were multiple sets of parameters that resulted in reasonable fits.  
 
-However, it was possible to use these lines to determine the feasibility of the best-fitting model for the  [O {\sc iii}] line profile.  I adopted the dust distribution that I determined using the [O {\sc iii}] line and investigated models for the [O {\sc ii}] and [O {\sc i}] line profiles to see if this dust distribution were capable of fitting these lines as well.  I adopted an emissivity distribution that was slightly different to the [O {\sc iii}] line (see Table \ref{CasA_smooth_params}) and shifted the observed line profiles by $-1000$~km~s$^{-1}$.  These emissivity distributions were modelled with the dust distribution and mass for the best-fitting smooth [O {\sc iii}] model.  The resultant [O {\sc ii}] and [O {\sc i}] line profiles are very good fits (see Figure \ref{CasA_OI_OII}).  This suggests that the models are consistent and, if the relative abundance of species can be determined, that the dust masses can be well-constrained.
-
-\subsection{Clumped Models of Cas~A}
-
-The ejecta of Cas~A is highly clumped.  Recently, models by \citet{Biscaro2014} have suggested that dust cannot in fact form in the gas phase in the ejecta of Cas~A unless extremely dense knots of material are present.  It is therefore important, as with SN~1897A, to consider the effects of clumping on the line profiles.  I continue to focus on the [O {\sc iii}] line profile from Cas~A and consider the effects of clumping.  Clearly, the ejecta has a complex geometry with many clumps of different sizes and likely different ionisation states and dust species within each and therefore the models we present here only aim to provide some indication of the effects of clumping within the ejecta.  To this end I present a number of models of the [O {\sc iii}] line profile based on the smooth fits that I presented in the previous section.  I consider two different clump sizes, ones with width $R_{out}/25$ and ones with width $R_{out}/10$.  I also consider three different clump volume filling factors $f=0.05$, $f=0.1$ and $f=0.25$.  For each combination of clump size and filling factor I re-evaluate the required increase or decrease in the dust mass over the smooth model.  All other parameters were kept fixed such that the emission was emitted smoothly according to the distribution and geometry described by the parameters listed in Table \ref{CasA_smooth_params}.
-
-\begin{figure}
-\centering
-\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_05}
-\includegraphics[scale=0.43,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_05}
-
-\vspace{6mm}
-\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_1}
-\includegraphics[scale=0.43,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_1}
-
-\vspace{6mm}
-\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_25}
-\includegraphics[scale=0.43,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_25}
-
-\caption{Cas~A clumped}
-\label{CasA_OIII_clumped}
-\end{figure}
-
-The change in the required dust mass is listed as a fraction of the smooth dust mass (e.g. $M_{dust}=1.1$M$_{\odot}$ for a medium of 50\% astronomical silicates and 50\% amorphous carbon - see Table \ref{CasA_dust_masses} for other dust masses with different dust compositions) is given in Table \ref{CasA_clumped_dust_masses}.  Whilst clumping can be seen to increase the required dust mass in all cases, in the most extreme it is still only by a factor of 3.5.  The fits for each of these cases are presented in Figure \ref{CasA_OIII_clumped}.
+However, it was possible to use these lines to determine the feasibility of the best-fitting model for the  [O {\sc iii}] line profile.  I adopted the dust distribution that I determined using the [O {\sc iii}] line and investigated models for the [O {\sc ii}] and [O {\sc i}] line profiles to see if this dust distribution were capable of fitting these lines as well.  I adopted an emissivity distribution that was slightly different to the [O {\sc iii}] line (see Table \ref{CasA_smooth_params}) and shifted the observed line profiles by $-1000$~km~s$^{-1}$.  These emissivity distributions were modelled with the dust distribution and dust mass for the best-fitting smooth [O {\sc iii}] model.  The resultant [O {\sc ii}] and [O {\sc i}] line profiles are very good fits (see Figure \ref{CasA_OI_OII}).  This suggests that the models are consistent and, if the relative abundance of species can be determined, that the dust masses can be well-constrained.  All of the line profile models listed above adopted intrinsic doublet strengths from the theory as detailed by \citet{Zeippen1987} and \citet{Storey2000}.  
 
 \begin{table}
 \caption{The fraction of increase in dust mass over the smooth model with parameters as given in Table \ref{CasA_smooth_params} for clumped models with different clump widths and different clump volume filling factors.  The other parameters in the models were fixed at the values given in Table \ref{CasA_smooth_params}.}
@@ -169,25 +155,79 @@ $R_{out}/25$ & 1.6 & 1.0 & 1.0 \\
 \label{CasA_clumped_dust_masses}
 \end{table}
 
-\subsection{The Geometry of Cas~A}
 
-Consider section 2 of conclusions of DAN and FESEN - talk about overall velocity of optical emitting regions being towards us
+\subsection{Clumped Models of the Oxygen Lines}
 
-\subsection{The Chemistry of Cas~A}
+The ejecta of Cas~A is highly clumped.  Recently, models by \citet{Biscaro2014} have suggested that dust cannot in fact form in the gas phase in the ejecta of Cas~A unless extremely dense knots of material are present.  It is therefore important, as with SN~1987A, to consider the effects of clumping on the line profiles.  I continue to focus on the [O {\sc iii}] line profile from Cas~A and consider the effects of clumping.  Clearly, the ejecta has a complex geometry with many clumps of different sizes and likely different ionisation states and dust species within each and therefore the models we present here only aim to provide some indication of the effects of clumping within the ejecta.  To this end I present a number of models of the [O {\sc iii}] line profile based on the smooth fits that I presented in the previous section.  I consider two different clump sizes, ones with width $R_{out}/25$ and ones with width $R_{out}/10$.  I also consider three different clump volume filling factors $f=0.05$, $f=0.1$ and $f=0.25$.  For each combination of clump size and filling factor I evaluate the required increase or decrease in the dust mass over the smooth model.  All other parameters were kept fixed such that packets were emitted  according to the smooth distribution and geometry described by the parameters listed in Table \ref{CasA_smooth_params}.
 
-Compare to the biscaro paper and the other species paper
+\begin{figure}
+\centering
+\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_05}
+\includegraphics[scale=0.43,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_05}
 
-\subsection{The Dust Mass in Cas~A}
+\vspace{6mm}
+\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_1}
+\includegraphics[scale=0.43,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_1}
 
-Mike's paper and others.  Need a reason why my estimate is higher.
+\vspace{6mm}
+\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_25}
+\includegraphics[scale=0.43,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_25}
+
+\caption{Best clumped dust fits to the Cas~A [O~{\sc iii}]~$\lambda$4959,5007~\AA\ for the parameters described in Tables \ref{CasA_smooth_params} and \ref{CasA_clumped_dust_masses}.  In the left column are fits to the profile using a clumps of width $R_{clump}=R_{out}/10$ and in the right column are fits using clumps of width $R_{clump}=R_{out}/25$.  Each row uses a model that adopts a different clump volume filling factor with $f=0.05$ on the top, $f=0.1$ in the middle and $f=0.25$ on the bottom.  The observed profile has been shifted uniformly towards the blue by $-700$~km~s$^{-1}$.}
+\label{CasA_OIII_clumped}
+\end{figure}
+
+The change in the required dust mass is listed as a fraction of the smooth dust mass (e.g. $M_{dust}=1.1$M$_{\odot}$ for a medium of 50\% astronomical silicates and 50\% amorphous carbon - see Table \ref{CasA_dust_masses} for other dust masses with different dust compositions) is given in Table \ref{CasA_clumped_dust_masses}.  Whilst clumping can be seen to increase the required dust mass in all cases, in the most extreme it is still only by a factor of 3.5.  The fits for each of these cases are presented in Figure \ref{CasA_OIII_clumped}.
+
+
+\subsection{Discussion}
+%\subsection{The Geometry of Cas~A}
+
+My models of Cas~A adopt a maximum expansion velocity of $\sim5000$~km~s$^{-1}$ which gives an outer radius of  $5.2\times10^{18}$ cm equivalent to a diameter of ~3.5pc.   These values are broadly consistent with an angular diameter of approximately $4'\approx4$~pc \citep{Hurford1996} and radial velocities between -4000~km~s$^{-1}$ and +6000~km~s$^{-1}$ \citep{DeLaney2010}.  In particular, the need to shift the profiles by -700~km~s$^{-1}$ or -1000~km~s$^{-1}$ in order to fit them is consistent with the expansion velocity asymmetry observed by \citet{DeLaney2010}; an offset of 1000~km~s$^{-1}$ applied to an originally symmetrical distribution between -5000~km~s$^{-1}$ and +5000~km~s$^{-1}$ results exactly in the velocity range that they predicted.  \citet{DeLaney2010} predict an average velocity offset towards the observer of 859~km~s$^{-1}$, almost exactly halfway between the 700~km~s$^{-1}$ and 1000~km~s$^{-1}$  velocity offsets that I adopt for the [O~{\sc iii}] line and the [O~{\sc i}] and [O~{\sc ii}] lines respectively.  The difference in these values is likely a result of different ionisation fractions at different points in the nebula.
+
+In general, the structure of the Cas~A remnant is a lot more complex than the simple shell geometry adopted here.  Cas~A is can be assumed to be composed of a spherical component, a tilted thick disk, and multiple ejecta jets and optical fast-moving knots all populating the thick disk plane \citep{DeLaney2010}.  These knots  are the cause of some of the noticable bumpy substructure of the emission lines that I model here.  The models that I have presented above represent a first-order approximation to the geometry of Cas~A and future work will hopefully include a more realistic density distribution.
+
+It is not just the geometrical structure of the Cas~A remnant that is complex.  The chemical composition of the nebula is also extremely varied and there is evidence for numerous different dust species including silicates, silicon carbide (SiC), alumina (Al$_2$O$_3$) and carbonaceous grains \citep{Arendt2014,Biscaro2014}.  These species also appear to be located in different clumps or regions of the ejecta.  It has even been suggested that the dust could be composed of iron needles which produce a distinctly different SED to more commonly considered grains \citep{Dwek2004}.  \citet{Arendt2014} conclude that the entire spectrum of Cas~A can be fitted using only four dust species: Mg$_0.7$SiO$_2.7$, Mg$_2.4$SiO$_4.4$, Al$_2$O$_3$ and amorphous carbon.  Two of these species are highly scattering and two are relatively absorbing.  This might suggest that one of my dust composition models with both silicates and amorphous carbon is likely the most representative.  However, whislt there is evidence for a variety of species in the warm dust component,  the majority of the dust in the ejecta, the cool component that has not yet been heated by the passage of the reverse shock, is still of unknown composition \citep{Arendt2014} and so constraining the dust mass is difficult.
+
+Given the difficulties in modelling this object, it is perhaps not surprising that there is significant variation in the estimates of the dust mass in the ejecta.  \citet{Barlow2010} present a brief review of the ejecta dust mass estimates in Cas~A up to 2010.  Early dust mass estimates were largely based on observations of the warm dust component in the ejecta.  \citet{Arendt1999} estimated a mass of 0.038M$_{\odot}$ of 52 K dust based on fitting IRAS 60- and 100-$\mu$m fluxes.  A similar mass of $0.020-0.054$M$_{\odot}$ of warm dust at $65-265$K was estimated to be emitting between 5$\mu$m and 70$\mu$m by \citet{Rho2008}, particularly in a bright ring associated with the reverse shock.  Observations at longer wavelengths of the cold dust in the ejecta have predicted higher masses with \citet{Dunne2003} using SCUBA data to place the dust mass at between $2-4$M$_{\odot}$.  This was contested by \citet{Krause2004} who suggested that the majority of this emission could be from cold dusty clouds located along the line of sight to Cas~A.  They placed an upper limit of 0.2M$_{\odot}$ of cold dust in the ejecta.  However, observations of strongly polarised emission at long wavelengths obtained using the SCUBA polarimeter has been used to argue an ejecta-condensed cold dust mass of $\sim1$M$_{\odot}$ \citep{Dunne2009}.  Modelling by \citet{Nozawa2010}  reproduced the observed IR SED using 0.08M$_{\odot}$ of which 0.072M$_{\odot}$ remained inside the reverse shock.  They could not isolate a cold dust component to be within the ejecta but estimated its mass to be $\sim0.06$M$_{\odot}$.  Further observations by \citet{Barlow2010} using Herschel estimated a cold dust component associated with the remnant of 0.075$\pm$0.028M$_{\odot}$ of silicate dust.  Finally, \citet{Arendt2014} used Spitzer observations to derive a  mass of $\sim$0.04M$_{\odot}$ of warm dust and limited the cool component in the unshocked ejecta to $<0.1$M$_{\odot}$.
+
+Even accounting for the adoption of different species, my dust masses are generally somewhat higher than these more recent estimates.  However, they are broadly consistent with those estimates by \citet{Dunne2003} and \citet{Dunne2009}.  Whilst it seems that there is general agreement over the mass of the warm dust component, there is still disagreement regarding the mass of cool dust in the ejecta.  Based on SN~1987A, one might expect the cool dust component to be significantly larger than that of the warm dust component.  However, the two supernovae are of different types. \citet{Biscaro2014} point out that the diffuse nature of Type IIb supernovae compared to their Type IIP counterparts is such that they struggle to form the molecules and molecular clusters that go on to form dust grains.   
+
+Cas~A is the only object to have had the mass of dust in its ejecta predicted quantitatively using all of the available signatures discussed in Section \ref{three_sigs}.  It is interesting to note that the dust masses inferred from polarised emission and from line profile asymmetries are in broad agreement but are not in agreement with dust masses inferred by fitting observations of dust emitting in the IR and sub-mm.  Further line profile models of Cas~A that adopt a more realistic and complex geometry  and also include a more representative selection of species will hopefully constrain the dust masses more effectively.  
+
+%LOOKUP RADIUS OF INNER SHELL (30''?) AND COMPARE TO ADOPTED INNER RADIUS
 
 
 
-\clearpage
+\section{SN~1980K and SN~1993J}
 
-\section{SN~1980K}
+INTROS TO THESE OBJECTS HERE
 
-\subsection{Smooth Models}
+
+\begin{figure}
+\centering
+\includegraphics[clip=true,scale=0.6, trim=20 0 50 20]{chapters/chapter6/figs/80K/80K_spectrum}
+
+\includegraphics[clip=true,scale=0.6, trim=30 0 50 20]{chapters/chapter6/figs/93J/93J_spectrum}
+\caption{{\em Above:} The optical spectrum of  SN~1980K on 9 October 2010 at 31 years post-explosion.  {\em Below:}  The optical spectrum of  SN~1993J on 9 December 2009 at 16 years post-explosion. Both spectra were originally published by \citet{Milisavljevic2012}.}
+\label{spectra}
+\end{figure}
+
+\subsection{The Late-Time Optical Spectra of SN~1980K and SN~1993J}
+
+Late-time spectra of both SN~1980K and SN~1993J were obtained and donated to me by Dr D. Milisavljevic.  These spectra are published in \citet{Milisavljevic2012} and I present them here in Figure \ref{spectra}.
+
+The 2.4m Hiltner telescope at MDM was used to obtain spectra of SN 1980K on 9 October 2010. The Mark III Spectrograph was used with a SITe 1024 × 1024 CCD detector and a $1.2'' \times 4.5'$ slit. $2 \times 3000$s exposures were obtained with a spectral resolution of 7\AA\ covering the wavelength range $4600-8000$\AA. 
+
+The optical spectrum of SN 1993J was obtained on 9 December 2009 with the 6.5m MMT at Mt. Hopkins in Arizona using the HECTOSPEC optical fibre fed spectrograph. Spectra from the $1.5''$ diameter fibres covered the wavelength range of 3700?9200\AA\ with FWHM resolution of 5\AA.  The total exposure time was 3600s. These observations were part of a survey of supernova remnants of M81.  
+
+\citet{Milisavljevic2012} reduced and calibrated the spectra employing
+standard techniques in IRAF and their own routines and removing any cosmic rays and obvious defects. For further details on the observations and calibrations of these spectra, please refer to \citet{Milisavljevic2012}. 
+
+
+\subsection{Line Profile Models of SN1980K}
+
+
 \begin{figure}
 \centering
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
@@ -195,9 +235,55 @@ Mike's paper and others.  Need a reason why my estimate is higher.
 
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
-\caption{Smooth fits to SN 1980K}
+\caption{Best smooth dust fits to the SN~1980K H$\alpha$ ({\em top}) and [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Smooth dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and smooth dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
 \label{80K_smooth}
 \end{figure}
+
+The modelling of SN~1980K focussed on the H$\alpha$ line and the [O {\sc i}]$\lambda$6300,6363 \AA\ doublet.  Both of these line profiles exhibit a very strong blue-shifted asymmetry indicative of the presence of dust in the ejecta.  SN~1993J exhibited strongest asymmetries in the oxygen lines, and in particular I focussed my modelling on the [O {\sc ii}]$\lambda$7319,7330 \AA\ and [O {\sc iii}]$\lambda$4959,5007 \AA\ doublets.  
+
+\afterpage{
+\begin{landscape}
+\centering
+\setlength{\tabcolsep}{5pt}
+\begin{table}
+\centering
+%	\begin{minipage}{180mm}
+	\caption{The parameters used for the smooth and clumped models of SN~1980K for media composed of 100\% amorphous carbon dust grains of radius $3.5\mu$m or 100\% silicate dust grains of radius $0.1\mu$m.  Optical depths are given from $R_{in}$ to $R_{out}$ at $\lambda = 6300$~\AA\ for [O~{\sc i}] and $\lambda = 6563$~\AA\ for H$\alpha$.  The doublet ratio for the [O {\sc i}]$\lambda$6300,6363 \AA\ is fixed to be 3.1.  Smooth models are listed in the first four rows and clumped models in the last four rows.}
+	\label{80K}
+	\centering
+  	\begin{tabular}{@{} cccccccccccccc @{}}
+    	\hline
+  & clumped? & species &$V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$  & $f$ & $R_{clump}$ \\
+	&& &(km~s$^{-1}) $& (km~s$^{-1} $)& && ($M_{\odot}$) & (10$^{17}$cm) & (10$^{17}$cm) &&&&(10$^{17}$cm)  \\
+	\hline
+	H$\alpha$  &no&sil & 5500 & 4125 & 0.75  & 2.0 & 0.1 & 5.2 & 3.9 & - & 1.41 & - & - \\ \relax
+H$\alpha$  &no&amC& 5500 & 4125 & 0.75  & 2.0 & 0.3 & 5.2 & 3.9 & - & 0.57 & - &  -\\ \relax
+[O~{\sc i}]  &no&sil& 5500 & 4125 & 0.75  & 4.0 & 0.2 & 5.2 & 3.9 & 3.1 & 2.81 & - & - \\ \relax
+[O~{\sc i}]  &no&amC& 5500 & 4125 & 0.75  & 4.0 & 0.65 & 5.2 & 3.9 & 3.1 & 1.24  & - & -\\
+\\
+H$\alpha$  &yes&sil & 5500 & 4125 & 0.75  & 2.0 & 0.12 & 5.2 & 3.9 & - & 1.68 & 0.1 & 0.2 \\ \relax
+H$\alpha$  &yes&amC& 5500 & 4125 & 0.75  & 2.0 & 0.38 & 5.2 & 3.9 & - & 0.73 & 0.1 &  0.2\\ \relax
+[O~{\sc i}]  &yes&sil& 5500 & 4125 & 0.75  & 4.0 & 0.3 & 5.2 & 3.9 & 3.1 & 2.81 & 0.1 & 0.2 \\ \relax
+[O~{\sc i}]  &yes&amC& 5500 & 4125 & 0.75  & 4.0 & 0.9 & 5.2 & 3.9 & 3.1 & 1.72  & 0.1 & 0.2\\
+    \hline
+  \end{tabular}
+
+%\end{minipage}
+\end{table}
+\end{landscape}
+}
+
+Modelling of both SN~1980K followed the same approach as for SN~1987A that I detailed in Section \ref{results} in the previous chapter.  I began my modelling by considering a smooth, coupled distribution of dust and gas before moving on to consider the effect on these models of including a clumped dust geometry whilst maintaining a smoothly emissivity distribution.  I first examined the line profile in order to determine the maximum and minimum velocities before moving on to approximately establish the density distribution.  Having fixed the starting values for these quantities, I iterated over grain size and dust mass in order to fit the profile.  I also occasionally  consider varied other parameters in order to optimise my fit to the data. I assumed that the [O {\sc i}]$\lambda$6300,6363 \AA\ doublet was optically thin and therefore adopted a constant intrinsic flux ratio of 3.1 between the components.
+
+The parameters for both the smooth and clumped fits that I obtained are detailed in Table \ref{80K}. The smooth line profile fits for SN~1980K are presented in Figure \ref{80K_smooth} and the clumped line profile fits are presented in Figure \ref{80K_clumped}. 
+
+\subsubsection{Smooth Models of SN~1980K}
+
+I obtained good fits to both the H$\alpha$ and [O {\sc i}]$\lambda$6300,6363 \AA\ lines from SN~1980K (see Figure \ref{80K_smooth}).  In particular, an extended wing on the red side of the profile was noticed in both cases. This was more important for the H$\alpha$ line since I could be sure that it was not a product of blending with an adjacent broad line (the presence of an extended red wing in the [O {\sc i}] line may be due to blending with the blue wing of the H$\alpha$ line).  This wing allowed me to place constraints on the albedo.  A high albedo of $\omega\approx0.8$  was required to reproduce the flux in the region between $+6000$ and $+8000$~km~s$^{-1}$.  Silicate grains of radius $a=0.1\mu$m have an albedo of this magnitude at this wavelength, but amorphous carbon grain are never this glassy regardless of their size.  I include line profile fits using a large grain size ($a=3.5\mu$m) for amorphous carbon to generate as high an albedo as possible ($\omega\approx0.6$) illustrating the slightly worse, although still reasonably good, fit to the H$\alpha$ line as well as the best-fitting silicates model in Figure \ref{80K_smooth}.  
+
+\subsubsection{Clumped Models of SN~1980K}
+
+Motivated by the modelling of SN~1987A, I adopted a clumped dust structure with a clump volume filling factor of $f=0.1$ with clumps of width $R_{clump}=R_{out}/25$.  All dust was located in clumps but the emission remained distributed smoothly according to teh distribution derived for the smooth models.  A summary of the parameters for the best-fitting clumped models is presented in Table \ref{80K}
 
 \begin{figure}
 \centering
@@ -206,13 +292,55 @@ Mike's paper and others.  Need a reason why my estimate is higher.
 
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI}
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI_amC}
-\caption{clumped fits to SN 1980K}
+\caption{Best clulmped dust fits to the SN~1980K H$\alpha$ ({\em top}) and [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Clumped dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and clumped dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
 \label{80K_clumped}
 \end{figure}
 
-\clearpage
 
-\section{SN~1993J}
+\subsection{Line Profile Models of SN~1993J}
+
+TALK ABOUT MODELLING ON 93J IN GENERAL.  TALK ABOUT DIFFICULTIES IN FITTING COMPARED TO OTHER SNe BUT ALSO MENTION FACT THAT PICKS OUT MANY OF FEATURES OF OIII LINE.  OII MORE DIFFICULT.
+
+\afterpage{
+\begin{landscape}
+\centering
+\setlength{\tabcolsep}{4pt}
+\begin{table}
+\centering
+%	\begin{minipage}{180mm}
+	\caption{The parameters used for the smooth and clumped models of SN~1993J for media composed of 100\% amorphous carbon dust grains of radius $3.5\mu$m or 100\% silicate dust grains of radius $0.1\mu$m.  Optical depths are given from $R_{in}$ to $R_{out}$ at $\lambda = 7319$~\AA\ for [O~{\sc ii}] and $\lambda = 4959$~\AA\ for [O {\sc iii}].  Smooth models are listed in the first four rows and clumped models in the last four rows.}
+	\label{80K}
+	\centering
+  	\begin{tabular}{@{} ccccccccccccccc @{}}
+    	\hline
+  & clumped? & species &$a$&$V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$  & $f$ & $R_{clump}$ \\
+	&& &($\mu$m)&(km~s$^{-1}) $& (km~s$^{-1} $)& && ($M_{\odot}$) & (10$^{17}$cm) & (10$^{17}$cm) &&&&(10$^{17}$cm)  \\
+	\hline
+	{[O~{\sc iii}]}  &no&sil & 0.04&6000 & 4500 & 0.75  & 7 & 0.11 & 3.2 & 2.4 & 2.9 & 0.73 & - & - \\ \relax
+{[O~{\sc iii}]}  &no&amC&0.2& 6000 & 4500 & 0.75  & 7 & 0.006 & 3.2 & 2.4 & 2.9& 0.71 & - &  -\\ \relax
+{[O~{\sc ii}]}  &no&sil& 0.1&6000 & 4500 & 0.75  & 7 & 0.06 & 3.2 & 2.4 & 1.23 & 0.83 & - & - \\ \relax
+{{[O~{\sc ii}]}}  &no&amC&3.5& 6000 & 4500 & 0.75  & 7 & 0.14 & 3.2 & 2.4 & 1.23 & 0.68  & - & -\\
+\\
+{[O~{\sc iii}]}  &yes&sil && 6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 2.9 &  & 0.1 & 0.13 \\ \relax
+{[O~{\sc iii}]}  &yes&amC&& 6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 2.9 &  & 0.1 &  0.13\\ \relax
+{[O~{\sc ii}]}  &yes&sil& &6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 1.23 &  & 0.1 & 0.13 \\ \relax
+{[O~{\sc ii}]}  &yes&amC&test& 6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 1.23 &   & 0.1 & 0.13 \\ 
+    \hline
+  \end{tabular}
+
+%\end{minipage}
+\end{table}
+\end{landscape}
+}
+
+\subsubsection{Smooth Models of SN~1993J}
+
+BRIEFLY DISCUSS MODELS
+\subsubsection{Clumped Models of SN~1993J}
+BRIEFLY DISCUSS CLUMPED MODELS
+
+
+
 \begin{figure}
 \centering
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII}
@@ -225,15 +353,14 @@ Mike's paper and others.  Need a reason why my estimate is higher.
 \end{figure}
 
 
+\subsection{Discussion}
+
+DISCUSS 93J and 80K RELATIVE TO OTHER SNe.  INCLUDE PLOT HERE.
+
+The noisiness of the [O {\sc i}]$\lambda$6300,6363 \AA\ line profile in particular means that these models are not quite as robust as those for the H$\alpha$ line.  
 
 
-
-
-
-
-
-\section{Discussion}
-
+Discuss why oxygen dust mass more than ha for 80K, and talk about why adopt silicate 80K Ha masses.  Compare to prevoius results???  If not to previous results then compare to Gall plot.
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.6,clip=true, trim=30 0 0 0]{chapters/chapter6/figs/test.png}}
@@ -241,5 +368,11 @@ Mike's paper and others.  Need a reason why my estimate is higher.
 \label{shifted}
 \end{figure}
 
-
 \section{Conclusions}
+
+SUM UP CHAPTER BUT TRY NOT TO SUM UP THESIS
+
+
+
+
+

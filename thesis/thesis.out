@@ -19,10 +19,10 @@
 \BOOKMARK [2][-]{subsection.1.2.3}{From Massive Stars to Remnants}{section.1.2}% 19
 \BOOKMARK [2][-]{subsection.1.2.4}{Energetics in Core-Collapse Supernovae}{section.1.2}% 20
 \BOOKMARK [2][-]{subsection.1.2.5}{Dust Formation and Destruction in CCSNe}{section.1.2}% 21
-\BOOKMARK [2][-]{subsection.1.2.6}{The Four Signatures of Dust}{section.1.2}% 22
+\BOOKMARK [2][-]{subsection.1.2.6}{The Four Signatures of Dust in Core-Collapse Supernovae}{section.1.2}% 22
 \BOOKMARK [2][-]{subsection.1.2.7}{The Dust Mass Debate}{section.1.2}% 23
 \BOOKMARK [2][-]{subsection.1.2.8}{Observations of Dust-Affected Asymmetric Line Profiles}{section.1.2}% 24
-\BOOKMARK [1][-]{section.1.3}{Content Of This Thesis}{chapter.1}% 25
+\BOOKMARK [1][-]{section.1.3}{Aims and Content Of This Thesis}{chapter.1}% 25
 \BOOKMARK [0][-]{chapter.2}{A Description of DAMOCLES}{}% 26
 \BOOKMARK [1][-]{section.2.1}{Monte Carlo Methods}{chapter.2}% 27
 \BOOKMARK [1][-]{section.2.2}{Radiative Transfer and the Monte Carlo Method}{chapter.2}% 28
@@ -76,22 +76,21 @@
 \BOOKMARK [0][-]{chapter.5}{Dust Masses in Other Supernova Remnants}{}% 76
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 77
 \BOOKMARK [1][-]{section.5.2}{Cassiopeia A}{chapter.5}% 78
-\BOOKMARK [2][-]{subsection.5.2.1}{Integrated Spectrum of Cas A}{section.5.2}% 79
-\BOOKMARK [2][-]{subsection.5.2.2}{Smooth Models}{section.5.2}% 80
-\BOOKMARK [2][-]{subsection.5.2.3}{Clumped Models of Cas A}{section.5.2}% 81
-\BOOKMARK [2][-]{subsection.5.2.4}{The Geometry of Cas A}{section.5.2}% 82
-\BOOKMARK [2][-]{subsection.5.2.5}{The Chemistry of Cas A}{section.5.2}% 83
-\BOOKMARK [2][-]{subsection.5.2.6}{The Dust Mass in Cas A}{section.5.2}% 84
-\BOOKMARK [1][-]{section.5.3}{SN 1980K}{chapter.5}% 85
-\BOOKMARK [2][-]{subsection.5.3.1}{Smooth Models}{section.5.3}% 86
-\BOOKMARK [1][-]{section.5.4}{SN 1993J}{chapter.5}% 87
-\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 88
-\BOOKMARK [1][-]{section.5.6}{Conclusions}{chapter.5}% 89
-\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 90
-\BOOKMARK [0][-]{appendix.A}{Mie Theory}{}% 91
-\BOOKMARK [1][-]{section.A.1}{Formulating the Problem}{appendix.A}% 92
-\BOOKMARK [1][-]{section.A.2}{Solving the Vector Wave Equations}{appendix.A}% 93
-\BOOKMARK [1][-]{section.A.3}{Calculating the Incident and Scattered Fields}{appendix.A}% 94
-\BOOKMARK [1][-]{section.A.4}{Determining the Scattering Coefficients}{appendix.A}% 95
-\BOOKMARK [1][-]{section.A.5}{The Scattering and Extinction Cross-Sections}{appendix.A}% 96
-\BOOKMARK [0][-]{equation.A.5.32}{Bibliography}{}% 97
+\BOOKMARK [2][-]{subsection.5.2.1}{The Integrated Spectrum}{section.5.2}% 79
+\BOOKMARK [2][-]{subsection.5.2.2}{Smooth Models of the Oxygen Lines}{section.5.2}% 80
+\BOOKMARK [2][-]{subsection.5.2.3}{Clumped Models of the Oxygen Lines}{section.5.2}% 81
+\BOOKMARK [2][-]{subsection.5.2.4}{Discussion}{section.5.2}% 82
+\BOOKMARK [1][-]{section.5.3}{SN 1980K and SN 1993J}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.3.1}{The Late-Time Optical Spectra of SN 1980K and SN 1993J}{section.5.3}% 84
+\BOOKMARK [2][-]{subsection.5.3.2}{Line Profile Models of SN1980K}{section.5.3}% 85
+\BOOKMARK [2][-]{subsection.5.3.3}{Line Profile Models of SN 1993J}{section.5.3}% 86
+\BOOKMARK [2][-]{subsection.5.3.4}{Discussion}{section.5.3}% 87
+\BOOKMARK [1][-]{section.5.4}{Conclusions}{chapter.5}% 88
+\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 89
+\BOOKMARK [0][-]{appendix.A}{Mie Theory}{}% 90
+\BOOKMARK [1][-]{section.A.1}{Formulating the Problem}{appendix.A}% 91
+\BOOKMARK [1][-]{section.A.2}{Solving the Vector Wave Equations}{appendix.A}% 92
+\BOOKMARK [1][-]{section.A.3}{Calculating the Incident and Scattered Fields}{appendix.A}% 93
+\BOOKMARK [1][-]{section.A.4}{Determining the Scattering Coefficients}{appendix.A}% 94
+\BOOKMARK [1][-]{section.A.5}{The Scattering and Extinction Cross-Sections}{appendix.A}% 95
+\BOOKMARK [0][-]{equation.A.5.32}{Bibliography}{}% 96
