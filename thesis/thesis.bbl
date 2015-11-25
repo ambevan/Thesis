@@ -56,6 +56,11 @@ Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
 {Baes} M.,  et~al., 2003, \mn@doi [\mnras] {10.1046/j.1365-8711.2003.06770.x},
   \href {http://adsabs.harvard.edu/abs/2003MNRAS.343.1081B} {343, 1081}
 
+\bibitem[\protect\citeauthoryear{{Barbon}, {Ciatti}  \& {Rosino}}{{Barbon}
+  et~al.}{1982}]{Barbon1982}
+{Barbon} R.,  {Ciatti} F.,   {Rosino} L.,  1982, \aap, \href
+  {http://adsabs.harvard.edu/abs/1982A%26A...116...35B} {116, 35}
+
 \bibitem[\protect\citeauthoryear{{Barlow} \& {Silk}}{{Barlow} \&
   {Silk}}{1977}]{Barlow1977}
 {Barlow} M.~J.,  {Silk} J.,  1977, \mn@doi [\apjl] {10.1086/182346}, \href
@@ -170,6 +175,10 @@ Buslenko N.~P.,  Golenko D.~I.,  Shreider Y.~A.,  Sobol' I.~M.,   Sragovich
  International Series of Monographs in Pure and Applied Mathematics Vol. 87,
   Pergamon Press
 
+\bibitem[\protect\citeauthoryear{{Buta}}{{Buta}}{1982}]{Buta1982}
+{Buta} R.~J.,  1982, \mn@doi [\pasp] {10.1086/131026}, \href
+  {http://adsabs.harvard.edu/abs/1982PASP...94..578B} {94, 578}
+
 \bibitem[\protect\citeauthoryear{{Cardelli}, {Clayton}  \& {Mathis}}{{Cardelli}
   et~al.}{1989}]{Cardelli1989}
 {Cardelli} J.~A.,  {Clayton} G.~C.,   {Mathis} J.~S.,  1989, \mn@doi [\apj]
@@ -206,6 +215,11 @@ The MIT Press
   {Dwek}}{2010}]{Cherchneff2010}
 {Cherchneff} I.,  {Dwek} E.,  2010, \mn@doi [\apj] {10.1088/0004-637X/713/1/1},
   \href {http://adsabs.harvard.edu/abs/2010ApJ...713....1C} {713, 1}
+
+\bibitem[\protect\citeauthoryear{{Chugai} \& {Danziger}}{{Chugai} \&
+  {Danziger}}{1994}]{Chugai1994}
+{Chugai} N.~N.,  {Danziger} I.~J.,  1994, \mnras, \href
+  {http://adsabs.harvard.edu/abs/1994MNRAS.268..173C} {268, 173}
 
 \bibitem[\protect\citeauthoryear{Chugai, Chevalier, Kirshner  \&
   Challis}{Chugai et~al.}{1997}]{Chugai1997}
@@ -271,6 +285,11 @@ Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
 {Dwek} E.,  {Arendt} R.~G.,  2015, \mn@doi [\apj] {10.1088/0004-637X/810/1/75},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...810...75D} {810, 75}
 
+\bibitem[\protect\citeauthoryear{{Dwek} et~al.,}{{Dwek}
+  et~al.}{1983}]{Dwek1983}
+{Dwek} E.,  et~al., 1983, \mn@doi [\apj] {10.1086/161434}, \href
+  {http://adsabs.harvard.edu/abs/1983ApJ...274..168D} {274, 168}
+
 \bibitem[\protect\citeauthoryear{Dwek, Galliano  \& Jones}{Dwek
   et~al.}{2007}]{Dwek2007}
 Dwek E.,  Galliano F.,   Jones A.~P.,  2007, \mn@doi [\apj] {10.1086/518430},
@@ -329,6 +348,32 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
 {Ferrarotti} A.~S.,  {Gail} H.-P.,  2006, \mn@doi [\aap]
   {10.1051/0004-6361:20041198}, \href
   {http://adsabs.harvard.edu/abs/2006A\%26A...447..553F} {447, 553}
+
+\bibitem[\protect\citeauthoryear{{Fesen} \& {Becker}}{{Fesen} \&
+  {Becker}}{1988}]{Fesen1988}
+{Fesen} R.~A.,  {Becker} R.~H.,  1988, in Bulletin of the American Astronomical
+  Society. p.~962
+
+\bibitem[\protect\citeauthoryear{{Fesen} \& {Becker}}{{Fesen} \&
+  {Becker}}{1990}]{Fesen1990}
+{Fesen} R.~A.,  {Becker} R.~H.,  1990, \mn@doi [\apj] {10.1086/168480}, \href
+  {http://adsabs.harvard.edu/abs/1990ApJ...351..437F} {351, 437}
+
+\bibitem[\protect\citeauthoryear{{Fesen} \& {Matonick}}{{Fesen} \&
+  {Matonick}}{1994}]{Fesen1994}
+{Fesen} R.~A.,  {Matonick} D.~M.,  1994, \mn@doi [\apj] {10.1086/174228}, \href
+  {http://adsabs.harvard.edu/abs/1994ApJ...428..157F} {428, 157}
+
+\bibitem[\protect\citeauthoryear{{Fesen}, {Hurford}  \& {Matonick}}{{Fesen}
+  et~al.}{1995}]{Fesen1995}
+{Fesen} R.~A.,  {Hurford} A.~P.,   {Matonick} D.~M.,  1995, \mn@doi [\aj]
+  {10.1086/117473}, \href {http://adsabs.harvard.edu/abs/1995AJ....109.2608F}
+  {109, 2608}
+
+\bibitem[\protect\citeauthoryear{{Fesen} et~al.,}{{Fesen}
+  et~al.}{1999}]{Fesen1999}
+{Fesen} R.~A.,  et~al., 1999, \mn@doi [\aj] {10.1086/300751}, \href
+  {http://adsabs.harvard.edu/abs/1999AJ....117..725F} {117, 725}
 
 \bibitem[\protect\citeauthoryear{{Fesen}, {Pavlov}  \& {Sanwal}}{{Fesen}
   et~al.}{2006a}]{Fesen2006a}
@@ -525,6 +570,11 @@ J\"{a}ger C.,  Mutschke H.,  Begemann B.,  Dorschner J.,   Henning T.,  1994,
   Henning}{J\"{a}ger et~al.}{2003}]{Jager2003}
 J\"{a}ger C.,  Dorshner J.,  Mutschke H.,  Posch T.,   Henning T.,  2003,
   \mn@doi [\aap] {10.1051/0004-6361:20030916}, 408, 193
+
+\bibitem[\protect\citeauthoryear{{Karachentsev}, {Sharina}  \&
+  {Huchtmeier}}{{Karachentsev} et~al.}{2000}]{Karachentsev2000}
+{Karachentsev} I.~D.,  {Sharina} M.~E.,   {Huchtmeier} W.~K.,  2000, \aap,
+  \href {http://adsabs.harvard.edu/abs/2000A%26A...362..544K} {362, 544}
 
 \bibitem[\protect\citeauthoryear{{Kirshner}}{{Kirshner}}{1990}]{Kirshner1990}
 {Kirshner} R.~P.,  1990, in {Petschek} A.~G.,  ed., Supernovae. pp 59--75
@@ -758,6 +808,12 @@ Mishchenko M.,  Travis L.,   Lacis A.,  2002, Scattering, Absorption, and
   Emission of Light by Small Particles.
 Cambridge University Press
 
+\bibitem[\protect\citeauthoryear{{Montes}, {Van Dyk}, {Weiler}, {Sramek}  \&
+  {Panagia}}{{Montes} et~al.}{1998}]{Montes1998}
+{Montes} M.~J.,  {Van Dyk} S.~D.,  {Weiler} K.~W.,  {Sramek} R.~A.,   {Panagia}
+  N.,  1998, \mn@doi [\apj] {10.1086/306261}, \href
+  {http://adsabs.harvard.edu/abs/1998ApJ...506..874M} {506, 874}
+
 \bibitem[\protect\citeauthoryear{Morgan \& Edmunds}{Morgan \&
   Edmunds}{2003}]{Morgan2003}
 Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
@@ -976,6 +1032,12 @@ Storey P.~J.,  Zeippen C.~J.,  2000, \mn@doi [\mnras]
   et~al.}{2006}]{Sugerman2006}
 Sugerman B. E.~K.,  et~al., 2006, \mn@doi [Science] {10.1126/science.1128131},
   313, 196
+
+\bibitem[\protect\citeauthoryear{{Sugerman} et~al.,}{{Sugerman}
+  et~al.}{2012}]{Sugerman2012}
+{Sugerman} B.~E.~K.,  et~al., 2012, \mn@doi [\apj]
+  {10.1088/0004-637X/749/2/170}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...749..170S} {749, 170}
 
 \bibitem[\protect\citeauthoryear{Suntzeff, Phillips, Depoy, Elias  \&
   Walker}{Suntzeff et~al.}{1991}]{Suntzeff1991}

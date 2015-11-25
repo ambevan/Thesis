@@ -15,10 +15,10 @@ A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 A level-1 auxiliary file: back/appendices/appendA.aux
 The style file: mnras.bst
 A level-1 auxiliary file: back/backquote.aux
-Reallocated field_info (elt_size=4) to 10751 items from 5000.
+Reallocated field_info (elt_size=4) to 11075 items from 5000.
 Database file #1: thesis.bib.bib
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 `series' is a missing field, not a string, for entry Baron2005
 while executing---line 3643 of file mnras.bst
@@ -34,45 +34,45 @@ while executing---line 3643 of file mnras.bst
 while executing---line 3643 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
 Warning--empty publisher in Sedov1959
-You've used 213 entries,
+You've used 225 entries,
             2881 wiz_defined-function locations,
-            2472 strings with 66105 characters,
-and the built_in function-call counts, 102839 in all, are:
-= -- 8176
-> -- 7549
-< -- 570
-+ -- 3326
-- -- 1102
-* -- 12503
-:= -- 16167
+            2564 strings with 69035 characters,
+and the built_in function-call counts, 108400 in all, are:
+= -- 8652
+> -- 7921
+< -- 599
++ -- 3494
+- -- 1148
+* -- 13195
+:= -- 17014
 add.period$ -- 0
-call.type$ -- 213
-change.case$ -- 429
-chr.to.int$ -- 207
-cite$ -- 215
-duplicate$ -- 5090
-empty$ -- 5229
-format.name$ -- 1812
-if$ -- 17916
+call.type$ -- 225
+change.case$ -- 453
+chr.to.int$ -- 219
+cite$ -- 227
+duplicate$ -- 5369
+empty$ -- 5505
+format.name$ -- 1904
+if$ -- 18884
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 226
-newline$ -- 666
-num.names$ -- 1543
-pop$ -- 1209
+missing$ -- 238
+newline$ -- 702
+num.names$ -- 1625
+pop$ -- 1268
 preamble$ -- 1
-purify$ -- 852
+purify$ -- 900
 quote$ -- 0
-skip$ -- 3030
+skip$ -- 3198
 stack$ -- 0
-substring$ -- 5485
-swap$ -- 2768
-text.length$ -- 892
+substring$ -- 5810
+swap$ -- 2927
+text.length$ -- 941
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1878
+type$ -- 1986
 warning$ -- 2
-while$ -- 1617
+while$ -- 1707
 width$ -- 0
-write$ -- 2159
+write$ -- 2279
 (There were 6 error messages)
