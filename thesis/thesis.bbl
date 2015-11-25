@@ -66,6 +66,13 @@ Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
 Barlow M.~J.,  et~al., 2010, \mn@doi [\aap] {10.1051/0004-6361/201014585}, 518,
   L138
 
+\bibitem[\protect\citeauthoryear{{Baron}, {Hauschildt}, {Branch}, {Wagner},
+  {Austin}, {Filippenko}  \& {Matheson}}{{Baron} et~al.}{1993}]{Baron1993}
+{Baron} E.,  {Hauschildt} P.~H.,  {Branch} D.,  {Wagner} R.~M.,  {Austin}
+  S.~J.,  {Filippenko} A.~V.,   {Matheson} T.,  1993, \mn@doi [\apjl]
+  {10.1086/187061}, \href {http://adsabs.harvard.edu/abs/1993ApJ...416L..21B}
+  {416, L21}
+
 \bibitem[\protect\citeauthoryear{Baron, Nugent, Branch  \& Hauschildt}{Baron
   et~al.}{2005}]{Baron2005}
 Baron E.,  Nugent P.~E.,  Branch D.,   Hauschildt P.~H.,  2005, in Turrato M.,
@@ -334,6 +341,12 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
 {Fesen} R.~A.,  et~al., 2006b, \mn@doi [\apj] {10.1086/504254}, \href
   {http://adsabs.harvard.edu/abs/2006ApJ...645..283F} {645, 283}
 
+\bibitem[\protect\citeauthoryear{{Filippenko}, {Matheson}  \&
+  {Ho}}{{Filippenko} et~al.}{1993}]{Fillipenko1993}
+{Filippenko} A.~V.,  {Matheson} T.,   {Ho} L.~C.,  1993, \mn@doi [\apjl]
+  {10.1086/187043}, \href {http://adsabs.harvard.edu/abs/1993ApJ...415L.103F}
+  {415, L103}
+
 \bibitem[\protect\citeauthoryear{Fitzpatrick, Morris  \&
   Podsiadlowski}{Fitzpatrick et~al.}{2013}]{Fitzpatrick2013}
 Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
@@ -342,6 +355,11 @@ Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
 \bibitem[\protect\citeauthoryear{Fransson \& Kozma}{Fransson \&
   Kozma}{1993}]{Fransson1993}
 Fransson C.,  Kozma C.,  1993, \mn@doi [\apj] {10.1086/186822}, 408, L25
+
+\bibitem[\protect\citeauthoryear{{Fransson} et~al.,}{{Fransson}
+  et~al.}{2005}]{Fransson2005}
+{Fransson} C.,  et~al., 2005, \mn@doi [\apj] {10.1086/426495}, \href
+  {http://adsabs.harvard.edu/abs/2005ApJ...622..991F} {622, 991}
 
 \bibitem[\protect\citeauthoryear{Fransson et~al.,}{Fransson
   et~al.}{2013}]{Fransson2013}
@@ -358,6 +376,11 @@ Fransson C.,  et~al., 2014, \mn@doi [\apj] {10.1088/0004-637X/797/2/118}, 797,
 {Fransson} C.,  et~al., 2015, \mn@doi [\apjl] {10.1088/2041-8205/806/1/L19},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...806L..19F} {806, L19}
 
+\bibitem[\protect\citeauthoryear{{Freedman} et~al.,}{{Freedman}
+  et~al.}{1994}]{Freedman1994}
+{Freedman} W.~L.,  et~al., 1994, \mn@doi [\apj] {10.1086/174172}, \href
+  {http://adsabs.harvard.edu/abs/1994ApJ...427..628F} {427, 628}
+
 \bibitem[\protect\citeauthoryear{{Gail} \& {Sedlmayr}}{{Gail} \&
   {Sedlmayr}}{1999}]{Gail1999}
 {Gail} H.-P.,  {Sedlmayr} E.,  1999, \aap, \href
@@ -365,6 +388,11 @@ Fransson C.,  et~al., 2014, \mn@doi [\apj] {10.1088/0004-637X/797/2/118}, 797,
 
 \bibitem[\protect\citeauthoryear{Gall et~al.,}{Gall et~al.}{2014}]{Gall2014}
 Gall C.,  et~al., 2014, \mn@doi [\nat] {10.1038/nature13558}, 511, 326
+
+\bibitem[\protect\citeauthoryear{{Garnavich} \& {Ann}}{{Garnavich} \&
+  {Ann}}{1993}]{Garnavich1993}
+{Garnavich} P.~M.,  {Ann} H.~B.,  1993, in American Astronomical Society
+  Meeting Abstracts \#182. p.~1244
 
 \bibitem[\protect\citeauthoryear{{Gehrz} \& {Ney}}{{Gehrz} \&
   {Ney}}{1987}]{Gehrz1987}
@@ -467,6 +495,11 @@ Hillier D.~J.,  1991, \aap, 247, 455
   \& {van der Tak}}{2000}]{Hogerheijde2000}
 {Hogerheijde} M.~R.,  {van der Tak} F.~F.~S.,  2000, \aap, \href
   {http://adsabs.harvard.edu/abs/2000A%26A...362..697H} {362, 697}
+
+\bibitem[\protect\citeauthoryear{{Houck} \& {Fransson}}{{Houck} \&
+  {Fransson}}{1996}]{Houck1996}
+{Houck} J.~C.,  {Fransson} C.,  1996, \mn@doi [\apj] {10.1086/176699}, \href
+  {http://adsabs.harvard.edu/abs/1996ApJ...456..811H} {456, 811}
 
 \bibitem[\protect\citeauthoryear{Hoyle \& Wickramasinghe}{Hoyle \&
   Wickramasinghe}{1970}]{Hoyle1970}
@@ -607,6 +640,17 @@ Lucy L.,  Danziger I.~J.,  Gouiffes C.,   Bouchet P.,  1991, in Woosley S.~E.,
   {Bray}}{1964}]{Marsaglia1964}
 {Marsaglia} G.,  {Bray} T.~A.,  1964, SIAM Review, 6, 260
 
+\bibitem[\protect\citeauthoryear{{Matheson} et~al.,}{{Matheson}
+  et~al.}{2000a}]{Matheson2000a}
+{Matheson} T.,  et~al., 2000a, \mn@doi [\aj] {10.1086/301518}, \href
+  {http://adsabs.harvard.edu/abs/2000AJ....120.1487M} {120, 1487}
+
+\bibitem[\protect\citeauthoryear{{Matheson}, {Filippenko}, {Ho}, {Barth}  \&
+  {Leonard}}{{Matheson} et~al.}{2000b}]{Matheson2000b}
+{Matheson} T.,  {Filippenko} A.~V.,  {Ho} L.~C.,  {Barth} A.~J.,   {Leonard}
+  D.~C.,  2000b, \mn@doi [\aj] {10.1086/301519}, \href
+  {http://adsabs.harvard.edu/abs/2000AJ....120.1499M} {120, 1499}
+
 \bibitem[\protect\citeauthoryear{Mathis, Rumpl  \& Nordsieck}{Mathis
   et~al.}{1977}]{Mathis1977}
 Mathis J.~S.,  Rumpl W.,   Nordsieck K.~H.,  1977, \mn@doi [\apj]
@@ -726,6 +770,12 @@ Morgan H.~L.,  Edmunds M.~G.,  2003, \mn@doi [\mnras]
   Conference Series Vol. 342, 1604-2004: Supernovae as Cosmological
   Lighthouses. p.~194
 
+\bibitem[\protect\citeauthoryear{{Nomoto}, {Suzuki}, {Shigeyama}, {Kumagai},
+  {Yamaoka}  \& {Saio}}{{Nomoto} et~al.}{1993}]{Nomoto1993}
+{Nomoto} K.,  {Suzuki} T.,  {Shigeyama} T.,  {Kumagai} S.,  {Yamaoka} H.,
+  {Saio} H.,  1993, \mn@doi [\nat] {10.1038/364507a0}, \href
+  {http://adsabs.harvard.edu/abs/1993Natur.364..507N} {364, 507}
+
 \bibitem[\protect\citeauthoryear{{Nozawa}, {Kozasa}, {Umeda}, {Maeda}  \&
   {Nomoto}}{{Nozawa} et~al.}{2003}]{Nozawa2003}
 {Nozawa} T.,  {Kozasa} T.,  {Umeda} H.,  {Maeda} K.,   {Nomoto} K.,  2003,
@@ -809,6 +859,11 @@ Cambridge University Press
 Riley K.,  Hobson M.,   Bence S.,  2006, Mathematical Methods for Physics and
   Engineering: A Comprehensive Guide.
 Cambridge University Press
+
+\bibitem[\protect\citeauthoryear{{Ripero} et~al.,}{{Ripero}
+  et~al.}{1993}]{Ripero1993}
+{Ripero} J.,  et~al., 1993, IAU Circ., \href
+  {http://adsabs.harvard.edu/abs/1993IAUC.5731....1R} {5731, 1}
 
 \bibitem[\protect\citeauthoryear{{Robitaille}}{{Robitaille}}{2011}]{Robitaille2011}
 {Robitaille} T.~P.,  2011, \mn@doi [\aap] {10.1051/0004-6361/201117150}, \href
@@ -998,6 +1053,11 @@ Watson D.,  Christensen L.,  Knudsen K.~K.,  Richard J.,  Gallazzi A.,
   et~al.}{2015}]{Wesson2015}
 Wesson R.,  Barlow M.~J.,  Matsuura M.,   Ercolano B.,  2015, \mnras, 446, 2089
   (W15)
+
+\bibitem[\protect\citeauthoryear{{Wheeler} \& {Filippenko}}{{Wheeler} \&
+  {Filippenko}}{1996}]{Wheeler1996}
+{Wheeler} J.~C.,  {Filippenko} A.~V.,  1996, in {Kuhn} T.~S.,  ed., IAU Colloq.
+  145: Supernovae and Supernova Remnants. p.~241
 
 \bibitem[\protect\citeauthoryear{{Whitelock}, {Menzies}  \&
   {Caldwell}}{{Whitelock} et~al.}{1991}]{Whitelock1991}

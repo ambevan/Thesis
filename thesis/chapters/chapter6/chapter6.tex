@@ -9,14 +9,12 @@
 %{AUTHOR}  
 %\end{flushright}
 
-
 \section{Introduction}
 \noindent{SN~1987A has provided a rare opportunity to follow the evolution of a CCSN in close detail and it is now well established that there is a significant mass of dust forming in the ejecta.  However, the question of the dust  budget problem in the early universe cannot be solved by considering SN~1987A alone.  If CCSNe are indeed the primary source of the dust seen at high redshifts, it is necessary to establish that the majority of CCSNe do indeed produce sizeable quantities of dust.  This motivates the study of other CCSN remnants with the aim of determining the masses of dust that have formed in their ejecta.}
 
 Blue-shifted line emission is a common and long-lasting feature of the late-time spectra of CCSNe.  In particular the emission lines of oxygen and hydrogen are often visible and often exhibit asymmetries and significant substructure.  If these lines can be modelled then it may be possible to determine the dust masses in SNRs at late times ($>10$ years).
 
 There are only a few objects that lend themselves to this sort of modelling however.  The primary obstacle to assessing a large number of late-time spectra from CCSNe is that the majority fade rapidly,  with their brightness decreasing by eight magnitudes after maximum light within the first two years \citep{Kirshner1990}.  They are also frequently further than $\sim$10 Mpc from us and detections are relatively infrequent in the first place.  As a result, the optical spectra are rarely visible after approximately 700 days \citep{Milisavljevic2012}.  
-
 
 However, there are a few unusual objects that, for various reasons, we may still be able to see many years or even decades after maximum light.  This could be because they are unusually close, like SN~1987A, or more usually because some late-time energy source is illuminating the ejecta.  The most obvious of these energy sources is the interaction between the forward shock and the surrounding circumstellar material.  This interaction is known to stimulate emission across a wide range of wavelengths from radio to X-rays and causes a reverse shock to propagate inwards through the ejecta heating and ionising the material it passes through.  Other postulated energy sources include interaction between a central pulsar or magnetar and the expanding debris \citep{Woosley2010}, or accretion onto a black hole \citep{Patnaude2001}.
 
@@ -26,6 +24,204 @@ In addition to these SNRs, I also present models of the oxygen lines of Cassiope
 
 By modelling asymmetries in the oxygen and hydrogen lines of these three objects, and by considering results from my line profile models of SN~1987A presented in the previous chapter, I hope to start to paint a picture of dust formation in CCSNe;  hopefully I will demonstrate that these objects in fact seem to be capable of producing the quantities of dust that are necessary for them to provide the solution to the dust mass dilemma in the early universe.
 
+\begin{figure}
+\centering
+\includegraphics[clip=true,scale=0.6, trim=20 0 50 20]{chapters/chapter6/figs/80K/80K_spectrum}
+
+\includegraphics[clip=true,scale=0.6, trim=30 0 50 20]{chapters/chapter6/figs/93J/93J_spectrum}
+\caption{{\em Above:} The optical spectrum of  SN~1980K on 9 October 2010 at 31 years post-explosion.  {\em Below:}  The optical spectrum of  SN~1993J on 9 December 2009 at 16 years post-explosion. Both spectra were originally published by \citet{Milisavljevic2012}.}
+\label{spectra}
+\end{figure}
+
+\section{SN~1980K and SN~1993J}
+%%%80K INTRO HERE TO DO%%%%%%
+INTRO TO 80K
+
+SN~1993J is a very well-observed and important supernova and is only surpassed in regards to the quality and frequency of observations by SN~1987A.  It is located in the nearby M81 galaxy 3.6 Mpc away \citep{Freedman1994} and was discovered on 28 March 1993 \citep{Ripero1993}.  It reached a maximum brightness of $V=10.8$ mag making it the brightest supernova in the northern hemisphere since SN~1954A. It was swiftly classified as a Type II supernova due to early spectra exhibiting an almost featureless blue continuum.  However, its evolution was atypical and the appearance of He lines in later spectra resulted in its classification as a Type IIb.  The similarities to Type Ib and Type Ic supernovae were noted however and this supernova has been very important for understanding the relationship between the Type I and Type II categories \citep{Fillipenko1993,Garnavich1993}.  Extensive reviews of SN~1993J are given by \citet{Wheeler1996}, which covers the early evolution of the object, and by \citet{Matheson2000a,Matheson2000b} who discuss the later evolution of the optical spectra.  
+
+SN~1993J is relatively isolated and quite close meaning that it has proved to be an ideal candidate for regular monitoring in the X-ray, radio and optical.  I am here particularly interested in late-time optical spectra and the presence, or otherwise, of dust in the ejecta as postulated by \citet{Fransson2005} and \citep{Milisavljevic2012}.  An explosion date of 27 March 1993 is adopted for all models \citep{Baron1993}.
+
+\subsection{The Late-Time Optical Spectra of SN~1980K and SN~1993J}
+
+Late-time spectra of both SN~1980K and SN~1993J were obtained and donated to me by Dr D. Milisavljevic.  These spectra are published in \citet{Milisavljevic2012} and I present them here in Figure \ref{spectra}.
+
+The 2.4m Hiltner telescope at MDM was used to obtain spectra of SN 1980K on 9 October 2010. The Mark III Spectrograph was used with a SITe 1024 × 1024 CCD detector and a $1.2'' \times 4.5'$ slit. $2 \times 3000$s exposures were obtained with a spectral resolution of 7\AA\ covering the wavelength range $4600-8000$\AA. 
+
+The optical spectrum of SN 1993J was obtained on 9 December 2009 with the 6.5m MMT at Mt. Hopkins in Arizona using the HECTOSPEC optical fibre fed spectrograph. Spectra from the $1.5''$ diameter fibres covered the wavelength range of 3700?9200\AA\ with FWHM resolution of 5\AA.  The total exposure time was 3600s. These observations were part of a survey of supernova remnants of M81.  
+
+\citet{Milisavljevic2012} reduced and calibrated the spectra employing
+standard techniques in IRAF and their own routines and removing any cosmic rays and obvious defects. For further details on the observations and calibrations of these spectra, please refer to \citet{Milisavljevic2012}. 
+
+\afterpage{
+\begin{landscape}
+\centering
+\setlength{\tabcolsep}{5pt}
+\begin{table}
+\centering
+%	\begin{minipage}{180mm}
+	\caption{The parameters used for the smooth and clumped models of SN~1980K for media composed of 100\% amorphous carbon dust grains of radius $3.5\mu$m or 100\% silicate dust grains of radius $0.1\mu$m.  Optical depths are given from $R_{in}$ to $R_{out}$ at $\lambda = 6300$~\AA\ for [O~{\sc i}] and $\lambda = 6563$~\AA\ for H$\alpha$.  The doublet ratio for the [O {\sc i}]$\lambda$6300,6363 \AA\ is fixed to be 3.1.  Smooth models are listed in the first four rows and clumped models in the last four rows.}
+	\label{80K}
+	\centering
+  	\begin{tabular}{@{} cccccccccccccc @{}}
+    	\hline
+  & clumped? & species &$V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$  & $f$ & $R_{clump}$ \\
+	&& &(km~s$^{-1}) $& (km~s$^{-1} $)& && ($M_{\odot}$) & (10$^{17}$cm) & (10$^{17}$cm) &&&&(10$^{17}$cm)  \\
+	\hline
+	H$\alpha$  &no&sil & 5500 & 4125 & 0.75  & 2.0 & 0.1 & 5.2 & 3.9 & - & 1.41 & - & - \\ \relax
+H$\alpha$  &no&amC& 5500 & 4125 & 0.75  & 2.0 & 0.3 & 5.2 & 3.9 & - & 0.57 & - &  -\\ \relax
+[O~{\sc i}]  &no&sil& 5500 & 4125 & 0.75  & 4.0 & 0.2 & 5.2 & 3.9 & 3.1 & 2.81 & - & - \\ \relax
+[O~{\sc i}]  &no&amC& 5500 & 4125 & 0.75  & 4.0 & 0.65 & 5.2 & 3.9 & 3.1 & 1.24  & - & -\\
+\\
+H$\alpha$  &yes&sil & 5500 & 4125 & 0.75  & 2.0 & 0.12 & 5.2 & 3.9 & - & 1.68 & 0.1 & 0.2 \\ \relax
+H$\alpha$  &yes&amC& 5500 & 4125 & 0.75  & 2.0 & 0.38 & 5.2 & 3.9 & - & 0.73 & 0.1 &  0.2\\ \relax
+[O~{\sc i}]  &yes&sil& 5500 & 4125 & 0.75  & 4.0 & 0.3 & 5.2 & 3.9 & 3.1 & 2.81 & 0.1 & 0.2 \\ \relax
+[O~{\sc i}]  &yes&amC& 5500 & 4125 & 0.75  & 4.0 & 0.9 & 5.2 & 3.9 & 3.1 & 1.72  & 0.1 & 0.2\\
+    \hline
+  \end{tabular}
+
+%\end{minipage}
+\end{table}
+\end{landscape}
+}
+
+\subsection{Line Profile Models of SN~1980K and SN~1993J}
+
+The modelling of SN~1980K focussed on the H$\alpha$ line and the [O {\sc i}]$\lambda$6300,6363 \AA\ doublet.  Both of these line profiles exhibit a very strong blue-shifted asymmetry indicative of the presence of dust in the ejecta.  SN~1993J exhibited strongest asymmetries in the oxygen lines, and in particular I focussed my modelling on the [O {\sc ii}]$\lambda$7319,7330 \AA\ and [O {\sc iii}]$\lambda$4959,5007 \AA\ doublets.  The [O {\sc i}]$\lambda$6300,6363 \AA doublet was not modelled for SN~1993J as it is quite blended with the H$\alpha$ line.  The other two oxygen lines are more distinct.
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
+\caption{Best smooth dust fits to the SN~1980K H$\alpha$ ({\em top}) and [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Smooth dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and smooth dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
+\label{80K_smooth}
+\end{figure}
+
+Modelling of both SN~1980K and SN~1993J followed the same approach as for SN~1987A that I detailed in Section \ref{results} in the previous chapter.  I began my modelling by considering a smooth, coupled distribution of dust and gas before moving on to consider the effect on these models of including a clumped dust geometry whilst maintaining a smoothly emissivity distribution.  I first examined the line profile in order to determine the maximum and minimum velocities before moving on to approximately establish the density distribution.  Having fixed the starting values for these quantities, I iterated over grain size and dust mass in order to fit the profile.  I also occasionally  consider varied other parameters in order to optimise my fit to the data. I assumed that the [O {\sc i}]$\lambda$6300,6363 \AA\ doublet was optically thin and therefore adopted a constant intrinsic flux ratio of 3.1 between the components.
+
+The parameters for the smooth and clumped fits  that I obtained for SN~1980K and SN~1993J are detailed in Tables \ref{80K} and \ref{93J} respectively. The smooth line profile fits for SN~1980K are presented in Figure \ref{80K_smooth} and the clumped line profile fits are presented in Figure \ref{80K_clumped}.  The smooth line profile fits for SN~1993J are presented in Figure \ref{93J_smooth} and the clumped line profile fits are presented in Figure \ref{93J_clumped}.  
+
+\clearpage
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI_amC}
+\caption{Best clulmped dust fits to the SN~1980K H$\alpha$ ({\em top}) and [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Clumped dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and clumped dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
+\label{80K_clumped}
+\end{figure}
+
+\subsubsection{Smooth Models of SN~1980K}
+
+I obtained good fits to both the H$\alpha$ and [O {\sc i}]$\lambda$6300,6363 \AA\ lines from SN~1980K (see Figure \ref{80K_smooth}).  In particular, an extended wing on the red side of the profile was noticed in both cases. This was more important for the H$\alpha$ line since I could be sure that it was not a product of blending with an adjacent broad line (the presence of an extended red wing in the [O {\sc i}] line may be due to blending with the blue wing of the H$\alpha$ line).  This wing allowed me to place constraints on the albedo.  A high albedo of $\omega\approx0.8$  was required to reproduce the flux in the region between $+6000$ and $+8000$~km~s$^{-1}$.  Silicate grains of radius $a=0.1\mu$m have an albedo of this magnitude at this wavelength, but amorphous carbon grain are never this glassy regardless of their size.  I include line profile fits using a large grain size ($a=3.5\mu$m) for amorphous carbon to generate as high an albedo as possible ($\omega\approx0.6$) illustrating the slightly worse, although still reasonably good, fit to the H$\alpha$ line as well as the best-fitting silicates model in Figure \ref{80K_smooth}.  
+
+\subsubsection{Clumped Models of SN~1980K}
+
+Motivated by the modelling of SN~1987A, I adopted a clumped dust structure with a clump volume filling factor of $f=0.1$ with clumps of width $R_{clump}=R_{out}/25$.  All dust was located in clumps but the emission remained distributed smoothly according to the distribution derived for the smooth models.  A summary of the parameters for the best-fitting clumped models is presented in Table \ref{80K}
+
+\subsubsection{Smooth Models of SN~1993J}
+I had mixed success in obtaining good fits to the oxygen line profiles of SN~1993J.  Certain aspects of the line profiles are well-fitted by my models, such as the bump seen at $-4000$~km~s$^{-1}$ in the [O {\sc iii}] line.  The peaks of the [O {\sc iii}] profile were fiarly well matched although I could not reproduce the peak seen at $+4000$~km~s$^{-1}$.  Similarly, I struggled to reproduce the shape of the profile betwen $-2000$ and $+2000$~km~s$^{-1}$ for both the [O {\sc iii}] and [O {\sc ii}] lines.  In order to fit the profile, I needed to use different sized grains for the [O {\sc iii}] and the [O {\sc ii}] models in order to fit the red wing of the profile.
+
+A manual investigation of parameter space indicated to me that the issues with the fitting derived from the initial emissivity distribution.  The smooth nature of the emissivity distribution that I adopted could not reproduce the sharp downturn seen to the red side of the peak.  I believe that this is likely due to an oxygen emission distribution that is potentially composed of a dense central region that produces the steep variations in the central regions with a more diffuse oxygen envelope accounting for the wings.  A different geometry may well alter the effects of scattering and could therefore reduce or remove the discrepancy in the required grain sizes.  I will discuss these issues in further detail in Section \ref{scn:discuss}.
+
+Parameters for the smooth models of [O {\sc iii}]$\lambda$4959,5007 \AA and [O {\sc ii}]$\lambda$7319,7330 \AA   presented in Figure \ref{93J_smooth} are detailed in Table \ref{93J}. 
+ 
+\subsubsection{Clumped Models of SN~1993J}
+
+Clumped models of SN~1993J adopted the same clumped structure as for the SN~1980K models and the SN~1987A models.  All of the parameters were kept fixed from the smooth models except for the new clumped dust distribution.  Similar fits were found and the clumped geometry had little effect on the resultant modelled line profiles.   The required dust mass increased by a factor of approximately 1.5.  The clumped models of [O {\sc iii}]$\lambda$4959,5007 \AA and [O {\sc ii}]$\lambda$7319,7330 \AA   presented in Figure \ref{clumped} are detailed in Table \ref{93J}. 
+
+
+\afterpage{
+\begin{landscape}
+\centering
+\setlength{\tabcolsep}{4pt}
+\begin{table}
+\centering
+%	\begin{minipage}{180mm}
+	\caption{The parameters used for the smooth and clumped models of SN~1993J for media composed of 100\% amorphous carbon dust grains of radius $3.5\mu$m or 100\% silicate dust grains of radius $0.1\mu$m.  Optical depths are given from $R_{in}$ to $R_{out}$ at $\lambda = 7319$~\AA\ for [O~{\sc ii}] and $\lambda = 4959$~\AA\ for [O {\sc iii}].  Smooth models are listed in the first four rows and clumped models in the last four rows.}
+	\label{93J}
+	\centering
+  	\begin{tabular}{@{} ccccccccccccccc @{}}
+    	\hline
+  & clumped? & species &$a$&$V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$  & $f$ & $R_{clump}$ \\
+	&& &($\mu$m)&(km~s$^{-1}) $& (km~s$^{-1} $)& && ($M_{\odot}$) & (10$^{17}$cm) & (10$^{17}$cm) &&&&(10$^{17}$cm)  \\
+	\hline
+	{[O~{\sc iii}]}  &no&sil & 0.04&6000 & 4500 & 0.75  & 7 & 0.1 & 3.2 & 2.4 & 2.9 & 0.65 & - & - \\ \relax
+{[O~{\sc iii}]}  &no&amC&0.2& 6000 & 4500 & 0.75  & 7 & 0.005 & 3.2 & 2.4 & 2.9& 0.63 & - &  -\\ \relax
+{[O~{\sc ii}]}  &no&sil& 0.1&6000 & 4500 & 0.75  & 7 & 0.05 & 3.2 & 2.4 & 1.23 & 0.74 & - & - \\ \relax
+{{[O~{\sc ii}]}}  &no&amC&3.5& 6000 & 4500 & 0.75  & 7 & 0.12 & 3.2 & 2.4 & 1.23 & 0.60  & - & -\\
+\\
+{[O~{\sc iii}]}  &yes&sil &0.04& 6000 & 4500 & 0.75  & 7 & 0.15 & 3.2 & 2.4 & 2.9 &1.00  & 0.1 & 0.13 \\ \relax
+{[O~{\sc iii}]}  &yes&amC&0.2& 6000 & 4500 & 0.75  & 7 &  0.008& 3.2 & 2.4 & 2.9 &0.96  & 0.1 &  0.13\\ \relax
+{[O~{\sc ii}]}  &yes&sil&0.1 &6000 & 4500 & 0.75  & 7 &0.08  & 3.2 & 2.4 & 1.23 & 1.12 & 0.1 & 0.13 \\ \relax
+{[O~{\sc ii}]}  &yes&amC& 3.5& 6000 & 4500 & 0.75  & 7 &  0.18& 3.2 & 2.4 & 1.23 & 0.95  & 0.1 & 0.13 \\ 
+    \hline
+  \end{tabular}
+
+%\end{minipage}
+\end{table}
+\end{landscape}
+}
+
+
+
+\clearpage
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=0 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII} \hspace{0.5mm}
+\includegraphics[scale=0.4,clip=true, trim=40 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=0 0 40 20]{chapters/chapter6/figs/93J/smooth/OII}
+\includegraphics[scale=0.4,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/93J/smooth/OII_amC}
+\caption{Best smooth dust fits to the SN~1993J [O {\sc iii}]$\lambda$4959,5007 \AA ({\em top}) and [O~{\sc ii}]~$\lambda$7319,7330~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{93J}.  Compositions and grain sizes are as detailed on the plots.}
+\label{93J_smooth}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=0 0 40 20]{chapters/chapter6/figs/93J/clumped/OIII_sil} \hspace{0.5mm}
+\includegraphics[scale=0.4,clip=true, trim=40 0 40 20]{chapters/chapter6/figs/93J/clumped/OIII_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=0 0 40 20]{chapters/chapter6/figs/93J/clumped/OII_sil}
+\includegraphics[scale=0.4,clip=true, trim=30 0 40 20]{chapters/chapter6/figs/93J/clumped/OII_amC}
+\caption{Best clumped dust fits to the SN~1993J [O {\sc iii}]$\lambda$4959,5007 \AA ({\em top}) and [O~{\sc ii}]~$\lambda$7319,7330~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{93J}.  Compositions and grain sizes are as detailed on the plots.}
+\label{93J_clumped}
+\end{figure}
+
+
+\subsection{Discussion}
+\label{scn:discuss}
+%%%DISCUSS 80K AS OBJECT TO DO%%%
+DISCUSS 80K RELATIVE TO OTHER SNe.  
+
+The noisiness of the [O {\sc i}]$\lambda$6300,6363 \AA\ line profile in particular means that these models are not quite as robust as those for the H$\alpha$ line.  
+
+Discuss why oxygen dust mass more than ha for 80K, and talk about why adopt silicate 80K Ha masses.  Compare to prevoius results???  If not to previous results then compare to Gall plot.
+
+
+Models of the SN~1993J line profiles do not fit as well as the observed data quite as well as the other models that I present in this thesis for other objects.  In particular, the modelled profiles tend to over-estimate the flux in the region just to the red of the peak where the observed profile exhibits a sharp downturn.  Whilst this can be replicated by the model, the steepness of this drop cannot be matched by my models.  However, certain other features of the observed profiles are fitted well by the model.  The [O {\sc iii}] modelled line profile in particular fits bumpy features on both the red and blue sides of the profile quite well.  The small discrepancy in the location of the peak at around $\sim6500$~km~s$^{-1}$ is likely a result of a net velocity away from the observer (see Section \ref{scn:CasA_smooth} for a discussion of this effect in more detail) or a discrepancy between my smooth, symmetrical models and the likely more clumpy, asymmetrical geometrical structure of the remnant.  Similarly, the difference in the grain size required to fit the [O {\sc iii}] and [O {\sc ii}] lines might also indicate the need to a different distribution of dust and/or gas.  It could be the case the the asymmetry in these lines is not a result of dust in the ejecta (there possibility of dust in the ejecta of SN~1993J has been noted only a few times), but it perhaps seems more likely, given how well certain aspects of the observed profiles are fitted, that a more complex model than I present here is required to better fit the data.
+
+\citet{Houck1996} discuss the spectra of SN~1993J at somewhat earlier times that I consider here.  The asymmetries that are present in the oxygen lines that I model here are also present at earlier times.  \citet{Houck1996} suggest that the this asymmetry can be explained by interaction between the lines.  In particular, they discuss the effects of scattering by H$\alpha$ on the [O {\sc i}]$\lambda$6300,6363 \AA line profile.  It is possible that line blending effects the resultant profile, and it is certainly intuitive that scattering by H$\alpha$ might cause the sharp drop in the line profile of [O {\sc i}] that is seen on the red side.  However, similarities in the late-time line profiles of [O {\sc i}]$\lambda$6300,6363 \AA and [O {\sc ii}]$\lambda$7319,7330 \AA would suggest that perhaps the cause of this drop is related to the geometrical structure of the emitting region rather than interaction with nearby lines.
+
+\citet{Nomoto1993} produce a number of explosion models of a helium star as a model for a Type IIb supernova such as SN~1993J.  From their model, they present a distribution of different elements throughout the shell.  As might be expected, the oxygen is located in two distinct regions with significantly different densities (see Figure \ref{4h47}).   The distribution of the oxygen in my models is smooth and it seems likely that the overestimation of the flux just to the red side of the peak could well be resolved by considering a two-component density distribution.
+
+
+As ever, for both SN~1993J and SN~1980K, clumped distributions of dust be considered.
+TALK ABOUT CLUMPING.  93J factor of 1.5.
+
+NOW TALK ABOUT HOW THESE DUST MASS ESTIMATED FIT IN WITH OVERALL CURVE.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.4,clip=true, trim=30 0 0 0]{chapters/chapter6/figs/93J/explosion_model.png}
+\caption{Composition of model 4H47 as a function of expansion velocity as computed by \citet{Nomoto1993}.}
+\label{4h47}
+\end{figure}
 
 
 \begin{figure}
@@ -67,7 +263,7 @@ The integrated spectrum was ultimately composed of 80 long slit spectra spaced 3
 
 
 \subsection{Smooth Models of the Oxygen Lines}
-
+\label{scn:CasA_smooth}
 My modelling of the Cas~A spectrum was initially focussed on the [O {\sc iii}] line, which exhibits a pronounced asymmetry.  The process of finding a fit to the line profile was the same as described in Section \ref{results}, i.e. the maximum velocity was identified from the point at which flux vanishes on the blue side, the inner to outer radius ratio determined from various inflection points and the density profile determined from the shape of the profile.  The other parameters were then iterated over to find the best fitting profile.  
 
 \begin{figure}
@@ -181,7 +377,6 @@ The change in the required dust mass is listed as a fraction of the smooth dust 
 
 
 \subsection{Discussion}
-%\subsection{The Geometry of Cas~A}
 
 My models of Cas~A adopt a maximum expansion velocity of $\sim5000$~km~s$^{-1}$ which gives an outer radius of  $5.2\times10^{18}$ cm equivalent to a diameter of ~3.5pc.   These values are broadly consistent with an angular diameter of approximately $4'\approx4$~pc \citep{Hurford1996} and radial velocities between -4000~km~s$^{-1}$ and +6000~km~s$^{-1}$ \citep{DeLaney2010}.  In particular, the need to shift the profiles by -700~km~s$^{-1}$ or -1000~km~s$^{-1}$ in order to fit them is consistent with the expansion velocity asymmetry observed by \citet{DeLaney2010}; an offset of 1000~km~s$^{-1}$ applied to an originally symmetrical distribution between -5000~km~s$^{-1}$ and +5000~km~s$^{-1}$ results exactly in the velocity range that they predicted.  \citet{DeLaney2010} predict an average velocity offset towards the observer of 859~km~s$^{-1}$, almost exactly halfway between the 700~km~s$^{-1}$ and 1000~km~s$^{-1}$  velocity offsets that I adopt for the [O~{\sc iii}] line and the [O~{\sc i}] and [O~{\sc ii}] lines respectively.  The difference in these values is likely a result of different ionisation fractions at different points in the nebula.
 
@@ -197,181 +392,17 @@ Cas~A is the only object to have had the mass of dust in its ejecta predicted qu
 
 %LOOKUP RADIUS OF INNER SHELL (30''?) AND COMPARE TO ADOPTED INNER RADIUS
 
-
-
-\section{SN~1980K and SN~1993J}
-
-INTROS TO THESE OBJECTS HERE
-
+\section{Conclusions}
 
 \begin{figure}
 \centering
-\includegraphics[clip=true,scale=0.6, trim=20 0 50 20]{chapters/chapter6/figs/80K/80K_spectrum}
-
-\includegraphics[clip=true,scale=0.6, trim=30 0 50 20]{chapters/chapter6/figs/93J/93J_spectrum}
-\caption{{\em Above:} The optical spectrum of  SN~1980K on 9 October 2010 at 31 years post-explosion.  {\em Below:}  The optical spectrum of  SN~1993J on 9 December 2009 at 16 years post-explosion. Both spectra were originally published by \citet{Milisavljevic2012}.}
-\label{spectra}
-\end{figure}
-
-\subsection{The Late-Time Optical Spectra of SN~1980K and SN~1993J}
-
-Late-time spectra of both SN~1980K and SN~1993J were obtained and donated to me by Dr D. Milisavljevic.  These spectra are published in \citet{Milisavljevic2012} and I present them here in Figure \ref{spectra}.
-
-The 2.4m Hiltner telescope at MDM was used to obtain spectra of SN 1980K on 9 October 2010. The Mark III Spectrograph was used with a SITe 1024 × 1024 CCD detector and a $1.2'' \times 4.5'$ slit. $2 \times 3000$s exposures were obtained with a spectral resolution of 7\AA\ covering the wavelength range $4600-8000$\AA. 
-
-The optical spectrum of SN 1993J was obtained on 9 December 2009 with the 6.5m MMT at Mt. Hopkins in Arizona using the HECTOSPEC optical fibre fed spectrograph. Spectra from the $1.5''$ diameter fibres covered the wavelength range of 3700?9200\AA\ with FWHM resolution of 5\AA.  The total exposure time was 3600s. These observations were part of a survey of supernova remnants of M81.  
-
-\citet{Milisavljevic2012} reduced and calibrated the spectra employing
-standard techniques in IRAF and their own routines and removing any cosmic rays and obvious defects. For further details on the observations and calibrations of these spectra, please refer to \citet{Milisavljevic2012}. 
-
-
-\subsection{Line Profile Models of SN1980K}
-
-
-\begin{figure}
-\centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha_amC}
-
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
-\caption{Best smooth dust fits to the SN~1980K H$\alpha$ ({\em top}) and [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Smooth dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and smooth dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
-\label{80K_smooth}
-\end{figure}
-
-The modelling of SN~1980K focussed on the H$\alpha$ line and the [O {\sc i}]$\lambda$6300,6363 \AA\ doublet.  Both of these line profiles exhibit a very strong blue-shifted asymmetry indicative of the presence of dust in the ejecta.  SN~1993J exhibited strongest asymmetries in the oxygen lines, and in particular I focussed my modelling on the [O {\sc ii}]$\lambda$7319,7330 \AA\ and [O {\sc iii}]$\lambda$4959,5007 \AA\ doublets.  
-
-\afterpage{
-\begin{landscape}
-\centering
-\setlength{\tabcolsep}{5pt}
-\begin{table}
-\centering
-%	\begin{minipage}{180mm}
-	\caption{The parameters used for the smooth and clumped models of SN~1980K for media composed of 100\% amorphous carbon dust grains of radius $3.5\mu$m or 100\% silicate dust grains of radius $0.1\mu$m.  Optical depths are given from $R_{in}$ to $R_{out}$ at $\lambda = 6300$~\AA\ for [O~{\sc i}] and $\lambda = 6563$~\AA\ for H$\alpha$.  The doublet ratio for the [O {\sc i}]$\lambda$6300,6363 \AA\ is fixed to be 3.1.  Smooth models are listed in the first four rows and clumped models in the last four rows.}
-	\label{80K}
-	\centering
-  	\begin{tabular}{@{} cccccccccccccc @{}}
-    	\hline
-  & clumped? & species &$V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$  & $f$ & $R_{clump}$ \\
-	&& &(km~s$^{-1}) $& (km~s$^{-1} $)& && ($M_{\odot}$) & (10$^{17}$cm) & (10$^{17}$cm) &&&&(10$^{17}$cm)  \\
-	\hline
-	H$\alpha$  &no&sil & 5500 & 4125 & 0.75  & 2.0 & 0.1 & 5.2 & 3.9 & - & 1.41 & - & - \\ \relax
-H$\alpha$  &no&amC& 5500 & 4125 & 0.75  & 2.0 & 0.3 & 5.2 & 3.9 & - & 0.57 & - &  -\\ \relax
-[O~{\sc i}]  &no&sil& 5500 & 4125 & 0.75  & 4.0 & 0.2 & 5.2 & 3.9 & 3.1 & 2.81 & - & - \\ \relax
-[O~{\sc i}]  &no&amC& 5500 & 4125 & 0.75  & 4.0 & 0.65 & 5.2 & 3.9 & 3.1 & 1.24  & - & -\\
-\\
-H$\alpha$  &yes&sil & 5500 & 4125 & 0.75  & 2.0 & 0.12 & 5.2 & 3.9 & - & 1.68 & 0.1 & 0.2 \\ \relax
-H$\alpha$  &yes&amC& 5500 & 4125 & 0.75  & 2.0 & 0.38 & 5.2 & 3.9 & - & 0.73 & 0.1 &  0.2\\ \relax
-[O~{\sc i}]  &yes&sil& 5500 & 4125 & 0.75  & 4.0 & 0.3 & 5.2 & 3.9 & 3.1 & 2.81 & 0.1 & 0.2 \\ \relax
-[O~{\sc i}]  &yes&amC& 5500 & 4125 & 0.75  & 4.0 & 0.9 & 5.2 & 3.9 & 3.1 & 1.72  & 0.1 & 0.2\\
-    \hline
-  \end{tabular}
-
-%\end{minipage}
-\end{table}
-\end{landscape}
-}
-
-Modelling of both SN~1980K followed the same approach as for SN~1987A that I detailed in Section \ref{results} in the previous chapter.  I began my modelling by considering a smooth, coupled distribution of dust and gas before moving on to consider the effect on these models of including a clumped dust geometry whilst maintaining a smoothly emissivity distribution.  I first examined the line profile in order to determine the maximum and minimum velocities before moving on to approximately establish the density distribution.  Having fixed the starting values for these quantities, I iterated over grain size and dust mass in order to fit the profile.  I also occasionally  consider varied other parameters in order to optimise my fit to the data. I assumed that the [O {\sc i}]$\lambda$6300,6363 \AA\ doublet was optically thin and therefore adopted a constant intrinsic flux ratio of 3.1 between the components.
-
-The parameters for both the smooth and clumped fits that I obtained are detailed in Table \ref{80K}. The smooth line profile fits for SN~1980K are presented in Figure \ref{80K_smooth} and the clumped line profile fits are presented in Figure \ref{80K_clumped}. 
-
-\subsubsection{Smooth Models of SN~1980K}
-
-I obtained good fits to both the H$\alpha$ and [O {\sc i}]$\lambda$6300,6363 \AA\ lines from SN~1980K (see Figure \ref{80K_smooth}).  In particular, an extended wing on the red side of the profile was noticed in both cases. This was more important for the H$\alpha$ line since I could be sure that it was not a product of blending with an adjacent broad line (the presence of an extended red wing in the [O {\sc i}] line may be due to blending with the blue wing of the H$\alpha$ line).  This wing allowed me to place constraints on the albedo.  A high albedo of $\omega\approx0.8$  was required to reproduce the flux in the region between $+6000$ and $+8000$~km~s$^{-1}$.  Silicate grains of radius $a=0.1\mu$m have an albedo of this magnitude at this wavelength, but amorphous carbon grain are never this glassy regardless of their size.  I include line profile fits using a large grain size ($a=3.5\mu$m) for amorphous carbon to generate as high an albedo as possible ($\omega\approx0.6$) illustrating the slightly worse, although still reasonably good, fit to the H$\alpha$ line as well as the best-fitting silicates model in Figure \ref{80K_smooth}.  
-
-\subsubsection{Clumped Models of SN~1980K}
-
-Motivated by the modelling of SN~1987A, I adopted a clumped dust structure with a clump volume filling factor of $f=0.1$ with clumps of width $R_{clump}=R_{out}/25$.  All dust was located in clumps but the emission remained distributed smoothly according to teh distribution derived for the smooth models.  A summary of the parameters for the best-fitting clumped models is presented in Table \ref{80K}
-
-\begin{figure}
-\centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha_amC}
-
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/OI_amC}
-\caption{Best clulmped dust fits to the SN~1980K H$\alpha$ ({\em top}) and [O~{\sc i}]~$\lambda$6360,6363~\AA\ ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Clumped dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and clumped dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
-\label{80K_clumped}
-\end{figure}
-
-
-\subsection{Line Profile Models of SN~1993J}
-
-TALK ABOUT MODELLING ON 93J IN GENERAL.  TALK ABOUT DIFFICULTIES IN FITTING COMPARED TO OTHER SNe BUT ALSO MENTION FACT THAT PICKS OUT MANY OF FEATURES OF OIII LINE.  OII MORE DIFFICULT.
-
-\afterpage{
-\begin{landscape}
-\centering
-\setlength{\tabcolsep}{4pt}
-\begin{table}
-\centering
-%	\begin{minipage}{180mm}
-	\caption{The parameters used for the smooth and clumped models of SN~1993J for media composed of 100\% amorphous carbon dust grains of radius $3.5\mu$m or 100\% silicate dust grains of radius $0.1\mu$m.  Optical depths are given from $R_{in}$ to $R_{out}$ at $\lambda = 7319$~\AA\ for [O~{\sc ii}] and $\lambda = 4959$~\AA\ for [O {\sc iii}].  Smooth models are listed in the first four rows and clumped models in the last four rows.}
-	\label{80K}
-	\centering
-  	\begin{tabular}{@{} ccccccccccccccc @{}}
-    	\hline
-  & clumped? & species &$a$&$V_{max}$ & $V_{min}$ & $R_{in}/R_{out}$ & $\beta$ & $M_{dust}$ & $R_{out}$ & $R_{in}$ & doublet  & $\tau_{\lambda}$  & $f$ & $R_{clump}$ \\
-	&& &($\mu$m)&(km~s$^{-1}) $& (km~s$^{-1} $)& && ($M_{\odot}$) & (10$^{17}$cm) & (10$^{17}$cm) &&&&(10$^{17}$cm)  \\
-	\hline
-	{[O~{\sc iii}]}  &no&sil & 0.04&6000 & 4500 & 0.75  & 7 & 0.11 & 3.2 & 2.4 & 2.9 & 0.73 & - & - \\ \relax
-{[O~{\sc iii}]}  &no&amC&0.2& 6000 & 4500 & 0.75  & 7 & 0.006 & 3.2 & 2.4 & 2.9& 0.71 & - &  -\\ \relax
-{[O~{\sc ii}]}  &no&sil& 0.1&6000 & 4500 & 0.75  & 7 & 0.06 & 3.2 & 2.4 & 1.23 & 0.83 & - & - \\ \relax
-{{[O~{\sc ii}]}}  &no&amC&3.5& 6000 & 4500 & 0.75  & 7 & 0.14 & 3.2 & 2.4 & 1.23 & 0.68  & - & -\\
-\\
-{[O~{\sc iii}]}  &yes&sil && 6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 2.9 &  & 0.1 & 0.13 \\ \relax
-{[O~{\sc iii}]}  &yes&amC&& 6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 2.9 &  & 0.1 &  0.13\\ \relax
-{[O~{\sc ii}]}  &yes&sil& &6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 1.23 &  & 0.1 & 0.13 \\ \relax
-{[O~{\sc ii}]}  &yes&amC&test& 6000 & 4500 & 0.75  & 7 &  & 3.2 & 2.4 & 1.23 &   & 0.1 & 0.13 \\ 
-    \hline
-  \end{tabular}
-
-%\end{minipage}
-\end{table}
-\end{landscape}
-}
-
-\subsubsection{Smooth Models of SN~1993J}
-
-BRIEFLY DISCUSS MODELS
-\subsubsection{Clumped Models of SN~1993J}
-BRIEFLY DISCUSS CLUMPED MODELS
-
-
-
-\begin{figure}
-\centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OIII_amC}
-
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OII}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/93J/smooth/OII_amC}
-\caption{smooth fits to SN 1993J}
-\label{93J_smooth}
-\end{figure}
-
-
-\subsection{Discussion}
-
-DISCUSS 93J and 80K RELATIVE TO OTHER SNe.  INCLUDE PLOT HERE.
-
-The noisiness of the [O {\sc i}]$\lambda$6300,6363 \AA\ line profile in particular means that these models are not quite as robust as those for the H$\alpha$ line.  
-
-
-Discuss why oxygen dust mass more than ha for 80K, and talk about why adopt silicate 80K Ha masses.  Compare to prevoius results???  If not to previous results then compare to Gall plot.
-\begin{figure}
-\centering
-\fbox{\includegraphics[scale=0.6,clip=true, trim=30 0 0 0]{chapters/chapter6/figs/test.png}}
+\includegraphics[scale=0.6,clip=true, trim=30 0 50 0]{chapters/chapter6/figs/test2.png}
 \caption{dust masses}
 \label{shifted}
 \end{figure}
 
-\section{Conclusions}
 
-SUM UP CHAPTER BUT TRY NOT TO SUM UP THESIS
-
+%TO DO TALK ABOUT CLUMPING AND RELATE TO DUST MASSES IN SNe IN GENERAL
 
 
 
