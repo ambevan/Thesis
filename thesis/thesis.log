@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  25 NOV 2015 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  26 NOV 2015 00:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3559,10 +3559,10 @@ pter6/figs/CasA/CasA_shifted_OIII-eps-converted-to.pdf>] [190 <./chapters/chapt
 er6/figs/CasA/CasA_shifted1000_OII-eps-converted-to.pdf> <./chapters/chapter6/f
 igs/CasA/CasA_OI_shifted1000-eps-converted-to.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 313.
+LaTeX Warning: Command \r invalid in math mode on input line 312.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 313.
+LaTeX Warning: Command \r invalid in math mode on input line 312.
 
 Package epstopdf Info: Source file: <chapters/chapter6/figs/CasA/clumped/CasA_O
 III_c10_f0_05.eps>
@@ -3575,7 +3575,7 @@ III_c10_f0_05-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter6/figs/Cas
 A/clumped/CasA_OIII_c10_f0_05-eps-converted-to.pdf chapters/chapter6/figs/CasA/
 clumped/CasA_OIII_c10_f0_05.eps>
-(epstopdf)             \includegraphics on input line 332.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_05-eps-converted-to.pdf, 
@@ -3586,7 +3586,7 @@ pdf Graphic file (type pdf)
 <use chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_05-eps-converted-to.p
 df>
 Package pdftex.def Info: chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_0
-5-eps-converted-to.pdf used on input line 332.
+5-eps-converted-to.pdf used on input line 331.
 (pdftex.def)             Requested size: 207.60149pt x 172.6416pt.
 Package epstopdf Info: Source file: <chapters/chapter6/figs/CasA/clumped/CasA_O
 III_c25_f0_05.eps>
@@ -3599,7 +3599,7 @@ III_c25_f0_05-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter6/figs/Cas
 A/clumped/CasA_OIII_c25_f0_05-eps-converted-to.pdf chapters/chapter6/figs/CasA/
 clumped/CasA_OIII_c25_f0_05.eps>
-(epstopdf)             \includegraphics on input line 333.
+(epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_05-eps-converted-to.pdf, 
@@ -3610,7 +3610,7 @@ pdf Graphic file (type pdf)
 <use chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_05-eps-converted-to.p
 df>
 Package pdftex.def Info: chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_0
-5-eps-converted-to.pdf used on input line 333.
+5-eps-converted-to.pdf used on input line 332.
 (pdftex.def)             Requested size: 211.91753pt x 172.6416pt.
 Package epstopdf Info: Source file: <chapters/chapter6/figs/CasA/clumped/CasA_O
 III_c10_f0_1.eps>
@@ -3623,7 +3623,7 @@ III_c10_f0_1-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter6/figs/Cas
 A/clumped/CasA_OIII_c10_f0_1-eps-converted-to.pdf chapters/chapter6/figs/CasA/c
 lumped/CasA_OIII_c10_f0_1.eps>
-(epstopdf)             \includegraphics on input line 336.
+(epstopdf)             \includegraphics on input line 335.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_1-eps-converted-to.pdf, i
@@ -3634,7 +3634,7 @@ df Graphic file (type pdf)
 <use chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_1-eps-converted-to.pd
 f>
 Package pdftex.def Info: chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_1
--eps-converted-to.pdf used on input line 336.
+-eps-converted-to.pdf used on input line 335.
 (pdftex.def)             Requested size: 207.16988pt x 172.6416pt.
 Package epstopdf Info: Source file: <chapters/chapter6/figs/CasA/clumped/CasA_O
 III_c25_f0_1.eps>
@@ -3647,7 +3647,7 @@ III_c25_f0_1-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter6/figs/Cas
 A/clumped/CasA_OIII_c25_f0_1-eps-converted-to.pdf chapters/chapter6/figs/CasA/c
 lumped/CasA_OIII_c25_f0_1.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_1-eps-converted-to.pdf, i
@@ -3658,7 +3658,7 @@ df Graphic file (type pdf)
 <use chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_1-eps-converted-to.pd
 f>
 Package pdftex.def Info: chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_1
--eps-converted-to.pdf used on input line 337.
+-eps-converted-to.pdf used on input line 336.
 (pdftex.def)             Requested size: 211.48593pt x 172.6416pt.
 Package epstopdf Info: Source file: <chapters/chapter6/figs/CasA/clumped/CasA_O
 III_c10_f0_25.eps>
@@ -3671,7 +3671,7 @@ III_c10_f0_25-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter6/figs/Cas
 A/clumped/CasA_OIII_c10_f0_25-eps-converted-to.pdf chapters/chapter6/figs/CasA/
 clumped/CasA_OIII_c10_f0_25.eps>
-(epstopdf)             \includegraphics on input line 340.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_25-eps-converted-to.pdf, 
@@ -3682,7 +3682,7 @@ pdf Graphic file (type pdf)
 <use chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_25-eps-converted-to.p
 df>
 Package pdftex.def Info: chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_2
-5-eps-converted-to.pdf used on input line 340.
+5-eps-converted-to.pdf used on input line 339.
 (pdftex.def)             Requested size: 207.16988pt x 172.6416pt.
 Package epstopdf Info: Source file: <chapters/chapter6/figs/CasA/clumped/CasA_O
 III_c25_f0_25.eps>
@@ -3695,7 +3695,7 @@ III_c25_f0_25-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=chapters/chapter6/figs/Cas
 A/clumped/CasA_OIII_c25_f0_25-eps-converted-to.pdf chapters/chapter6/figs/CasA/
 clumped/CasA_OIII_c25_f0_25.eps>
-(epstopdf)             \includegraphics on input line 341.
+(epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
 <chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_25-eps-converted-to.pdf, 
@@ -3706,11 +3706,11 @@ pdf Graphic file (type pdf)
 <use chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_25-eps-converted-to.p
 df>
 Package pdftex.def Info: chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_2
-5-eps-converted-to.pdf used on input line 341.
+5-eps-converted-to.pdf used on input line 340.
 (pdftex.def)             Requested size: 211.48593pt x 172.6416pt.
 
 
-LaTeX Warning: Float too large for page by 3.6977pt on input line 345.
+LaTeX Warning: Float too large for page by 3.6977pt on input line 344.
 
 [191] [192 <./chapters/chapter6/figs/CasA/clumped/CasA_OIII_c10_f0_05-eps-conve
 rted-to.pdf> <./chapters/chapter6/figs/CasA/clumped/CasA_OIII_c25_f0_05-eps-con
@@ -3724,10 +3724,10 @@ File: chapters/chapter6/figs/test2.png Graphic file (type png)
 
 <use chapters/chapter6/figs/test2.png>
 Package pdftex.def Info: chapters/chapter6/figs/test2.png used on input line 38
-1.
+0.
 (pdftex.def)             Requested size: 431.84056pt x 291.39488pt.
 
-Overfull \hbox (5.04921pt too wide) in paragraph at lines 381--382
+Overfull \hbox (5.04921pt too wide) in paragraph at lines 380--381
  [][] 
  []
 
@@ -3744,7 +3744,7 @@ File: chapters/chapter7/figs/final_dust_plot.png Graphic file (type png)
 
 <use chapters/chapter7/figs/final_dust_plot.png>
 Package pdftex.def Info: chapters/chapter7/figs/final_dust_plot.png used on inp
-ut line 20.
+ut line 35.
 (pdftex.def)             Requested size: 417.43839pt x 270.7709pt.
 ) [198
 
@@ -3826,7 +3826,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
 Here is how much of TeX's memory you used:
  12224 strings out of 493117
  207361 string characters out of 6135433
- 353830 words of memory out of 5000000
+ 353848 words of memory out of 5000000
  14420 multiletter control sequences out of 15000+600000
  17456 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3854,7 +3854,7 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (221 pages, 18604293 bytes).
+Output written on thesis.pdf (221 pages, 18595515 bytes).
 PDF statistics:
  7034 PDF objects out of 7423 (max. 8388607)
  5701 compressed objects within 58 object streams
