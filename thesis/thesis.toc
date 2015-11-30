@@ -133,23 +133,25 @@
 \contentsline {section}{\numberline {5.1}Introduction}{170}{section.5.1}
 \contentsline {section}{\numberline {5.2}SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{172}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}The Late-Time Optical Spectra of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{174}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Line Profile Models of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{176}{subsection.5.2.2}
-\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1980K}{179}{section*.126}
-\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1980K}{180}{section*.129}
-\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1993J}{180}{section*.130}
-\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1993J}{180}{section*.132}
+\contentsline {subsection}{\numberline {5.2.2}Line Profile Models of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{175}{subsection.5.2.2}
+\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1980K}{178}{section*.127}
+\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1980K}{179}{section*.128}
+\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1993J}{179}{section*.129}
+\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1993J}{179}{section*.130}
 \contentsline {subsection}{\numberline {5.2.3}Discussion}{181}{subsection.5.2.3}
+\contentsline {subsubsection}{SN\nobreakspace {}1980K}{181}{section*.134}
+\contentsline {subsubsection}{SN\nobreakspace {}1993J}{184}{section*.136}
 \contentsline {section}{\numberline {5.3}Cassiopeia A}{185}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The Integrated Spectrum}{185}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Smooth Models of the Oxygen Lines}{186}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.1}The Integrated Spectrum}{187}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Smooth Models of the Oxygen Lines}{187}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Clumped Models of the Oxygen Lines}{191}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Discussion}{193}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Conclusions}{195}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{198}{chapter.6}
-\contentsline {chapter}{\numberline {A}Mie Theory}{200}{appendix.A}
-\contentsline {section}{\numberline {A.1}Formulating the Problem}{200}{section.A.1}
-\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{201}{section.A.2}
-\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{203}{section.A.3}
-\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{204}{section.A.4}
-\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{205}{section.A.5}
-\contentsline {chapter}{Bibliography}{207}{equation.A.5.32}
+\contentsline {subsection}{\numberline {5.3.4}Discussion}{192}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Conclusions}{197}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{199}{chapter.6}
+\contentsline {chapter}{\numberline {A}Mie Theory}{201}{appendix.A}
+\contentsline {section}{\numberline {A.1}Formulating the Problem}{201}{section.A.1}
+\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{202}{section.A.2}
+\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{204}{section.A.3}
+\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{205}{section.A.4}
+\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{206}{section.A.5}
+\contentsline {chapter}{Bibliography}{208}{equation.A.5.32}
