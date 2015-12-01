@@ -15,7 +15,7 @@ A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 A level-1 auxiliary file: back/appendices/appendA.aux
 The style file: mnras.bst
 A level-1 auxiliary file: back/backquote.aux
-Reallocated field_info (elt_size=4) to 11102 items from 5000.
+Reallocated field_info (elt_size=4) to 11183 items from 5000.
 Database file #1: thesis.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -34,45 +34,45 @@ while executing---line 3643 of file mnras.bst
 while executing---line 3643 of file mnras.bst
 Warning--there's a number but no series in Lucy1989
 Warning--empty publisher in Sedov1959
-You've used 226 entries,
+You've used 229 entries,
             2881 wiz_defined-function locations,
-            2572 strings with 69334 characters,
-and the built_in function-call counts, 108951 in all, are:
-= -- 8692
-> -- 7974
-< -- 601
-+ -- 3513
-- -- 1160
-* -- 13259
-:= -- 17108
+            2594 strings with 70218 characters,
+and the built_in function-call counts, 110454 in all, are:
+= -- 8808
+> -- 8103
+< -- 605
++ -- 3566
+- -- 1184
+* -- 13451
+:= -- 17352
 add.period$ -- 0
-call.type$ -- 226
-change.case$ -- 455
-chr.to.int$ -- 220
-cite$ -- 228
-duplicate$ -- 5392
-empty$ -- 5527
-format.name$ -- 1918
-if$ -- 18980
+call.type$ -- 229
+change.case$ -- 461
+chr.to.int$ -- 223
+cite$ -- 231
+duplicate$ -- 5459
+empty$ -- 5593
+format.name$ -- 1950
+if$ -- 19236
 int.to.chr$ -- 7
 int.to.str$ -- 0
-missing$ -- 239
-newline$ -- 705
-num.names$ -- 1633
-pop$ -- 1272
+missing$ -- 242
+newline$ -- 714
+num.names$ -- 1653
+pop$ -- 1286
 preamble$ -- 1
-purify$ -- 904
+purify$ -- 916
 quote$ -- 0
-skip$ -- 3212
+skip$ -- 3250
 stack$ -- 0
-substring$ -- 5838
-swap$ -- 2941
-text.length$ -- 945
+substring$ -- 5920
+swap$ -- 2977
+text.length$ -- 957
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1995
+type$ -- 2022
 warning$ -- 2
-while$ -- 1715
+while$ -- 1737
 width$ -- 0
-write$ -- 2289
+write$ -- 2319
 (There were 6 error messages)

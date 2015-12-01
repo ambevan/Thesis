@@ -397,6 +397,9 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
 Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
   Environmental Impacts. pp 328--329, \mn@doi{10.1017/S1743921313009666}
 
+\bibitem[\protect\citeauthoryear{Fox et~al.,}{Fox et~al.}{2014}]{Fox2014}
+Fox O.~D.,  et~al., 2014, The Astrophysical Journal, 790, 17
+
 \bibitem[\protect\citeauthoryear{Fransson \& Kozma}{Fransson \&
   Kozma}{1993}]{Fransson1993}
 Fransson C.,  Kozma C.,  1993, \mn@doi [\apj] {10.1086/186822}, 408, L25
@@ -732,6 +735,12 @@ Matsuura M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/800/1/50}, 800,
   Smith}{2012}]{Mauerhan2012}
 Mauerhan J.,  Smith N.,  2012, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2012.21325.x}, 424, 2659
+
+\bibitem[\protect\citeauthoryear{{Maund}, {Smartt}, {Kudritzki},
+  {Podsiadlowski}  \& {Gilmore}}{{Maund} et~al.}{2004}]{Maund2004}
+{Maund} J.~R.,  {Smartt} S.~J.,  {Kudritzki} R.~P.,  {Podsiadlowski} P.,
+  {Gilmore} G.~F.,  2004, \nat, \href
+  {http://adsabs.harvard.edu/abs/2004Natur.427..129M} {427, 129}
 
 \bibitem[\protect\citeauthoryear{{McCray}}{{McCray}}{1993}]{McCray1993}
 {McCray} R.,  1993, \mn@doi [\araa] {10.1146/annurev.aa.31.090193.001135},
@@ -1174,6 +1183,12 @@ Xu Y.,  McCray R.,  Oliva E.,   Randich S.,  1992, \mn@doi [\apj]
 \bibitem[\protect\citeauthoryear{{Zeippen}}{{Zeippen}}{1987}]{Zeippen1987}
 {Zeippen} C.~J.,  1987, \aap, \href
   {http://adsabs.harvard.edu/abs/1987A\%26A...173..410Z} {173, 410}
+
+\bibitem[\protect\citeauthoryear{{Zhang}, {Wang}, {Zhou}, {Li}, {Ma}, {Jiang}
+  \& {Li}}{{Zhang} et~al.}{2004}]{Zhang2004}
+{Zhang} T.,  {Wang} X.,  {Zhou} X.,  {Li} W.,  {Ma} J.,  {Jiang} Z.,   {Li} Z.,
+   2004, \mn@doi [\aj] {10.1086/423699}, \href
+  {http://adsabs.harvard.edu/abs/2004AJ....128.1857Z} {128, 1857}
 
 \bibitem[\protect\citeauthoryear{Zubko, Mennella, Colangeli  \&
   Bussoletti}{Zubko et~al.}{1996}]{Zubko1996}
