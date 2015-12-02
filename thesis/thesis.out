@@ -11,85 +11,89 @@
 \BOOKMARK [2][-]{subsection.1.1.5}{Mie Theory}{section.1.1}% 11
 \BOOKMARK [2][-]{subsection.1.1.6}{Dust in Absorption}{section.1.1}% 12
 \BOOKMARK [2][-]{subsection.1.1.7}{Dust in Emission}{section.1.1}% 13
-\BOOKMARK [2][-]{subsection.1.1.8}{Dust as a Scatterer}{section.1.1}% 14
+\BOOKMARK [2][-]{subsection.1.1.8}{Dust Particles as Scatterers}{section.1.1}% 14
 \BOOKMARK [2][-]{subsection.1.1.9}{Radiative Transfer in Dusty Media}{section.1.1}% 15
-\BOOKMARK [1][-]{section.1.2}{Core-Collapse Supernovae as Dust Factories}{chapter.1}% 16
-\BOOKMARK [2][-]{subsection.1.2.1}{Origins of Dust in the Universe}{section.1.2}% 17
-\BOOKMARK [2][-]{subsection.1.2.2}{Types of Supernovae}{section.1.2}% 18
-\BOOKMARK [2][-]{subsection.1.2.3}{From Massive Stars to Remnants}{section.1.2}% 19
-\BOOKMARK [2][-]{subsection.1.2.4}{Energetics in Core-Collapse Supernovae}{section.1.2}% 20
-\BOOKMARK [2][-]{subsection.1.2.5}{Dust Formation and Destruction in CCSNe}{section.1.2}% 21
-\BOOKMARK [2][-]{subsection.1.2.6}{The Four Signatures of Dust in Core-Collapse Supernovae}{section.1.2}% 22
-\BOOKMARK [2][-]{subsection.1.2.7}{The Dust Mass Debate}{section.1.2}% 23
-\BOOKMARK [2][-]{subsection.1.2.8}{Observations of Dust-Affected Asymmetric Line Profiles}{section.1.2}% 24
-\BOOKMARK [1][-]{section.1.3}{Aims and Content Of This Thesis}{chapter.1}% 25
-\BOOKMARK [0][-]{chapter.2}{A Description of DAMOCLES}{}% 26
-\BOOKMARK [1][-]{section.2.1}{Monte Carlo Methods}{chapter.2}% 27
-\BOOKMARK [1][-]{section.2.2}{Radiative Transfer and the Monte Carlo Method}{chapter.2}% 28
-\BOOKMARK [2][-]{subsection.2.2.1}{Energy Packets}{section.2.2}% 29
-\BOOKMARK [2][-]{subsection.2.2.2}{Initialisation and the Grid}{section.2.2}% 30
-\BOOKMARK [2][-]{subsection.2.2.3}{Properties of the Dusty Medium}{section.2.2}% 31
-\BOOKMARK [2][-]{subsection.2.2.4}{Emission and Propagation}{section.2.2}% 32
-\BOOKMARK [2][-]{subsection.2.2.5}{The Velocity Field and Doppler shifting}{section.2.2}% 33
-\BOOKMARK [2][-]{subsection.2.2.6}{Electron Scattering}{section.2.2}% 34
-\BOOKMARK [2][-]{subsection.2.2.7}{Doublets}{section.2.2}% 35
-\BOOKMARK [2][-]{subsection.2.2.8}{Comparing a Model with Observations}{section.2.2}% 36
-\BOOKMARK [1][-]{section.2.3}{The Structure of DAMOCLES}{chapter.2}% 37
-\BOOKMARK [2][-]{subsection.2.3.1}{Computational Architecture and Processes}{section.2.3}% 38
-\BOOKMARK [2][-]{subsection.2.3.2}{OpenMP Parallelisation}{section.2.3}% 39
-\BOOKMARK [2][-]{subsection.2.3.3}{Input Variables}{section.2.3}% 40
-\BOOKMARK [2][-]{subsection.2.3.4}{Output, Post-Processing and Visualisation}{section.2.3}% 41
-\BOOKMARK [1][-]{section.2.4}{Further Developments}{chapter.2}% 42
-\BOOKMARK [0][-]{chapter.3}{Probing DAMOCLES: Testing and a Parameter Sensitivity Analysis}{}% 43
-\BOOKMARK [1][-]{section.3.1}{Testing and benchmarking the code}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.1.1}{Theoretical line profiles from first principles}{section.3.1}% 45
-\BOOKMARK [2][-]{subsection.3.1.2}{Benchmarking against numerical models}{section.3.1}% 46
-\BOOKMARK [1][-]{section.3.2}{A Parameter Sensitivity Analysis}{chapter.3}% 47
-\BOOKMARK [2][-]{subsection.3.2.1}{The maximum line velocity, Vmax}{section.3.2}% 48
-\BOOKMARK [2][-]{subsection.3.2.2}{The ejecta radius ratio, Rin/Rout}{section.3.2}% 49
-\BOOKMARK [2][-]{subsection.3.2.3}{The dust optical depth, }{section.3.2}% 50
-\BOOKMARK [2][-]{subsection.3.2.4}{The dust albedo, }{section.3.2}% 51
-\BOOKMARK [2][-]{subsection.3.2.5}{The dust density profile, r-2}{section.3.2}% 52
-\BOOKMARK [2][-]{subsection.3.2.6}{Inferring properties of the dust from the models}{section.3.2}% 53
-\BOOKMARK [2][-]{subsection.3.2.7}{The wavelength dependence of dust absorption}{section.3.2}% 54
-\BOOKMARK [2][-]{subsection.3.2.8}{The effect of a grain radius distribution}{section.3.2}% 55
-\BOOKMARK [2][-]{subsection.3.2.9}{The effect of different species}{section.3.2}% 56
-\BOOKMARK [2][-]{subsection.3.2.10}{The velocity distribution}{section.3.2}% 57
-\BOOKMARK [1][-]{section.3.3}{Conclusions}{chapter.3}% 58
-\BOOKMARK [0][-]{chapter.4}{The Evolution of Dust Formation in SN 1987A}{}% 59
-\BOOKMARK [1][-]{section.4.1}{10,000 Days of Dust}{chapter.4}% 60
-\BOOKMARK [1][-]{section.4.2}{Spectral Observations of SN 1987A}{chapter.4}% 61
-\BOOKMARK [2][-]{subsection.4.2.1}{Contamination of the H profiles}{section.4.2}% 62
-\BOOKMARK [2][-]{subsection.4.2.2}{The evolution of the maximum and minimum velocities}{section.4.2}% 63
-\BOOKMARK [1][-]{section.4.3}{Modelling SN 1987A}{chapter.4}% 64
-\BOOKMARK [2][-]{subsection.4.3.1}{Smooth Density Models for SN 1987A}{section.4.3}% 65
-\BOOKMARK [2][-]{subsection.4.3.2}{Clumped Dust Models for SN 1987A}{section.4.3}% 66
-\BOOKMARK [2][-]{subsection.4.3.3}{Goodness of fit}{section.4.3}% 67
-\BOOKMARK [2][-]{subsection.4.3.4}{The effects of clumping}{section.4.3}% 68
-\BOOKMARK [2][-]{subsection.4.3.5}{More complex models}{section.4.3}% 69
-\BOOKMARK [2][-]{subsection.4.3.6}{The effect of a grain radius distribution}{section.4.3}% 70
-\BOOKMARK [2][-]{subsection.4.3.7}{The effect of different grain species}{section.4.3}% 71
-\BOOKMARK [2][-]{subsection.4.3.8}{Modelling large masses of dust at early epochs: comparison with the results of Dwek2015}{section.4.3}% 72
-\BOOKMARK [2][-]{subsection.4.3.9}{Unattenuated line fluxes}{section.4.3}% 73
-\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 74
-\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 75
-\BOOKMARK [0][-]{chapter.5}{Dust Masses in Three Other Supernova Remnants}{}% 76
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 77
-\BOOKMARK [1][-]{section.5.2}{SN 1980K and SN 1993J}{chapter.5}% 78
-\BOOKMARK [2][-]{subsection.5.2.1}{The Late-Time Optical Spectra of SN 1980K and SN 1993J}{section.5.2}% 79
-\BOOKMARK [2][-]{subsection.5.2.2}{Line Profile Models of SN 1980K and SN 1993J}{section.5.2}% 80
-\BOOKMARK [2][-]{subsection.5.2.3}{Discussion}{section.5.2}% 81
-\BOOKMARK [1][-]{section.5.3}{Cassiopeia A}{chapter.5}% 82
-\BOOKMARK [2][-]{subsection.5.3.1}{The Integrated Spectrum}{section.5.3}% 83
-\BOOKMARK [2][-]{subsection.5.3.2}{Smooth Models of the Oxygen Lines}{section.5.3}% 84
-\BOOKMARK [2][-]{subsection.5.3.3}{Clumped Models of the Oxygen Lines}{section.5.3}% 85
-\BOOKMARK [2][-]{subsection.5.3.4}{Discussion}{section.5.3}% 86
-\BOOKMARK [1][-]{section.5.4}{Conclusions}{chapter.5}% 87
-\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 88
-\BOOKMARK [0][-]{appendix.A}{Mie Theory}{}% 89
-\BOOKMARK [1][-]{section.A.1}{Formulating the Problem}{appendix.A}% 90
-\BOOKMARK [1][-]{section.A.2}{Solving the Vector Wave Equations}{appendix.A}% 91
-\BOOKMARK [1][-]{section.A.3}{Calculating the Incident and Scattered Fields}{appendix.A}% 92
-\BOOKMARK [1][-]{section.A.4}{Determining the Scattering Coefficients}{appendix.A}% 93
-\BOOKMARK [1][-]{section.A.5}{The Scattering and Extinction Cross-Sections}{appendix.A}% 94
-\BOOKMARK [0][-]{equation.A.5.32}{Bibliography}{}% 95
+\BOOKMARK [1][-]{section.1.2}{Origins of Dust in the Universe}{chapter.1}% 16
+\BOOKMARK [2][-]{subsection.1.2.1}{AGB Stars as Dust Sources}{section.1.2}% 17
+\BOOKMARK [2][-]{subsection.1.2.2}{Core-Collapse Supernovae as Dust Factories}{section.1.2}% 18
+\BOOKMARK [2][-]{subsection.1.2.3}{Types of Supernovae}{section.1.2}% 19
+\BOOKMARK [2][-]{subsection.1.2.4}{From Massive Stars to Remnants}{section.1.2}% 20
+\BOOKMARK [2][-]{subsection.1.2.5}{Energetics in Core-Collapse Supernovae}{section.1.2}% 21
+\BOOKMARK [2][-]{subsection.1.2.6}{Dust Formation and Destruction in CCSNe}{section.1.2}% 22
+\BOOKMARK [2][-]{subsection.1.2.7}{The Four Signatures of Dust in Core-Collapse Supernovae}{section.1.2}% 23
+\BOOKMARK [2][-]{subsection.1.2.8}{The Dust Mass Debate}{section.1.2}% 24
+\BOOKMARK [2][-]{subsection.1.2.9}{Observations of Dust-Affected Asymmetric Line Profiles}{section.1.2}% 25
+\BOOKMARK [1][-]{section.1.3}{Aims and Content Of This Thesis}{chapter.1}% 26
+\BOOKMARK [0][-]{chapter.2}{A Description of damocles}{}% 27
+\BOOKMARK [1][-]{section.2.1}{Monte Carlo Methods}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.2}{Radiative Transfer and the Monte Carlo Method}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.2.1}{Energy Packets}{section.2.2}% 30
+\BOOKMARK [2][-]{subsection.2.2.2}{Initialisation and the Grid}{section.2.2}% 31
+\BOOKMARK [2][-]{subsection.2.2.3}{Properties of the Dusty Medium}{section.2.2}% 32
+\BOOKMARK [2][-]{subsection.2.2.4}{Emission and Propagation}{section.2.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.5}{The Velocity Field and Doppler shifting}{section.2.2}% 34
+\BOOKMARK [2][-]{subsection.2.2.6}{Electron Scattering}{section.2.2}% 35
+\BOOKMARK [2][-]{subsection.2.2.7}{Doublets}{section.2.2}% 36
+\BOOKMARK [2][-]{subsection.2.2.8}{Comparing a Model with Observations}{section.2.2}% 37
+\BOOKMARK [1][-]{section.2.3}{The Structure of damocles}{chapter.2}% 38
+\BOOKMARK [2][-]{subsection.2.3.1}{Computational Architecture and Processes}{section.2.3}% 39
+\BOOKMARK [2][-]{subsection.2.3.2}{openmp Parallelisation}{section.2.3}% 40
+\BOOKMARK [2][-]{subsection.2.3.3}{Input Variables}{section.2.3}% 41
+\BOOKMARK [2][-]{subsection.2.3.4}{Output, Post-Processing and Visualisation}{section.2.3}% 42
+\BOOKMARK [1][-]{section.2.4}{Further Developments}{chapter.2}% 43
+\BOOKMARK [0][-]{chapter.3}{Probing damocles: Testing and a Parameter Sensitivity Analysis}{}% 44
+\BOOKMARK [1][-]{section.3.1}{Testing and benchmarking the code}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.1.1}{Theoretical line profiles from first principles}{section.3.1}% 46
+\BOOKMARK [2][-]{subsection.3.1.2}{Benchmarking against numerical models}{section.3.1}% 47
+\BOOKMARK [1][-]{section.3.2}{A Parameter Sensitivity Analysis}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.2.1}{The maximum line velocity, Vmax}{section.3.2}% 49
+\BOOKMARK [2][-]{subsection.3.2.2}{The ejecta radius ratio, Rin/Rout}{section.3.2}% 50
+\BOOKMARK [2][-]{subsection.3.2.3}{The dust optical depth, }{section.3.2}% 51
+\BOOKMARK [2][-]{subsection.3.2.4}{The dust albedo, }{section.3.2}% 52
+\BOOKMARK [2][-]{subsection.3.2.5}{The dust density profile, r-2}{section.3.2}% 53
+\BOOKMARK [2][-]{subsection.3.2.6}{Inferring properties of the dust from the models}{section.3.2}% 54
+\BOOKMARK [2][-]{subsection.3.2.7}{The wavelength dependence of dust absorption}{section.3.2}% 55
+\BOOKMARK [2][-]{subsection.3.2.8}{The effect of a grain radius distribution}{section.3.2}% 56
+\BOOKMARK [2][-]{subsection.3.2.9}{The effect of different species}{section.3.2}% 57
+\BOOKMARK [2][-]{subsection.3.2.10}{The velocity distribution}{section.3.2}% 58
+\BOOKMARK [1][-]{section.3.3}{Conclusions}{chapter.3}% 59
+\BOOKMARK [0][-]{chapter.4}{The Evolution of Dust Formation in SN 1987A}{}% 60
+\BOOKMARK [1][-]{section.4.1}{10,000 Days of Dust}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.2}{Spectral Observations of SN 1987A}{chapter.4}% 62
+\BOOKMARK [2][-]{subsection.4.2.1}{Contamination of the H profiles}{section.4.2}% 63
+\BOOKMARK [2][-]{subsection.4.2.2}{The evolution of the maximum and minimum velocities}{section.4.2}% 64
+\BOOKMARK [1][-]{section.4.3}{Modelling SN 1987A}{chapter.4}% 65
+\BOOKMARK [2][-]{subsection.4.3.1}{Smooth Density Models for SN 1987A}{section.4.3}% 66
+\BOOKMARK [2][-]{subsection.4.3.2}{Clumped Dust Models for SN 1987A}{section.4.3}% 67
+\BOOKMARK [2][-]{subsection.4.3.3}{Goodness of fit}{section.4.3}% 68
+\BOOKMARK [2][-]{subsection.4.3.4}{The effects of clumping}{section.4.3}% 69
+\BOOKMARK [2][-]{subsection.4.3.5}{More complex models}{section.4.3}% 70
+\BOOKMARK [2][-]{subsection.4.3.6}{The effect of a grain radius distribution}{section.4.3}% 71
+\BOOKMARK [2][-]{subsection.4.3.7}{The effect of different grain species}{section.4.3}% 72
+\BOOKMARK [2][-]{subsection.4.3.8}{Modelling large masses of dust at early epochs: comparison with the results of Dwek2015}{section.4.3}% 73
+\BOOKMARK [2][-]{subsection.4.3.9}{Unattenuated line fluxes}{section.4.3}% 74
+\BOOKMARK [1][-]{section.4.4}{Discussion}{chapter.4}% 75
+\BOOKMARK [1][-]{section.4.5}{Conclusions}{chapter.4}% 76
+\BOOKMARK [0][-]{chapter.5}{Dust Masses in Three Other Supernova Remnants}{}% 77
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 78
+\BOOKMARK [1][-]{section.5.2}{SN 1980K and SN 1993J}{chapter.5}% 79
+\BOOKMARK [2][-]{subsection.5.2.1}{The Late-Time Optical Spectra of SN 1980K and SN 1993J}{section.5.2}% 80
+\BOOKMARK [2][-]{subsection.5.2.2}{Line Profile Models of SN 1980K and SN 1993J}{section.5.2}% 81
+\BOOKMARK [2][-]{subsection.5.2.3}{Discussion}{section.5.2}% 82
+\BOOKMARK [1][-]{section.5.3}{Cassiopeia A}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.3.1}{The Integrated Spectrum}{section.5.3}% 84
+\BOOKMARK [2][-]{subsection.5.3.2}{Smooth Models of the Oxygen Lines}{section.5.3}% 85
+\BOOKMARK [2][-]{subsection.5.3.3}{Clumped Models of the Oxygen Lines}{section.5.3}% 86
+\BOOKMARK [2][-]{subsection.5.3.4}{Discussion}{section.5.3}% 87
+\BOOKMARK [1][-]{section.5.4}{Conclusions}{chapter.5}% 88
+\BOOKMARK [0][-]{chapter.6}{Conclusions and Future Work}{}% 89
+\BOOKMARK [1][-]{section.6.1}{Signatures of Dust Formation in Characteristic Line Profiles}{chapter.6}% 90
+\BOOKMARK [1][-]{section.6.2}{Dust Masses in Core-Collapse Supernovae}{chapter.6}% 91
+\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 92
+\BOOKMARK [0][-]{appendix.A}{Mie Theory}{}% 93
+\BOOKMARK [1][-]{section.A.1}{Formulating the Problem}{appendix.A}% 94
+\BOOKMARK [1][-]{section.A.2}{Solving the Vector Wave Equations}{appendix.A}% 95
+\BOOKMARK [1][-]{section.A.3}{Calculating the Incident and Scattered Fields}{appendix.A}% 96
+\BOOKMARK [1][-]{section.A.4}{Determining the Scattering Coefficients}{appendix.A}% 97
+\BOOKMARK [1][-]{section.A.5}{The Scattering and Extinction Cross-Sections}{appendix.A}% 98
+\BOOKMARK [0][-]{equation.A.5.32}{Bibliography}{}% 99

@@ -104,6 +104,12 @@ Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
   Omont A.,   Zylka R.,  2003, \mn@doi [\aap] {10.1051/0004-6361:20030710},
   406, L55
 
+\bibitem[\protect\citeauthoryear{{Bianchi} \& {Schneider}}{{Bianchi} \&
+  {Schneider}}{2007}]{Bianchi2007}
+{Bianchi} S.,  {Schneider} R.,  2007, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2007.11829.x}, \href
+  {http://adsabs.harvard.edu/abs/2007MNRAS.378..973B} {378, 973}
+
 \bibitem[\protect\citeauthoryear{{Bianchi}, {Ferrara}, {Davies}  \&
   {Alton}}{{Bianchi} et~al.}{2000}]{Bianchi2000}
 {Bianchi} S.,  {Ferrara} A.,  {Davies} J.~I.,   {Alton} P.~B.,  2000, \mn@doi
@@ -132,6 +138,18 @@ Bertoldi F.,  Carilli C.~L.,  Cox P.,  Fan X.,  Strauss M.~a.,  Beelen A.,
 Bohren C.~F.,  Huffman D.,  1983, Absorption and scattering of light by small
   particles.
 Wiley science paperback series, Wiley
+
+\bibitem[\protect\citeauthoryear{{Botticella}, {Smartt}, {Kennicutt},
+  {Cappellaro}, {Sereno}  \& {Lee}}{{Botticella} et~al.}{2012}]{Botticella2012}
+{Botticella} M.~T.,  {Smartt} S.~J.,  {Kennicutt} R.~C.,  {Cappellaro} E.,
+  {Sereno} M.,   {Lee} J.~C.,  2012, \mn@doi [\aap]
+  {10.1051/0004-6361/201117343}, \href
+  {http://adsabs.harvard.edu/abs/2012A%26A...537A.132B} {537, A132}
+
+\bibitem[\protect\citeauthoryear{{Bouchet} \& {Danziger}}{{Bouchet} \&
+  {Danziger}}{1993}]{Bouchet1993}
+{Bouchet} P.,  {Danziger} I.~J.,  1993, \aap, \href
+  {http://adsabs.harvard.edu/abs/1993A%26A...273..451B} {273, 451}
 
 \bibitem[\protect\citeauthoryear{{Bouchet} \& {Danziger}}{{Bouchet} \&
   {Danziger}}{2014}]{Bouchet2014}
@@ -216,6 +234,10 @@ The MIT Press
 {Cherchneff} I.,  {Dwek} E.,  2010, \mn@doi [\apj] {10.1088/0004-637X/713/1/1},
   \href {http://adsabs.harvard.edu/abs/2010ApJ...713....1C} {713, 1}
 
+\bibitem[\protect\citeauthoryear{{Chevalier}}{{Chevalier}}{1986}]{Chevalier1986}
+{Chevalier} R.~A.,  1986, \mn@doi [\apj] {10.1086/164492}, \href
+  {http://adsabs.harvard.edu/abs/1986ApJ...308..225C} {308, 225}
+
 \bibitem[\protect\citeauthoryear{{Chugai} \& {Danziger}}{{Chugai} \&
   {Danziger}}{1994}]{Chugai1994}
 {Chugai} N.~N.,  {Danziger} I.~J.,  1994, \mnras, \href
@@ -225,6 +247,12 @@ The MIT Press
   Challis}{Chugai et~al.}{1997}]{Chugai1997}
 Chugai N.~N.,  Chevalier R.~a.,  Kirshner R.~P.,   Challis P.~M.,  1997,
   \mn@doi [\apj] {10.1086/304253}, 483, 925
+
+\bibitem[\protect\citeauthoryear{{Crotts}, {Kunkel}  \& {McCarthy}}{{Crotts}
+  et~al.}{1989}]{Crotts1989}
+{Crotts} A.~P.~S.,  {Kunkel} W.~E.,   {McCarthy} P.~J.,  1989, \mn@doi [\apjl]
+  {10.1086/185608}, \href {http://adsabs.harvard.edu/abs/1989ApJ...347L..61C}
+  {347, L61}
 
 \bibitem[\protect\citeauthoryear{{Danziger}, {Lucy}, {Bouchet}  \&
   {Gouiffes}}{{Danziger} et~al.}{1991a}]{Danziger1991a}
@@ -251,6 +279,9 @@ Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
 {Draine} B.~T.,  2003, \mn@doi [\araa]
   {10.1146/annurev.astro.41.011802.094840}, \href
   {http://adsabs.harvard.edu/abs/2003ARA%26A..41..241D} {41, 241}
+
+\bibitem[\protect\citeauthoryear{{Draine}}{{Draine}}{2011}]{Draine2011}
+{Draine} B.~T.,  2011, {Physics of the Interstellar and Intergalactic Medium}
 
 \bibitem[\protect\citeauthoryear{{Draine} \& {Flatau}}{{Draine} \&
   {Flatau}}{2004}]{Draine2004}
@@ -400,6 +431,10 @@ Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
 \bibitem[\protect\citeauthoryear{Fox et~al.,}{Fox et~al.}{2014}]{Fox2014}
 Fox O.~D.,  et~al., 2014, The Astrophysical Journal, 790, 17
 
+\bibitem[\protect\citeauthoryear{{Fransson}}{{Fransson}}{1986}]{Fransson1986}
+{Fransson} C.,  1986, Highlights of Astronomy, \href
+  {http://adsabs.harvard.edu/abs/1986HiA.....7..611F} {7, 611}
+
 \bibitem[\protect\citeauthoryear{Fransson \& Kozma}{Fransson \&
   Kozma}{1993}]{Fransson1993}
 Fransson C.,  Kozma C.,  1993, \mn@doi [\apj] {10.1086/186822}, 408, L25
@@ -462,9 +497,14 @@ London: Chapman and Hall
   D.,  eds, Proceedings of The Life Cycle of Dust in the Universe:
   Observations, Theory, and Laboratory Experiments. p.~146
 
+\bibitem[\protect\citeauthoryear{Gomez et~al.,}{Gomez
+  et~al.}{2012a}]{Gomez2012a}
+Gomez H.~L.,  et~al., 2012a, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2011.20272.x}, 420, 3557
+
 \bibitem[\protect\citeauthoryear{{Gomez} et~al.,}{{Gomez}
-  et~al.}{2012}]{Gomez2012}
-{Gomez} H.~L.,  et~al., 2012, \mn@doi [\apj] {10.1088/0004-637X/760/1/96},
+  et~al.}{2012b}]{Gomez2012}
+{Gomez} H.~L.,  et~al., 2012b, \mn@doi [\apj] {10.1088/0004-637X/760/1/96},
   \href {http://adsabs.harvard.edu/abs/2012ApJ...760...96G} {760, 96}
 
 \bibitem[\protect\citeauthoryear{{Gotthelf}, {Koralesky}, {Rudnick}, {Jones},
@@ -559,10 +599,21 @@ Hoyle F.,  Wickramasinghe N.~C.,  1970, \mn@doi [\nat] {10.1038/226062a0}, 226,
 {Hurford} A.~P.,  {Fesen} R.~A.,  1996, \mn@doi [\apj] {10.1086/177775}, \href
   {http://adsabs.harvard.edu/abs/1996ApJ...469..246H} {469, 246}
 
+\bibitem[\protect\citeauthoryear{{Iben} \& {Renzini}}{{Iben} \&
+  {Renzini}}{1983}]{Iben1983}
+{Iben} Jr. I.,  {Renzini} A.,  1983, \mn@doi [\araa]
+  {10.1146/annurev.aa.21.090183.001415}, \href
+  {http://adsabs.harvard.edu/abs/1983ARA%26A..21..271I} {21, 271}
+
 \bibitem[\protect\citeauthoryear{Indebetouw et~al.,}{Indebetouw
   et~al.}{2014}]{Indebetouw2014}
 Indebetouw R.,  et~al., 2014, \mn@doi [\apj] {10.1088/2041-8205/782/1/L2}, 782,
   L2
+
+\bibitem[\protect\citeauthoryear{{Jaffe} et~al.,}{{Jaffe}
+  et~al.}{2004}]{Jaffe2004}
+{Jaffe} W.,  et~al., 2004, \mn@doi [\nat] {10.1038/nature02531}, \href
+  {http://adsabs.harvard.edu/abs/2004Natur.429...47J} {429, 47}
 
 \bibitem[\protect\citeauthoryear{J\"{a}ger, Mutschke, Begemann, Dorschner  \&
   Henning}{J\"{a}ger et~al.}{1994}]{Jager1994}
@@ -590,6 +641,11 @@ J\"{a}ger C.,  Dorshner J.,  Mutschke H.,  Posch T.,   Henning T.,  2003,
 
 \bibitem[\protect\citeauthoryear{Kotak et~al.,}{Kotak et~al.}{2009}]{Kotak2009}
 Kotak R.,  et~al., 2009, \mn@doi [\apj] {10.1088/0004-637X/704/1/306}, 704, 306
+
+\bibitem[\protect\citeauthoryear{Kotake, Sato  \& Takahashi}{Kotake
+  et~al.}{2006}]{Kotake2006}
+Kotake K.,  Sato K.,   Takahashi K.,  2006, Reports on Progress in Physics, 69,
+  971
 
 \bibitem[\protect\citeauthoryear{{Kozasa}, {Hasegawa}  \& {Nomoto}}{{Kozasa}
   et~al.}{1989}]{Kozasa1989}
@@ -899,6 +955,11 @@ Cambridge University Press
   \mn@doi [\apj] {10.1086/175308}, \href
   {http://adsabs.harvard.edu/abs/1995ApJ...440..706R} {440, 706}
 
+\bibitem[\protect\citeauthoryear{Reifenstein, Brundage  \& Staelin}{Reifenstein
+  et~al.}{1969}]{CrabPulsar}
+Reifenstein E.~C.,  Brundage W.~D.,   Staelin D.~H.,  1969, \mn@doi [Phys. Rev.
+  Lett.] {10.1103/PhysRevLett.22.311}, 22, 311
+
 \bibitem[\protect\citeauthoryear{{Rest} et~al.,}{{Rest}
   et~al.}{2011}]{Rest2011}
 {Rest} A.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/732/1/3}, \href
@@ -1083,7 +1144,7 @@ Suntzeff N.~B.,  Phillips M.~M.,  Depoy D.~L.,  Elias J.~H.,   Walker A.~R.,
   Series Vol. 288, Stellar Atmosphere Modeling. p.~453 (\mn@eprint {}
   {astro-ph/0207089})
 
-\bibitem[\protect\citeauthoryear{Tielens}{Tielens}{2005}]{tielens2005}
+\bibitem[\protect\citeauthoryear{Tielens}{Tielens}{2005}]{Tielens2005}
 Tielens A.,  2005, The Physics and Chemistry of the Interstellar Medium.
 Cambridge University Press
 
@@ -1101,6 +1162,11 @@ Tran H.~D.,  Filippenko A.~V.,  Schmidt G.~D.,  Bjorkman K.~S.,  Jannuzi B.~T.,
 \bibitem[\protect\citeauthoryear{{Trumpler}}{{Trumpler}}{1930}]{Trumpler1930}
 {Trumpler} R.~J.,  1930, \mn@doi [\pasp] {10.1086/124039}, \href
   {http://adsabs.harvard.edu/abs/1930PASP...42..214T} {42, 214}
+
+\bibitem[\protect\citeauthoryear{{Turatto}}{{Turatto}}{2003}]{Turatto2003}
+{Turatto} M.,  2003, in {Weiler} K.,  ed.,  Lecture Notes in Physics, Berlin
+  Springer Verlag Vol. 598, Supernovae and Gamma-Ray Bursters. pp 21--36
+  (\mn@eprint {} {astro-ph/0301107})
 
 \bibitem[\protect\citeauthoryear{Tziamtzis, Lundqvist, Groningsson  \&
   Nasoudi-Shoar}{Tziamtzis et~al.}{2010}]{Tziamtzis2010}
@@ -1152,6 +1218,12 @@ Wesson R.,  Barlow M.~J.,  Matsuura M.,   Ercolano B.,  2015, \mnras, 446, 2089
   Janka}{Wongwathanarat et~al.}{2015}]{Wongwathanarat2015}
 Wongwathanarat A.,  M\"{u}ller E.,   Janka H.-T.,  2015, \mn@doi [\aap]
   {10.1051/0004-6361/201425025}, 577, A48
+
+\bibitem[\protect\citeauthoryear{{Wood}, {Smith}, {Whitney}, {Stassun},
+  {Kenyon}, {Wolff}  \& {Bjorkman}}{{Wood} et~al.}{2001}]{Wood2001}
+{Wood} K.,  {Smith} D.,  {Whitney} B.,  {Stassun} K.,  {Kenyon} S.~J.,  {Wolff}
+  M.~J.,   {Bjorkman} K.~S.,  2001, \mn@doi [\apj] {10.1086/323060}, \href
+  {http://adsabs.harvard.edu/abs/2001ApJ...561..299W} {561, 299}
 
 \bibitem[\protect\citeauthoryear{{Wood}, {Mathis}  \& {Ercolano}}{{Wood}
   et~al.}{2004a}]{Wood2004}

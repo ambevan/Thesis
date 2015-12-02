@@ -11,26 +11,27 @@
 \contentsline {subsection}{\numberline {1.1.5}Mie Theory}{31}{subsection.1.1.5}
 \contentsline {subsection}{\numberline {1.1.6}Dust in Absorption}{34}{subsection.1.1.6}
 \contentsline {subsection}{\numberline {1.1.7}Dust in Emission}{36}{subsection.1.1.7}
-\contentsline {subsection}{\numberline {1.1.8}Dust as a Scatterer}{36}{subsection.1.1.8}
+\contentsline {subsection}{\numberline {1.1.8}Dust Particles as Scatterers}{36}{subsection.1.1.8}
 \contentsline {subsection}{\numberline {1.1.9}Radiative Transfer in Dusty Media}{37}{subsection.1.1.9}
-\contentsline {section}{\numberline {1.2}Core-Collapse Supernovae as Dust Factories}{38}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Origins of Dust in the Universe}{38}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Types of Supernovae}{40}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}From Massive Stars to Remnants}{41}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}Energetics in Core-Collapse Supernovae}{42}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Dust Formation and Destruction in CCSNe}{43}{subsection.1.2.5}
-\contentsline {subsection}{\numberline {1.2.6}The Four Signatures of Dust in Core-Collapse Supernovae}{44}{subsection.1.2.6}
-\contentsline {subsubsection}{A decrease in the light curve}{44}{section*.11}
+\contentsline {section}{\numberline {1.2}Origins of Dust in the Universe}{38}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}AGB Stars as Dust Sources}{39}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Core-Collapse Supernovae as Dust Factories}{39}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Types of Supernovae}{40}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}From Massive Stars to Remnants}{41}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Energetics in Core-Collapse Supernovae}{43}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Dust Formation and Destruction in CCSNe}{44}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}The Four Signatures of Dust in Core-Collapse Supernovae}{45}{subsection.1.2.7}
+\contentsline {subsubsection}{A decrease in the light curve}{45}{section*.11}
 \contentsline {subsubsection}{Excess IR emission}{45}{section*.12}
 \contentsline {subsubsection}{Blue-shifted line profiles}{45}{section*.13}
-\contentsline {subsubsection}{Polarised dust emission}{45}{section*.14}
-\contentsline {subsection}{\numberline {1.2.7}The Dust Mass Debate}{46}{subsection.1.2.7}
-\contentsline {subsubsection}{Cassiopeia A}{46}{section*.15}
+\contentsline {subsubsection}{Polarised dust emission}{46}{section*.14}
+\contentsline {subsection}{\numberline {1.2.8}The Dust Mass Debate}{46}{subsection.1.2.8}
+\contentsline {subsubsection}{Cassiopeia A}{47}{section*.15}
 \contentsline {subsubsection}{The Crab Nebula}{48}{section*.17}
 \contentsline {subsubsection}{SN\nobreakspace {}1987A}{49}{section*.19}
-\contentsline {subsection}{\numberline {1.2.8}Observations of Dust-Affected Asymmetric Line Profiles}{50}{subsection.1.2.8}
-\contentsline {section}{\numberline {1.3}Aims and Content Of This Thesis}{53}{section.1.3}
-\contentsline {chapter}{\numberline {2}A Description of DAMOCLES}{55}{chapter.2}
+\contentsline {subsection}{\numberline {1.2.9}Observations of Dust-Affected Asymmetric Line Profiles}{51}{subsection.1.2.9}
+\contentsline {section}{\numberline {1.3}Aims and Content Of This Thesis}{52}{section.1.3}
+\contentsline {chapter}{\numberline {2}A Description of {\sc damocles}}{55}{chapter.2}
 \contentsline {section}{\numberline {2.1}Monte Carlo Methods}{55}{section.2.1}
 \contentsline {section}{\numberline {2.2}Radiative Transfer and the Monte Carlo Method}{57}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Energy Packets}{58}{subsection.2.2.1}
@@ -43,7 +44,7 @@
 \contentsline {subsection}{\numberline {2.2.6}Electron Scattering}{69}{subsection.2.2.6}
 \contentsline {subsection}{\numberline {2.2.7}Doublets}{72}{subsection.2.2.7}
 \contentsline {subsection}{\numberline {2.2.8}Comparing a Model with Observations}{72}{subsection.2.2.8}
-\contentsline {section}{\numberline {2.3}The Structure of DAMOCLES}{73}{section.2.3}
+\contentsline {section}{\numberline {2.3}The Structure of {\sc damocles}}{73}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Computational Architecture and Processes}{74}{subsection.2.3.1}
 \contentsline {subsubsection}{(a) The driver}{74}{section*.27}
 \contentsline {subsubsection}{(b) The input module}{75}{section*.29}
@@ -58,7 +59,7 @@
 \contentsline {subsubsection}{(k) The propagate subroutine}{80}{section*.38}
 \contentsline {subsubsection}{(l) The random routines module}{82}{section*.40}
 \contentsline {subsubsection}{(m) The model comparison module}{83}{section*.41}
-\contentsline {subsection}{\numberline {2.3.2}OpenMP Parallelisation}{83}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}{\sc openmp} Parallelisation}{83}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Input Variables}{84}{subsection.2.3.3}
 \contentsline {subsubsection}{(a) Properties of the emitted rest-frame line or doublet}{84}{section*.43}
 \contentsline {subsubsection}{lambda1\_0 }{84}{section*.44}
@@ -95,7 +96,7 @@
 \contentsline {subsubsection}{dustfile}{92}{section*.76}
 \contentsline {subsection}{\numberline {2.3.4}Output, Post-Processing and Visualisation}{92}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Further Developments}{94}{section.2.4}
-\contentsline {chapter}{\numberline {3}Probing DAMOCLES: Testing and a Parameter Sensitivity Analysis}{96}{chapter.3}
+\contentsline {chapter}{\numberline {3}Probing {\sc damocles}: Testing and a Parameter Sensitivity Analysis}{96}{chapter.3}
 \contentsline {section}{\numberline {3.1}Testing and benchmarking the code}{96}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Theoretical line profiles from first principles}{97}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Benchmarking against numerical models}{103}{subsection.3.1.2}
@@ -135,23 +136,26 @@
 \contentsline {subsection}{\numberline {5.2.1}The Late-Time Optical Spectra of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{174}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Line Profile Models of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{175}{subsection.5.2.2}
 \contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1980K}{179}{section*.127}
-\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1980K}{179}{section*.128}
-\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1993J}{179}{section*.129}
+\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1980K}{181}{section*.129}
+\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1993J}{181}{section*.130}
 \contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1993J}{181}{section*.131}
-\contentsline {subsection}{\numberline {5.2.3}Discussion}{181}{subsection.5.2.3}
-\contentsline {subsubsection}{SN\nobreakspace {}1980K}{181}{section*.133}
-\contentsline {subsubsection}{SN\nobreakspace {}1993J}{184}{section*.136}
-\contentsline {section}{\numberline {5.3}Cassiopeia A}{186}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The Integrated Spectrum}{187}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Smooth Models of the Oxygen Lines}{188}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.2.3}Discussion}{182}{subsection.5.2.3}
+\contentsline {subsubsection}{SN\nobreakspace {}1980K}{182}{section*.133}
+\contentsline {subsubsection}{SN\nobreakspace {}1993J}{185}{section*.136}
+\contentsline {section}{\numberline {5.3}Cassiopeia A}{187}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The Integrated Spectrum}{188}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Smooth Models of the Oxygen Lines}{189}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Clumped Models of the Oxygen Lines}{193}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Discussion}{195}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Conclusions}{197}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{200}{chapter.6}
-\contentsline {chapter}{\numberline {A}Mie Theory}{202}{appendix.A}
-\contentsline {section}{\numberline {A.1}Formulating the Problem}{202}{section.A.1}
-\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{203}{section.A.2}
-\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{205}{section.A.3}
-\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{206}{section.A.4}
-\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{207}{section.A.5}
-\contentsline {chapter}{Bibliography}{209}{equation.A.5.32}
+\contentsline {subsection}{\numberline {5.3.4}Discussion}{194}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Conclusions}{198}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{201}{chapter.6}
+\contentsline {section}{\numberline {6.1}Signatures of Dust Formation in Characteristic Line Profiles}{201}{section.6.1}
+\contentsline {section}{\numberline {6.2}Dust Masses in Core-Collapse Supernovae}{203}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{205}{section.6.3}
+\contentsline {chapter}{\numberline {A}Mie Theory}{206}{appendix.A}
+\contentsline {section}{\numberline {A.1}Formulating the Problem}{206}{section.A.1}
+\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{207}{section.A.2}
+\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{209}{section.A.3}
+\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{210}{section.A.4}
+\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{211}{section.A.5}
+\contentsline {chapter}{Bibliography}{213}{equation.A.5.32}

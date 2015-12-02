@@ -38,6 +38,8 @@ By modelling asymmetries in the oxygen and hydrogen lines of these three objects
 SN~1980K is located in the Fireworks galaxy (NGC 6946) approximately 5.9~Mpc away \citep{Karachentsev2000}.  It was discovered by P. Wild on  28 October 1980 and  had reached a peak brightness of $V=11.4$ mag by November that year \citep{Buta1982}.   The detection of the broad H$\alpha$ line in early spectra and a linearly decaying light curve after peak brightness resulted in its classification as a Type IIL supernovae \citep{Barbon1982}.  SN~1980K continued to decline steadily in the optical although it was still detected almost seven years after maximum light by narrow passband imaging \citep{Fesen1988}.  Follow-up low dispersion observations found that the spectra exhibited broad H$\alpha$ and [O~{\sc i}]$\lambda\lambda$6300,6363 \AA\  emission with other weaker optical lines also present.  
 %The SN was observed again in 2010 by \citet{Milisavljevic2012} and it is these late-time observations at 31 years after outburst that I will be interested in here.  
 
+{\bf Spectroscopic and photometric observations of SN~1980K have revealed a very slow monotonic fading over a period of $\sim$20 years.  This unusually slow rate of decline suggested that the observations may in fact be a product of light echoes scattering off  and heating circumstellar material as discussed in Section \ref{scn:le}.  This was first suggested for SN1980K by \citet{Chevalier1986} based on early observations in the first year after outburst.  Further modelling and analyses of late-time observations performed by \citet{Sugerman2012}  found that light echoes were indeed present and that the evolution of the observations could be explained by scattered and thermal echoes off a thin circumstellar shell of dust of mass $\lesssim 0.02$M$_{\odot}$ approximately 14--15 lightyears from the progenitor.  Of particularly relevance was their discussion of the origin of the high velocity H$\alpha$ and [O~{\sc i}]$\lambda\lambda$6300,6363~\AA\ lines which were not present in the early spectra during the first two years.  They concluded that the shape of these lines could not be a product of a light echo since the high velocities seen in late-time spectra were not present in early spectra.}
+
 In 1981, the emergence of an IR flux excess provided the first indications of dust in the ejecta of SN~1980K \citep{Dwek1983}.  However, it could not be confirmed whether this excess IR flux was the result of newly-formed dust condensing in the ejecta or from pre-existing grains located in a circumstellar shell and illuminated by radiation from the outburst.  In addition to the detection of the signature emission from dust grains in the IR, highly blue-shifted line profiles in the optical spectra of SN~1980K have been observed for many years \citep{Fesen1990,Fesen1994,Fesen1995,Fesen1999}.  The presence of dust in ejecta was postulated by \citet{Milisavljevic2012} based on the observed blue-shifting of these optical line profiles which are still present even in very late-time spectra (31 years). It is these latest blue-shifted line profiles of SN~1980K at 31 years that I have modelled and present here.  An explosion date of 2 October 1980 is adopted for all models \citep{Montes1998}.
 
 
@@ -63,16 +65,7 @@ The optical spectrum of SN 1993J was obtained on 9 December 2009 with the 6.5m M
 \citet{Milisavljevic2012} reduced and calibrated the spectra of both objects by employing
 standard techniques in IRAF and their own routines, and removing any cosmic rays and obvious defects. For further details on the observations and calibrations of these spectra, please refer to \citet{Milisavljevic2012}. 
 
-\begin{figure}[!t]
-\centering
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha_amC}
 
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
-\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
-\caption{Best smooth dust fits to the SN~1980K H$\alpha$ ({\em top}) line and the  [O~{\sc i}]$\lambda\lambda$6360,6363~\AA\ doublet ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Smooth dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and smooth dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
-\label{80K_smooth}
-\end{figure}
 
 
 \subsection{Line Profile Models of SN~1980K and SN~1993J}
@@ -112,6 +105,22 @@ H$\alpha$  &yes&amC& 3.5&5500 & 4125 & 0.75  & 2.0 & 0.38 & 5.2 & 3.9 & - & 0.73
 \end{landscape}
 \begin{figure}[!t]
 \centering
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/Ha_amC}
+
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI}
+\includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/smooth/OI_amC}
+\caption{Best smooth dust fits to the SN~1980K H$\alpha$ ({\em top}) line and the  [O~{\sc i}]$\lambda\lambda$6360,6363~\AA\ doublet ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Smooth dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and smooth dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
+\label{80K_smooth}
+\end{figure}
+
+}
+
+
+My approach to modelling the line profiles of both SN~1980K and SN~1993J followed the same principles as for SN~1987A that I detailed in Section \ref{results}.  I began modelling by considering a smooth, coupled distribution of dust and gas before moving on to consider the effect on these models of including a clumped dust geometry whilst maintaining a smooth emissivity distribution.  I first examined the line profile in order to determine the maximum and minimum velocities before moving on to establish approximately the exponent of the dust and gas density distribution.  Having fixed the starting values for these quantities, I iterated over the grain size and dust mass in order to fit the profile.  I also occasionally  varied the other parameters in order to optimise the fit to the data. I assumed that the oxygen doublets were optically thin for both SN~1980K and SN~1993J and therefore adopted a constant intrinsic flux ratio of 3.1 between the [O~{\sc i}]$\lambda\lambda$6300,6363 \AA\  components, 1.2 between the [O~{\sc ii}]$\lambda\lambda$7319,7330 \AA\  components and 2.9 between the [O~{\sc iii}]$\lambda\lambda$4959,5007 \AA\  components according to the theoretical flux ratios as detailed by \citet{Zeippen1987} and \citet{Storey2000}.  The intrinsic line profiles before dust effects for both SN~1980K and SN~1993J were both very `boxy', that is, the ratio of the inner to outer radii was very high and the overall profile therefore has a very square shape.  I present the intrinsic dust-free profile along with the best-fitting smooth H$\alpha$ model for SN~1980K in the left pane of Figure \ref{boxy} and the intrinsic dust-free profile for the best-fitting smooth [O~{\sc iii}]$\lambda\lambda$5007,4959~\AA\ model for SN~1993J in the right pane of Figure \ref{boxy}.
+
+\begin{figure}[!t]
+\centering
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha}
 \includegraphics[scale=0.4,clip=true, trim=20 0 40 20]{chapters/chapter6/figs/80K/clumped/Ha_amC}
 
@@ -120,11 +129,6 @@ H$\alpha$  &yes&amC& 3.5&5500 & 4125 & 0.75  & 2.0 & 0.38 & 5.2 & 3.9 & - & 0.73
 \caption{Best clumped dust fits to the SN~1980K H$\alpha$ line ({\em top}) and the [O~{\sc i}]$\lambda\lambda$6360,6363~\AA\ doublet ({\em bottom}) for the parameters detailed in Table \ref{80K}.  Clumped dust fits with astronomical silicate grains of radius $a=0.1 \mu$m are presented on the left and clumped dust fits with amorphous carbon grains of radius $a=3.5 \mu$m are presented on the right.}
 \label{80K_clumped}
 \end{figure}
-}
-
-
-My approach to modelling the line profiles of both SN~1980K and SN~1993J followed the same principles as for SN~1987A that I detailed in Section \ref{results}.  I began modelling by considering a smooth, coupled distribution of dust and gas before moving on to consider the effect on these models of including a clumped dust geometry whilst maintaining a smooth emissivity distribution.  I first examined the line profile in order to determine the maximum and minimum velocities before moving on to establish approximately the exponent of the dust and gas density distribution.  Having fixed the starting values for these quantities, I iterated over the grain size and dust mass in order to fit the profile.  I also occasionally  varied the other parameters in order to optimise the fit to the data. I assumed that the oxygen doublets were optically thin for both SN~1980K and SN~1993J and therefore adopted a constant intrinsic flux ratio of 3.1 between the [O~{\sc i}]$\lambda\lambda$6300,6363 \AA\  components, 1.2 between the [O~{\sc ii}]$\lambda\lambda$7319,7330 \AA\  components and 2.9 between the [O~{\sc iii}]$\lambda\lambda$4959,5007 \AA\  components according to the theoretical flux ratios as detailed by \citet{Zeippen1987} and \citet{Storey2000}.  The intrinsic line profiles before dust effects for both SN~1980K and SN~1993J were both very `boxy', that is, the ratio of the inner to outer radii was very high and the overall profile therefore has a very square shape.  I present the intrinsic dust-free profile along with the best-fitting smooth H$\alpha$ model for SN~1980K in the left pane of Figure \ref{boxy} and the intrinsic dust-free profile for the best-fitting smooth [O~{\sc iii}]$\lambda\lambda$5007,4959~\AA\ model for SN~1993J in the right pane of Figure \ref{boxy}.
-
 
 The parameters for the smooth and clumped fits  that I obtained for SN~1980K and SN~1993J are detailed in Tables \ref{80K} and \ref{93J} respectively. The smooth line profile fits for SN~1980K are presented in Figure \ref{80K_smooth} and the clumped line profile fits are presented in Figure \ref{80K_clumped}.  The smooth line profile fits for SN~1993J are presented in Figure \ref{93J_smooth} and the clumped line profile fits are presented in Figure \ref{93J_clumped}.  
 
@@ -218,7 +222,7 @@ Both the H$\alpha$ and [O~{\sc i}] line profiles exhibit an extended scattering 
 \label{93J_clumped}
 \end{figure}
 
-The only discussion of dust masses in relation to SN~1980K, other than the prophesied presence of dust in the ejecta based on the asymmetrical line profiles that I fit here, was based on an IR flux excess seen a few hundred days after outburst \citep{Dwek1983}.  \citet{Dwek1983} discussed the possibility of newly-formed dust in the ejecta accounting for this IR flux. However, they also acknowledged the possibility that the excess IR flux in the SED could also be a product of the reheating of pre-existing dust grains in the circumstellar material.  Whilst this may in fact explain the early IR flux,  dust in a circumstellar shell surrounding the supernova likely cannot explain the asymmetry observed in the optical line profiles.
+There is limited discussion of the dust mass that may be present in the ejecta of SN~1980K other than its prophesied existence based on the asymmetrical line profiles that I fit here.  The first suggestion of dust in the ejecta of SN~1980K was based on an IR flux excess seen a few hundred days after outburst \citep{Dwek1983}.  \citet{Dwek1983} discussed the possibility of newly-formed dust in the ejecta accounting for this IR flux. However, they also acknowledged the possibility that the excess IR flux in the SED could also be a product of the reheating of pre-existing dust grains in the circumstellar material.  Whilst this may in fact explain the early IR flux,  dust in a circumstellar shell surrounding the supernova likely cannot explain the asymmetry observed in the optical line profiles. {\bf As mentioned above, \citet{Sugerman2012} presented detailed modelling of the light echoes of SN~1980K.  They concluded that thermal echoes off a thin circumstellar shell of dust of light emitted from a UV flash in the first two days, or of optical light emitted in the first 150 days, are contributing to the observed IR flux but that they can only account for a small fraction of it.}
 
 Other explanations for the stubborn presence of strongly blue-shifted asymmetrical optical lines have been discussed previously for SN~1980K  with two primary explanations.  Firstly, \citet{Fesen1990} argue that broad asymmetrical lines in the early spectra arise as a result of the impact between the blast wave and pre-existing CSM.  Similarly, \citet{Chugai1994} put forward a `clumpy wind' model with emission coming from shocked clumps that could also explain the blue-shifted lines.  Both of these mechanisms theoretically result in asymmetrical line profiles as a result of the stimulated emission from the approaching side of the supernova ejecta reaching us before emission from the receding side.  However, both of these suggestions were ruled out based on analyses of the various time scales involved and their inability to reproduce the observed late-time excess IR flux by \citet{Sugerman2012}.  \citet{Fesen1990}  also noted the possibility of blue-shifted lines  arising as a result of dust forming in the ejecta but were doubtful as to the feasibility of the diffusely emitted hydrogen being so strongly affected by dust forming in the more dense, central regions of the ejecta.  \citet{Sugerman2012} calculated that the `instantaneous' dust mass needed to explain the MIR SED at similar epochs ($23-30$ years post-outburst) is $>10^{-3}$M$_{\odot}$ with the presence of as much as a few M$_{\odot}$ of cold dust possible.  This latter possibility was noted based on the depth to which {\em Herschel} could probe during their FIR observations in 2010, i.e. a few M$_{\odot}$ of cold dust could have been present in the ejecta of SN~1980K and still not been detected by {\em Herschel}.  These results, though not particularly constraining, are consistent with my estimates of $0.1-0.9$M$_{\odot}$.
 
@@ -250,6 +254,13 @@ Cassiopeia~A (Cas~A) is a supernova remnant in the Cassiopeia constellation in t
 In Chapter \ref{chp:chp1}, I discussed the importance of Cas~A to our understanding of dust formation in supernovae and their remnants.  Recent work on the mass and composition of dust in Cas~A has suggested that the total dust mass present in the ejecta is of the order of $\sim0.1$M$_{\odot}$ \citep{Barlow2010,Nozawa2010,Arendt2014}.  Previous estimates, however, are significantly more wide-ranging from less than $3\times10^{-3}$M$_{\odot}$ to greater than $4$M$_{\odot}$ \citep{Milisavljevic2012}.  
 
 
+\begin{figure}
+\centering
+\includegraphics[clip=true,scale=0.6, trim=30 0 50 20]{chapters/chapter6/figs/CasA/spectrum}
+\caption{The integrated spectrum of Cas A \citep{Milisavljevic2013}.}
+\label{CasA_spectrum}
+\end{figure}
+
 A late-time spectrum of Cas~A reveals that asymmetries in line profiles in the optical are still visible.  In particular, the oxygen lines [O~{\sc i}]$\lambda\lambda$6300,6363~\AA\ , [O~{\sc ii}]$\lambda\lambda$7319,7330~\AA\  and [O~{\sc iii}]$\lambda\lambda$4959,5007~\AA\  still exhibit a blue-shifted asymmetry, with the [O~{\sc iii}] line especially demonstrating a strong blueshift with considerable substructure.  I have modelled all three of these lines with a primary focus on the [O~{\sc iii}] doublet.
 
 \subsection{The Integrated Spectrum}
@@ -258,12 +269,6 @@ The integrated spectrum of Cas~A presented in Figure \ref{CasA_spectrum} is from
 %A few of the observations of the main shell of Cas~A used alternative spectrographs (the Mark III Spectrograph and the Chivens CCD Spectrograph).  The lowest spectral resolution of any spectrum observed was 12\AA.  
 The integrated spectrum was ultimately composed of 80 long slit spectra spaced 3" apart across the entire main shell which is approximately $4'$ in diameter.  The slit positions are shown in Figure \ref{CasA_slit_positions}.  Assuming an explosion date of 1681, this spectrum of Cas~A is approximately 325 years old.
 
-\begin{figure}
-\centering
-\includegraphics[clip=true,scale=0.6, trim=30 0 50 20]{chapters/chapter6/figs/CasA/spectrum}
-\caption{The integrated spectrum of Cas A \citep{Milisavljevic2013}.}
-\label{CasA_spectrum}
-\end{figure}
 
 \subsection{Smooth Models of the Oxygen Lines}
 \label{scn:CasA_smooth}
@@ -277,6 +282,14 @@ The modelling of the Cas~A spectrum was initially focussed on the [O~{\sc iii}]$
 \end{figure}
 
 I managed to produce a reasonable fit to the data using the parameters listed in the first row of Table \ref{CasA_smooth_params}.  The profile is presented in the left pane of Figure \ref{CasA_OIII}.  As can be seen,  the modelled line profile generally fits the observed line profile quite well, although it fails to fit the red side of the profile adequately.  A thorough, manual investigation of parameter space resulted in the conclusion that the profile was much better fitted if the entire observed profile was shifted to the blue by $-700$~km~s$^{-1}$.  This might well be a reasonable assumption.  Cas~A is known to be significantly asymmetrical \citep{Rest2011} with radial velocities spanning -4000 to +6000~km~s$^{-1}$ \citep{Milisavljevic2013} suggesting that the net line-of-sight velocity is likely away from the observer and indicating the need for an overall velocity shift to correct for this.  I found that models of the  [O~{\sc ii}]$\lambda\lambda$7319,7330~\AA\ and [O~{\sc i}]$\lambda\lambda$6300,6363~\AA\  lines were also substantially improved if the entire profile was allowed to be uniformly shifted towards the blue.  For the remainder of the models I therefore shifted the profiles in velocity space to better fit the data based on the likelihood that the sampled emitting regions had an overall net velocity away from the observer.  Fits to the line profiles were significantly improved following this translation (see Figures \ref{CasA_OIII} to \ref{CasA_OIII_clumped}).
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/CasA_OIII}
+\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/CasA_shifted_OIII}
+\caption{Best smooth dust fits to the Cas~A [O~{\sc iii}]$\lambda\lambda$4959,5007~\AA\ doublet for the parameters detailed in Table \ref{CasA_smooth_params}.  On the left is the original [O~{\sc iii}] line profile and on the right the observed [O~{\sc iii}] line has been shifted uniformly towards the blue by $-700$~km~s$^{-1}$.}
+\label{CasA_OIII}
+\end{figure}
 
 A model of the shifted [O~{\sc iii}]$\lambda\lambda$4959,5007~\AA\  line is presented in Figure \ref{CasA_OIII} and the parameters used for this model are presented in the second row of Table \ref{CasA_smooth_params}.  The line profile was shifted by $-700$~km~s$^{-1}$.  A total dust optical depth of $\tau=0.49$ at 5007\AA\  between $R_{in}$ and $R_{out}$ was found to best fit the profile.  An albedo of $\omega\approx0.15$ at 5007\AA\  was also necessary.
 
@@ -306,16 +319,11 @@ A model of the shifted [O~{\sc iii}]$\lambda\lambda$4959,5007~\AA\  line is pres
 \end{table}
 \end{landscape}
 
-\begin{figure}
-\centering
-\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/CasA_OIII}
-\includegraphics[scale=0.43,clip=true, trim=30 0 50 20]{chapters/chapter6/figs/CasA/CasA_shifted_OIII}
-\caption{Best smooth dust fits to the Cas~A [O~{\sc iii}]$\lambda\lambda$4959,5007~\AA\ doublet for the parameters detailed in Table \ref{CasA_smooth_params}.  On the left is the original [O~{\sc iii}] line profile and on the right the observed [O~{\sc iii}] line has been shifted uniformly towards the blue by $-700$~km~s$^{-1}$.}
-\label{CasA_OIII}
-\end{figure}
 }
 
 The composition of the dust has a significant effect on the overall dust mass for this optical depth and albedo.  A line profile model of the [O~{\sc iii}] line profile from Cas~A could not be found using 100\% astronomical silicate dust \citep{Draine1984}.  There is little to no scattering wing seen, hence the relatively low value of $\omega$, and therefore relatively small silicate grains would be required to reproduce the red side of the profile.  Silicate grains of this size have extremely low absorption efficiencies and therefore the best-fitting optical depth of $\tau=0.49$ corresponds to an implausibly large mass of dust ($>20$M$_{\odot}$) if it is composed entirely of astronomical silicates.
+
+
 
 The chemical composition of the dust in the ejecta of Cas~A is known to be extremely complex \citep{Arendt2014} with many different species of dust grain present in the ejecta.  The presence of silicate dust has been predicted based on typical silicate emission features observed in the IR region of the spectrum.  However, the presence of a variety of other species is also predicted.  I therefore investigated the dust masses required to fit the profile for varying fractions of silicate and amorphous carbon dust.  In Table \ref{CasA_dust_masses}, I detail the dust masses required to fit the [O~{\sc iii}]$\lambda\lambda$4959,5007~\AA\  line profile for different fractions of silicates and amorphous carbon grains for a single grain size.  For each composition I determine the grain radius based on the albedo necessary to fit the profile ($\omega\approx0.15$) and then vary the dust mass to achieve the required optical depth.  The calculated dust masses cover a wide range of values between $0.37 - 6.5$M$_{\odot}$.   
 
