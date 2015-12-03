@@ -145,12 +145,7 @@ The above solution has the primary drawback of only being applicable to spherica
 
 Having established the physics behind light scattering and extinction by dust grains, I can now consider how the effects of dust on radiation manifest themselves in observations. 
 
-\begin{figure}
-\centering
-\includegraphics[clip=true,scale=0.53,trim= 0 0 0 0]{chapters/chapter1/figs/extinction_curves2.png}
-\caption{Extinction curves for different values of $R_V$ across the UV, optical and IR based on the parametrisation by \citet{Cardelli1989}.  The bump at 2175\AA\ can be clearly seen in all curves.}
-\label{fig:ext_curve}
-\end{figure}
+
 
 \subsection{Dust in Absorption}
 \label{scn:abs}
@@ -166,11 +161,31 @@ I(x)=I_0 e^{-\kappa_{\nu} \rho x}
 \end{equation}
 \noindent  for a medium with constant density $\rho$ and initial intensity $I_0$.  The optical depth  is defined to be the quantity $\tau_{\nu}=\kappa_{\nu} \rho x$.  This relationship is clearly central to understanding the effects of dust absorption on line profiles emitted in the ejecta of CCSNe.  However, it applies to any dusty environment.  The ISM in particular has proved to be central to developing our understanding of dust and much of what we now know is the result of investigations into the attenuating effects of dust in the ISM.  
  
-By considering the reddening and attenuation of starlight from background stars,  \citet{Bless1972} determined the first section of the interstellar extinction curve from 0.11$\mu$m to 2.15$\mu$m.  Eventually, longer wavelength observations in the IR would allow for the variation of interstellar extinction to be determined across a larger  wavelength range \citep{Rieke1985}.  Dust in the ISM is most strongly attenuating at shorter wavelengths and its extinction efficiency decreases towards the IR, with a noticeable bump at around 2175\AA\ (see Figure \ref{fig:ext_curve}). This prominent feature of the extinction curve is a result of the chemical makeup and optical properties of the dust that resides in the interstellar medium, although its precise origin remains unknown.  In 1989, \citeauthor*{Cardelli1989} postulated that not only was the total interstellar extinction (from the UV to the NIR) independent of the line-of-sight to the background stars, but that it could be entirely characterised by the quantity
+ \begin{figure}
+\centering
+\includegraphics[clip=true,scale=0.53,trim= 0 0 0 0]{chapters/chapter1/figs/extinction_curves2.png}
+\caption{Extinction curves for different values of $R_V$ across the UV, optical and IR based on the parametrisation by \citet{Cardelli1989}.  The bump at 2175\AA\ can be clearly seen in all curves.}
+\label{fig:ext_curve}
+\end{figure}
+ 
+By considering the reddening and attenuation of starlight from background stars,  \citet{Bless1972} determined the first section of the interstellar extinction curve from 0.11$\mu$m to 2.15$\mu$m.  Eventually, longer wavelength observations in the IR would allow for the variation of interstellar extinction to be determined across a larger  wavelength range \citep{Rieke1985}.  Dust in the ISM is most strongly attenuating at shorter wavelengths and its extinction efficiency decreases towards the IR.  In 1989, \citeauthor*{Cardelli1989} postulated that not only was the total interstellar extinction (from the UV to the NIR) independent of the line-of-sight to the background stars, but that it could be entirely characterised by the quantity
 \begin{equation}
 R_V=\frac{A_V}{A_B-A_V}=\frac{A_V}{E(B-V)}
 \end{equation}
-\noindent $A_V$ and $A_B$ represent the extinction in the V- and B-bands respectively. The quantity $R_V$ is known as the {\em total-to-selective} extinction.  The extinction in the ISM can generally be described by $R_V\approx3.1$ whilst denser regions such as some molecular clouds are described by $R_V\approx5$.  Properties of the ISM extinction curve, such as the strong absorption feature seen at around 10$\mu$m, allowed \citet*{Mathis1977} to determine the composition and grain size distribution of dust in the ISM.  They attributed the 10$\mu$m absorption feature to silicates and found that a grain size distribution $n(a) \propto a^{-3.5}$, with graphite grains distributed between $0.001<a<1\mu$m and silicate grains distributed between $0.025<a<0.25\mu$m, would reproduce the extinction curve.  This grain size distribution has become known as the ``MRN" distribution as a result.    A figure illustrating the variation of extinction with wavelength at longer wavelengths clearly showing the 10$\mu$m feature is given in Figure \ref{fig:extinction_curve_10um} \citep{Weingartner2001,Draine2003}.
+\noindent $A_V$ and $A_B$ represent the extinction in the V- and B-bands respectively. The quantity $R_V$ is known as the {\em total-to-selective} extinction.  The extinction in the ISM can generally be described by $R_V\approx3.1$ whilst denser regions such as some molecular clouds are described by $R_V\approx5$.  Properties of the ISM extinction curve, such as the strong absorption feature seen at around 10$\mu$m, allowed \citet*{Mathis1977} to determine the composition and grain size distribution of dust in the ISM.  They attributed the 10$\mu$m absorption feature to silicates and found that a grain size distribution $n(a) \propto a^{-3.5}$, with graphite grains distributed between $0.001<a<1\mu$m and silicate grains distributed between $0.025<a<0.25\mu$m, would reproduce the extinction curve.  This grain size distribution has become known as the ``MRN" distribution as a result.  A figure illustrating the variation of extinction with wavelength at longer wavelengths clearly showing the 10$\mu$m feature is given in Figure \ref{fig:extinction_curve_10um} \citep{Weingartner2001,Draine2003}.  
+
+
+
+The $10\mu$m feature is one of several important  dust signatures that can be seen in absorption in the spectra of dusty regions such as molecular clouds and the ISM.  More precisely, this feature occurs at 9.7$\mu$m and is the product of the stretching mode of Si-O molecules in silicate dust grains such as MgFeSiO$_4$ \citep{Draine2003}.  A related  absorption feature can be seen at $18\mu$m that is the result of the bending mode of O-Si-O \citep{McCarthy1980}.  These bands are the strongest IR dust absorption features.
+
+Another prominent dust absorption feature  is observed occurs at 2175\AA\ and a noticeable bump can be seen at this location in the interstellar extinction curve (see Figure \ref{fig:ext_curve}).  Despite this feature being detected for the first time over 50 years ago \citep{Stecher1965}, its carrier remains unidentified.  It was determined to be an absorption feature, as opposed to a scattering feature, based on analyses of diffuse intergalactic light that showed that the albedo of interstellar dust experiences a broad minimum around this wavelength \citep{Lillie1976,Witt1982,Witt1986}.  It is generally attributed to aromatic carbonaceous dust such as graphite \citep{Stecher1965a} or polycyclic aromatic hydrocarbons (PAHs) \citep{Joblin1992,Li2001}.
+
+There are a number of other signatures of dust absorption that can often be seen in  the spectra of dusty regions.  In the ISM, absorption at 3.4$\mu$m is often observed and has been detected in the Milky Way and in other galaxies.  It is generally attributed to the C-H stretching mode in saturated aliphatic hydrocarbons both in dust grains and free-flying molecules.  The exact nature of the carrier remains uncertain \citep{Pendleton2002}. In molecular clouds, higher densities can result in the accretion of an icy mantle onto the surfaces of dust grains \citep{Schutte1997}.  Various ice absorption bands in the IR are observed, for example an absorption band at 3.1$\mu$m caused by the presence of water ice is frequently seen \citep{Ehrenfreund2000}.
+
+The presence of diffuse interstellar bands (DIBs) is one of the most interesting observed effects of dust in the ISM.  These bands appear as troughs in the optical and near-IR against the continuous spectra of background stars which have diffuse interstellar clouds in their foreground.  The bands are too broad to be accounted for by atomic lines and, with over 400 now observed, their source has remained a mystery since their first detection in 1919 \citep{Heger1922,Hobbs2008,Hobbs2009}.
+
+%The feature has been detected in numerous environments with an almost invariant central wavelength.  However, the width of the bump varies significantly from one line-of-sight to another. 
+%This prominent feature of the extinction curve is a result of the chemical makeup and optical properties of the dust that resides in the interstellar medium, although its precise origin remains unknown.  
 
 %\begin{figure}
 %\centering
@@ -190,17 +205,34 @@ R_V=\frac{A_V}{A_B-A_V}=\frac{A_V}{E(B-V)}
 \label{scn:emission}
 Energy absorbed by dust grains in the optical and UV causes the dust to be heated.  Warm dust emits continuum radiation in the near- to mid-IR and cool dust emits in the far-IR and sub-millimetre (sub-mm).  For dust that is in local thermodynamic equilibrium in an optically thin environment, the continuum emission from the dust, $F_{\nu}$,  is proportional to the temperature-dependent blackbody spectrum, $B_{\nu}(T)$ \citep{Hildebrand1983}:
 \begin{equation}
+\label{BB_flux}
 F_{\nu}\propto \kappa_{\nu} B_{\nu}(T)
 \end{equation}
 
-\noindent This expression determines the temperature dependence of dust grains with a given opacity. Using this relationship, it is possible to fit theoretical SEDs to  observed photometric data in the IR and sub-mm in order to derive various properties of the emitting dust, such as the dust mass and composition.  It is usually this approach that is employed to determine dust masses in various objects from observations.  For a single component, the temperature and opacity are iterated until the model SED best fits the observed data points and then these properties are translated to a dust mass via the optical properties of the dust that produce the opacity as discussed in the previous sections.  Often the size distribution of the dust grains and the composition are also considered as variables, and a multi-component fit that allows for the presence of dust at different temperatures is frequently adopted to obtain a  more realistic fitting.  In order to fit  the full range of the SED from the optical to the sub-mm without assumptions of single temperature components  a fully self-consisted radiative transfer model must be employed (see Section \ref{scn:rt}).
+\noindent where $\kappa_{\nu}$ here represents the frequency-dependent absorption opacity of the dust.  This expression determines the temperature dependence of dust grains with a given opacity.  A number of blackbody curves for different temperatures are presented in Figure \ref{BB} illustrating the shift of the peak flux towards shorter wavelengths with increasing temperature.  Using Equation \ref{BB_flux}, it is possible to fit theoretical SEDs to  observed photometric data in the IR and sub-mm in order to derive various properties of the emitting dust, such as the dust mass and composition.  It is usually this approach that is employed to determine dust masses in various objects from observations.  For a single component, the temperature and opacity are iterated until the model SED best fits the observed data points and then these properties are translated to a dust mass via the optical properties of the dust that produce the opacity as discussed in the previous sections.  Often the size distribution of the dust grains and the composition are also considered as variables, and a multi-component fit that allows for the presence of dust at different temperatures is frequently adopted to obtain a  more realistic fitting.  In order to fit  the full range of the SED from the optical to the sub-mm without assumptions of single temperature components  a fully self-consisted radiative transfer model must be employed (see Section \ref{scn:rt}).
 
-In addition to its continuum emission, dust also has a number of spectroscopic emission features.  These features allow the composition of dust in a given region to be probed more directly than is possible using SED fitting.  A detailed discussion of the spectroscopic features of a variety of dust species ranging from silicates to ices is given by \citet{Draine2003}. 
-%do i need to go into detail on spectroscopic features of dust???  Seems unlikely...
+\begin{figure}
+\centering
+\includegraphics[clip=true,scale=0.6,trim= 0 0 0 0]{chapters/chapter1/figs/BB_curves.png}
+\caption{Blackbody curves as described by the Planck function for a range of temperatures illustrating the shift of the peak flux towards shorter wavelengths with increasing temperature.}
+\label{BB}
+\end{figure}
+
+
+In addition to its continuum emission, dust also exhibits a number of discrete emission features in the IR in interstellar and circumstellar environments.  A number of features in the IR between 3.3$\mu$m and 11.3$\mu$m have, in the last few years, been attributed to various {C-H} and {C-C} stretching and bending modes in PAHs with the relative intensities and exact wavelengths of these features dependent on the size and ionisation state of the PAHs \citep{Draine2001}.  There are numerous other spectroscopic emission features of dust at long wavelengths.  For example SiC emits at $11-12\mu$m in carbon stars, the presence of crystalline silicates in the ISM often results in emission bands at 21$\mu$m and $30\mu$m and water ice present in  molecular clouds causes emission bands at 44$\mu$m and $60\mu$m.  These features allow the composition of dust in a given region to be probed more directly than is possible using SED fitting.  A detailed discussion of the spectroscopic features of a variety of dust species ranging from silicates to ices is given by \citet{Draine2003}. 
 
 \subsection{Dust Particles as Scatterers}
 \label{scn:le}
-Dust's role as a scatterer is not often considered and has few observable signatures.  However, it gives rise to some particularly unusual and interesting features in the fast moving environments of supernovae.  As shall be discussed in detail throughout this thesis, dust scattering can result in significant, possibly asymmetrical broadening of emission lines and the appearance of an extended scattering wing on the red side of the profile \citep{Lucy1989}. 
+Dust's role as a scatterer is not often considered and has relatively few observable signatures.  Reflection nebulae are one of these (see Figure \ref{orion} for an example).  Starlight incident on a cloud of dust causes the cloud to be heated and reflects off it,  illuminating the dusty nebula.  Reflection nebulae are seen both in the circumstellar environment of stars and in the interstellar medium.  If the source of the light can be determined, observations of these reflection nebulae can be used to quantify the properties of the dust grains that they contain.  
+
+Dust scattering also gives rise to some particularly unusual and interesting features in the fast moving environments of supernovae.  As shall be discussed in detail throughout this thesis, dust scattering can result in significant, possibly asymmetrical broadening of emission lines and the appearance of an extended scattering wing on the red side of the profile \citep{Lucy1989}. 
+
+\begin{figure}
+\centering
+\includegraphics[clip=true,scale=0.7,trim= 0 0 0 0]{chapters/chapter1/figs/orion.jpg}
+\caption{An example of a reflection nebula -- the Orion Nebula.  (credit: NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team,  {\url www.hubblesite.org}.)}
+\label{orion}
+\end{figure}
 
  It can also cause an effect known as a ``light echo".  This is when light emitted from an object is reflected off a surrounding dusty region, such as a dense circumstellar shell, back towards the observer. Observing light echoes allows astronomers to see the state of an object in the past and therefore to understand its evolution.  Analysis of light echoes from the explosion that produced Cassiopeia~A (Cas~A) allowed its age and SN type to be determined \citep{Krause2008} and the circumstellar environment of SN~1987A has also been investigated using light echoes as well \citep{Crotts1989,Sugerman2005}.  Whilst light echoes can provide much insight into the past, they can also present a problem for current observations.  When observing supernovae, it is important to determine whether observations show the current state of the object or a previous one.
 

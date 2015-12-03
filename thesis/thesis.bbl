@@ -292,6 +292,11 @@ Dorschner J.,  Begemann B.,  Henning T.,  Jaeger C.,   Mutschke H.,  1995,
   Lee}{1984}]{Draine1984}
 Draine B.~T.,  Lee H.~M.,  1984, \mn@doi [\apj] {10.1086/162480}, 285, 89
 
+\bibitem[\protect\citeauthoryear{{Draine} \& {Li}}{{Draine} \&
+  {Li}}{2001}]{Draine2001}
+{Draine} B.~T.,  {Li} A.,  2001, \mn@doi [\apj] {10.1086/320227}, \href
+  {http://adsabs.harvard.edu/abs/2001ApJ...551..807D} {551, 807}
+
 \bibitem[\protect\citeauthoryear{{Dunne}, {Eales}, {Ivison}, {Morgan}  \&
   {Edmunds}}{{Dunne} et~al.}{2003}]{Dunne2003}
 {Dunne} L.,  {Eales} S.,  {Ivison} R.,  {Morgan} H.,   {Edmunds} M.,  2003,
@@ -330,6 +335,12 @@ Dwek E.,  Galliano F.,   Jones A.~P.,  2007, \mn@doi [\apj] {10.1086/518430},
   et~al.}{2010}]{Dwek2010}
 {Dwek} E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/722/1/425}, \href
   {http://adsabs.harvard.edu/abs/2010ApJ...722..425D} {722, 425}
+
+\bibitem[\protect\citeauthoryear{{Ehrenfreund} \& {Schutte}}{{Ehrenfreund} \&
+  {Schutte}}{2000}]{Ehrenfreund2000}
+{Ehrenfreund} P.,  {Schutte} W.~A.,  2000, in {Minh} Y.~C.,  {van Dishoeck}
+  E.~F.,  eds,  IAU Symposium Vol. 197, From Molecular Clouds to Planetary.
+  p.~135
 
 \bibitem[\protect\citeauthoryear{Ellis, Phillips  \& Lahey}{Ellis
   et~al.}{1994}]{Ellis1994}
@@ -556,6 +567,11 @@ Hanuschik R.~W.,  Spyromilio J.,  Stathakis R.,  Kimeswenger S.,  Gochermann
 \bibitem[\protect\citeauthoryear{Hastings}{Hastings}{1970}]{Hastings1970}
 Hastings W.,  1970, \mn@doi [Biometrika] {10.1093/biomet/57.1.97}, 57, 97
 
+\bibitem[\protect\citeauthoryear{{Heger}}{{Heger}}{1922}]{Heger1922}
+{Heger} M.~L.,  1922, \mn@doi [Lick Observatory Bulletin]
+  {10.5479/ADS/bib/1922LicOB.10.141H}, \href
+  {http://adsabs.harvard.edu/abs/1922LicOB..10..141H} {10, 141}
+
 \bibitem[\protect\citeauthoryear{{Helder} et~al.,}{{Helder}
   et~al.}{2013}]{Helder2013}
 {Helder} E.~A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/764/1/11},
@@ -578,6 +594,16 @@ Hillier D.~J.,  1991, \aap, 247, 455
 {Hirata} K.,  {Kajita} T.,  {Koshiba} M.,  {Nakahata} M.,   {Oyama} Y.,  1987,
   \mn@doi [Physical Review Letters] {10.1103/PhysRevLett.58.1490}, \href
   {http://adsabs.harvard.edu/abs/1987PhRvL..58.1490H} {58, 1490}
+
+\bibitem[\protect\citeauthoryear{{Hobbs} et~al.,}{{Hobbs}
+  et~al.}{2008}]{Hobbs2008}
+{Hobbs} L.~M.,  et~al., 2008, \mn@doi [\apj] {10.1086/587930}, \href
+  {http://adsabs.harvard.edu/abs/2008ApJ...680.1256H} {680, 1256}
+
+\bibitem[\protect\citeauthoryear{{Hobbs} et~al.,}{{Hobbs}
+  et~al.}{2009}]{Hobbs2009}
+{Hobbs} L.~M.,  et~al., 2009, \mn@doi [\apj] {10.1088/0004-637X/705/1/32},
+  \href {http://adsabs.harvard.edu/abs/2009ApJ...705...32H} {705, 32}
 
 \bibitem[\protect\citeauthoryear{{Hogerheijde} \& {van der Tak}}{{Hogerheijde}
   \& {van der Tak}}{2000}]{Hogerheijde2000}
@@ -624,6 +650,12 @@ J\"{a}ger C.,  Mutschke H.,  Begemann B.,  Dorschner J.,   Henning T.,  1994,
   Henning}{J\"{a}ger et~al.}{2003}]{Jager2003}
 J\"{a}ger C.,  Dorshner J.,  Mutschke H.,  Posch T.,   Henning T.,  2003,
   \mn@doi [\aap] {10.1051/0004-6361:20030916}, 408, 193
+
+\bibitem[\protect\citeauthoryear{{Joblin}, {Leger}  \& {Martin}}{{Joblin}
+  et~al.}{1992}]{Joblin1992}
+{Joblin} C.,  {Leger} A.,   {Martin} P.,  1992, \mn@doi [\apjl]
+  {10.1086/186456}, \href {http://adsabs.harvard.edu/abs/1992ApJ...393L..79J}
+  {393, L79}
 
 \bibitem[\protect\citeauthoryear{{Karachentsev}, {Sharina}  \&
   {Huchtmeier}}{{Karachentsev} et~al.}{2000}]{Karachentsev2000}
@@ -700,6 +732,11 @@ Landau L.,  Lifshitz E.,  1959, Fluid Mechanics, 2 edn.
 {Larsson} J.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/768/1/89}, \href
   {http://adsabs.harvard.edu/abs/2013ApJ...768...89L} {768, 89}
 
+\bibitem[\protect\citeauthoryear{{Li} \& {Draine}}{{Li} \&
+  {Draine}}{2001}]{Li2001}
+{Li} A.,  {Draine} B.~T.,  2001, \mn@doi [\apj] {10.1086/323147}, \href
+  {http://adsabs.harvard.edu/abs/2001ApJ...554..778L} {554, 778}
+
 \bibitem[\protect\citeauthoryear{{Li} \& {Greenberg}}{{Li} \&
   {Greenberg}}{2003}]{Li2003}
 {Li} A.,  {Greenberg} J.~M.,  2003, in {Pirronello} V.,  {Krelowski} J.,
@@ -708,6 +745,11 @@ Landau L.,  Lifshitz E.,  1959, Fluid Mechanics, 2 edn.
 
 \bibitem[\protect\citeauthoryear{Li \& McCray}{Li \& McCray}{1992}]{Li1992}
 Li H.,  McCray R.,  1992, \mn@doi [\apj] {10.1086/171082}, 387, 309
+
+\bibitem[\protect\citeauthoryear{{Lillie} \& {Witt}}{{Lillie} \&
+  {Witt}}{1976}]{Lillie1976}
+{Lillie} C.~F.,  {Witt} A.~N.,  1976, \mn@doi [\apj] {10.1086/154582}, \href
+  {http://adsabs.harvard.edu/abs/1976ApJ...208...64L} {208, 64}
 
 \bibitem[\protect\citeauthoryear{{Lucy}}{{Lucy}}{1987}]{Lucy1987}
 {Lucy} L.~B.,  1987, in {Danziger} I.~J.,  ed.,  European Southern Observatory
@@ -797,6 +839,12 @@ Mauerhan J.,  Smith N.,  2012, \mn@doi [\mnras]
 {Maund} J.~R.,  {Smartt} S.~J.,  {Kudritzki} R.~P.,  {Podsiadlowski} P.,
   {Gilmore} G.~F.,  2004, \nat, \href
   {http://adsabs.harvard.edu/abs/2004Natur.427..129M} {427, 129}
+
+\bibitem[\protect\citeauthoryear{{McCarthy}, {Forrest}, {Briotta}  \&
+  {Houck}}{{McCarthy} et~al.}{1980}]{McCarthy1980}
+{McCarthy} J.~F.,  {Forrest} W.~J.,  {Briotta} Jr. D.~A.,   {Houck} J.~R.,
+  1980, \mn@doi [\apj] {10.1086/158528}, \href
+  {http://adsabs.harvard.edu/abs/1980ApJ...242..965M} {242, 965}
 
 \bibitem[\protect\citeauthoryear{{McCray}}{{McCray}}{1993}]{McCray1993}
 {McCray} R.,  1993, \mn@doi [\araa] {10.1146/annurev.aa.31.090193.001135},
@@ -937,6 +985,12 @@ Owen P.~J.,  Barlow M.~J.,  2015, \mn@doi [\apj] {10.1088/0004-637X/801/2/141},
   {Graham} J.~R.,  2001, in American Astronomical Society Meeting Abstracts.
   p.~126
 
+\bibitem[\protect\citeauthoryear{{Pendleton} \& {Allamandola}}{{Pendleton} \&
+  {Allamandola}}{2002}]{Pendleton2002}
+{Pendleton} Y.~J.,  {Allamandola} L.~J.,  2002, \mn@doi [\apjs]
+  {10.1086/322999}, \href {http://adsabs.harvard.edu/abs/2002ApJS..138...75P}
+  {138, 75}
+
 \bibitem[\protect\citeauthoryear{{Phillips}, {Hamuy}, {Heathcote}, {Suntzeff}
   \& {Kirhakos}}{{Phillips} et~al.}{1990}]{Phillips1990}
 {Phillips} M.~M.,  {Hamuy} M.,  {Heathcote} S.~R.,  {Suntzeff} N.~B.,
@@ -1034,6 +1088,11 @@ Sarangi A.,  Cherchneff I.,  2015, \mn@doi [\aap]
   {10.1111/j.1365-2966.2004.07876.x}, \href
   {http://adsabs.harvard.edu/abs/2004MNRAS.351.1379S} {351, 1379}
 
+\bibitem[\protect\citeauthoryear{{Schutte}}{{Schutte}}{1997}]{Schutte1997}
+{Schutte} W.~A.,  1997, in {Greenberg} J.~M.,  ed.,  NATO Advanced Science
+  Institutes (ASI) Series C Vol. 487, NATO Advanced Science Institutes (ASI)
+  Series C. p.~1
+
 \bibitem[\protect\citeauthoryear{{Sedov}}{{Sedov}}{1959}]{Sedov1959}
 {Sedov} L.~I.,  1959, {Similarity and Dimensional Methods in Mechanics}
 
@@ -1086,6 +1145,15 @@ Spyromilio J.,  Stathakis R.,  Cannon R.,  Waterman L.,  Couch W.,   Dopita M.,
 \bibitem[\protect\citeauthoryear{Spyromilio, Stathakis  \& Meurer}{Spyromilio
   et~al.}{1993}]{Spyromilio1993}
 Spyromilio J.,  Stathakis R.~a.,   Meurer G.~R.,  1993, \mnras, 263, 530
+
+\bibitem[\protect\citeauthoryear{{Stecher}}{{Stecher}}{1965}]{Stecher1965}
+{Stecher} T.~P.,  1965, \mn@doi [\apj] {10.1086/148462}, \href
+  {http://adsabs.harvard.edu/abs/1965ApJ...142.1683S} {142, 1683}
+
+\bibitem[\protect\citeauthoryear{{Stecher} \& {Donn}}{{Stecher} \&
+  {Donn}}{1965}]{Stecher1965a}
+{Stecher} T.~P.,  {Donn} B.,  1965, \mn@doi [\apj] {10.1086/148461}, \href
+  {http://adsabs.harvard.edu/abs/1965ApJ...142.1681S} {142, 1681}
 
 \bibitem[\protect\citeauthoryear{Storey \& Zeippen}{Storey \&
   Zeippen}{2000}]{Storey2000}
@@ -1213,6 +1281,18 @@ Wesson R.,  Barlow M.~J.,  Matsuura M.,   Ercolano B.,  2015, \mnras, 446, 2089
 {Wilson} G.,  et~al., 2012, preprint, \href
   {http://adsabs.harvard.edu/abs/2012arXiv1210.0530W} {} (\mn@eprint {arXiv}
   {1210.0530})
+
+\bibitem[\protect\citeauthoryear{{Witt}, {Walker}, {Bohlin}  \&
+  {Stecher}}{{Witt} et~al.}{1982}]{Witt1982}
+{Witt} A.~N.,  {Walker} G.~A.~H.,  {Bohlin} R.~C.,   {Stecher} T.~P.,  1982,
+  \mn@doi [\apj] {10.1086/160360}, \href
+  {http://adsabs.harvard.edu/abs/1982ApJ...261..492W} {261, 492}
+
+\bibitem[\protect\citeauthoryear{{Witt}, {Bohlin}  \& {Stecher}}{{Witt}
+  et~al.}{1986}]{Witt1986}
+{Witt} A.~N.,  {Bohlin} R.~C.,   {Stecher} T.~P.,  1986, \mn@doi [\apjl]
+  {10.1086/184677}, \href {http://adsabs.harvard.edu/abs/1986ApJ...305L..23W}
+  {305, L23}
 
 \bibitem[\protect\citeauthoryear{Wongwathanarat, M\"{u}ller  \&
   Janka}{Wongwathanarat et~al.}{2015}]{Wongwathanarat2015}
