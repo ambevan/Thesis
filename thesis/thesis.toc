@@ -119,43 +119,42 @@
 \contentsline {subsection}{\numberline {4.2.1}Contamination of the H$\alpha $ profiles}{131}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}The evolution of the maximum and minimum velocities}{132}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Modelling SN\nobreakspace {}1987A}{133}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{138}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{143}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{145}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{148}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}More complex models}{148}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}The effect of a grain radius distribution}{155}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{155}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.1}Smooth Density Models for SN\nobreakspace {}1987A}{139}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Clumped Dust Models for SN\nobreakspace {}1987A}{140}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Goodness of fit}{147}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}The effects of clumping}{154}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}More complex models}{154}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}The effect of a grain radius distribution}{156}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}The effect of different grain species}{157}{subsection.4.3.7}
 \contentsline {subsection}{\numberline {4.3.8}Modelling large masses of dust at early epochs: comparison with the results of \citet {Dwek2015}}{158}{subsection.4.3.8}
-\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{163}{subsection.4.3.9}
-\contentsline {section}{\numberline {4.4}Discussion}{164}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusions}{168}{section.4.5}
-\contentsline {chapter}{\numberline {5}Dust Masses in Three Other Supernova Remnants}{170}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{170}{section.5.1}
-\contentsline {section}{\numberline {5.2}SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{172}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}The Late-Time Optical Spectra of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{174}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Line Profile Models of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{175}{subsection.5.2.2}
-\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1980K}{179}{section*.129}
-\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1980K}{181}{section*.131}
-\contentsline {subsubsection}{Smooth Models of SN\nobreakspace {}1993J}{181}{section*.132}
-\contentsline {subsubsection}{Clumped Models of SN\nobreakspace {}1993J}{181}{section*.133}
-\contentsline {subsection}{\numberline {5.2.3}Discussion}{182}{subsection.5.2.3}
-\contentsline {subsubsection}{SN\nobreakspace {}1980K}{182}{section*.135}
-\contentsline {subsubsection}{SN\nobreakspace {}1993J}{185}{section*.138}
-\contentsline {section}{\numberline {5.3}Cassiopeia A}{187}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The Integrated Spectrum}{188}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Smooth Models of the Oxygen Lines}{189}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Clumped Models of the Oxygen Lines}{193}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Discussion}{194}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Conclusions}{198}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{201}{chapter.6}
-\contentsline {section}{\numberline {6.1}Signatures of Dust Formation in Characteristic Line Profiles}{201}{section.6.1}
-\contentsline {section}{\numberline {6.2}Dust Masses in Core-Collapse Supernovae}{203}{section.6.2}
-\contentsline {section}{\numberline {6.3}Future Work}{205}{section.6.3}
-\contentsline {chapter}{\numberline {A}Mie Theory}{206}{appendix.A}
-\contentsline {section}{\numberline {A.1}Formulating the Problem}{206}{section.A.1}
-\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{207}{section.A.2}
-\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{209}{section.A.3}
-\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{210}{section.A.4}
-\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{211}{section.A.5}
-\contentsline {chapter}{Bibliography}{213}{equation.A.5.32}
+\contentsline {subsection}{\numberline {4.3.9}Unattenuated line fluxes}{164}{subsection.4.3.9}
+\contentsline {section}{\numberline {4.4}Discussion}{166}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusions}{171}{section.4.5}
+\contentsline {chapter}{\numberline {5}Dust Masses in Three Other Supernova Remnants}{172}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{172}{section.5.1}
+\contentsline {section}{\numberline {5.2}SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{174}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}The Late-Time Optical Spectra of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{176}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Line Profile Models of SN\nobreakspace {}1980K and SN\nobreakspace {}1993J}{177}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Smooth Models of SN\nobreakspace {}1980K}{181}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Clumped Models of SN\nobreakspace {}1980K}{183}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Smooth Models of SN\nobreakspace {}1993J}{183}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Clumped Models of SN\nobreakspace {}1993J}{184}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}SN\nobreakspace {}1980K: Discussion}{184}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}SN\nobreakspace {}1993J: Discussion}{187}{subsection.5.3.6}
+\contentsline {section}{\numberline {5.4}Cassiopeia A}{189}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}The Integrated Spectrum}{190}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Smooth Models of the Oxygen Lines}{191}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Clumped Models of the Oxygen Lines}{195}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Discussion}{196}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{200}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Work}{203}{chapter.6}
+\contentsline {section}{\numberline {6.1}Signatures of Dust Formation in Characteristic Line Profiles}{203}{section.6.1}
+\contentsline {section}{\numberline {6.2}Dust Masses in Core-Collapse Supernovae}{205}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Work}{207}{section.6.3}
+\contentsline {chapter}{\numberline {A}Mie Theory}{208}{appendix.A}
+\contentsline {section}{\numberline {A.1}Formulating the Problem}{208}{section.A.1}
+\contentsline {section}{\numberline {A.2}Solving the Vector Wave Equations}{209}{section.A.2}
+\contentsline {section}{\numberline {A.3}Calculating the Incident and Scattered Fields}{211}{section.A.3}
+\contentsline {section}{\numberline {A.4}Determining the Scattering Coefficients}{212}{section.A.4}
+\contentsline {section}{\numberline {A.5}The Scattering and Extinction Cross-Sections}{213}{section.A.5}
+\contentsline {chapter}{Bibliography}{215}{equation.A.5.32}
