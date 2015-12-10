@@ -406,7 +406,7 @@ $q_{H\alpha}$ (erg cm$^3$ s$^{-1}$)  & $6.71\times 10^{-25}$	&$3.56\times 10^{-2
         
         \subsection{Doublets}
 
-        One of the lines in supernovae emission spectra that is frequently seen to be blue shifted is the forbidden [OI]$\lambda$6300,6363\AA\ doublet.  {\sc damocles} therefore has the capacity to treat doublets as well as single lines.  When a doublet is specified, both the initial wavelengths and the initial intensity ratio must be declared.  The code will create a wider frequency array than for a single line in order to accommodate both lines.  It will then model each line independently, adding the final fluxes of the lines weighted by their intrinsic flux ratio to produce the desired doublet profile at the end of the modelling. 
+        One of the lines in supernovae emission spectra that is frequently seen to be blue shifted is the forbidden [O~{\sc i}]$\lambda\lambda$6300,6363\AA\ doublet.  {\sc damocles} therefore has the capacity to treat doublets as well as single lines.  When a doublet is specified, both the initial wavelengths and the initial intensity ratio must be declared.  The code will create a wider frequency array than for a single line in order to accommodate both lines.  It will then model each line independently, adding the final fluxes of the lines weighted by their intrinsic flux ratio to produce the desired doublet profile at the end of the modelling. 
 
         \subsection{Comparing a Model with Observations}
 
@@ -575,7 +575,7 @@ This is a real number that specifies the initial rest-frame monochromatic wavele
 
 \subsubsubsection{L\_ratio}
 
-This real number gives the ratio between the respective luminosities of the lines in a doublet environment.  The ratio should be declared as the flux at lambda1\_0 divided by the flux at lambda2\_0.  It is expected that the doublet environment will generally be used to model forbidden lines, for example the [OI]$\lambda$6300,6363\AA\ doublet, where the intrinsic flux ratio between the singlets may be theoretically determined.
+This real number gives the ratio between the respective luminosities of the lines in a doublet environment.  The ratio should be declared as the flux at lambda1\_0 divided by the flux at lambda2\_0.  It is expected that the doublet environment will generally be used to model forbidden lines, for example the [O~{\sc i}]$\lambda\lambda$6300,6363\AA\ doublet, where the intrinsic flux ratio between the singlets may be theoretically determined.
 
 \vspace{0.8cm}
 

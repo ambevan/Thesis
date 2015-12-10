@@ -20,7 +20,7 @@ A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 A level-1 auxiliary file: back/appendices/appendA.aux
 The style file: mnras.bst
 A level-1 auxiliary file: back/backquote.aux
-Reallocated field_info (elt_size=4) to 11966 items from 5000.
+Reallocated field_info (elt_size=4) to 12020 items from 5000.
 Database file #1: thesis.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -40,45 +40,45 @@ while executing---line 3643 of file mnras.bst
 Warning--empty publisher in Draine2011
 Warning--there's a number but no series in Lucy1989
 Warning--empty publisher in Sedov1959
-You've used 258 entries,
+You've used 260 entries,
             2881 wiz_defined-function locations,
-            2833 strings with 77772 characters,
-and the built_in function-call counts, 124311 in all, are:
-= -- 9941
-> -- 9057
-< -- 699
-+ -- 3994
-- -- 1310
-* -- 15154
-:= -- 19498
+            2848 strings with 78615 characters,
+and the built_in function-call counts, 124961 in all, are:
+= -- 10009
+> -- 9076
+< -- 703
++ -- 4011
+- -- 1304
+* -- 15233
+:= -- 19593
 add.period$ -- 0
-call.type$ -- 258
-change.case$ -- 519
-chr.to.int$ -- 251
-cite$ -- 261
-duplicate$ -- 6147
-empty$ -- 6306
-format.name$ -- 2178
-if$ -- 21654
+call.type$ -- 260
+change.case$ -- 523
+chr.to.int$ -- 253
+cite$ -- 263
+duplicate$ -- 6187
+empty$ -- 6350
+format.name$ -- 2174
+if$ -- 21764
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 272
-newline$ -- 801
-num.names$ -- 1865
-pop$ -- 1448
+missing$ -- 274
+newline$ -- 807
+num.names$ -- 1873
+pop$ -- 1460
 preamble$ -- 1
-purify$ -- 1032
+purify$ -- 1040
 quote$ -- 0
-skip$ -- 3664
+skip$ -- 3686
 stack$ -- 0
-substring$ -- 6695
-swap$ -- 3361
-text.length$ -- 1082
+substring$ -- 6745
+swap$ -- 3367
+text.length$ -- 1090
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2280
+type$ -- 2298
 warning$ -- 3
-while$ -- 1963
+while$ -- 1977
 width$ -- 0
-write$ -- 2609
+write$ -- 2629
 (There were 7 error messages)

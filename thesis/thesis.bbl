@@ -61,6 +61,10 @@ Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
 {Barbon} R.,  {Ciatti} F.,   {Rosino} L.,  1982, \aap, \href
   {http://adsabs.harvard.edu/abs/1982A%26A...116...35B} {116, 35}
 
+\bibitem[\protect\citeauthoryear{{Barlow}}{{Barlow}}{1978}]{Barlow1978}
+{Barlow} M.~J.,  1978, \mnras, \href
+  {http://adsabs.harvard.edu/abs/1978MNRAS.183..367B} {183, 367}
+
 \bibitem[\protect\citeauthoryear{{Barlow} \& {Silk}}{{Barlow} \&
   {Silk}}{1977}]{Barlow1977}
 {Barlow} M.~J.,  {Silk} J.,  1977, \mn@doi [\apjl] {10.1086/182346}, \href
@@ -139,13 +143,6 @@ Bohren C.~F.,  Huffman D.,  1983, Absorption and scattering of light by small
   particles.
 Wiley science paperback series, Wiley
 
-\bibitem[\protect\citeauthoryear{{Botticella}, {Smartt}, {Kennicutt},
-  {Cappellaro}, {Sereno}  \& {Lee}}{{Botticella} et~al.}{2012}]{Botticella2012}
-{Botticella} M.~T.,  {Smartt} S.~J.,  {Kennicutt} R.~C.,  {Cappellaro} E.,
-  {Sereno} M.,   {Lee} J.~C.,  2012, \mn@doi [\aap]
-  {10.1051/0004-6361/201117343}, \href
-  {http://adsabs.harvard.edu/abs/2012A%26A...537A.132B} {537, A132}
-
 \bibitem[\protect\citeauthoryear{{Bouchet} \& {Danziger}}{{Bouchet} \&
   {Danziger}}{1993}]{Bouchet1993}
 {Bouchet} P.,  {Danziger} I.~J.,  1993, \aap, \href
@@ -185,6 +182,12 @@ Bouchet P.,  Danziger I.~J.,   Lucy L.~B.,  1991, \mn@doi [\aj]
 {Brinch} C.,  {Hogerheijde} M.~R.,  2010, \mn@doi [\aap]
   {10.1051/0004-6361/201015333}, \href
   {http://adsabs.harvard.edu/abs/2010A%26A...523A..25B} {523, A25}
+
+\bibitem[\protect\citeauthoryear{{Brown}, {Bruenn}  \& {Wheeler}}{{Brown}
+  et~al.}{1992}]{Brown1992}
+{Brown} G.~E.,  {Bruenn} S.~W.,   {Wheeler} J.~C.,  1992, Comments on
+  Astrophysics, \href {http://adsabs.harvard.edu/abs/1992ComAp..16..153B} {16,
+  153}
 
 \bibitem[\protect\citeauthoryear{Buslenko, Golenko, Shreider, Sobol'  \&
   Sragovich}{Buslenko et~al.}{1966}]{Shreider1966}
@@ -523,12 +526,6 @@ Gomez H.~L.,  et~al., 2012a, \mn@doi [\mnras]
 {Gotthelf} E.~V.,  {Koralesky} B.,  {Rudnick} L.,  {Jones} T.~W.,  {Hwang} U.,
    {Petre} R.,  2001, \mn@doi [\apjl] {10.1086/320250}, \href
   {http://adsabs.harvard.edu/abs/2001ApJ...552L..39G} {552, L39}
-
-\bibitem[\protect\citeauthoryear{{Greif} \& {Bromm}}{{Greif} \&
-  {Bromm}}{2006}]{Greif2006}
-{Greif} T.~H.,  {Bromm} V.,  2006, \mn@doi [\mnras]
-  {10.1111/j.1365-2966.2006.11017.x}, \href
-  {http://adsabs.harvard.edu/abs/2006MNRAS.373..128G} {373, 128}
 
 \bibitem[\protect\citeauthoryear{Gr\"{o}ningsson, Fransson, Lundqvist, Nymark,
   Lundqvist, Chevalier, Leibundgut  \& Spyromilio}{Gr\"{o}ningsson
@@ -1096,6 +1093,11 @@ Sarangi A.,  Cherchneff I.,  2015, \mn@doi [\aap]
 \bibitem[\protect\citeauthoryear{{Sedov}}{{Sedov}}{1959}]{Sedov1959}
 {Sedov} L.~I.,  1959, {Similarity and Dimensional Methods in Mechanics}
 
+\bibitem[\protect\citeauthoryear{{Sibthorpe} et~al.,}{{Sibthorpe}
+  et~al.}{2010}]{Sibthorpe2010}
+{Sibthorpe} B.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/719/2/1553},
+  \href {http://adsabs.harvard.edu/abs/2010ApJ...719.1553S} {719, 1553}
+
 \bibitem[\protect\citeauthoryear{Silvia, Smith  \& {Michael Shull}}{Silvia
   et~al.}{2010}]{Silvia2010}
 Silvia D.~W.,  Smith B.~D.,   {Michael Shull} J.,  2010, \mn@doi [\apj]
@@ -1120,6 +1122,10 @@ Slavin J.~D.,  Dwek E.,   Jones A.~P.,  2015, \mn@doi [\apj]
   et~al.}{2009}]{Sloan2009}
 {Sloan} G.~C.,  et~al., 2009, \mn@doi [Science] {10.1126/science.1165626},
   \href {http://adsabs.harvard.edu/abs/2009Sci...323..353S} {323, 353}
+
+\bibitem[\protect\citeauthoryear{{Smartt}}{{Smartt}}{2009}]{Smartt2009}
+{Smartt} S.~J.,  2009, \mn@doi [\araa] {10.1146/annurev-astro-082708-101737},
+  \href {http://adsabs.harvard.edu/abs/2009ARA%26A..47...63S} {47, 63}
 
 \bibitem[\protect\citeauthoryear{Smith, Silverman, Filippenko, Cooper,
   Matheson, Bian, Weiner  \& Comerford}{Smith et~al.}{2012}]{Smith2012}
