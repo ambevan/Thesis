@@ -930,6 +930,20 @@
     \@starttoc{lot}%
     \if@restonecol\twocolumn\fi
     }
+
+\newcommand\listofacs{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\hfill \huge \listacronymname \\
+              \hfill \rule{4in}{0.015in} \\
+      \@mkboth{\listacronymname}%
+    {\listacronymname}}%
+    \@starttoc{lot}%
+    \if@restonecol\twocolumn\fi
+    }
 \let\l@table\l@figure
 
 
@@ -940,7 +954,6 @@
                 \hfill \rule{4in}{0.015in} \\
         \@mkboth{\bibname}
                 {\bibname}}%
-
 %%% 2006 AUGUST 15th
 %%% ADDED BY FABRIZIO SIDOLI (FS)
 %%% REMOVES THE FOOTNOTE DEFINED ABOVE BY FS
@@ -994,6 +1007,7 @@
 \newcommand\contentsname{Contents}
 \newcommand\listfigurename{List of Figures}
 \newcommand\listtablename{List of Tables}
+\newcommand\listacronymname{List of Acronyms}
 \newcommand\bibname{Bibliography}
 \newcommand\indexname{Index}
 \newcommand\figurename{Figure} % changed by FS from Figure --> Fig. 

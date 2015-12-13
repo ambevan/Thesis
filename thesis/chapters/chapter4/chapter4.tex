@@ -15,7 +15,7 @@ The introduction of any new piece of software into a field has the potential to 
 To this end, this chapter describes the ways in which {\sc damocles} was tested and the results of these tests.  I then also present a parameter sensitivity analysis.  I describe the changes that are seen in the shapes of line profiles and consider any distinctive features that arise as a result of varying the parameters of interest.  I also consider the physical processes behind these effects.
 
 
-\section{Testing and benchmarking the code}
+\section{Testing and Benchmarking the Code}
 
 The field of astronomy is highly reliant on the production of bespoke software to understand and interpret observations from telescopes and to develop and test new theories.  As one of only a few sciences which do not have the ability to run experiments or to validate results in a laboratory, progress is made via mathematical analyses or computational models based on observed data.  Astrophysicists typically develop their own programs because a deep understanding of the topic to be modelled is required.  Like any experiment, however, the ``apparatus" should be checked and tested in order to establish its reliability.
 
@@ -23,7 +23,7 @@ Throughout the production of {\sc damocles}, I sought, as far as was possible, t
 
 There is a general lack of published models in the literature that consider dust-affected asymmetric line profiles.  This is problematic since there are no published benchmark cases against which I could compare results.  I therefore considered a number of analytic line profiles derived from first principles for the case of a dust-free spherically symmetric expanding medium.  This process ensured the functionality of the grid and the initialisation and propagation of energy packets.  Additionally, I also checked the the absorption and scattering components of the code which are crucial to the modelling of a dusty medium.  I  considered some optically thick scenarios and qualitatively compared my results with those presented by \citet{Lucy1989}.  The profiles presented by  \citet{Lucy1989} were produced both analytically and from numerical modelling and are of scenarios that are typical of those treated by {\sc damocles}.  They are also the only published numerical models of dust-affected asymmetric line profiles and as such it is important that {\sc damocles} is capable of reproducing these results.
 
-\subsection{Theoretical line profiles from first principles}
+\subsection{Theoretical Line Profiles from First Principles}
 \label{analytics}
 
 The simple nature of a spherically-symmetric expanding medium with a given velocity outflow law and emissivity distribution allows for analytical line profiles to be calculated from first principles in the dust-free case.  Based on the methods of \cite{Gerasimovic1933},  I derive a set of three equations that describe the contours of theoretical line profiles under different starting conditions.
@@ -199,7 +199,7 @@ models.  All fluxes are scaled to unity at the peak.
 
 I conclude from this testing that all aspects of the code that are associated with initialising the packets into the grid are functioning correctly since an error at this stage would result in disagreement with the above theory.  
 
-\subsection{Benchmarking against numerical models}
+\subsection{Benchmarking Against Numerical Models}
 \label{opt_thick_testing}
 \begin{figure}
 \centering
@@ -275,12 +275,12 @@ parameters of interest, namely:
 I also investigate the capacity of this type of model to infer properties of the dust itself, specifically the dust grain radius range and distribution, and the variety and relative abundances of different grain species present in the dusty medium. 
 
 
-\subsection{The maximum line velocity, $V_{max}$}
+\subsection{The Maximum Line Velocity, $V_{max}$}
 
 The maximum velocity is defined as the velocity at the outer edges of the 
 line emitting region for a given line.  The maximum velocity may vary 
 between different spectral lines or doublets due to different locations of 
-species having differing ionization thresholds.  Clearly, the larger the 
+species having differing ionisation thresholds.  Clearly, the larger the 
 maximum velocity used the wider the profile becomes.  To some extent 
 therefore the steepness of the density profile and the maximum velocity 
 can act to counter each other since a steeper density distribution narrows 
@@ -300,7 +300,7 @@ velocity can usually be fairly well determined from the observations
 (identified as the point where the flux vanishes on the blue side) and may 
 be further constrained through modelling.
 
-\subsection{The ejecta radius ratio, $R_{in}/R_{out}$}
+\subsection{The Ejecta Radius Ratio, $R_{in}/R_{out}$}
 
 As already discussed in Section \ref{analytics}, the width of the flat top 
 is determined by the ratio of the inner and outer radii, the exponent of 
@@ -329,7 +329,7 @@ with $R_{in}/R_{out}=0$, as opposed to a detached shell, are shown in
 Figure \ref{fig:Lucy}. 
 All profiles have been scaled to unit flux at their peaks.
 
-\subsection{The dust optical depth, $\tau$}
+\subsection{The Dust Optical Depth, $\tau$}
 \label{tau}
 
 As expected, greater attenuation of the original line profile is seen on 
@@ -394,7 +394,7 @@ Peak fluxes are scaled to unity.}
 \end{figure}
 
 
-\subsection{The dust albedo, $\omega$}
+\subsection{The Dust Albedo, $\omega$}
 \label{omega}
 
 In the past, there has often been a focus on the effects of absorption by 
@@ -438,7 +438,7 @@ blue-shifted should be noted (see Figures \ref{bt} and \ref{wt} for
 examples of this).
 
 
-\subsection{The dust density profile, $\rho \propto r^{-2\beta}$}
+\subsection{The Dust Density Profile, $\rho \propto r^{-2\beta}$}
 \label{beta}
 
 Whilst the density profile of the dust may have some effect on the 
@@ -508,7 +508,7 @@ varying $\beta$ and $\tau$ is shown in Figure \ref{bt}.  As previously
 noted, these features may not be apparent in observed line profiles with 
 poor spectral resolution.
 
-\subsection{Inferring properties of the dust from the models}
+\subsection{Inferring Properties of the Dust from the Models}
 
 The presence of an extended red wing at large positive velocities in 
 combination with increased extinction on the red side at smaller positive 
@@ -562,7 +562,7 @@ albedo is close to unity (pure scattering grains).
 \begin{subfigure}{0.5\textwidth}
 \includegraphics[trim =38 0 45 15,clip=true,scale=0.42]{chapters/chapter4/images/dustdep/a1_opt_thick_HaHbPad}
 \end{subfigure}
-\caption{Model line profiles for H$\alpha$ (6563\AA\ in red), H$\beta$ (4861\AA\ in yellow) and Pa$\delta$ (10049\AA\ in blue) for optically thin and  optically thick cases on the left-hand side and right-hand side respectively.  All models adopted density profile $\rho(r) \propto r^{-4}$ (i.e. $\beta = 2$), velocity profiles $v(r) \propto r$ and radii ratio $R_{in}/R_{out}=0.2$.  The grain radii used were $a=0.001~\mu$m (top), $a=0.1~\mu$m (middle) and $a=1.0~\mu$m (bottom). All the above models used amorphous carbon.}
+\caption{Model line profiles for H$\alpha$ (6563~\AA\ in red), H$\beta$ (4861~\AA\ in yellow) and Pa$\delta$ (10049~\AA\ in blue) for optically thin and  optically thick cases on the left-hand side and right-hand side respectively.  All models adopted density profile $\rho(r) \propto r^{-4}$ (i.e. $\beta = 2$), velocity profiles $v(r) \propto r$ and radii ratio $R_{in}/R_{out}=0.2$.  The grain radii used were $a=0.001~\mu$m (top), $a=0.1~\mu$m (middle) and $a=1.0~\mu$m (bottom). All the above models used amorphous carbon.}
 \label{wav_dep}
 \end{figure}
 
@@ -582,7 +582,7 @@ albedo is close to unity (pure scattering grains).
 \centering
 \includegraphics[trim =0 0 45 15,clip=true,scale=0.5]{chapters/chapter4/images/Qabs_a1_0}
 \end{subfigure}
-\caption{The variation of amorphous carbon dust absorption efficiency with grain radius. The grain radii plotted are $a=0.001~\mu$m (top), $a=0.1~\mu$m (middle) and $a=1.0~\mu$m (bottom).  The vertical lines mark the wavelengths of H$\alpha$ (6563\AA\ in red), H$\beta$ (4861\AA\ in yellow) and Pa$\delta$ (10049\AA\ in blue).}
+\caption{The variation of amorphous carbon dust absorption efficiency with grain radius. The grain radii plotted are $a=0.001~\mu$m (top), $a=0.1~\mu$m (middle) and $a=1.0~\mu$m (bottom).  The vertical lines mark the wavelengths of H$\alpha$ (6563~\AA\ in red), H$\beta$ (4861~\AA\ in yellow) and Pa$\delta$ (10049~\AA\ in blue).}
 \label{wav_dep2}
 \end{figure}
 
@@ -591,7 +591,7 @@ albedo is close to unity (pure scattering grains).
 
 
 
-\subsection{The wavelength dependence of dust absorption}
+\subsection{The Wavelength Dependence of Dust Absorption}
 \label{asym}
 The greater the dust optical depth, the more attenuation of the line 
 there will be.  As expected, the red side of the profile suffers a greater 
@@ -637,8 +637,8 @@ to detect differences in the shapes of the line profiles, particularly
 between $-V_{min}$ and $+V_{min}$ where the steepness of the incline 
 traces the degree of dust absorption.  This can be seen in Figure 
 \ref{wav_dep} where I illustrate the effects of the wavelength dependence 
-of dust absorption for three lines, H$\alpha$ (6563\AA), H$\beta$ 
-(4861\AA) and Pa$\delta$ (10049\AA).  All lines were modelled using three 
+of dust absorption for three lines, H$\alpha$ (6563~\AA), H$\beta$ 
+(4861~\AA) and Pa$\delta$ (10049~\AA).  All lines were modelled using three 
 different grain radii and for both optically thin and thick dust cases.  
 I also show in Figure \ref{wav_dep2} the variation of the absorption efficiency with wavelength 
 for three different amorphous carbon grain radii.
@@ -681,7 +681,7 @@ for three different amorphous carbon grain radii.
 %profiles, particularly between $-V_{min}$ and $+V_{min}$ where the steepness of the 
 %incline traces the degree of dust absorption.  This can be seen in Figure \ref{wav_dep} 
 %where I illustrate the effects of the wavelength dependence of dust absorption for 
-%three lines, H$\alpha$ (6563\AA), H$\beta$ (4861\AA) and Pa$\delta$ (10049\AA).  
+%three lines, H$\alpha$ (6563~\AA), H$\beta$ (4861~\AA) and Pa$\delta$ (10049~\AA).  
 %All lines were modelled using three different grain radii and in both optically thin and 
 %thick cases.  I also show the variation of the absorption cross-section with 
 %wavelength at three different grain radii in Figure \ref{wav_dep2}.
@@ -729,7 +729,7 @@ for three different amorphous carbon grain radii.
 
 
 
-\subsection{The effect of a grain radius distribution}
+\subsection{The Effect of a Grain Radius Distribution}
 \label{gs_distn}
 It is important to consider the potential effect on the dust mass of modelling a grain radius distribution instead of a single grain radius.  For a grain radius distribution the overall extinction cross section, $C_{ext}$, at a given wavelength is calculated as
 \begin{equation}
@@ -744,7 +744,7 @@ Q_{ext} = \frac{C_{ext}}{ \int^{a_{max}}_{a_{min}} n(a) \pi a^2 da}
 The scattering cross-section $Q_{sca}$ is similarly calculated.  As a result of these calculations, there is rarely a single grain radius that has the same albedo and extinction efficiency as a size distribution.  Modelling a size distribution instead of a single grain radius may therefore alter the deduced dust mass.  Since models are only sensitive to the optical depth and the albedo, however, it is not possible to deduce the grain radius range or distribution and only single grain radii are investigated in the models that are presented in the following chapters.
 
 Whilst this apparently limits the scope of these results, it is important to consider the extent to which considering grain radius distributions would alter the derived dust masses.  For each model that I construct, I derive a dust mass for a given species at a single grain radius.  By considering the equation that determines the optical depth for both a single grain radius and a grain radius distribution, I can 
-%By considering a number of grain radius ranges and adopting a power law distribution with a variable exponent, I may gain some insight into the effects of adopting a distribution rather than a single size.  For the classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain radius range ($a_{min} = 0.001 \mu$m to $a_{max} = 4.0 \mu$m) the derived albedo of $\omega=0.001$ is much too small to reproduce the required wing seen at early epochs.  I investigate this issue by adjusting the exponent of a distribution for a number of grain radius ranges until the overall albedo is the same as that seen for the best fitting single grain radius.  
+%By considering a number of grain radius ranges and adopting a power law distribution with a variable exponent, I may gain some insight into the effects of adopting a distribution rather than a single size.  For the classical MRN power law ($n(a) \propto a^{-3.5}$) with a wide grain radius range ($a_{min} = 0.001$~$\mu$m to $a_{max} = 4.0$~$\mu$m) the derived albedo of $\omega=0.001$ is much too small to reproduce the required wing seen at early epochs.  I investigate this issue by adjusting the exponent of a distribution for a number of grain radius ranges until the overall albedo is the same as that seen for the best fitting single grain radius.  
 approximately calculate the required dust mass for a distribution of grain radii from the properties of a single-size model by equating the optical depths.  The optical depth for a single grain radius is proportional to 
 \begin{equation}
 \tau_{\nu} \propto Q_{ext,\nu}(a)  \sigma(a) n_d
@@ -765,7 +765,7 @@ M_{d}= \frac{M_s Q_{ext,s}(a_s)}{a_s} \times \frac{\int^{a_{max}}_{a_{min}} n(a)
 
 where the subscript $s$ represents the single grain radius quantities and the subscript  $d$ represents quantities for the grain radius distribution.  This is only calculable for a specific wavelength and is therefore only an approximate conversion when performed at the rest-frame wavelength of the line in question.  However, practically, the variation of extinction efficiency and albedo over the narrow wavelength ranges modelled within the code is not significant and so this method produces relatively accurate dust masses (corroborated by running models with the new parameters).
 
-\subsection{The effect of different species}
+\subsection{The Effect of Different Species}
 %CHECK THIS SENTENCE WHEN ALL MODELLING DONE
 In the majority of the modelling that follows, a single species, amorphous carbon, is considered.   A single species is used since the parameters that affect the quantity of dust required in the model are the albedo and the optical depth.  There are therefore  likely many possible combinations of species that may result in a good fit to the data.  The choice of amorphous carbon is partly motivated by evidence that, for SN~1987A (which, as an very well-observed, local core-collapse supernova, is an excellent test case) the fraction of silicates present in the dusty ejecta is limited to approximately 15\% \citep{Ercolano2007,Wesson2015}.  It is also motivated by previously published SED models which generally employ amorphous carbon.  This is because SED models frequently require far larger masses of silicate dust than more absorbing amorphous carbon dust in order to produce similar levels of infrared flux and therefore amorphous carbon models are likely to produce the more conservative dust mass estimates.  By modelling with amorphous carbon I may compare directly to these SED models where possible.
 
@@ -785,7 +785,7 @@ I will make use of the above ``conversion" equations in the next chapter when I 
 %
 %\begin{table}
 %	%\begin{minipage}{180mm}
-%	\caption{Equivalent dust masses for the day 714 clumped models using grain radius distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot}$ with $a=0.6 \mu$m) and $p$ is the exponent of the grain radius distribution $n(a) \propto a^{-p}$.}
+%	\caption{Equivalent dust masses for the day 714 clumped models using grain radius distributions and 100\% amorphous carbon. $f$ is factor of increase from the dust mass for the single size model ($M=7 \times 10^{-5} M_{\odot}$ with $a=0.6$~$\mu$m) and $p$ is the exponent of the grain radius distribution $n(a) \propto a^{-p}$.}
 %	\label{tb_sil}
 %	\begin{center}
 %  	\begin{tabular}{@{} cccccc @{}}
@@ -807,7 +807,7 @@ I will make use of the above ``conversion" equations in the next chapter when I 
 %%\end{minipage}
 %\end{table}
 
-\subsection{The velocity distribution}
+\subsection{The Velocity Distribution}
 
 \label{scn:vel_prof}
 
@@ -817,7 +817,7 @@ I do not thoroughly investigate the effects of varying the steepness of the velo
 
 Throughout this chapter, I have discussed the various ways in which I tested {\sc damocles} against both theoretical line profiles derived from first principles and previously published models, and have presented example profiles illustrating the excellent agreement between them.  For each parameter of interest, I have described the manner in which its variation affects different aspects of the emergent line profile.  I have also discussed the effects of altering the properties of the dust itself and have calculated the degeneracies relating to grain radius distributions and composition.  This allows for any model with a given set of dust properties to be easily compared to a model with the same intrinsic geometry but with a different dusty medium.  
 
-This investigation of parameter space resulted in some very interesting insights that may prove important when considering dust formation in the ejecta of CCSNe in the future.  Historically,  a line profile that was flux-biased towards the blue with a blue-shifted peak was considered to be potentially indicative of dust formation.  Whilst this is undeniably the case, it seems likely that a number of other features may also point towards the formation of dust in the ejecta.  I have discussed the presence of an extended red-scattering wing and the lack of a need for asymmetry.  I have also mentioned the possibility of symptomatically jagged profiles, often with sharp inflection points around the value of the minimum velocity ($\pm V_{min}$).  The presence of any or all of these features in the line profiles of the spectra of CCSNe may suggest the presence of newly-formed dust.  In addition to these results, the process of exploring parameter space greatly aided me in modelling SN 1987A and the several other supernova remnants taht are presented in the following chapters.
+This investigation of parameter space resulted in some very interesting insights that may prove to be important when considering dust formation in the ejecta of CCSNe in the future.  Historically,  a line profile that was flux-biased towards the blue with a blue-shifted peak was considered to be potentially indicative of dust formation.  Whilst this is undeniably the case, it seems likely that a number of other features may also point towards the formation of dust in the ejecta.  I have discussed the presence of an extended red-scattering wing and the lack of a need for asymmetry.  I have also mentioned the possibility of symptomatically jagged profiles, often with sharp inflection points around the value of the minimum velocity ($\pm V_{min}$).  The presence of any or all of these features in the line profiles of the spectra of CCSNe may suggest the presence of newly-formed dust.  In addition to these results, the process of exploring parameter space greatly aided me in modelling SN 1987A and the several other supernova remnants that are presented in the following chapters.
 
 
 

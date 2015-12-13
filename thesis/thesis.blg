@@ -5,14 +5,8 @@ A level-1 auxiliary file: front/declaration.aux
 A level-1 auxiliary file: front/abstract.aux
 A level-1 auxiliary file: front/acknowledgements.aux
 A level-1 auxiliary file: front/frontquote.aux
-A level-1 auxiliary file: front/acronyms.aux
 A level-1 auxiliary file: chapters/chapter1/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2/chapter2.aux
-Case mismatch error between cite keys tielens2005 and Tielens2005
----line 43 of file chapters/chapter2/chapter2.aux
- : \citation{tielens2005
- :                      }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/chapter4/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6/chapter6.aux
@@ -20,7 +14,7 @@ A level-1 auxiliary file: chapters/chapter7/chapter7.aux
 A level-1 auxiliary file: back/appendices/appendA.aux
 The style file: mnras.bst
 A level-1 auxiliary file: back/backquote.aux
-Reallocated field_info (elt_size=4) to 12020 items from 5000.
+Reallocated field_info (elt_size=4) to 12101 items from 5000.
 Database file #1: thesis.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -40,45 +34,45 @@ while executing---line 3643 of file mnras.bst
 Warning--empty publisher in Draine2011
 Warning--there's a number but no series in Lucy1989
 Warning--empty publisher in Sedov1959
-You've used 260 entries,
+You've used 263 entries,
             2881 wiz_defined-function locations,
-            2848 strings with 78615 characters,
-and the built_in function-call counts, 124961 in all, are:
-= -- 10009
-> -- 9076
-< -- 703
-+ -- 4011
-- -- 1304
-* -- 15233
-:= -- 19593
+            2869 strings with 79264 characters,
+and the built_in function-call counts, 126810 in all, are:
+= -- 10145
+> -- 9209
+< -- 719
++ -- 4066
+- -- 1327
+* -- 15423
+:= -- 19876
 add.period$ -- 0
-call.type$ -- 260
-change.case$ -- 523
-chr.to.int$ -- 253
-cite$ -- 263
-duplicate$ -- 6187
-empty$ -- 6350
-format.name$ -- 2174
-if$ -- 21764
+call.type$ -- 263
+change.case$ -- 529
+chr.to.int$ -- 256
+cite$ -- 266
+duplicate$ -- 6282
+empty$ -- 6464
+format.name$ -- 2203
+if$ -- 22117
 int.to.chr$ -- 8
 int.to.str$ -- 0
-missing$ -- 274
-newline$ -- 807
-num.names$ -- 1873
-pop$ -- 1460
+missing$ -- 277
+newline$ -- 817
+num.names$ -- 1901
+pop$ -- 1494
 preamble$ -- 1
-purify$ -- 1040
+purify$ -- 1052
 quote$ -- 0
-skip$ -- 3686
+skip$ -- 3750
 stack$ -- 0
-substring$ -- 6745
-swap$ -- 3367
-text.length$ -- 1090
+substring$ -- 6848
+swap$ -- 3423
+text.length$ -- 1106
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2298
+type$ -- 2325
 warning$ -- 3
-while$ -- 1977
+while$ -- 2004
 width$ -- 0
-write$ -- 2629
-(There were 7 error messages)
+write$ -- 2656
+(There were 6 error messages)

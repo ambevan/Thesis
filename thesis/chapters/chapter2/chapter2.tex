@@ -27,9 +27,9 @@ In the next section, I discuss the use of Monte Carlo methods as applied to radi
 \section{Radiative Transfer and the Monte Carlo Method}
 \label{rt}
 
-The application of Monte Carlo codes to radiative transfer problems in astrophysics has a strong history.  Numerous codes that utilise this stochastic methodology have been written in the past few decades in order to model the transport of energy packets through various media, for example Cloudy \citep{Ferland2013}, Hyperion \citep{Robitaille2011}, LIME \citep{Brinch2010}, Mocassin \citep{Ercolano2003, Ercolano2005}, RATRAN \citep{Hogerheijde2000}, SKIRT \citep{Baes2003}, TORUS \citep{Harries2000} and many others (e.g. \citep{Wood2001}).  The energy to be transported throughout the region of interest is discretised into packets and the path of each packet is calculated according to the properties of the environments that it passes through during its lifetime.  Collating the escaped packets at the end of the simulation produces an energy distribution that may be compared to observed photometric or spectral data. 
+The application of Monte Carlo codes to radiative transfer problems in astrophysics has a strong history.  Numerous codes that utilise this stochastic methodology have been written in the past few decades in order to model the transport of energy packets through various media, for example Cloudy \citep{Ferland2013}, Hyperion \citep{Robitaille2011}, {\sc lime} \citep{Brinch2010}, {\sc mocassin} \citep{Ercolano2003, Ercolano2005}, {\sc ratran} \citep{Hogerheijde2000}, {\sc skirt} \citep{Baes2003}, {\sc torus} \citep{Harries2000} and many others (e.g. \citep{Wood2001}).  The energy to be transported throughout the region of interest is discretised into packets and the path of each packet is calculated according to the properties of the environments that it passes through during its lifetime.  Collating the escaped packets at the end of the simulation produces an energy distribution that may be compared to observed photometric or spectral data. 
 
-In addition to numerous codes that treat the continuous emission and absorption of energy in dusty environments in order to produce and fit spectral energy distributions (SEDs), there also exist several Monte Carlo radiative transfer codes that model the transfer and interaction of line emission through a 3D nebula in order to produce a synthetic spectrum (e.g. Brute \citep{Thomas2003} and ARTIS \citep{Kromer2009}).  These  models frequently employ an approximation known as the Sobolev approximation \citep{Sobolev1957} to treat the absorption and scattering of photons.  This method allows spectral lines in media moving with high velocity gradients to be treated more simply by solving the radiative transfer equation locally under the assumption that the macroscopic velocity gradient is more important than the thermal line width.  Models of supernovae have been produced using both approaches and well-fitting spectra and SEDs have been generated but never, according to the best of my knowledge, has the Monte Carlo methodology been employed to produce sophisticated models of individual line profiles in expanding dusty regions.  In this new code, {\sc damocles}, we seek to apply the technique to an expanding dusty medium in order to consider the effects of dust on a single emitted line profile.  
+In addition to numerous codes that treat the continuous emission and absorption of energy in dusty environments in order to produce and fit spectral energy distributions (SEDs), there also exist several Monte Carlo radiative transfer codes that model the transfer and interaction of line emission through a 3D nebula in order to produce a synthetic spectrum (e.g. Brute \citep{Thomas2003} and {\sc artis} \citep{Kromer2009}).  These  models frequently employ an approximation known as the Sobolev approximation \citep{Sobolev1957} to treat the absorption and scattering of photons.  This method allows spectral lines in media moving with high velocity gradients to be treated more simply by solving the radiative transfer equation locally under the assumption that the macroscopic velocity gradient is more important than the thermal line width.  Models of supernovae have been produced using both approaches and well-fitting spectra and SEDs have been generated but never, according to the best of my knowledge, has the Monte Carlo methodology been employed to produce sophisticated models of individual line profiles in expanding dusty regions.  In this new code, {\sc damocles}, we seek to apply the technique to an expanding dusty medium in order to consider the effects of dust on a single emitted line profile.  
 
 Previous work by Leon Lucy has considered the problem of computing the spectra of supernovae using Monte Carlo techniques \citep{Lucy1987,Lucy1999,Lucy2002,Lucy2003,Lucy2005c,Lucy2005b}.  In particular Lucy and colleagues consider dust-induced asymmetric line profiles in the ejecta of CCSNe and they have published results derived both analytically and using simple Monte Carlo simulations \citep{Lucy1989,Lucy1991}.  These simulations appear to be the only published instances of a numerical approach to studying this type of spectral feature.  The {\sc damocles} code adopts the same technique as the original modelling by Lucy et al. but allows for a considerably more complex treatment of the composition, geometry and motion of the dusty medium.
 
@@ -182,9 +182,9 @@ Using equations \ref{eqn:density}, \ref{eqn:Mav} and \ref{eqn:Cext}, the dust op
 n_dC_{ext}=\rho \kappa_{ext}
 \end{equation} 
 
-The values of $C_{ext}(\lambda)$ and $C_{sca}(\lambda)$ are calculated for the full wavelength range at the start of the simulation as are the number densities in each grid cell.  As a packet passes through a grid cell, the optical depth $\tau$ is determined from the above quantities according to the wavelength of the current packet (see Section \ref{sctn:em_prop} for further detail on this process).  The above equations are discretised versions of continuous integral equations given in \citet{hulst1957} and \citet{tielens2005}.
+The values of $C_{ext}(\lambda)$ and $C_{sca}(\lambda)$ are calculated for the full wavelength range at the start of the simulation as are the number densities in each grid cell.  As a packet passes through a grid cell, the optical depth $\tau$ is determined from the above quantities according to the wavelength of the current packet (see Section \ref{sctn:em_prop} for further detail on this process).  The above equations are discretised versions of continuous integral equations given in \citet{hulst1957} and \citet{Tielens2005}.
 
-%The Mie solution to Maxwell's equations may be approximated under certain conditions to allow for a computationally simple calculation of extinction, scattering and absorption efficiencies.  In particular, this approximation is appropriate in the regime where the wavelength of the incident radiation is of a similar order of magnitude to the diameter of a spherical scatterer.  It is therefore a helpful and suitable approximation to employ in {\sc damocles} where we assume dust grains to be approximately spherical and of the order of $\sim 0.1 \mu$m in radius.  Further understanding of the properties of newly-formed dust in the ejecta of supernovae might be obtained by considering alternative approximations for these calculations in future, for example by considering a continuous distribution of ellipsoids in preference to solely spherical grains.  
+%The Mie solution to Maxwell's equations may be approximated under certain conditions to allow for a computationally simple calculation of extinction, scattering and absorption efficiencies.  In particular, this approximation is appropriate in the regime where the wavelength of the incident radiation is of a similar order of magnitude to the diameter of a spherical scatterer.  It is therefore a helpful and suitable approximation to employ in {\sc damocles} where we assume dust grains to be approximately spherical and of the order of $\sim 0.1$~$\mu$m in radius.  Further understanding of the properties of newly-formed dust in the ejecta of supernovae might be obtained by considering alternative approximations for these calculations in future, for example by considering a continuous distribution of ellipsoids in preference to solely spherical grains.  
 
 
 \subsection{Emission and Propagation}
@@ -515,13 +515,7 @@ $q_{H\alpha}$ (erg cm$^3$ s$^{-1}$)  & $6.71\times 10^{-25}$	&$3.56\times 10^{-2
 	
 	At the start of the parallel region variables accessed within the shared region are specified as shared or private.  Private variables are not seen by other threads and allow the value of a single named variable, for example ``frequency", to have different values on different threads.  Shared variables have the same value regardless of the thread number, for example, ``grid cell density".  As each packet escapes, its weighted energy must be added to the final energy array.  It is important that two threads do not attempt to alter the value of this shared array at the same time as data may be lost or corrupted. This section of code is therefore enclosed inside a \textit{critical} region.  This instruction ensures that code in this block is to be executed by only one thread at a time.  Extensive testing was performed to ensure that outcomes were not affected by the implementation of a parallel environment.
 	
-	For further information about the {\sc openmp} API please refer to \citet{Chapman2007}.
-	
-	\subsection{Input Variables}
-	
-	There are a significant number of parameters that may be varied in the code.  Many of these are important variable parameters that will be the parameters of interest when modelling.  However, there are also a significant number of variables that allow other properties of the model to be controlled.  All parameters can, broadly,  be divided into one of three categories:  properties of the emitted rest-frame line or doublet, properties of the dust and gas in the ejecta and properties of the grid and code architecture.  I list all the variables that are input in the primary input file in Table \ref{tbl:input} and will here briefly describe the basic meaning and function of each one.
-	
-	\begin{table}[htdp]
+	\begin{table}[!t]
 	\caption{The input variables read in from the input file and example values}
 	\begin{center}
 	\def\arraystretch{1.5}
@@ -550,8 +544,16 @@ $q_{H\alpha}$ (erg cm$^3$ s$^{-1}$)  & $6.71\times 10^{-25}$	&$3.56\times 10^{-2
 	\label{tbl:input}
 \end{table}%
 
-\vspace{0.8cm}
+%\vspace{0.8cm}
 
+	
+	For further information about the {\sc openmp} API please refer to \citet{Chapman2007}.
+	
+	\subsection{Input Variables}
+	
+	There are a significant number of parameters that may be varied in the code.  Many of these are important variable parameters that will be the parameters of interest when modelling.  However, there are also a significant number of variables that allow other properties of the model to be controlled.  All parameters can, broadly,  be divided into one of three categories:  properties of the emitted rest-frame line or doublet, properties of the dust and gas in the ejecta and properties of the grid and code architecture.  I list all the variables that are input in the primary input file in Table \ref{tbl:input} and will here briefly describe the basic meaning and function of each one.
+	
+	
 \subsubsubsection{(a) Properties of the emitted rest-frame line or doublet}
 \subsubsubsection{lambda1\_0 }  
 
@@ -678,7 +680,7 @@ This keyword is similar to the doublet keyword in that, by setting it equal to 1
  
  \subsubsubsection{VelShift}
 
- This is another environment flag.  As a packet is transported through the nebula it may experience repeated scattering events that shift its original frequency beyond that expected from the maximum theoretical velocity.  It is discused in depth in the next chapter how this process of ``velocity shifting" may result in a profile that exhibits an extended red wing.  It is useful for the purposes of comparison and investigation to be able to turn off this process of repeated scattering events so that the only frequency shift experienced by a packet is at the initial emission.
+ This is another environment flag.  As a packet is transported through the nebula it may experience repeated scattering events that shift its original frequency beyond that expected from the maximum theoretical velocity.  It is discussed in depth in the next chapter how this process of ``velocity shifting" may result in a profile that exhibits an extended red wing.  It is useful for the purposes of comparison and investigation to be able to turn off this process of repeated scattering events so that the only frequency shift experienced by a packet is at the initial emission.
 
 
 
@@ -768,7 +770,7 @@ Subsequent development of the code has allowed for the consideration of the effe
 
 It would also be theoretically possible to expand the code to become a fully self-consistent radiative transfer code or to include certain approximations (e.g. the Sobolev approximation) to allow for full spectral modelling of non-optically thin lines throughout the optical and infrared.
 
-Aside from the development of the code directly, the current process of manual fitting can be laborious and has the potential miss potentially good fits due to the large number of variable parameters.  I have completed some work over the course of this PhD wrapping {\sc damocles} in a MCMC (nested sampling) routine that allows for a more thorough investigation of parameter space resulting in a full multivariate probability distribution.  For reasons of time, the research presented in the following chapters was performed using manual fitting but further work finishing the implementation of this routine or a similar one would be invaluable in the future.
+Aside from the development of the code directly, the current process of manual fitting can be laborious and could potentially miss good fits due to the large number of variable parameters.  I have completed some work over the course of this PhD wrapping {\sc damocles} in a MCMC (nested sampling) routine that allows for a more thorough investigation of parameter space resulting in a full multivariate probability distribution.  For reasons of time, the research presented in the following chapters was performed using manual fitting but further work finishing the implementation of this routine or a similar one would be invaluable in the future.
 
 
 

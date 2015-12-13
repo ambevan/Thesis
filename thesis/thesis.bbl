@@ -21,7 +21,7 @@
   et~al.}{2002}]{Manuel2002}
 Ahmad I.,  Greene J.,  Kutschera W.,   Paul M.,  2002, in Manuel O.,  ed., ,
   Origin of Elements in the Solar System.
-Springer US, pp 203--210, \mn@doi{10.1007/0-306-46927-8_17}
+Springer US, pp 203--210
 
 \bibitem[\protect\citeauthoryear{Andrews et~al.,}{Andrews
   et~al.}{2010}]{Andrews2010}
@@ -64,6 +64,15 @@ Andrews J.~E.,  et~al., 2010, \mn@doi [\apj] {10.1088/0004-637X/715/1/541},
 \bibitem[\protect\citeauthoryear{{Barlow}}{{Barlow}}{1978}]{Barlow1978}
 {Barlow} M.~J.,  1978, \mnras, \href
   {http://adsabs.harvard.edu/abs/1978MNRAS.183..367B} {183, 367}
+
+\bibitem[\protect\citeauthoryear{{Barlow}}{{Barlow}}{1993}]{Barlow1993}
+{Barlow} M.~J.,  1993, in {Weinberger} R.,  {Acker} A.,  eds,  IAU Symposium
+  Vol. 155, Planetary Nebulae. p.~163
+
+\bibitem[\protect\citeauthoryear{Barlow}{Barlow}{2009}]{Barlow2009}
+Barlow M.,  2009, in Thronson H.,  Stiavelli M.,   Tielens A.,  eds,
+  Astrophysics and Space Science Proceedings, Astrophysics in the Next Decade.
+Springer Netherlands, pp 247--270
 
 \bibitem[\protect\citeauthoryear{{Barlow} \& {Silk}}{{Barlow} \&
   {Silk}}{1977}]{Barlow1977}
@@ -151,8 +160,7 @@ Wiley science paperback series, Wiley
 \bibitem[\protect\citeauthoryear{{Bouchet} \& {Danziger}}{{Bouchet} \&
   {Danziger}}{2014}]{Bouchet2014}
 {Bouchet} P.,  {Danziger} J.,  2014, in {Ray} A.,  {McCray} R.~A.,  eds,  IAU
-  Symposium Vol. 296, IAU Symposium. pp 9--14,
-  \mn@doi{10.1017/S1743921313009162}
+  Symposium Vol. 296, IAU Symposium. pp 9--14
 
 \bibitem[\protect\citeauthoryear{Bouchet, Danziger  \& Lucy}{Bouchet
   et~al.}{1991}]{Bouchet1991}
@@ -420,6 +428,13 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
 {Fesen} R.~A.,  et~al., 1999, \mn@doi [\aj] {10.1086/300751}, \href
   {http://adsabs.harvard.edu/abs/1999AJ....117..725F} {117, 725}
 
+\bibitem[\protect\citeauthoryear{{Fesen}, {Morse}, {Chevalier}, {Borkowski},
+  {Gerardy}, {Lawrence}  \& {van den Bergh}}{{Fesen} et~al.}{2001}]{Fesen2001}
+{Fesen} R.~A.,  {Morse} J.~A.,  {Chevalier} R.~A.,  {Borkowski} K.~J.,
+  {Gerardy} C.~L.,  {Lawrence} S.~S.,   {van den Bergh} S.,  2001, \mn@doi
+  [\aj] {10.1086/323539}, \href
+  {http://adsabs.harvard.edu/abs/2001AJ....122.2644F} {122, 2644}
+
 \bibitem[\protect\citeauthoryear{{Fesen}, {Pavlov}  \& {Sanwal}}{{Fesen}
   et~al.}{2006a}]{Fesen2006a}
 {Fesen} R.~A.,  {Pavlov} G.~G.,   {Sanwal} D.,  2006a, \mn@doi [\apj]
@@ -440,7 +455,7 @@ Fabbri J.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19577.x},
 \bibitem[\protect\citeauthoryear{Fitzpatrick, Morris  \&
   Podsiadlowski}{Fitzpatrick et~al.}{2013}]{Fitzpatrick2013}
 Fitzpatrick B.,  Morris T.,   Podsiadlowski P.,  2013, in Supernova
-  Environmental Impacts. pp 328--329, \mn@doi{10.1017/S1743921313009666}
+  Environmental Impacts. pp 328--329
 
 \bibitem[\protect\citeauthoryear{Fox et~al.,}{Fox et~al.}{2014}]{Fox2014}
 Fox O.~D.,  et~al., 2014, The Astrophysical Journal, 790, 17
@@ -489,7 +504,7 @@ Gall C.,  et~al., 2014, \mn@doi [\nat] {10.1038/nature13558}, 511, 326
 \bibitem[\protect\citeauthoryear{{Garnavich} \& {Ann}}{{Garnavich} \&
   {Ann}}{1993}]{Garnavich1993}
 {Garnavich} P.~M.,  {Ann} H.~B.,  1993, in American Astronomical Society
-  Meeting Abstracts \#182. p.~1244
+  Meeting Abstracts 182. p.~1244
 
 \bibitem[\protect\citeauthoryear{{Gehrz} \& {Ney}}{{Gehrz} \&
   {Ney}}{1987}]{Gehrz1987}
@@ -777,7 +792,7 @@ Lucy L.,  2005a, \mn@doi [\aap] {10.1051/0004-6361}, 429, 19
 Lucy L.,  Danziger I.,  Gouiffes C.,   Bouchet P.,  1989, in Tenorio-Tagle G.,
   Moles M.,   Melnick J.,  eds, IAU Colloq. 120: Structure and Dynamics of the
   Interstellar Medium, Lecture Notes in Physics. No.~350.
-Berlin Springer Verlag, p.~164, \mn@doi{10.1007/BFb0114861}
+Berlin Springer Verlag, p.~164
 
 \bibitem[\protect\citeauthoryear{Lucy, Danziger, Gouiffes  \& Bouchet}{Lucy
   et~al.}{1991}]{Lucy1991}
